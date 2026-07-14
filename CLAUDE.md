@@ -22,6 +22,14 @@ it is the settled product and data contract.
   "AI-generated" label.
 - `content/questions.json` is the single source of truth for the bank. Its shape is fixed by
   `docs/SPEC.md`. Do not add fields to it without updating the spec.
+- **Every served question is auto-graded, so only `mcq` and `true_false` are servable.** `isServable`
+  rejects `short_answer` and `worked_problem` **by type** - not because of which file they sit in, so
+  a pipeline run that drops one back into `questions.json` still cannot serve it. The 49 free-response
+  items (39 of them real past-paper questions) live in `content/quarantine.json`: browsable in `/bank`
+  with their model answers, never quizzed. There is no self-grading UI anywhere in a quiz.
+  Results and `/bank` resolve questions from the FULL pool (`getQuestionById` / `getQuestionsByIds`),
+  so an old attempt holding a free-text response still replays. Anything about to put a question in
+  front of the user to ANSWER uses the servable pool (`servableQuestionsByIds`, `selectQuestions`).
 - Items flagged `missing_figure` are never served in a quiz.
 - Items with `keyVerified: false` are **never served in a quiz**, full stop. There is no opt-in:
   the "Include unverified answers" toggle was retired along with the seven disputed items, which

@@ -315,7 +315,9 @@ export default function BankPage() {
         <p className='text-paragraph-sm text-text-sub-600'>
           The whole corpus: {questions.length}{' '}
           {pluralize(questions.length, 'question')}, including items a quiz never
-          serves. Expand any row to see the answer and explanation.
+          serves - written questions with no options to tick, unconfirmed answer keys,
+          and items whose figure the source lost. Expand any row to see the answer and
+          explanation.
         </p>
       </header>
 
@@ -359,6 +361,16 @@ export default function BankPage() {
           <RiAlertLine className='size-5' />
           Excluded from quizzes ({excludedCount})
         </button>
+
+        {excludedOnly && (
+          <p className='text-paragraph-xs text-text-sub-600'>
+            Quizzes are scored automatically, so they only serve questions the app can
+            mark. These are the ones it cannot: free-response questions with no options
+            to tick, answer keys the blind re-answer could not confirm, items whose
+            figure the source lost, and items the source never answered at all. Every one
+            is kept here, model answer included.
+          </p>
+        )}
 
         <div className='grid grid-cols-2 gap-2 md:grid-cols-4'>
           <Select.Root

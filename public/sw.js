@@ -3,7 +3,7 @@
  * touches the HTTP cache layer - IndexedDB (quiz history, settings) is not a
  * network resource and is never intercepted.
  */
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 2;
 const CACHE_NAME = `knpc-reviser-v${CACHE_VERSION}`;
 
 const APP_SHELL = [
@@ -80,6 +80,9 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+
+  // Vercel Analytics and Speed Insights: never cache, never intercept.
+  if (url.pathname.startsWith('/_vercel/')) return;
 
   const freshFirst = request.mode === 'navigate' || url.searchParams.has('_rsc');
   event.respondWith(freshFirst ? networkFirst(request) : cacheFirst(request));

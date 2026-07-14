@@ -347,7 +347,7 @@ export function HomeScreen() {
           href='/setup?mode=mock'
           icon={RiTimerLine}
           title='Mock Exam'
-          description='Timed. Scored at the end, like the real paper.'
+          description='40 questions in 60 minutes, like the real paper.'
         />
         <PrimaryAction
           href='/setup?mode=practice'

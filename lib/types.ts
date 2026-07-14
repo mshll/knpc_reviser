@@ -166,6 +166,14 @@ export const DEFAULT_TIERS: readonly SourceTier[] = ['gold', 'practice'];
 /** SPEC rules 4 and 8: these items load into the bank for the record but are never served. */
 export const QUARANTINE_FLAGS: readonly Flag[] = ['missing_figure', 'unanswerable'];
 
+/**
+ * The only types a quiz may serve. Scoring is 100% automatic, and these are the only two the
+ * app can mark on its own: a free-response item (`short_answer`, `worked_problem`) can be
+ * checked against its model answer by a human and by nobody else. Those items live in
+ * `content/quarantine.json` - browsable in /bank with their model answers, never quizzed.
+ */
+export const SERVABLE_QUESTION_TYPES: readonly QuestionType[] = ['mcq', 'true_false'];
+
 // ---------------------------------------------------------------------------
 // App types (not part of the data contract)
 // ---------------------------------------------------------------------------

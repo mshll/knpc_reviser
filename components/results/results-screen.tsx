@@ -15,10 +15,9 @@ import TopicBreakdown, {
   type ReviewRow,
 } from '@/components/results/topic-breakdown';
 import { verdictOf } from '@/components/results/verdict';
-import { getAttempt, saveAttempt } from '@/lib/db';
+import { getAttempt } from '@/lib/db';
 import { pluralize } from '@/lib/format';
-import { getQuestionById, replayQuestions } from '@/lib/questions';
-import { scoreOf } from '@/lib/quiz';
+import { getQuestionById, isServable, replayQuestions } from '@/lib/questions';
 import type { Attempt } from '@/lib/types';
 
 type LoadState =
@@ -61,50 +60,7 @@ export function ResultsScreen({ attemptId }: { attemptId: string | null }) {
   const [state, setState] = React.useState<LoadState>(
     attemptId ? { status: 'loading' } : { status: 'missing' },
   );
-  const [gradeError, setGradeError] = React.useState<string | null>(null);
   const [reviewFilter, setReviewFilter] = React.useState<ReviewFilter>('all');
-
-  const stateRef = React.useRef(state);
-  stateRef.current = state;
-
-  // The ungraded items can sit anywhere in a 50-question review. Filter to them and jump,
-  // rather than asking the user to thumb past 47 cards hunting for three badges.
-  const showUngraded = React.useCallback(() => {
-    setReviewFilter('ungraded');
-    document.getElementById('review')?.scrollIntoView({ behavior: 'smooth' });
-  }, []);
-
-  // Free text is never auto-graded and a mock reveals nothing until submit, so this is the
-  // first and only place the user can settle a worked_problem. Persist it: the score, the
-  // topic stats and the miss queue all read from the stored attempt.
-  const handleSelfGrade = React.useCallback(
-    (questionId: string, correct: boolean) => {
-      const current = stateRef.current;
-      if (current.status !== 'ready') return;
-
-      const responses = current.attempt.responses.map((response) =>
-        response.questionId === questionId
-          ? { ...response, correct, selfGraded: true, skipped: false }
-          : response,
-      );
-      const next: Attempt = {
-        ...current.attempt,
-        responses,
-        score: scoreOf(responses),
-      };
-
-      setGradeError(null);
-      setState({ status: 'ready', attempt: next });
-
-      void saveAttempt(next).catch((error: unknown) => {
-        console.error('[results] could not persist the grade:', error);
-        setGradeError(
-          'That grade could not be saved, so it will be lost when you leave this page.',
-        );
-      });
-    },
-    [],
-  );
 
   React.useEffect(() => {
     if (!attemptId) {
@@ -179,13 +135,16 @@ export function ResultsScreen({ attemptId }: { attemptId: string | null }) {
   const correctCount = graded.filter((row) => row.verdict === 'correct').length;
   const wrongCount = graded.filter((row) => row.verdict === 'wrong').length;
   const skippedCount = graded.filter((row) => row.verdict === 'skipped').length;
-  const ungradedCount = graded.filter((row) => row.verdict === 'ungraded').length;
 
-  // Only genuinely wrong answers are worth re-drilling. An ungraded item is not a miss yet.
+  // Only genuinely wrong answers are worth re-drilling, and only if a quiz can still serve them:
+  // an old attempt may hold a free-response item, and those are quarantined now.
   const drillIds = graded
     .filter((row) => row.verdict === 'wrong')
     .map((row) => row.response.questionId)
-    .filter((id) => getQuestionById(id) !== undefined);
+    .filter((id) => {
+      const question = getQuestionById(id);
+      return question !== undefined && isServable(question);
+    });
 
   const missingFromBank = readyAttempt.questionIds.length - rows.length;
 
@@ -209,29 +168,6 @@ export function ResultsScreen({ attemptId }: { attemptId: string | null }) {
         drillIds={drillIds}
       />
 
-      {ungradedCount > 0 && (
-        <button
-          type='button'
-          onClick={showUngraded}
-          className='min-h-11 rounded-lg text-left outline-none focus-visible:ring-2 focus-visible:ring-primary-base'
-        >
-          <Alert.Root variant='lighter' status='warning' size='small'>
-            <Alert.Icon as={RiErrorWarningLine} />
-            {ungradedCount} written {pluralize(ungradedCount, 'answer')} below{' '}
-            {ungradedCount === 1 ? 'is' : 'are'} not graded yet. Your score counts{' '}
-            {ungradedCount === 1 ? 'it' : 'them'} as wrong until you do. Tap to review{' '}
-            {ungradedCount === 1 ? 'it' : 'them'}.
-          </Alert.Root>
-        </button>
-      )}
-
-      {gradeError && (
-        <Alert.Root variant='lighter' status='error' size='small'>
-          <Alert.Icon as={RiErrorWarningLine} />
-          {gradeError}
-        </Alert.Root>
-      )}
-
       <Divider.Root />
 
       <TopicBreakdown rows={rows} />
@@ -250,7 +186,6 @@ export function ResultsScreen({ attemptId }: { attemptId: string | null }) {
       <QuestionReview
         rows={rows}
         totalInAttempt={readyAttempt.questionIds.length}
-        onSelfGrade={handleSelfGrade}
         filter={reviewFilter}
         onFilterChange={setReviewFilter}
       />

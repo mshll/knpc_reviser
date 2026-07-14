@@ -44,8 +44,10 @@ export function AboutBankSection() {
           verbatim. None of it is official material, and recall quality varies. Answer keys
           were re-checked by independent solvers, and an item whose key they could not
           confirm is excluded from quizzes outright - there is no way to switch it back on.
+          A quiz only serves multiple-choice and true/false items, so every question you sit
+          is scored automatically.
           {excluded > 0 &&
-            ` ${excluded} ${pluralize(excluded, 'item')} - unconfirmed keys, missing figures, or no answer in the source at all - ${excluded === 1 ? 'is' : 'are'} kept in the browser for the record and never served in a quiz.`}
+            ` ${excluded} ${pluralize(excluded, 'item')} - free-response questions the app cannot mark, unconfirmed keys, missing figures, or no answer in the source at all - ${excluded === 1 ? 'is' : 'are'} kept in the browser for the record, with ${excluded === 1 ? 'its' : 'their'} model ${pluralize(excluded, 'answer')}, and never served in a quiz.`}
         </p>
 
         <Button.Root variant='neutral' mode='stroke' asChild className='h-11 sm:self-start'>

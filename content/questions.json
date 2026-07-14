@@ -471,30 +471,6 @@
     "dedupeHash": "bb1527c2668e426c49b4cefeb849abe701b1cfb0"
   },
   {
-    "id": "knpc2021-q016",
-    "type": "short_answer",
-    "topic": "databases",
-    "subtopic": "dbms-definition",
-    "stem": "What is a DBMS?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "A set of programs to handle databases",
-    "explanation": "A DBMS is a set of programs that sits between users/applications and the stored data, letting you define, create, store, query, update and administer databases. The database is the data itself; the DBMS is the software that manages it.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 16
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "7389911f966321924e8feba549028039d58ffed4"
-  },
-  {
     "id": "knpc2021-q017",
     "type": "mcq",
     "topic": "networking",
@@ -959,201 +935,6 @@
     "dedupeHash": "70da1ef330d90f3b28b0fd980c87d92aa020a4b6"
   },
   {
-    "id": "knpc2021-q029",
-    "type": "short_answer",
-    "topic": "number-systems",
-    "subtopic": "twos-complement",
-    "stem": "What is the 2's complement of 1111 1111 1111?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "0000 0000 0001",
-    "explanation": "Invert every bit, then add 1: 1111 1111 1111 -> 0000 0000 0000, then 0000 0000 0000 + 1 = 0000 0000 0001. Check by value: 1111 1111 1111 is -1 in 12-bit two's complement, and -(-1) = +1 = 0000 0000 0001. The classic slip is stopping at the one's complement (all zeros) and forgetting the +1.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 29
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "0d50c52e4dcc15ac3aea12222a4d30c3626c442c"
-  },
-  {
-    "id": "knpc2021-q031",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "arp",
-    "stem": "ARP is it all 1's or 0's?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "All 1’s",
-    "explanation": "An ARP request is broadcast on the LAN, so the Ethernet destination MAC is FF:FF:FF:FF:FF:FF, which is all 1's, and that is the intended answer. The stem is loose: inside the ARP payload the target hardware address field is filled with all 0's precisely because it is the unknown being asked for. Rule of thumb: the frame's destination is all 1's (broadcast), the unknown field being queried is all 0's.",
-    "referenceUrl": "http://www.cs.newpaltz.edu/~easwaran/CCN/Week13/ARP.pdf",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 31
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "6bcd8d0f972e0f33905777a33e1b9a1055916b74"
-  },
-  {
-    "id": "knpc2021-q032",
-    "type": "short_answer",
-    "topic": "data-structures-algorithms",
-    "subtopic": "linked-lists",
-    "stem": "What does a node do in a linked list?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Each element in a linked list is called a node. A single node contains data and a pointer to the next node which helps in maintaining the structure of the list. The first node is called the head; it points to the first node of the list and helps us access every other element in the list.",
-    "explanation": "A node is the single element of a linked list: it stores a data field plus a pointer (link) to the next node, and in a doubly linked list also a pointer to the previous node. The chain of next-pointers starting from the head is what holds the list together, which is why a list has no random indexing and must be traversed from the head, giving O(n) access but O(1) insert/delete once you hold the node.",
-    "referenceUrl": "https://www.educative.io/answers/what-is-a-singly-linked-list",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 32
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "59665956b0ca6a90deb03c0287b9198b9c3ff542"
-  },
-  {
-    "id": "knpc2021-q033",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "fsm",
-    "stem": "Difference between Moore and Mealy FSM",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Moore depends on present state, Mealy depends on present state and present input.",
-    "explanation": "The difference is only in the output function: a Moore machine's output depends on the present state alone, while a Mealy machine's output depends on the present state AND the present input. Consequences worth quoting: Mealy usually needs fewer states and reacts in the same cycle as the input, but its outputs can glitch with the inputs; Moore's outputs are stable/registered but appear one clock later. The next-state logic is the same for both (state and input).",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 33
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "f7f843b61bb4de61df01eb9e7c25e14195e87a1f"
-  },
-  {
-    "id": "knpc2021-q034",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "ports",
-    "stem": "What is the port of HTTP?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Port 80",
-    "explanation": "HTTP uses well-known TCP port 80. Pair it with HTTPS on 443, which is the distractor people reach for; other common ones on the same exam sheet are FTP 20/21, SSH 22, Telnet 23, SMTP 25, DNS 53 and DHCP 67/68.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 34
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "26d17f0702eb348f696f29a336ba7aad865ec46b"
-  },
-  {
-    "id": "knpc2021-q035",
-    "type": "short_answer",
-    "topic": "operating-systems",
-    "subtopic": "virtual-memory",
-    "stem": "What is TLB?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Translation Look Aside Buffer: memory cache that is used to reduce the time taken to access a user memory location.",
-    "explanation": "TLB = Translation Lookaside Buffer, a small fully/highly associative cache inside the MMU that holds recently used virtual-page-to-physical-frame translations. On a TLB hit the physical address is formed without touching memory; on a miss the hardware or OS walks the page table in memory (slow) and then loads the entry into the TLB. It caches address translations, not data, which is what separates it from the L1/L2 data cache.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 35
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "5a21ec64863ac4e1ecbaa33ffd335f9587867857"
-  },
-  {
-    "id": "knpc2021-q037",
-    "type": "short_answer",
-    "topic": "general-it",
-    "subtopic": "security",
-    "stem": "What is a trap door?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "A computer trapdoor, also known as a back door, provides a secret -- or at least undocumented -- method of gaining access to an application, operating system or online service. Programmers write trapdoors into programs for a variety of reasons.",
-    "explanation": "A trap door (back door) is a hidden, undocumented entry point deliberately left in a program, OS or service that bypasses the normal authentication and access controls. Programmers add them for debugging or maintenance convenience, and attackers exploit or plant them for persistent access.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 37
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "2d0199f949b14addaaad786f239a42e4592fd1c6"
-  },
-  {
-    "id": "knpc2021-q038",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "performance-metrics",
-    "stem": "Definition of propagation delay, rate & throughput",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Propagation delay: After the packet is transmitted to the transmission medium, it has to go through the medium to reach the destination. Hence the time taken by the last bit of the packet to reach the destination is called propagation delay.\nRate: The speed at which data is transferred within the computer or between a peripheral device and the computer, measured in bytes per second.\nThroughput: s a measure of how many units of information a system can process in a given amount of time",
-    "explanation": "Propagation delay is the time a bit spends travelling through the physical medium, distance / propagation speed, and it depends on link length, not on packet size. Rate (bandwidth) is the link's nominal transfer speed in bits per second, while throughput is the data actually delivered per unit time end to end; throughput is bounded by the slowest link and is normally lower than the rate.",
-    "referenceUrl": "https://www.geeksforgeeks.org/delays-in-computer-network/",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 38
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "612a581a55c4bcbb7f2683c3254f82624e414bb8"
-  },
-  {
     "id": "knpc2021-q039",
     "type": "mcq",
     "topic": "digital-logic",
@@ -1241,30 +1022,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "bcef545be99c18cd7953576e8e55dad2824a9ae0"
-  },
-  {
-    "id": "knpc2021-q042",
-    "type": "short_answer",
-    "topic": "data-structures-algorithms",
-    "subtopic": "hash-tables",
-    "stem": "What is a collision in hash tables?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "When two keys map to the same value",
-    "explanation": "A collision is when two different keys hash to the same table slot (index). It is unavoidable once the number of keys exceeds the number of buckets (pigeonhole), so hash tables resolve it with chaining (a list per bucket) or open addressing (probe for another slot).",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 42
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "13503be21be2ec8a5f718b3be7f8e22212c8dfed"
   },
   {
     "id": "knpc2021-q043",
@@ -1355,103 +1112,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "2b72e6991d986b3cea4b5e61c5d9d7f8c5bcbee2"
-  },
-  {
-    "id": "knpc2021-q046",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "functions",
-    "stem": "Code that does a specific task is called?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "A function (also accepted: method, procedure, subroutine, routine) - a named, reusable block of code that performs one specific task and can be called from elsewhere.",
-    "explanation": "Answer unverified: no key was recorded for this item. The expected answer is a function (also called a method, procedure, subroutine or routine): a named, reusable block of code that performs one specific task and can be called from elsewhere.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2021,
-      "originalNumber": 46
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "436c1d9be4abd0dbb67c38bd043f1ce57115aa62"
-  },
-  {
-    "id": "knpc2018-q001",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "fsm",
-    "stem": "Mealy and Moore FSM depend on?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "- Mealy FSM depends on present state and present input\n- Moore FSM depends on present state only",
-    "explanation": "A Mealy machine's output is a function of the present state AND the present inputs, so its output can change as soon as the input changes, within the clock cycle. A Moore machine's output is a function of the present state only, so it changes only after a clock edge. Consequence: Mealy usually needs fewer states and reacts one cycle earlier, but its output is more prone to glitches.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2018,
-      "originalNumber": 1
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "fef4effdb3da745be1dba0dc24915d94d6630ef5"
-  },
-  {
-    "id": "knpc2018-q004",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "flip-flops",
-    "stem": "Given this truth table, which flip flop is it?",
-    "stemFigure": "/figures/knpc2018-q004.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "JK Flip Flop",
-    "explanation": "Reading the two input columns (A, B) as (J, K): 00 holds Q, 01 resets to 0, 10 sets to 1, and 11 gives Q' (toggle). That set of four rows is the JK flip-flop; the giveaway is the 11 row, since an SR flip-flop leaves 11 invalid/forbidden while JK defines it as a toggle, and D or T would need only one input column.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2018,
-      "originalNumber": 4
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "a61f1883d9533f6d9187e8031c3028f870804778"
-  },
-  {
-    "id": "knpc2018-q005",
-    "type": "short_answer",
-    "topic": "data-structures-algorithms",
-    "subtopic": "binary-search-tree",
-    "stem": "What is the best time complexity of a Binary Search Tree algorithm?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "O(logn)",
-    "explanation": "Search, insert and delete in a BST follow a single root-to-leaf path with one comparison per level, so the cost is proportional to the height. In the best (balanced) case the height is log2(n), giving O(log n). The classic trap: a BST built from already sorted input degenerates into a linked list of height n, so the worst case is O(n).",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2018,
-      "originalNumber": 5
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "2a8f8fd7d06a5b4b361950d4ff09f1fc7e086bbe"
   },
   {
     "id": "knpc2018-q007",
@@ -1766,31 +1426,6 @@
     "dedupeHash": "f96bfcf41c5c9f4a5f851a11794adab5d696e45f"
   },
   {
-    "id": "ce2016-q006",
-    "type": "worked_problem",
-    "topic": "data-structures-algorithms",
-    "subtopic": "loop-analysis",
-    "stem": "How many times will foo(i) work?",
-    "stemCode": "for(i=1; i<=n; i++)\n    for(j=1; j<=i; j++)\n        foo(i);",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "n(n + 1) / 2",
-    "explanation": "For each outer value i, the inner loop runs j = 1..i, so it calls foo(i) exactly i times. Total calls = 1 + 2 + 3 + ... + n = sum(k = 1..n) k = n(n+1)/2, which is O(n^2). Checked by running the loops: n = 5 gives 15 calls, and 5(6)/2 = 15.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 6
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "86b0fd842b722ded2151a332c93ad0c4de5bc465"
-  },
-  {
     "id": "ce2016-q007",
     "type": "mcq",
     "topic": "data-structures-algorithms",
@@ -1838,78 +1473,6 @@
     "dedupeHash": "e154cc9fa364e7c53243be075a43377676b120d2"
   },
   {
-    "id": "ce2016-q008",
-    "type": "worked_problem",
-    "topic": "computer-architecture",
-    "subtopic": "cache-hit-ratio",
-    "stem": "In Cache, if the number of cache hit is 30 and the number of cache miss is 40. What is the Hit Ratio?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Hit Ratio = 30 / (30 + 40) = 30/70 ≈ 0.43",
-    "explanation": "Hit Ratio = hits / total accesses, and total accesses = hits + misses = 30 + 40 = 70, so the hit ratio is 30 / 70 = 0.4286, about 0.43 (43%). The trap is dividing hits by misses (30/40 = 0.75), which is not a ratio out of all accesses.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 8
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "eea334e637b4ac1a2ec50aced82a7698bf3bcddf"
-  },
-  {
-    "id": "ce2016-q009",
-    "type": "short_answer",
-    "topic": "data-structures-algorithms",
-    "subtopic": "recursion",
-    "stem": "Recursion (in data structures) definition?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "A method where the solution to a problem depends on solutions to smaller instances of the same problem.",
-    "explanation": "Recursion is a technique in which a function calls itself, solving a problem by reducing it to smaller instances of the same problem until it reaches a base case that is solved directly. Without a base case the recursion never terminates and the call stack overflows.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 9
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "60695cd3a4184a883026bd7fa11835e86bc18579"
-  },
-  {
-    "id": "ce2016-q010",
-    "type": "short_answer",
-    "topic": "operating-systems",
-    "subtopic": "multitasking",
-    "stem": "Multitasking (in operating systems) definition?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Allowing a user to perform more than one computer task at the same time.",
-    "explanation": "Multitasking is the OS running several tasks/processes apparently at the same time, achieved on a single CPU by rapidly switching (context switching) between them so each appears to progress concurrently. Do not confuse it with multiprocessing, which means genuinely executing on multiple CPUs/cores.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 10
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "706eccf5fcc5e1aadec5841cbc232e29e0640879"
-  },
-  {
     "id": "ce2016-q011",
     "type": "mcq",
     "topic": "hardware-memory",
@@ -1954,31 +1517,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "808332341ccee77102dfc63a87d0feeaf1661f35"
-  },
-  {
-    "id": "ce2016-q012",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "k-maps",
-    "stem": "In the following Kmap, what is f(x₁, x₂, x₃)?",
-    "stemFigure": "/figures/ce2016-q012.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "F = 1",
-    "explanation": "The figure shows all eight cells (minterms 0 through 7) holding a 1, so a single group of eight covers the entire map. A group of eight in a three-variable map eliminates all three variables, leaving F(x1, x2, x3) = 1, the constant-1 function that is true for every input.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 12
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "2c66a3605b9a10e4a411b1d783057330c9d48330"
   },
   {
     "id": "ce2016-q013",
@@ -2661,56 +2199,6 @@
     "dedupeHash": "0f4ab4bca23fc6856a17ae6475755f920f1056cf"
   },
   {
-    "id": "ce2016-q028",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "flip-flops",
-    "stem": "What is the truth table for T-flipflop?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "[T-FF] Truth Table:\nT = 0 → Q(t+1) = Q(t)\nT = 1 → Q(t+1) = Q(t)'\nEquation → Qt+1 = T Qt' + T' Qt",
-    "answerFigure": "/figures/ce2016-q028-answer.png",
-    "explanation": "The T (toggle) flip-flop has one input. T = 0 holds the current state, Q(t+1) = Q(t); T = 1 inverts it, Q(t+1) = Q(t)'. Combining the two rows gives the characteristic equation Q(t+1) = T·Q(t)' + T'·Q(t), which is exactly T XOR Q(t).",
-    "source": {
-      "file": "[CE] solutions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 28
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "c6acc3d62bc6dff8012a256678f034e5eae7263c"
-  },
-  {
-    "id": "ce2016-q029",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "flip-flops",
-    "stem": "What is the truth table for JK-flipflop?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "[JK-FF] Truth Table:\nJ = 0, K = 0 → Q(t+1) = Q(t)\nJ = 0, K = 1 → Q(t+1) = 0\nJ = 1, K = 0 → Q(t+1) = 1\nJ = 1, K = 1 → Q(t+1) = Q(t)'\nEquation → Qt+1 = J Qt' + K' Qt",
-    "answerFigure": "/figures/ce2016-q029-answer.png",
-    "explanation": "The JK flip-flop is the SR flip-flop with the forbidden 1,1 input redefined as toggle. J=0,K=0 holds Q(t); J=0,K=1 resets to 0; J=1,K=0 sets to 1; J=1,K=1 toggles to Q(t)'. Those four rows give the characteristic equation Q(t+1) = J·Q(t)' + K'·Q(t).",
-    "source": {
-      "file": "[CE] solutions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 29
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "8f5096028b0279b9e88a510635c628197271e179"
-  },
-  {
     "id": "ce2016-q030",
     "type": "mcq",
     "topic": "digital-logic",
@@ -2801,31 +2289,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "ead73312d0d6884af4a7b51730dac4ca05505af3"
-  },
-  {
-    "id": "ce2016-q032",
-    "type": "worked_problem",
-    "topic": "number-systems",
-    "subtopic": "binary-addition-overflow",
-    "stem": "Binary Numbers, what's the result and overflow of the following?",
-    "stemCode": "  1110 0000\n+ 1100 0000\n--------------------------------",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "1 1010 0000",
-    "explanation": "1110 0000 = 224 and 1100 0000 = 192, so 224 + 192 = 416 = 1 1010 0000. The 8-bit result is 1010 0000 with a 1 carried out of the MSB, which is the overflow bit the question is asking for. Note the carry-out signals unsigned overflow only; read as two's complement it is -32 + -64 = -96, which fits in 8 bits, so there is no signed overflow.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 32
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "5750678602ee22d65016625fbf75f991abdafd0c"
   },
   {
     "id": "ce2016-q033",
@@ -3601,31 +3064,6 @@
     "dedupeHash": "d537aef9be4b64b82aa8b85edf3d20eaa4b05234"
   },
   {
-    "id": "ce2016-q050",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "k-maps",
-    "stem": "What is the function represented below?",
-    "stemFigure": "/figures/ce2016-q050.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "F = x₃'",
-    "explanation": "In the map the whole x3 = 0 row (minterms 0, 1, 3, 2) holds 1s and the whole x3 = 1 row (minterms 4, 5, 7, 6) holds 0s. Those four 1s form one group of four covering every combination of x1x2, so x1 and x2 both change inside the group and cancel, leaving only the variable that is constant at 0: F = x3'.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 50
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "b0317b662e817dad24be0a9326b59371a14a691b"
-  },
-  {
     "id": "ce2016-q052",
     "type": "mcq",
     "topic": "operating-systems",
@@ -4362,180 +3800,6 @@
     "dedupeHash": "e1b5e0d6ab2416a6861994213abf3fd2e1b74a1e"
   },
   {
-    "id": "ce2016-q069",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "truth-tables",
-    "stem": "Find the Truth Table for the following function:\n\nF = x + y'z",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "x y z | F\n0 0 0 | 0\n0 0 1 | 1\n0 1 0 | 0\n0 1 1 | 0\n1 0 0 | 1\n1 0 1 | 1\n1 1 0 | 1\n1 1 1 | 1",
-    "answerFigure": "/figures/ce2016-q069-answer.png",
-    "explanation": "F = x + y'z is 1 whenever either term is 1. The x term makes all four rows with x=1 (100, 101, 110, 111) output 1, and y'z makes the single row with y=0 and z=1 output 1, which with x=0 is row 001. Every other row (000, 010, 011) is 0.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 69
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "affa32a185065de623b0578bddb27dbb71ba3971"
-  },
-  {
-    "id": "ce2016-q070",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "truth-tables",
-    "stem": "Find the Truth Table for the following circuit:",
-    "stemFigure": "/figures/ce2016-q070.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "x₁ x₂ x₃ | f\n0  0  0  | 0\n0  0  1  | 0\n0  1  0  | 1\n0  1  1  | 0\n1  0  0  | 0\n1  0  1  | 0\n1  1  0  | 1\n1  1  1  | 1",
-    "answerFigure": "/figures/ce2016-q070-answer.png",
-    "explanation": "Tracing the circuit gives three AND terms fed into an OR: f = x1'x2x3' + x1x2x3' + x1x2x3, which simplifies to x2(x1 + x3'). So f is 1 only on rows 010, 110 and 111, and 0 everywhere else. Note x2 = 1 is required in every product term, so any row with x2 = 0 is immediately 0.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 70
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "c48b9bc35c44505ef4f57e02ec24355ffd6890cf"
-  },
-  {
-    "id": "ce2016-q072",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "k-maps",
-    "stem": "Find the function representation for the following K-Map:",
-    "stemFigure": "/figures/ce2016-q072.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "F = X Z + X'Z'",
-    "explanation": "The 1s sit exactly where X and Z hold the same value: one group of four covers X=0,Z=0 and another covers X=1,Z=1. Inside each group the remaining variables take every combination, so they cancel out, leaving F = X'Z' + XZ (which is X XNOR Z).",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 72
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "5f11c398f4896bd2eff9d109a3102a94e12a1ba9"
-  },
-  {
-    "id": "ce2016-q073",
-    "type": "worked_problem",
-    "topic": "number-systems",
-    "subtopic": "base-conversion",
-    "stem": "(1001101)₂ = ( ____________ )₁₀ = ( ______________ )₁₆ = ( _______________ )₈.",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "( 77 )₁₀ = ( 4D )₁₆ = (115)₈",
-    "explanation": "Decimal: 1001101 = 64 + 8 + 4 + 1 = 77. Hex: group in 4s from the right, 100 1101 -> 0100 1101 = 4 D. Octal: group in 3s from the right, 1 001 101 -> 1 1 5. Grouping must always start at the right-hand (least significant) end; padding on the wrong side is the classic error here.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 73
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "0242b9267a89aa406b393f550f6ecc6c4b1127b9"
-  },
-  {
-    "id": "ce2016-q074",
-    "type": "worked_problem",
-    "topic": "number-systems",
-    "subtopic": "base-conversion",
-    "stem": "(36CA)₁₆ = ( ____________ )₁₀ = ( ______________ )₂ = ( _______________ )₈.",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "(14026)₁₀ = (11011011001010)₂ = (33312)₈",
-    "explanation": "Decimal: 3*4096 + 6*256 + C(12)*16 + A(10) = 12288 + 1536 + 192 + 10 = 14026. Binary: expand each hex digit to 4 bits, 3=0011, 6=0110, C=1100, A=1010 -> 0011 0110 1100 1010, i.e. 11011011001010. Octal: regroup those bits in 3s from the right, 011 011 011 001 010 -> 33312.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 74
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "53d2a19c9d4d41948980ed3e62fbccd10e8a1fd8"
-  },
-  {
-    "id": "ce2016-q075",
-    "type": "short_answer",
-    "topic": "computer-architecture",
-    "subtopic": "addressing-modes",
-    "stem": "Give an example for each of the following memory addressing modes:\nA. Register Direct: ………………………………\nB. Immediate: ……………………………………..\nC. Register Indirect: …………………………….\nD. Register Indirect- Indexed Basic: ………………………",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "A. Move R1,R2 (move R1 to R2)\nB. Move #X,R1 (move X to R1)\nC. Move (A0),R1 ([A0] → R1)\nD. Move X(A0),R1 ([[A0]+X] → R1)",
-    "explanation": "Each mode differs in how many levels of lookup are needed to reach the operand. Register direct (MOVE R1,R2) uses the register's contents itself; immediate (MOVE #X,R1) carries the literal inside the instruction; register indirect (MOVE (A0),R1) treats the register as a pointer and fetches memory at [A0]; indexed register indirect (MOVE X(A0),R1) adds the displacement X to the base register first, fetching from [A0]+X.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 75
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "9442edad2e8959d86dfc83154a39c82376dbc89d"
-  },
-  {
-    "id": "ce2016-q076",
-    "type": "worked_problem",
-    "topic": "digital-logic",
-    "subtopic": "timing-diagrams",
-    "stem": "For a positive edge-triggered T-FlipFlop, what would be the signal for Q in the following timing diagram:",
-    "stemFigure": "/figures/ce2016-q076.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "See the model-answer figure: the Q waveform is drawn beneath the Clock and T waveforms.",
-    "answerFigure": "/figures/ce2016-q076-answer.png",
-    "explanation": "A T flip-flop toggles Q on each active clock edge only when T = 1, and holds Q unchanged when T = 0. Sample T at the rising edges only: T = 1,0,1,1 with Q starting at 0 gives Q = 1, 1, 0, 1. The trap is treating T as a level (making Q follow T) or reacting to the falling edge.",
-    "source": {
-      "file": "[CE] questions.pdf",
-      "exam": "K-Companies",
-      "year": 2016,
-      "tier": "gold",
-      "originalNumber": 76
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "5e2fadc04db31dddf5151cac7c74c713f899cac4"
-  },
-  {
     "id": "knpc2016-q002",
     "type": "mcq",
     "topic": "networking",
@@ -4764,32 +4028,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "bcc7940bac7b67afd2a4a888f2fc84a90abb4c13"
-  },
-  {
-    "id": "knpc2016-q007",
-    "type": "short_answer",
-    "topic": "digital-logic",
-    "subtopic": "flip-flops",
-    "stem": "The truth table of a D flip flop?",
-    "stemFigure": "/figures/knpc2016-q007.png",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Q(t+1) = D regardless of the present state: Q=0,D=0 -> Q(t+1)=0; Q=0,D=1 -> Q(t+1)=1; Q=1,D=0 -> Q(t+1)=0; Q=1,D=1 -> Q(t+1)=1",
-    "explanation": "A D flip-flop simply latches its input on the clock edge: Q(t+1) = D, independent of the present state Q. So D=0 gives Q(t+1)=0 and D=1 gives Q(t+1)=1 whether Q was 0 or 1, which is why it is used as a one-bit store or one-clock delay.",
-    "referenceUrl": "http://electronicspost.com/flip-flops/",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 7
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "c249997b4fab0fd21688afc254cd35c6e18badb0"
   },
   {
     "id": "knpc2016-q008",
@@ -5096,32 +4334,6 @@
     "dedupeHash": "8f38daabf5f86485f12dd1c27a55a6c4cd823eca"
   },
   {
-    "id": "knpc2016-q016",
-    "type": "short_answer",
-    "topic": "software-engineering",
-    "subtopic": "testing",
-    "stem": "Data Control testing in software engineering is?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Test declaring a variable and modifying it",
-    "explanation": "The keyed text describes data-flow (define-use) testing: each variable is traced from the point where it is declared or assigned to every point where it is used or modified, looking for anomalies such as use-before-define or define-then-never-use. Do not confuse it with control-flow testing, which exercises branches and paths rather than variable lifetimes. Only the correct answer survived in the recalled paper, so treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 16
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "538bd42b189960e970217f23ac9475124b73c8ea"
-  },
-  {
     "id": "knpc2016-q019",
     "type": "mcq",
     "topic": "number-systems",
@@ -5250,110 +4462,6 @@
     "dedupeHash": "4c41697cc7085e775c9f67aec72e8f638f882158"
   },
   {
-    "id": "knpc2016-q022",
-    "type": "short_answer",
-    "topic": "data-structures-algorithms",
-    "subtopic": "binary-search-tree",
-    "stem": "a binary tree is a search tree when",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Left children are smaller than the parent and the  right children are bigger than the  parent",
-    "explanation": "A binary tree is a binary search tree when the ordering invariant holds at every node: every key in the left subtree is less than the node's key and every key in the right subtree is greater. This must hold for the whole subtree, not just the immediate children, which is the classic trap. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 22
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "0af0a5b39ae07300cefeb224f5749961e60d6f7c"
-  },
-  {
-    "id": "knpc2016-q023",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "subnetting",
-    "stem": "What is the subnet mask that gives 510 host to 173.10.0.0?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "255.255.254.0",
-    "explanation": "Solve for host bits: you need 510 usable hosts, and usable hosts = 2^h - 2, so 2^h - 2 = 510 gives 2^h = 512, h = 9 host bits. Prefix = 32 - 9 = /23, and a /23 mask is 255.255.254.0. The trap is forgetting the minus 2 for the network and broadcast addresses, which would push you to /24 (254 hosts, too few). Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 23
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "e84aa00809a7f20d47822e37f160f80024f5fbd5"
-  },
-  {
-    "id": "knpc2016-q024",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "osi-model",
-    "stem": "which OSI layer transfers raw bits?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Physical",
-    "explanation": "Layer 1, the Physical layer, is defined as the layer that transmits an unstructured raw bit stream over the physical medium: voltages, light pulses, radio signals, connectors, and timing. Framing those bits into structured units is the Data Link layer's job, not the Physical layer's. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 24
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "5f5e2c259db9ae149f8d62993fa6fb1699bb7073"
-  },
-  {
-    "id": "knpc2016-q025",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "java-exceptions",
-    "stem": "An exception in Java is",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "an error in run time",
-    "explanation": "An exception in Java is an event thrown while the program is running that disrupts the normal flow of execution, for example ArithmeticException or NullPointerException. Problems the compiler catches, such as a syntax or type error, are compile-time errors, not exceptions. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 25
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "f26c1da312dc4c215ac3fe38adda186244458593"
-  },
-  {
     "id": "knpc2016-q026",
     "type": "mcq",
     "topic": "general-it",
@@ -5398,32 +4506,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "7fb047877aa21d7143f005146d4bc744051ee2e3"
-  },
-  {
-    "id": "knpc2016-q028",
-    "type": "short_answer",
-    "topic": "networking",
-    "subtopic": "network-tools",
-    "stem": "to know that the computer is connected to gate way?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "ping gate way IP",
-    "explanation": "Ping sends an ICMP echo request to the gateway address; a reply proves the host reached it at both the link layer (ARP resolved) and the IP layer (mask and default-gateway setting correct). A missing reply usually means a wrong gateway address, a wrong mask, or a dead link, though ICMP can also be filtered. No distractors survived in the recalled paper, so treat this as a recall card.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 28
-    },
-    "keyProvenance": "inline_bold",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [
-      "no_distractors"
-    ],
-    "dedupeHash": "58c677d458cde1da74d22b3f8084f316056ac009"
   },
   {
     "id": "knpc2016-q029",
@@ -5506,29 +4588,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "ce1e84e16f87bd1e88e0ae6aa2f22751a8076a90"
-  },
-  {
-    "id": "knpc2016-q100",
-    "type": "short_answer",
-    "topic": "databases",
-    "subtopic": "relational-model",
-    "stem": "Name of relation in Data base?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Table (the source key writes 'table or file')",
-    "explanation": "Answer unverified: this is a short-answer item with no recorded key. In the relational model a relation is implemented as a table, with tuples (rows) as records and attributes (columns) as fields, so the expected answer is 'table'. The ambiguity is that the examiner may have wanted the plain synonym 'table' or the formal term 'tuple set'.",
-    "source": {
-      "file": "computer engineering 2016 - extra.docx",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "f3c5a984d3c5e98dc71e1ae7d55119d42fa1868e"
   },
   {
     "id": "knpc2016-q101",
@@ -5749,30 +4808,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "f84e6c16ca6dffb3d8fab04bcdca7a245c1b5361"
-  },
-  {
-    "id": "knpc2016-q106",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "java-equality",
-    "stem": "Difference between == and. equals?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "== is a reference comparison (both point at the same memory location) where. equals () evaluate the comparison of values of objects",
-    "explanation": "== is a reference (identity) comparison: it asks whether two variables hold the same address, and for primitives whether the raw values match. .equals() compares content according to the override in the class. Classic trap: new String(\"ab\") == new String(\"ab\") is false because they are two objects, while .equals() on them is true.",
-    "source": {
-      "file": "KOC 2012 EXAM (2).pdf",
-      "exam": "KNPC",
-      "tier": "gold",
-      "year": 2016,
-      "originalNumber": 6
-    },
-    "keyProvenance": "answer_page",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "f71ab9cf064af609ff2d6c10fcbdad05a3548769"
   },
   {
     "id": "knpc2016-q107",
@@ -13135,98 +12170,6 @@
     "dedupeHash": "a659f4f8ebf566fff4faf421ccc9bf21a2fbbb3c"
   },
   {
-    "id": "code-q001",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "conditional-statements",
-    "stem": "Find The output of C++ Code (Program 1)",
-    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main()\n{\n    if (NULL) {\n        cout << \"Hello World\";\n    }\n    else {\n        cout << \"Hii World\";\n    }\n\n    return 0;\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Hii World",
-    "explanation": "NULL is defined as the integer constant 0, so if (NULL) is if (0), which is false and the else branch runs, printing \"Hii World\". The trap is reading NULL as a special \"nothing\" value that might be truthy - in a boolean context it is just zero.",
-    "source": {
-      "file": "2.pdf",
-      "exam": "bank",
-      "tier": "practice"
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "becfc2f22aeae5a50996d6f08f02d1f72b4e46d2"
-  },
-  {
-    "id": "code-q002",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "conditional-statements",
-    "stem": "Find The output of C++ Code (Program 2)",
-    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main()\n{\n    int A = 5, B = 10, C = 20;\n\n    if (A && B > C) {\n        cout << \"ABC\";\n    }\n    else if (A = B || C == 20) {\n        cout << \"PQR\";\n    }\n    else {\n        cout << \"XYZ\";\n    }\n\n    return 0;\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "PQR",
-    "explanation": "The first test is A && (B > C) because > binds tighter than &&, so it is 5 && (10 > 20) = false. The second test uses a single = : it is an ASSIGNMENT A = (B || C == 20) = (10 || 1) = 1, and the value 1 is truthy, so the else-if branch is taken and the program prints PQR.",
-    "source": {
-      "file": "2.pdf",
-      "exam": "bank",
-      "tier": "practice"
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "253f26c94b41dc1586748814c4792a3ae9906bfa"
-  },
-  {
-    "id": "code-q003",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "loops",
-    "stem": "Find The output of C++ Code",
-    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main(){\n    int i=5;\n    for (int j=4;j<12;j++){\n    i=j++;\n    if (j==8)\n     continue;\n    cout << i << endl;\n    }\n    return 0;\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "4\n6\n8\n10",
-    "explanation": "Output is 4, 6, 8, 10 on separate lines. i = j++ copies j into i and then increments j, so j is already odd (5, 7, 9, 11) by the time if (j == 8) is tested - the continue never fires - and the j++ in the loop header advances j by a further 1, giving j = 4, 6, 8, 10 at the top of each iteration, which is exactly what i receives and prints.",
-    "source": {
-      "file": "2.pdf",
-      "exam": "bank",
-      "tier": "practice"
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "38b9be56143b9a69194a5d8e05c22864a38c7c1e"
-  },
-  {
-    "id": "code-q005",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "loops",
-    "stem": "Find The output of C++ Code (C++ for loop)",
-    "stemCode": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n        for (int i = 1; i <= 5; ++i) {\n        cout << i << \" \";\n    }\n    return 0;\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "1 2 3 4 5",
-    "explanation": "A straightforward counted loop: i runs 1 through 5 inclusive and each value is printed followed by a space, giving \"1 2 3 4 5\". Note ++i and i++ behave identically in a for-header increment, since the value of the expression is discarded.",
-    "source": {
-      "file": "2.pdf",
-      "exam": "bank",
-      "tier": "practice"
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "8ce530956090f1b29d12df7b02c4c4a39e5a1d64"
-  },
-  {
     "id": "code-q007",
     "type": "mcq",
     "topic": "programming",
@@ -13316,56 +12259,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "4171c62c44d8f78a0b0de844579f6e1e1e4f852b"
-  },
-  {
-    "id": "code-q010",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "loops",
-    "stem": "How many times \"Hello\" is printed?",
-    "stemCode": "int x;\nfor(x=-1; x<=10; x++)\n{\n    if(x < 5)\n        continue;\n    else\n        break;\n    printf(\"Hello\");\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "0 (never printed)",
-    "explanation": "\"Hello\" is printed 0 times. Every iteration takes one of the two branches - continue while x < 5, break once x reaches 5 - so control never reaches the printf that sits after the if/else; it is unreachable dead code.",
-    "referenceUrl": "http://www.indiabix.com/c-programming/control-instructions/",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice",
-      "originalNumber": 1
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "4cd38ca0dcf2ed4e2c9928e7e37d56ab691bc9a7"
-  },
-  {
-    "id": "code-q011",
-    "type": "short_answer",
-    "topic": "programming",
-    "subtopic": "loops",
-    "stem": "How many times the while loop will be executed?",
-    "stemCode": "int j=1;\nwhile(j <= 250)\n{\n      printf(\"%d %d\\n\", j, j);\n      j += 2;\n}",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "125 times",
-    "explanation": "j starts at 1 and increases by 2, so it takes the odd values 1, 3, 5, ..., 249 (249 is the last value <= 250) and the loop then exits with j = 251. Count = (249 - 1) / 2 + 1 = 125 iterations; the trap is halving 250 to get 125 by luck, or answering 126 by mis-including j = 251.",
-    "referenceUrl": "http://www.indiabix.com/c-programming/control-instructions/",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice",
-      "originalNumber": 2
-    },
-    "keyProvenance": "compiled",
-    "keyVerified": true,
-    "verificationLevel": "double",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "8b19a48d05b3e0d38e3281fe34b7cbc63cfa20c5"
   },
   {
     "id": "code-q012",
@@ -13505,101 +12398,6 @@
     "needsReview": false,
     "flags": [],
     "dedupeHash": "cd87aca0e5ed987685e25ed74e1b2a9e011f5ce9"
-  },
-  {
-    "id": "code-q021",
-    "type": "worked_problem",
-    "topic": "networking",
-    "subtopic": "subnetting",
-    "stem": "The address 11.0.0.1 belongs to class …………..………….. and has a default subnet mask of …………..…………..………...",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "Class A, default subnet mask 255.0.0.0 (/8).",
-    "explanation": "The class is read from the first octet: 11 is in the range 1-126 (binary 0000 1011, leading bit 0), which is Class A. Class A's default mask is 255.0.0.0, i.e. /8: 8 network bits and 24 host bits.",
-    "referenceUrl": "http://www.9tut.com/subnetting-tutorial",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice"
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "e5dd8f1443624109ec1723435aa8226203dbcaa0"
-  },
-  {
-    "id": "code-q022",
-    "type": "worked_problem",
-    "topic": "networking",
-    "subtopic": "subnetting",
-    "stem": "Your company has just been assigned the network 4.0.0.0. How many subnets and hosts-per-subnet you can create with a subnet mask of 255.255.255.0?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "2^16 = 65,536 subnets, each with 2^8 - 2 = 254 hosts.",
-    "explanation": "4.0.0.0 has first octet 4, so it is Class A with a default mask of 255.0.0.0 (/8) = 8 network bits. The given mask 255.255.255.0 is /24, so 24 - 8 = 16 bits are borrowed from the host part, giving 2^16 = 65,536 subnets, and the 32 - 24 = 8 remaining host bits give 2^8 - 2 = 254 usable hosts per subnet (subtracting the network and broadcast addresses). Watch the convention: the -2 applies to HOSTS; older textbooks also subtract 2 from the subnet count (65,534), but the modern count used here is 2^borrowed.",
-    "referenceUrl": "http://www.9tut.com/subnetting-tutorial",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice",
-      "originalNumber": 1
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "14486b2c562733137f5b4139ea3885b986557966"
-  },
-  {
-    "id": "code-q023",
-    "type": "worked_problem",
-    "topic": "networking",
-    "subtopic": "subnetting",
-    "stem": "Your company has just been assigned the network 130.0.0.0. How many subnets and hosts-per-subnet you can create with a subnet mask of 255.255.128.0?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "2^1 = 2 subnets, each with 2^15 - 2 = 32,766 hosts.",
-    "explanation": "130 falls in 128-191, so 130.0.0.0 is Class B with a default mask of 255.255.0.0 (/16). The given mask 255.255.128.0 is 1111 1111.1111 1111.1000 0000.0000 0000 = /17, so only 17 - 16 = 1 bit is borrowed, giving 2^1 = 2 subnets, and the 32 - 17 = 15 remaining host bits give 2^15 - 2 = 32,766 usable hosts per subnet. The trap is forgetting the Class B baseline and counting all 17 mask bits as borrowed.",
-    "referenceUrl": "http://www.9tut.com/subnetting-tutorial",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice",
-      "originalNumber": 2
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "26b1713628d2fb58ce28c20827a58e18980b9134"
-  },
-  {
-    "id": "code-q024",
-    "type": "worked_problem",
-    "topic": "networking",
-    "subtopic": "subnetting",
-    "stem": "Your company has just been assigned the network 198.23.16.0. How many subnets and hosts-per-subnet you can create with a subnet mask of 255.255.255.252?",
-    "options": [],
-    "answerOptionLabels": [],
-    "answerText": "2^6 = 64 subnets, each with 2^2 - 2 = 2 hosts.",
-    "explanation": "198.23.16.0 has first octet 198, which is in 192-223, so it is Class C with a default mask of /24 (24 network bits). The given mask 255.255.255.252 has last octet 1111 1100 = /30, so borrowed bits = 30 - 24 = 6, giving 2^6 = 64 subnets. Host bits = 32 - 30 = 2, so 2^2 - 2 = 2 usable hosts per subnet (the classic point-to-point /30). The trap is forgetting the -2 for the network and broadcast addresses, which would give 4 hosts.",
-    "referenceUrl": "http://www.9tut.com/subnetting-tutorial",
-    "source": {
-      "file": "[CE] Lecture.pdf",
-      "exam": "bank",
-      "tier": "practice",
-      "originalNumber": 3
-    },
-    "keyProvenance": "derived",
-    "keyVerified": true,
-    "verificationLevel": "derived",
-    "needsReview": false,
-    "flags": [],
-    "dedupeHash": "263f3af19c817f3ee13f54aadf042ea5e657cfea"
   },
   {
     "id": "dbbank-q011",

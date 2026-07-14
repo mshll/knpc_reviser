@@ -53,7 +53,8 @@ export interface SettingRecord {
 export const DEFAULT_SETTINGS: Settings = {
   defaultTiers: [...DEFAULT_TIERS],
   shuffleOptions: true,
-  mockCount: 50,
+  // The real KNPC paper: 40 questions, 60 minutes.
+  mockCount: 40,
   mockTimeLimitSec: 60 * 60,
   practiceCount: 20,
   drillCount: 15,

@@ -15,6 +15,7 @@ and surfaces weak topics.
 | Figures | Cropped from source as PNG, shipped in `public/figures/`. |
 | Deployment | Static export (`output: 'export'`), **mobile-first**, deployed to Vercel. |
 | Modes | **Mock Exam** and **Practice** are co-equal entry points. |
+| Grading | **100% automatic.** Only `mcq` and `true_false` are ever served, because they are the only types the app can mark. Self-grading is gone. |
 | History | Attempt log + per-topic mastery + a "questions I keep missing" re-drill queue. |
 | Scope | Technical CE only. The English grammar material is out of scope. |
 | Design | Minimal-neutral. Near-white canvas, one accent, heavy whitespace, the question is the only thing on screen. Dark mode. |
@@ -63,7 +64,16 @@ and surfaces weak topics.
 | `practice` | 2018 mock exam, DB question bank, cloud samples, code-trace items | **ON** |
 | `bank` | Scraped IndiaBIX/general-IT trivia. Largest, least representative, worst keys. | **OFF** (user can toggle on) |
 
-Default experience is therefore ~470 high-signal questions.
+The served pool (`content/questions.json`) holds **656** items: 201 `gold`, 122 `practice`, 333
+`bank`. Every one is `mcq` or `true_false` and auto-gradable. The default experience is therefore
+323 high-signal questions, with `bank` available as an opt-in.
+
+`content/quarantine.json` holds **82** items that `/bank` browses and no quiz ever serves: the 33
+originally quarantined (unconfirmed keys, missing figures, no answer in the source) plus the **49
+free-response items** (34 `short_answer`, 15 `worked_problem`) moved out when grading went fully
+automatic. 39 of those 49 are real past-paper material - the written half of KNPC 2021, KNPC 2018,
+and several [CE] 2016 items - which is exactly why they are kept and browsable with their model
+answers rather than deleted.
 
 ## Canonical question object
 
@@ -71,6 +81,9 @@ Default experience is therefore ~470 high-signal questions.
 pipeline and the app - neither side changes it unilaterally.
 
 ```ts
+// Only 'mcq' and 'true_false' are SERVABLE (see rule 10). The two free-response types remain in
+// the contract because the corpus contains them and the bank browses them - not because a quiz
+// can ever serve one.
 type QuestionType = 'mcq' | 'true_false' | 'short_answer' | 'worked_problem'
 
 type Topic =
@@ -181,3 +194,17 @@ type Flag =
    provably wrong (see `bank-report.md`). When the archaeologist recovers a printed key that the
    panel judges false, the panel's answer ships and the paper's key is recorded in the reasoning.
    Provenance becomes `derived` - never claim `answer_page` for a key we declined to use.
+10. **Only `mcq` and `true_false` may be served.** Scoring is 100% automatic, and those are the
+    only two types the app can mark. A `short_answer` or `worked_problem` has no options to tick;
+    grading it means a human comparing prose to a model answer, which is what the retired "I got
+    it / I missed it" self-grading UI did - and a score the user awards themselves is not a score.
+    So the 49 free-response items (34 `short_answer`, 15 `worked_problem`) live in
+    `content/quarantine.json`: browsable in `/bank` with their stems, code, figures, model answers
+    (`answerText` / `answerFigure`) and explanations, and unreachable from any quiz.
+    They are **not deleted** - 39 of them are real KNPC/[CE] past-paper questions.
+    `isServable` enforces this **by type**, not by which file the row happens to sit in: if a
+    future pipeline run drops a `short_answer` back into `questions.json`, it still never reaches
+    a quiz. `lib/types.ts` names the rule once, as `SERVABLE_QUESTION_TYPES`.
+    The results screen and the bank loader still resolve questions from the **full** pool
+    (served + quarantined), so an attempt sat before this change - which may hold a self-graded
+    free-text response - still replays with its question, its answer and its verdict intact.

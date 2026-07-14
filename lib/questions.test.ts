@@ -5,14 +5,16 @@ import {
   EMPTY_HISTORY,
   allQuestions,
   crossReferencesOptions,
+  getQuestionById,
   isServable,
   orderedOptions,
+  replayQuestions,
   selectQuestions,
   selectQuestionsByIds,
   servableQuestions,
   validateBank,
 } from '@/lib/questions';
-import type { Question, QuizConfig } from '@/lib/types';
+import type { Attempt, Question, QuizConfig } from '@/lib/types';
 
 const SEEDS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] as const;
 
@@ -219,6 +221,28 @@ describe('isServable', () => {
     const [question] = validateBank([rawMcq({ flags: ['legacy'] })]).questions;
     expect(isServable(question)).toBe(true);
   });
+
+  // Scoring is 100% automatic, so a question the app cannot mark is unservable BY TYPE. This
+  // must not depend on the item sitting in quarantine.json: these rows are well-formed, valid,
+  // key-verified members of the served bank, and they must still be rejected.
+  test('a free-response item is never servable, whatever else the row says', () => {
+    for (const type of ['short_answer', 'worked_problem']) {
+      const [question] = validateBank([
+        rawMcq({
+          id: `free-${type}`,
+          type,
+          options: [],
+          answerOptionLabels: [],
+          answerText: 'A model answer the app cannot mark.',
+          keyVerified: true,
+          needsReview: false,
+          flags: [],
+        }),
+      ]).questions;
+      expect(question).toBeDefined();
+      expect(isServable(question)).toBe(false);
+    }
+  });
 });
 
 describe('orderedOptions', () => {
@@ -405,6 +429,94 @@ describe('the real bank never renders an incoherent option list', () => {
         expect(orderedOptions(question, seed, true)).toEqual(question.options);
       }
     }
+  });
+});
+
+describe('only auto-gradable questions are ever served', () => {
+  // The product rule: every question a quiz asks is scored by the app, never by the user. These
+  // run against the real content/ files, so a pipeline run that reintroduced a free-response item
+  // into the served bank fails here.
+
+  const freeResponse = allQuestions().filter(
+    (question) =>
+      question.type === 'short_answer' || question.type === 'worked_problem',
+  );
+
+  // Real KNPC/[CE] past-paper material. Deleting it is the failure this test guards against:
+  // the items are excluded from quizzes by being unservable, never by being thrown away.
+  test('the corpus still HAS free-response items, with their model answers', () => {
+    expect(freeResponse.length).toBeGreaterThan(0);
+    const answered = freeResponse.filter(
+      (question) => question.answerText || question.answerFigure,
+    );
+    expect(answered.length).toBeGreaterThan(0);
+  });
+
+  test('the servable pool is mcq and true_false, and nothing else', () => {
+    const types = new Set(servableQuestions().map((question) => question.type));
+    expect([...types].sort()).toEqual(['mcq', 'true_false']);
+  });
+
+  test('none of them is servable', () => {
+    expect(freeResponse.some(isServable)).toBe(false);
+  });
+
+  test('selectQuestions never returns one, under any config or seed', () => {
+    const served = new Set<string>();
+    for (const seed of SEEDS) {
+      for (const mode of ['mock', 'practice', 'drill'] as const) {
+        const questions = selectQuestions(
+          config({ mode, count: 10_000, tiers: ['gold', 'practice', 'bank'] }),
+          EMPTY_HISTORY,
+          `attempt-${seed}`,
+        );
+        for (const question of questions) {
+          served.add(question.id);
+          expect(question.type === 'mcq' || question.type === 'true_false').toBe(true);
+        }
+      }
+    }
+    expect(freeResponse.some((question) => served.has(question.id))).toBe(false);
+  });
+
+  test('selectQuestionsByIds cannot smuggle one in through an explicit id list', () => {
+    const ids = freeResponse.map((question) => question.id);
+    expect(selectQuestionsByIds(ids, 'a')).toEqual([]);
+  });
+
+  // The subtle one: an attempt sat before free text left the quiz pool must still replay. Its
+  // questions now live in quarantine.json, so the replay path has to read the FULL pool.
+  test('an old attempt holding one still replays, question and model answer intact', () => {
+    const question = freeResponse.find((entry) => entry.answerText !== undefined);
+    if (!question) throw new Error('no free-response item carries a model answer');
+    expect(getQuestionById(question.id)?.stem).toBe(question.stem);
+
+    const attempt: Attempt = {
+      id: 'old-attempt',
+      mode: 'mock',
+      config: config({ count: 1 }),
+      startedAt: 1,
+      finishedAt: 2,
+      questionIds: [question.id],
+      responses: [
+        {
+          questionId: question.id,
+          selected: [],
+          correct: true,
+          skipped: false,
+          timeSpentSec: 30,
+          text: 'What the user typed back then.',
+          selfGraded: true,
+        },
+      ],
+      score: 1,
+      total: 1,
+      durationSec: 1,
+    };
+
+    const replayed = replayQuestions(attempt);
+    expect(replayed.map((entry) => entry.id)).toEqual([question.id]);
+    expect(replayed[0].answerText ?? replayed[0].answerFigure).toBeTruthy();
   });
 });
 

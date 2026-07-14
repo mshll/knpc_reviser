@@ -27,6 +27,9 @@ import { cn } from '@/utils/cn';
 const MOCK_COUNTS = [20, 40, 60] as const;
 const PRACTICE_COUNTS = [10, 20, 30] as const;
 
+/** The real KNPC paper is 40 questions in 60 minutes. */
+const SECONDS_PER_QUESTION = 90;
+
 const SECTION_HEADING =
   'text-subheading-xs uppercase tracking-wide text-text-soft-400';
 
@@ -244,6 +247,7 @@ function SetupForm({ mode, settings }: { mode: SetupMode; settings: Settings }) 
   }, [mode, topics, tiers, settings.shuffleOptions]);
 
   const effectiveCount = Math.min(count, matching);
+  const timedMinutes = Math.round((effectiveCount * SECONDS_PER_QUESTION) / 60);
   const noTiers = tiers.length === 0;
   const noTopics = mode === 'practice' && !allTopics && selectedTopics.size === 0;
   const disabled = noTiers || noTopics || matching === 0;
@@ -265,7 +269,7 @@ function SetupForm({ mode, settings }: { mode: SetupMode; settings: Settings }) 
       topics,
       tiers,
       count: effectiveCount,
-      timeLimitSec: timed ? effectiveCount * 60 : null,
+      timeLimitSec: timed ? effectiveCount * SECONDS_PER_QUESTION : null,
       onlyMissed: false,
       shuffleOptions: settings.shuffleOptions,
     };
@@ -304,7 +308,7 @@ function SetupForm({ mode, settings }: { mode: SetupMode; settings: Settings }) 
             title='Timer'
             description={
               timed
-                ? `One minute per question: ${effectiveCount} ${pluralize(effectiveCount, 'minute')} total.`
+                ? `Ninety seconds per question, the real exam's pace: ${timedMinutes} ${pluralize(timedMinutes, 'minute')} total.`
                 : 'No time limit.'
             }
             checked={timed}

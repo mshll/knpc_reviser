@@ -7,6 +7,7 @@ import {
   KEY_PROVENANCES,
   QUARANTINE_FLAGS,
   QUESTION_TYPES,
+  SERVABLE_QUESTION_TYPES,
   SOURCE_TIERS,
   TOPICS,
   VERIFICATION_LEVELS,
@@ -310,24 +311,27 @@ interface LoadedBank {
  * Whether a quiz is allowed to serve this item. Every exclusion here is a hard rule, not a
  * preference the user can switch off:
  *
+ * - Only `mcq` and `true_false` can be marked by the app. Every served question is graded
+ *   automatically, so a free-response item is unservable BY TYPE, whatever else its row says.
+ *   The 49 free-response items (the KNPC 2021 written half, KNPC 2018, some [CE] 2016) are real
+ *   past-paper material and are kept in `content/quarantine.json` for /bank to browse with their
+ *   model answers. This check is the invariant, not the file split: a pipeline run that dropped
+ *   a short_answer row back into questions.json must still never reach a quiz.
  * - `missing_figure` / `unanswerable` are quarantined by SPEC rules 4 and 8.
  * - An unconfirmed key is not an answer. Items whose blind re-answer disagreed with the source
  *   were dropped from the bank entirely, and this is the backstop that keeps a future pipeline
  *   run from quietly serving a disputed item.
- * - A choice item with fewer than two options, or with no key at all, cannot be answered or
- *   graded (the corpus has a handful, flagged `no_distractors`).
- * - A free-text item with neither `answerText` nor `answerFigure` has no model answer, so there
- *   is nothing for the user to self-grade against.
+ * - An item with fewer than two options, or with no key at all, cannot be answered or graded
+ *   (the corpus has a handful, flagged `no_distractors`).
  *
  * Unservable items stay in the bank for the record. They are browsable and never quizzed.
  */
 export function isServable(question: Question): boolean {
+  if (!SERVABLE_QUESTION_TYPES.includes(question.type)) return false;
   if (question.flags.some((flag) => QUARANTINE_FLAGS.includes(flag))) return false;
   if (question.keyVerified === false) return false;
-  const isChoice = question.type === 'mcq' || question.type === 'true_false';
-  if (isChoice && question.options.length < 2) return false;
-  if (isChoice && question.answerOptionLabels.length === 0) return false;
-  if (!isChoice && !question.answerText && !question.answerFigure) return false;
+  if (question.options.length < 2) return false;
+  if (question.answerOptionLabels.length === 0) return false;
   return true;
 }
 
@@ -475,12 +479,34 @@ export function getQuestionById(id: string): Question | undefined {
   return loadBank().byId.get(id);
 }
 
-/** Preserves the order of `ids`. Silently skips ids that are no longer in the bank. */
+/**
+ * Preserves the order of `ids`. Silently skips ids that are no longer in the bank.
+ *
+ * Reads the FULL pool, quarantine included, because a stored attempt must still render: a past
+ * attempt may hold responses to items that have since been quarantined (the free-response items
+ * were), and looking them up in the servable pool would replay those rows as blanks.
+ */
 export function getQuestionsByIds(ids: readonly string[]): Question[] {
   const byId = loadBank().byId;
   const out: Question[] = [];
   for (const id of ids) {
     const question = byId.get(id);
+    if (question) out.push(question);
+  }
+  return out;
+}
+
+/**
+ * The same lookup restricted to the servable pool, for anything that is about to put questions
+ * in front of the user to ANSWER (a fresh drill, a restored session). Order is preserved; an id
+ * that is not servable is dropped, so a stale session or a hand-written link cannot smuggle a
+ * quarantined item into the runner.
+ */
+export function servableQuestionsByIds(ids: readonly string[]): Question[] {
+  const servableById = loadBank().servableById;
+  const out: Question[] = [];
+  for (const id of ids) {
+    const question = servableById.get(id);
     if (question) out.push(question);
   }
   return out;
@@ -720,18 +746,7 @@ export function selectQuestionsByIds(
   attemptId: string,
   options: { shuffleOptions?: boolean } = {},
 ): Question[] {
-  const servableById = loadBank().servableById;
-  const seen = new Set<string>();
-  const picked: Question[] = [];
-
-  for (const id of ids) {
-    if (seen.has(id)) continue;
-    seen.add(id);
-    const question = servableById.get(id);
-    if (!question) continue;
-    picked.push(question);
-  }
-
+  const picked = servableQuestionsByIds([...new Set(ids)]);
   const rand = mulberry32(hashString(attemptId));
   return seededShuffle(picked, rand).map((question) =>
     withOrderedOptions(question, attemptId, options.shuffleOptions ?? true),

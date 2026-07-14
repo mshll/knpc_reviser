@@ -1,4 +1,4 @@
-import { getQuestionsByIds, orderedOptions } from '@/lib/questions';
+import { orderedOptions, servableQuestionsByIds } from '@/lib/questions';
 import { createQuizState, type QuizState } from '@/lib/quiz';
 import {
   QUIZ_MODES,
@@ -164,12 +164,16 @@ export function sessionRemainingSec(session: StoredSession): number | null {
 }
 
 /**
- * Rebuilds a live QuizState from a stored session. Returns null when the bank no
- * longer contains every question the session was sat with (the extraction pipeline
- * overwrites content/questions.json), in which case the session is unrecoverable.
+ * Rebuilds a live QuizState from a stored session. Returns null when the servable pool no
+ * longer holds every question the session was sat with, in which case the session is
+ * unrecoverable and the quiz route offers a fresh start.
+ *
+ * The lookup is deliberately the SERVABLE pool, not the whole bank: a session saved before the
+ * free-response items were quarantined still names them, and resuming it would put a question
+ * the app cannot mark back in front of the user.
  */
 export function restoreQuizState(session: StoredSession): QuizState | null {
-  const bankQuestions = getQuestionsByIds(session.questionIds);
+  const bankQuestions = servableQuestionsByIds(session.questionIds);
   if (bankQuestions.length !== session.questionIds.length) return null;
 
   for (let i = 0; i < session.responses.length; i++) {

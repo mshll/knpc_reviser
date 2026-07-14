@@ -14,9 +14,8 @@ import QuestionView from '@/components/question-view';
 import type { ReviewRow } from '@/components/results/topic-breakdown';
 import { verdictOf, type Verdict } from '@/components/results/verdict';
 import { formatDuration } from '@/lib/format';
-import { isFreeText } from '@/lib/quiz';
 
-export type ReviewFilter = 'all' | 'wrong' | 'skipped' | 'ungraded';
+export type ReviewFilter = 'all' | 'wrong' | 'skipped';
 
 function VerdictBadge({ verdict }: { verdict: Verdict }) {
   if (verdict === 'correct') {
@@ -35,11 +34,14 @@ function VerdictBadge({ verdict }: { verdict: Verdict }) {
       </Badge.Root>
     );
   }
+  // Only an old attempt can carry this: the written answer was never marked, and free-response
+  // items have since left the quiz pool, so there is nothing to mark it with. It is a statement
+  // of what happened, not a prompt.
   if (verdict === 'ungraded') {
     return (
       <Badge.Root variant='lighter' color='orange' size='medium'>
         <Badge.Icon as={RiQuestionLine} />
-        Needs grading
+        Not graded
       </Badge.Root>
     );
   }
@@ -54,7 +56,6 @@ function VerdictBadge({ verdict }: { verdict: Verdict }) {
 const EMPTY_FILTER_COPY: Record<Exclude<ReviewFilter, 'all'>, string> = {
   wrong: 'Nothing wrong in this attempt. Clean sweep.',
   skipped: 'Nothing was skipped in this attempt.',
-  ungraded: 'Every written answer in this attempt has been graded.',
 };
 
 interface NumberedRow extends ReviewRow {
@@ -65,18 +66,17 @@ interface NumberedRow extends ReviewRow {
 export interface QuestionReviewProps {
   rows: readonly ReviewRow[];
   totalInAttempt: number;
-  /** Settles a free-text item the user has not graded yet. Omit to keep the review read-only. */
-  onSelfGrade?: (questionId: string, correct: boolean) => void;
-  /** Controlled by the results screen, so its "N answers need grading" alert can jump here. */
   filter: ReviewFilter;
   onFilterChange: (filter: ReviewFilter) => void;
 }
 
-/** The full question-by-question review, filterable to wrong / skipped / ungraded. */
+/**
+ * The full question-by-question review, filterable to wrong / skipped. Read-only throughout:
+ * every question a quiz can serve is auto-graded, so there is nothing left for the user to mark.
+ */
 export function QuestionReview({
   rows,
   totalInAttempt,
-  onSelfGrade,
   filter,
   onFilterChange,
 }: QuestionReviewProps) {
@@ -90,9 +90,6 @@ export function QuestionReview({
   ).length;
   const skippedCount = numbered.filter(
     (row) => verdictOf(row.question, row.response) === 'skipped',
-  ).length;
-  const ungradedCount = numbered.filter(
-    (row) => verdictOf(row.question, row.response) === 'ungraded',
   ).length;
 
   const visible = numbered.filter((row) => {
@@ -122,15 +119,6 @@ export function QuestionReview({
           <SegmentedControl.Trigger value='skipped' className='h-9'>
             Skipped ({skippedCount})
           </SegmentedControl.Trigger>
-          {/* Only shown when there is something to grade: on a 390px phone a fourth
-              permanent tab would crush the other three for nothing. It stays while it is
-              the active tab, so grading the last item does not pull the selected tab out
-              from under the user. */}
-          {(ungradedCount > 0 || filter === 'ungraded') && (
-            <SegmentedControl.Trigger value='ungraded' className='h-9'>
-              Ungraded ({ungradedCount})
-            </SegmentedControl.Trigger>
-          )}
         </SegmentedControl.List>
 
         <SegmentedControl.Content value={filter} className='mt-4 focus:outline-none'>
@@ -142,7 +130,6 @@ export function QuestionReview({
             <ul className='flex flex-col gap-4'>
               {visible.map((row) => {
                 const verdict = verdictOf(row.question, row.response);
-                const gradable = onSelfGrade && isFreeText(row.question);
                 return (
                   <li
                     key={row.question.id}
@@ -167,14 +154,6 @@ export function QuestionReview({
                       selected={row.response.selected}
                       reveal
                       text={row.response.text ?? ''}
-                      selfGraded={
-                        row.response.selfGraded ? row.response.correct : null
-                      }
-                      onSelfGrade={
-                        gradable
-                          ? (correct) => onSelfGrade(row.question.id, correct)
-                          : undefined
-                      }
                     />
                   </li>
                 );

@@ -23,7 +23,6 @@ import {
   currentQuestion,
   currentResponse,
   isAnswered,
-  isFreeText,
   isRevealed,
   quizReducer,
   toAttempt,
@@ -36,6 +35,11 @@ import { cn } from '@/utils/cn';
 // The quiz runner. One question on screen, actions in thumb reach, and the
 // whole session mirrored to localStorage on every change so a killed tab
 // never costs an attempt.
+//
+// Every question it can ever be handed is multiple choice or true/false, and
+// therefore auto-graded: isServable rejects every other type, so there is no
+// free-text input and no self-grading here. Free-response past-paper items live
+// in the quarantine record and are browsable in /bank.
 // ---------------------------------------------------------------------------
 
 const OPTION_KEYS = ['a', 'b', 'c', 'd', 'e'] as const;
@@ -67,7 +71,6 @@ export function QuizRunner({ initialState, deadlineAt, onFinished, onExit }: Qui
   const response = currentResponse(state);
   const total = state.questions.length;
   const revealed = isRevealed(state, state.index);
-  const freeText = question ? isFreeText(question) : false;
   const isLast = state.index === total - 1;
   const isMock = state.mode === 'mock';
   const active = state.status === 'active';
@@ -156,16 +159,10 @@ export function QuizRunner({ initialState, deadlineAt, onFinished, onExit }: Qui
   // -------------------------------------------------------------------------
 
   const unansweredCount = React.useMemo(() => {
-    return state.responses.reduce((count, entry, index) => {
-      if (isAnswered(state, index)) return count;
-      const item = state.questions[index];
-      // A mock free-text item with typed work is engaged, even though it can
-      // only be graded after submit.
-      if (item && isFreeText(item) && entry.text && entry.text.trim().length > 0) {
-        return count;
-      }
-      return count + 1;
-    }, 0);
+    return state.responses.reduce(
+      (count, _entry, index) => (isAnswered(state, index) ? count : count + 1),
+      0,
+    );
   }, [state]);
 
   const requestSubmit = React.useCallback(() => {
@@ -177,26 +174,13 @@ export function QuizRunner({ initialState, deadlineAt, onFinished, onExit }: Qui
     }
   }, [unansweredCount]);
 
-  const showAnswerAction = !isMock && freeText && !revealed;
   const skippable = active && !revealed && !isAnswered(state, state.index);
 
-  const primaryLabel = showAnswerAction
-    ? 'Show answer'
-    : isLast
-      ? isMock
-        ? 'Submit'
-        : 'Finish'
-      : 'Next';
+  const primaryLabel = isLast ? (isMock ? 'Submit' : 'Finish') : 'Next';
 
   const handlePrimary = React.useCallback(() => {
     const current = stateRef.current;
     if (current.status !== 'active') return;
-    const item = current.questions[current.index];
-    const itemRevealed = isRevealed(current, current.index);
-    if (current.mode !== 'mock' && item && isFreeText(item) && !itemRevealed) {
-      dispatch({ type: 'reveal' });
-      return;
-    }
     if (current.index === current.questions.length - 1) {
       requestSubmit();
       return;
@@ -261,7 +245,7 @@ export function QuizRunner({ initialState, deadlineAt, onFinished, onExit }: Qui
         return;
       }
 
-      if (!item || isFreeText(item)) return;
+      if (!item) return;
       if (isRevealed(current, current.index)) return;
 
       let optionIndex = -1;
@@ -368,12 +352,6 @@ export function QuizRunner({ initialState, deadlineAt, onFinished, onExit }: Qui
           onSelect={active ? (label) => dispatch({ type: 'answer', label }) : undefined}
           reveal={revealed}
           disabled={!active}
-          text={response.text ?? ''}
-          onTextChange={active ? (text) => dispatch({ type: 'setText', text }) : undefined}
-          selfGraded={response.selfGraded ? response.correct : null}
-          onSelfGrade={
-            active ? (correct) => dispatch({ type: 'selfGrade', correct }) : undefined
-          }
         />
       </main>
 

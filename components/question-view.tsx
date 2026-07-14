@@ -11,10 +11,8 @@ import {
 } from '@remixicon/react';
 
 import * as Badge from '@/components/ui/badge';
-import * as Button from '@/components/ui/button';
 import * as Modal from '@/components/ui/modal';
 import * as Tag from '@/components/ui/tag';
-import * as Textarea from '@/components/ui/textarea';
 import * as Tooltip from '@/components/ui/tooltip';
 import { isFreeText } from '@/lib/quiz';
 import { flagLabel, optionLetter, sourceLabel, topicLabel } from '@/lib/format';
@@ -45,12 +43,11 @@ export interface QuestionViewProps {
   /** Lock interaction without dimming into a disabled-looking state. */
   disabled?: boolean;
 
-  /** short_answer / worked_problem only: the user's free text. */
+  /**
+   * A free-response item's answer as the user once typed it. Read-only, and only ever set when
+   * reviewing an attempt sat before those items left the quiz pool.
+   */
   text?: string;
-  onTextChange?: (text: string) => void;
-  /** short_answer / worked_problem only: the user's own verdict. null means ungraded. */
-  selfGraded?: boolean | null;
-  onSelfGrade?: (correct: boolean) => void;
 
   className?: string;
 }
@@ -243,102 +240,51 @@ function OptionRow({
   );
 }
 
-function FreeTextAnswer({
-  question,
-  text,
-  onTextChange,
-  reveal,
-  disabled,
-  selfGraded,
-  onSelfGrade,
-}: {
-  question: Question;
-  text: string;
-  onTextChange?: (text: string) => void;
-  reveal: boolean;
-  disabled: boolean;
-  selfGraded?: boolean | null;
-  onSelfGrade?: (correct: boolean) => void;
-}) {
+/**
+ * A free-response item, read-only. Nothing here is interactive and nothing is graded: these
+ * items are never served in a quiz (isServable rejects them by type), so this renders in
+ * exactly two places - the /bank browser, and the review of an old attempt that was sat back
+ * when free text was still served and self-graded.
+ *
+ * `text` is that historical answer, and it is the only reason the "Your answer" column exists.
+ * In /bank there is no such text, so the model answer takes the full width.
+ */
+function FreeTextAnswer({ question, text }: { question: Question; text: string }) {
+  const answered = text.trim().length > 0;
+
   return (
-    <div className='flex flex-col gap-4'>
-      {!reveal && (
-        <Textarea.Root
-          simple
-          value={text}
-          disabled={disabled || !onTextChange}
-          onChange={(event) => onTextChange?.(event.target.value)}
-          placeholder='Work it out here. Nothing is auto-graded: you mark yourself when the model answer appears.'
-          aria-label='Your answer'
-          className='min-h-32'
-        />
-      )}
-
-      {reveal && (
-        <div className='grid gap-4 md:grid-cols-2'>
-          <div className='flex flex-col gap-2'>
-            <span className='text-subheading-xs uppercase text-text-soft-400'>
-              Your answer
-            </span>
-            <div className='min-h-24 whitespace-pre-wrap rounded-10 border border-stroke-soft-200 bg-bg-weak-50 p-3 text-paragraph-sm text-text-strong-950'>
-              {text.trim().length > 0 ? (
-                text
-              ) : (
-                <span className='text-text-soft-400'>You left this blank.</span>
-              )}
-            </div>
-          </div>
-
-          <div className='flex flex-col gap-2'>
-            <span className='text-subheading-xs uppercase text-text-soft-400'>
-              Model answer
-            </span>
-            <div className='min-h-24 whitespace-pre-wrap rounded-10 border border-success-base bg-success-lighter p-3 text-paragraph-sm text-text-strong-950'>
-              {question.answerText}
-            </div>
-            {/* The paper's own worked solution: a truth table or waveform the prose cannot
-                reproduce. Several answerText values literally say "see the figure". */}
-            {question.answerFigure && (
-              <ZoomableFigure
-                src={question.answerFigure}
-                alt='Model answer figure'
-              />
-            )}
-          </div>
-        </div>
-      )}
-
-      {reveal && onSelfGrade && (
+    <div className={cn('grid gap-4', answered && 'md:grid-cols-2')}>
+      {answered && (
         <div className='flex flex-col gap-2'>
-          <span className='text-paragraph-sm text-text-sub-600'>
-            Mark it yourself. Free text is never auto-graded.
+          <span className='text-subheading-xs uppercase text-text-soft-400'>
+            Your answer
           </span>
-          <div className='flex gap-3'>
-            <Button.Root
-              type='button'
-              variant='neutral'
-              mode={selfGraded === true ? 'filled' : 'stroke'}
-              onClick={() => onSelfGrade(true)}
-              disabled={disabled}
-              className='h-11 flex-1'
-            >
-              <Button.Icon as={RiCheckLine} />
-              I got it
-            </Button.Root>
-            <Button.Root
-              type='button'
-              variant='error'
-              mode={selfGraded === false ? 'filled' : 'stroke'}
-              onClick={() => onSelfGrade(false)}
-              disabled={disabled}
-              className='h-11 flex-1'
-            >
-              <Button.Icon as={RiCloseLine} />
-              I missed it
-            </Button.Root>
+          <div className='min-h-24 whitespace-pre-wrap rounded-10 border border-stroke-soft-200 bg-bg-weak-50 p-3 text-paragraph-sm text-text-strong-950'>
+            {text}
           </div>
         </div>
       )}
+
+      <div className='flex flex-col gap-2'>
+        <span className='text-subheading-xs uppercase text-text-soft-400'>
+          Model answer
+        </span>
+        {question.answerText && (
+          <div className='min-h-24 whitespace-pre-wrap rounded-10 border border-success-base bg-success-lighter p-3 text-paragraph-sm text-text-strong-950'>
+            {question.answerText}
+          </div>
+        )}
+        {/* The paper's own worked solution: a truth table or waveform the prose cannot
+            reproduce. Several answerText values literally say "see the figure". */}
+        {question.answerFigure && (
+          <ZoomableFigure src={question.answerFigure} alt='Model answer figure' />
+        )}
+        {!question.answerText && !question.answerFigure && (
+          <p className='text-paragraph-sm text-text-soft-400'>
+            The source never recorded an answer to this one.
+          </p>
+        )}
+      </div>
     </div>
   );
 }
@@ -388,9 +334,6 @@ export function QuestionView({
   reveal = false,
   disabled = false,
   text = '',
-  onTextChange,
-  selfGraded = null,
-  onSelfGrade,
   className,
 }: QuestionViewProps) {
   const freeText = isFreeText(question);
@@ -435,16 +378,10 @@ export function QuestionView({
         )}
       </div>
 
+      {/* A free-response item has no options and is never quizzed, so it has nothing to answer:
+          it renders its model answer, and only once the answer is meant to be visible. */}
       {freeText ? (
-        <FreeTextAnswer
-          question={question}
-          text={text}
-          onTextChange={onTextChange}
-          reveal={reveal}
-          disabled={disabled}
-          selfGraded={selfGraded}
-          onSelfGrade={onSelfGrade}
-        />
+        reveal && <FreeTextAnswer question={question} text={text} />
       ) : (
         <div
           role={multi ? 'group' : 'radiogroup'}
