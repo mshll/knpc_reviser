@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bank-a-q211",
+    "explanation": "HTTP is well-known port 80 (HTTPS is 443). The distractors are the other classic well-known ports you are expected to have memorised: 25 is SMTP and 21 is FTP control; 65 is not a standard service port at all."
+  },
+  {
+    "id": "bank-a-q212",
+    "explanation": "A MAC address is the 48-bit identifier burned into the NIC, so it is called both the hardware address and the physical address; since options A and B are each individually true, the only complete answer is C. The trap is D: an IP address is the logical Layer 3 address, assigned by software and changeable, which is exactly what a MAC address is not."
+  },
+  {
+    "id": "bank-a-q213",
+    "explanation": "A gateway is by definition the node that acts as the entrance from one network into another, translating between them where the protocols differ. Router is the near-miss: a router forwards packets between networks that already speak the same protocol, and a switch only moves frames inside one LAN."
+  },
+  {
+    "id": "bank-a-q214",
+    "explanation": "True. UDP is connectionless: it sends datagrams with no handshake, no acknowledgements, no retransmission and no ordering guarantee, so delivery is best-effort. That unreliability is the point: it buys low latency and low overhead, which is why voice, video and DNS use it."
+  },
+  {
+    "id": "bank-a-q215",
+    "explanation": "A stream socket is the TCP socket type (SOCK_STREAM), and TCP connections are full-duplex, so data flows in both directions at once between client and server. One-way would describe a simplex link, not a TCP stream."
+  },
+  {
+    "id": "bank-a-q216",
+    "explanation": "Token Ring (IEEE 802.5) is a LAN data-link technology: stations pass a token around a ring inside one site, the same scope as Ethernet. It is a LAN access method, not a carrier technology for WAN or MAN distances."
+  },
+  {
+    "id": "bank-a-q217",
+    "explanation": "TELNET opens a TCP connection (port 23) because a remote terminal session needs reliable, in-order delivery of every keystroke. UDP is the trap: losing or reordering characters in a login session would be unusable. IP is a Layer 3 protocol, not a transport, and DHCP is an address-assignment service."
+  },
+  {
+    "id": "bank-a-q218",
+    "explanation": "URL stands for Uniform Resource Locator. The distractors swap 'Uniform' for 'Universal' or 'Resource' for 'router/routing'; the correct term is Uniform Resource Locator, matching URI (Uniform Resource Identifier)."
+  },
+  {
+    "id": "bank-a-q219",
+    "explanation": "Use the JK excitation table for the required transition Q 0 -> 1: J must be 1, K is don't-care (X), because with J=1 the flip-flop either sets (K=0) or toggles from 0 (K=1), and both land on 1. So Jn, Kn = 1, X. Options with J=0 cannot drive the output high, and 'X and 1' would be the answer for the 1 -> 0 transition instead."
+  },
+  {
+    "id": "bank-a-q220",
+    "explanation": "Required transition is Q 0 -> 0, so from the JK excitation table J=0 and K is don't-care (X): with J=0 the flip-flop either holds (K=0) or resets (K=1), and both leave the output at 0. So Jn, Kn = 0, X. Answer C (1 and X) is the trap, since that is the entry for the 0 -> 1 transition."
+  },
+  {
+    "id": "bank-b-q001",
+    "explanation": "ROM is non-volatile: its contents survive a power cut, which is why the boot firmware lives there. RAM (and a DIMM, which is just a RAM module) is volatile and loses everything at power-off, and the CPU is a processor, not storage."
+  },
+  {
+    "id": "bank-b-q002",
+    "explanation": "'Confined to a relatively small space' (one building, office or campus) is the definition of a Local Area Network. A WAN spans cities or countries, and peer-to-peer describes how hosts relate to each other, not the geographic size of the network."
+  },
+  {
+    "id": "bank-b-q003",
+    "explanation": "The 'unique four-part string' is the dotted-quad IPv4 address, e.g. 192.168.1.1, four octets separated by dots. A domain name or host name is the human-readable label that DNS resolves into that address, and neither has a fixed four-part form."
+  },
+  {
+    "id": "bank-b-q004",
+    "explanation": "ENIAC stands for Electronic Numerical Integrator and Computer (1946, University of Pennsylvania). The distractors substitute 'Network' or 'Automatic'; the acronym is Numerical Integrator and Computer."
+  },
+  {
+    "id": "bank-b-q005",
+    "explanation": "Storage units here are binary powers of two: 1 KB = 2^10 = 1024 bytes, so A is correct. The rest fail that rule: 1 MB = 1024 KB = 1,048,576 bytes, not 2048 bytes and not 1000 KB, and D uses the decimal 1000-byte definition that this exam does not want."
+  },
+  {
+    "id": "bank-b-q007",
+    "explanation": "PNG stands for Portable Network Graphics, a lossless raster image format, so a .PNG file is an image file."
+  },
+  {
+    "id": "bank-b-q008",
+    "explanation": "USB stands for Universal Serial Bus. It is 'serial' because it transfers one bit at a time over a differential pair, and 'universal' because one bus standard serves keyboards, drives, cameras and so on."
+  },
+  {
+    "id": "bank-b-q009",
+    "explanation": "VoIP (Voice over IP) digitises speech into packets and carries the call over an IP network such as the Internet instead of the circuit-switched phone network. GSM and CDMA are cellular radio standards and a modem is only the hardware that puts data on a line, so none of them is the technology being described."
+  },
+  {
+    "id": "bank-b-q010",
+    "explanation": "Answer unverified: the printed key marks C (Grayware), but the stem describes software that hides in the background and reports your browsing habits back to whoever installed it, which is the textbook definition of D, Spyware. Grayware is only an umbrella term for unwanted-but-not-strictly-malicious software (it covers spyware and adware both), so it is the vaguer option rather than the specific category named; adware is defined by displaying advertisements, which the stem never mentions. Learn the real distinction, but note that this exam's key says Grayware."
+  },
+  {
+    "id": "bank-b-q011",
+    "explanation": "The question asks which is NOT application software. Microsoft Windows is the operating system, i.e. system software: it manages the hardware and provides the platform that Word, Excel and PowerPoint (all applications performing user-facing tasks) run on top of."
+  }
+]

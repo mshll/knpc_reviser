@@ -1,0 +1,29 @@
+- generic [active] [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - button "End quiz" [ref=f10e7] [cursor=pointer]
+        - generic [ref=f10e11]:
+          - text: "1"
+          - generic [ref=f10e12]: / 5
+        - generic "Time elapsed" [ref=f10e13]: 00:00
+        - button "Open question map" [ref=f10e16] [cursor=pointer]
+      - main [ref=f10e21]:
+        - article [ref=f10e22]:
+          - generic [ref=f10e23]:
+            - generic [ref=f10e24]: Data Structures and Algorithms
+            - generic [ref=f10e25]: K-Companies 2016
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f10e26] [cursor=pointer]:
+              - generic [ref=f10e27]: Answer unverified
+          - generic [ref=f10e30]:
+            - heading "How many times will foo(i) work?" [level=2] [ref=f10e31]
+            - code [ref=f10e33]: for(i=1; i<=n; i++) for(j=1; j<=i; j++) foo(i);
+          - textbox "Your answer" [ref=f10e35]:
+            - /placeholder: "Work it out here. Nothing is auto-graded: you mark yourself when the model answer appears."
+      - generic [ref=f10e37]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=f10e38] [cursor=pointer]
+        - button "Show answer" [ref=f10e39] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f10e40]

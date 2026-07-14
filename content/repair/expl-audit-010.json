@@ -1,0 +1,78 @@
+[
+  {
+    "id": "koc2012-q001",
+    "verdict": "ok",
+    "explanation": "The OS is the resource manager: it allocates the CPU, memory, I/O devices and files among competing programs and users, and provides the interface between hardware and application software. Processing data, printing reports and showing errors are things applications or utilities do on top of the OS, not the OS's defining function."
+  },
+  {
+    "id": "koc2012-q002",
+    "verdict": "ok",
+    "explanation": "'more' is the classic Unix pager: it prints one screen-full and waits for a keypress before showing the next. 'cat' is the trap here, it prints the file but dumps the whole thing without pausing; 'ls' (and DOS 'dir') list directory names, not file contents."
+  },
+  {
+    "id": "koc2012-q003",
+    "verdict": "ok",
+    "explanation": "'passwd' is the standard Unix command to change a user's password. The other three are not real commands, they are invented DOS-flavoured names."
+  },
+  {
+    "id": "koc2012-q004",
+    "verdict": "ok",
+    "explanation": "'ls' lists directory contents in Unix. 'dir' and 'dir /w' are the DOS/Windows equivalents and are the intended trap for anyone answering out of DOS habit; 'lsd' does not exist."
+  },
+  {
+    "id": "koc2012-q005",
+    "verdict": "ok",
+    "explanation": "'vi' is the standard Unix visual editor, required by POSIX and present on essentially every Unix system. emacs is widely used but is an add-on rather than a standard component, and 'cat' only displays files, it cannot edit them."
+  },
+  {
+    "id": "koc2012-q006",
+    "verdict": "ok",
+    "explanation": "vi has two modes: command mode (which this exam calls 'edit' mode, where keystrokes are interpreted as commands) and insert mode (where keystrokes become text). You press 'i' to enter insert mode and Esc to return to command mode. Deleting is not a mode, it is a command ('dd', 'x') issued from command mode, which rules out A and C."
+  },
+  {
+    "id": "koc2012-q007",
+    "verdict": "ok",
+    "explanation": "Binary 1110 = 1*8 + 1*4 + 1*2 + 0*1 = 14. The classic slip is answering 15, which is 1111; the low bit here is 0, so subtract 1."
+  },
+  {
+    "id": "koc2012-q008",
+    "verdict": "ok",
+    "explanation": "30 = 16 + 8 + 4 + 2, so bits 4,3,2,1 are set and bit 0 is clear, giving 11110. Check the distractor: 10110 = 16 + 4 + 2 = 22, not 30."
+  },
+  {
+    "id": "koc2012-q009",
+    "verdict": "ok",
+    "explanation": "'rlogin' stands for remote login, the BSD utility for opening a login session on another host over the network. It is obsolete in practice because it transmits credentials in the clear; ssh replaced it."
+  },
+  {
+    "id": "koc2012-q010",
+    "verdict": "ok",
+    "explanation": "A byte is 8 bits by definition. 4 bits is a nibble, and 16 or 32 bits describe word sizes, not bytes."
+  },
+  {
+    "id": "koc2012-q011",
+    "verdict": "ok",
+    "explanation": "In a disk pack each platter surface has tracks at the same radii; the cylinder is the set of all same-numbered tracks stacked vertically across every surface. It matters because the whole cylinder can be read with the head assembly in one position, so no seek is needed between its tracks."
+  },
+  {
+    "id": "koc2012-q012",
+    "verdict": "rewritten",
+    "explanation": "Disk, hard disk, floppy disk, compact disk, optical disk and tape are all media that retain data, so every device listed in A, B and C is a data storage device. Since each of the three lists is individually true, the only answer that is not incomplete is 'All the above'.",
+    "issue": "Original leaned on test-taking meta reasoning ('no single option can be preferred over the others') instead of stating why each device qualifies as storage. Same answer, mechanism now explicit."
+  },
+  {
+    "id": "koc2012-q013",
+    "verdict": "ok",
+    "explanation": "The OSI reference model has 7 layers: physical, data link, network, transport, session, presentation, application. Do not confuse it with the TCP/IP model, which collapses these into 4 or 5 layers."
+  },
+  {
+    "id": "koc2012-q014",
+    "verdict": "ok",
+    "explanation": "DNS's main job is forward resolution: it maps a hostname such as www.example.com to an IP address so packets can actually be routed. Option A is the trap, IP to hostname is reverse DNS (PTR lookup), a secondary capability rather than the main function."
+  },
+  {
+    "id": "koc2012-q015",
+    "verdict": "ok",
+    "explanation": "Modem is short for modulator/demodulator: it modulates outgoing digital data onto an analog carrier for transmission over an analog line, and demodulates the incoming analog signal back into digital data. It performs no code conversion (binary to hex or ASCII), which rules out B and D."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "koc2012-q001",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "An OS is fundamentally a resource manager for hardware and software; the other options are application-level or peripheral tasks.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q002",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "'more' is the classic Unix pager showing one screen-full at a time; cat dumps whole file, ls/dir list directories.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q003",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "'passwd' is the standard Unix command to change a password; other options are not real commands.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q004",
+    "blindAnswer": ["D"],
+    "confidence": 0.99,
+    "reason": "'ls' lists directory contents in Unix; 'dir'/'dir /w' are DOS.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q005",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "'vi' is the POSIX-standard visual editor shipped with every Unix; emacs is common but not standard.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q006",
+    "blindAnswer": ["B"],
+    "confidence": 0.75,
+    "reason": "vi has command (edit) mode and insert mode; 'Edit and Insert' is the only option matching that pair.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q007",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "1110b = 8+4+2+0 = 14.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q008",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "30 = 16+8+4+2 = 11110b.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q009",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "rlogin is the BSD 'remote login' utility.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q010",
+    "blindAnswer": ["C"],
+    "confidence": 1.0,
+    "reason": "A byte is 8 bits by definition on all modern systems.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q011",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "A cylinder is the set of same-numbered tracks on all platter surfaces, i.e. vertically aligned tracks in a disk pack.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q012",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Every device listed in A, B and C (disk, tape, CD, hard disk, optical, floppy) is a data storage device, so 'All the above'.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q013",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "The OSI reference model defines 7 layers.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q014",
+    "blindAnswer": ["D"],
+    "confidence": 0.93,
+    "reason": "DNS's primary job is forward resolution of hostnames to IP addresses; option A describes reverse DNS, a secondary function.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q015",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "A modem modulates/demodulates: digital to analog and analog to digital conversion.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q016",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "Format Painter copies formatting from a selected object/text and applies it to what you click next.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q017",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "Freeze Panes locks the selected rows/columns region so it stays visible while scrolling; A is the only option describing an area-based lock.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q018",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "Ctrl+C is the standard copy shortcut.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q019",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Gridlines are hidden by clearing the gridlines checkbox in Excel options/View; there is no 'hide all' toggle button.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q020",
+    "blindAnswer": ["A"],
+    "confidence": 0.92,
+    "reason": "Page Break Preview is an editable view showing where pages break, i.e. how the sheet will print.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

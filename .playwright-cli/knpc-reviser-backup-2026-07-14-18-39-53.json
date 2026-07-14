@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "exportedAt": "2026-07-14T18:39:53.856Z",
+  "attempts": [
+    {
+      "id": "att-ft",
+      "mode": "mock",
+      "config": {
+        "mode": "mock",
+        "topics": "all",
+        "tiers": [
+          "gold",
+          "practice"
+        ],
+        "count": 2,
+        "timeLimitSec": null,
+        "includeUnverified": true,
+        "onlyMissed": false,
+        "shuffleOptions": false
+      },
+      "startedAt": 1784053752436,
+      "finishedAt": 1784054352436,
+      "questionIds": [
+        "koc2012-q001",
+        "knpc2016-q007"
+      ],
+      "responses": [
+        {
+          "questionId": "koc2012-q001",
+          "selected": [
+            "B"
+          ],
+          "correct": true,
+          "skipped": false,
+          "timeSpentSec": 30,
+          "revealedAt": 1784054352436
+        },
+        {
+          "questionId": "knpc2016-q007",
+          "selected": [],
+          "correct": false,
+          "skipped": false,
+          "timeSpentSec": 120,
+          "revealedAt": 1784054352436,
+          "text": "My written working for this problem."
+        }
+      ],
+      "score": 1,
+      "total": 2,
+      "durationSec": 600
+    }
+  ],
+  "responses": [],
+  "settings": {
+    "defaultTiers": [
+      "gold",
+      "practice"
+    ],
+    "includeUnverified": true,
+    "shuffleOptions": true,
+    "mockCount": 50,
+    "mockTimeLimitSec": 3600,
+    "practiceCount": 20,
+    "drillCount": 15
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "knpc2021-q043",
+    "myAnswer": ["D"],
+    "confidence": 0.95,
+    "derivation": "SMTP (send/relay), POP3 (download+delete) and IMAP (server-side sync) are all mail protocols, so 'All the above'.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q044",
+    "myAnswer": ["C"],
+    "confidence": 0.98,
+    "derivation": "Compiled and ran: x=0 cannot satisfy x<=1 AND x>=10 simultaneously, condition is false on first test, iterations=0, so the loop never executes.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q001",
+    "myAnswer": ["Mealy: present state + present input; Moore: present state only"],
+    "confidence": 0.97,
+    "derivation": "Standard FSM definition: Mealy output = f(current state, current inputs); Moore output = f(current state) only.",
+    "defective": false,
+    "shippedAnswer": ["- Mealy FSM depends on present state and present input\n- Moore FSM depends on present state only"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q004",
+    "myAnswer": ["JK Flip Flop"],
+    "confidence": 0.96,
+    "derivation": "Read the PNG: inputs A,B with Q(n+1) = Q (00, hold), 0 (01, reset), 1 (10, set), Q' (11, toggle). Toggle on 11 is the JK signature (SR would call 11 invalid, D/T have one input).",
+    "defective": false,
+    "shippedAnswer": ["JK Flip Flop"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q005",
+    "myAnswer": ["O(log n)"],
+    "confidence": 0.78,
+    "derivation": "BST ops walk one root-to-leaf path, cost proportional to height; best/balanced height is log2(n) so O(log n). Minor stem ambiguity: a strict 'best case' for search could be O(1) (key at root), but the intended balanced-tree reading gives O(log n).",
+    "defective": false,
+    "shippedAnswer": ["O(logn)"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q007",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "The CPU emits logical/virtual addresses; the MMU translates them to physical addresses seen by memory.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q009",
+    "myAnswer": ["A"],
+    "confidence": 0.94,
+    "derivation": "Blocked -> Running is impossible: an unblocked process goes Blocked -> Ready, then only the dispatcher moves Ready -> Running. B, C, D are all standard transitions.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q001",
+    "myAnswer": ["B"],
+    "confidence": 0.98,
+    "derivation": "SQL is the query/definition language of relational DBMSs; HTML and CSS are presentation/markup, XML is data interchange.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q002",
+    "myAnswer": ["C"],
+    "confidence": 0.9,
+    "derivation": "Solaris, Linux and Windows are operating systems; 'Oracle' names an RDBMS/vendor. (Oracle also ships Solaris/Oracle Linux, but the bare name is the database.)",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q003",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "Growth order lg n < n < n lg n < n^2, so the slowest-growing (best) is O(lg n).",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q004",
+    "myAnswer": ["A"],
+    "confidence": 0.93,
+    "derivation": "Big-O drops constant factors (2000) and lower-order terms (-1): O(2000n - 1) = O(n).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q005",
+    "myAnswer": ["D"],
+    "confidence": 0.97,
+    "derivation": "Tree, heap and list organise data; bubble sort is an algorithm operating on data, not a data structure.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q006",
+    "myAnswer": ["n(n+1)/2"],
+    "confidence": 0.97,
+    "derivation": "Inner loop runs i times for each i = 1..n, so total = sum_{i=1..n} i = n(n+1)/2. Verified by execution: n=8 gives 36 = 8*9/2.",
+    "defective": false,
+    "shippedAnswer": ["n(n + 1) / 2"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q007",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "Two recursive calls on n-1 and n-2 plus O(1) non-recursive work (one comparison, one addition): T(n) = T(n-2) + T(n-1) + 1. Option D omits the constant work; +n would require O(n) work in the body.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q008",
+    "myAnswer": ["30/70 ~= 0.43"],
+    "confidence": 0.95,
+    "derivation": "Hit ratio = hits / total accesses = 30 / (30 + 40) = 30/70 = 0.4286 ~= 0.43 (about 43%).",
+    "defective": false,
+    "shippedAnswer": ["Hit Ratio = 30 / (30 + 40) = 30/70 ≈ 0.43"],
+    "agreement": "agree"
+  }
+]

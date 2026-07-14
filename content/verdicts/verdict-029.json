@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q169",
+    "blindAnswer": ["D"],
+    "confidence": 0.97,
+    "reason": "I/O completion moves a blocked process to Ready; it must wait for the scheduler before running.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q170",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "FCFS is non-preemptive, so it gives terrible response time where each user needs a regular CPU share: time-sharing systems.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q171",
+    "blindAnswer": ["C"],
+    "confidence": 0.6,
+    "reason": "CPU is not in memory so 'all of the mentioned' is out; the intended answer is the resident operating system, though user processes also occupy main memory, making this item ambiguous.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q172",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Device drivers hide device differences and expose a uniform interface to the I/O subsystem.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q173",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Stack-based IDS sits inside the TCP/IP stack and inspects packets as they traverse it.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q174",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "The OS system-wide table of currently open files is called the open-file table.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q175",
+    "blindAnswer": ["A"],
+    "confidence": 0.93,
+    "reason": "Disk I/O is privileged, so a user process must issue a system call to the OS; the CPU has no system-call target.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q176",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "Unix creates processes via fork().",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q177",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "FAT = File Allocation Table.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q178",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "Banker's is strictly a deadlock-avoidance algorithm; with no 'avoidance' option, 'prevent deadlock' is the only choice that means deadlock never occurs (it is neither recovery nor resolution).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q179",
+    "blindAnswer": ["D"],
+    "confidence": 0.99,
+    "reason": "DSM = Distributed Shared Memory.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q180",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "IDL = Interface Definition Language (CORBA/RPC stub generation).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q181",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "The virtual address space size is bounded by the number of address lines (address bus width), not by installed RAM.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q182",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Windows 7 is system software (an OS); WordPad, Photoshop and Excel are applications.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q183",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "MS-DOS is a single-tasking, single-user OS; Linux, Windows and macOS are multitasking.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q184",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "FIFO/FCFS runs each job to completion without preemption.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q185",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "An AND gate outputs HIGH only when every input is 1.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q186",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "Only AND guarantees a LOW output whenever any input is 0; NOR outputs HIGH when all inputs are 0.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q187",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "Standard TTL uses a nominal +5 V Vcc.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q188",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "3-input AND is the product of all three inputs: X = ABC.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

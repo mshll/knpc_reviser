@@ -1,0 +1,137 @@
+[
+  {
+    "id": "koc2012-q056",
+    "myAnswer": ["B"],
+    "confidence": 0.8,
+    "derivation": "A block is the unit of transfer between memory and secondary storage; you cannot read less than one block, so it is the SMALLEST amount accessed at a time. C is wrong because a block normally holds several records (blocking factor).",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q057",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "Logical write = move a record into the program buffer; physical write = actually transfer the buffer out to the external file/device. Statement matches physical write, so True (option A).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q058",
+    "myAnswer": ["A"],
+    "confidence": 0.65,
+    "derivation": "Stem reads as a verbatim course definition of the blocking/deblocking routine sitting between file and program: read one block, hand the program one record at a time. Strictly the split direction is de-blocking, which is the only reason to doubt True, but the intended answer is True (option A).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q059",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "Odd parity sets the parity bit so the TOTAL count of 1 bits is odd. The stem describes even parity, so the statement is false. Here False is option A (labels are reversed vs the usual order).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q061",
+    "myAnswer": ["C"],
+    "confidence": 0.75,
+    "derivation": "A secondary key is any non-primary-key field used as an access key to retrieve records. A and B read 'secondary' positionally (second key / second field) and are wrong. C's wording is slightly garbled ('key to another file' likely OCR of 'key to a file') but is the only option expressing the real definition.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q062",
+    "myAnswer": ["C"],
+    "confidence": 1.0,
+    "derivation": "int('0110', 2) = 6 (executed in python3): 0*8 + 1*4 + 1*2 + 0*1 = 6.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q064",
+    "myAnswer": ["A"],
+    "confidence": 0.98,
+    "derivation": "Windows and DOS ARE operating systems, so the negative claim 'are not Operating Systems' is false. False is option A here.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q066",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "An OS is system software, not application software; it is the platform application software runs on. Statement is False = option B. (Item is flagged as a corrected/derived key; my independent answer matches the corrected key, not the printed one.)",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q067",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "Classic waterfall SDLC order: requirement analysis -> specification -> design -> coding -> testing. The first two phases are requirement analysis and specification (A); every other option leads with design or coding.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q068",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "A programming language is defined by syntax (legal form) and semantics (meaning). D ('Syntax and Language Rules') is redundant since language rules are syntax; commands/procedures are things written IN a language, not components OF one.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q069",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "A computer program is a detailed set of instructions telling the computer what to do (A). B is an artificially narrow subset ('only read files and print reports') and is not a valid definition, which kills 'Both 1 and 2'.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q070",
+    "myAnswer": ["A"],
+    "confidence": 1.0,
+    "derivation": "format(20,'08b') = 00010100 (executed in python3). 20 = 16 + 4. Verified distractors: 00010101 = 21, 00011111 = 31.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q071",
+    "myAnswer": ["B"],
+    "confidence": 0.8,
+    "derivation": "The ALU is the specific unit that performs elementary arithmetic and logic operations (add, subtract, AND, OR, compare). CPU is the containing unit (ALU + control unit + registers), too broad for 'the device that performs' the operations.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q072",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "printf and scanf are C standard library functions that remain fully usable in C++ via <cstdio>. 'Reads' is not a C++ command at all, so it is the odd one out (A).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q073",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "The stack pointer holds the ADDRESS of the top of the stack, not data. The register holding data currently being worked on is the accumulator / general-purpose register. Statement is False = option B.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

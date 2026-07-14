@@ -1,0 +1,137 @@
+[
+  {
+    "id": "knpc2021-q025",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "Deadlock = set of processes each holding a resource and blocked waiting on a resource held by another in the set, so none ever proceeds (circular wait, Coffman conditions). Processes are alive, not terminated (A) and not killing each other (B), so D is out.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q026",
+    "myAnswer": ["D"],
+    "confidence": 0.8,
+    "derivation": "Read figure: 5 bubbled (NOR/inverting) gates in 3 levels - level 1 = 2 gates fed by A and B, level 2 = 2 gates fed by level-1 outputs, level 3 = 1 output gate fed by both level-2 gates. Total delay = longest path = 3 gates x 1T = 3T. (Total gate count 5 is a distractor; propagation delay is critical-path depth, not gate count.)",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q027",
+    "myAnswer": ["A"],
+    "confidence": 0.92,
+    "derivation": "RISC = small set of simple, fixed-length, single-cycle instructions; load/store architecture. B (memory operands in ALU ops) and C (large instruction count) are CISC traits.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q028",
+    "myAnswer": ["B"],
+    "confidence": 0.85,
+    "derivation": "Kurose/Ross list three multimedia networking classes: streaming stored audio/video, streaming live audio/video, and real-time conversational/interactive. 'Sensitive streaming' is not a category - invented term.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q029",
+    "myAnswer": ["0000 0000 0001"],
+    "confidence": 0.95,
+    "derivation": "12 bits of 1s. 1's complement = 0000 0000 0000; add 1 -> 0000 0000 0001. Equivalently 1111 1111 1111 = -1 in two's complement, so its negation is +1.",
+    "defective": false,
+    "shippedAnswer": ["0000 0000 0001"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q031",
+    "myAnswer": ["All 1's (broadcast MAC FF:FF:FF:FF:FF:FF)"],
+    "confidence": 0.75,
+    "derivation": "An ARP request is broadcast on the LAN: the Ethernet destination MAC is all 1's (FF:FF:FF:FF:FF:FF). Caveat: inside the ARP payload the target hardware address field is all 0's - the terse crowd-sourced stem does not say which field, but the standard exam answer is all 1's (broadcast).",
+    "defective": false,
+    "shippedAnswer": ["All 1's"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q032",
+    "myAnswer": ["A node holds the data plus a pointer/reference to the next node, which is what chains the elements into a list"],
+    "confidence": 0.9,
+    "derivation": "Definition: node = data field + next pointer (head is first node, last node's next is NULL).",
+    "defective": false,
+    "shippedAnswer": ["Each element in a linked list is called a node. A node contains data and a pointer to the next node..."],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q033",
+    "myAnswer": ["Moore output depends only on the present state; Mealy output depends on present state AND present input"],
+    "confidence": 0.95,
+    "derivation": "Standard FSM distinction. Consequences: Mealy usually needs fewer states and reacts one cycle earlier but its output can glitch with input changes; Moore output is synchronous with state.",
+    "defective": false,
+    "shippedAnswer": ["Moore depends on present state, Mealy depends on present state and present input."],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q034",
+    "myAnswer": ["Port 80"],
+    "confidence": 0.98,
+    "derivation": "Well-known TCP port for HTTP is 80 (HTTPS is 443).",
+    "defective": false,
+    "shippedAnswer": ["Port 80"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q035",
+    "myAnswer": ["Translation Lookaside Buffer: a cache of recent virtual-to-physical page-table entries in the MMU that speeds up address translation"],
+    "confidence": 0.95,
+    "derivation": "TLB caches page-table entries so the MMU avoids a page-table walk in memory on every access, cutting effective memory access time.",
+    "defective": false,
+    "shippedAnswer": ["Translation Look Aside Buffer: memory cache used to reduce the time taken to access a user memory location."],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q037",
+    "myAnswer": ["A hidden/undocumented entry point (back door) built into a program or system that bypasses normal authentication and security checks"],
+    "confidence": 0.9,
+    "derivation": "Trap door = back door: secret access method left by a developer/attacker, granting entry without going through normal security.",
+    "defective": false,
+    "shippedAnswer": ["A trapdoor, also known as a back door, provides a secret or undocumented method of gaining access..."],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q038",
+    "myAnswer": ["Propagation delay = time for a bit to travel the link, distance/propagation speed; Rate = link transmission rate in bits/sec (transmission delay = L/R); Throughput = the actual rate at which data is delivered end-to-end, set by the bottleneck link"],
+    "confidence": 0.9,
+    "derivation": "Standard Kurose/Ross definitions: propagation delay d/s (independent of packet size), transmission rate R is the link's bits-per-second capacity, throughput is the achieved bits/sec across the path (min of link rates).",
+    "defective": false,
+    "shippedAnswer": ["Propagation delay: time taken by the last bit to go through the medium to the destination..."],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q039",
+    "myAnswer": ["B"],
+    "confidence": 0.85,
+    "derivation": "Read figure: two input columns A,B and Qnext column reading Q, Q' (bar), 0, 1 across four input combinations = hold, toggle, reset, set. Only the JK flip-flop has a two-input characteristic table with a toggle (Q') row; T has a single input, and SR's 11 row is invalid/forbidden, not Q'.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2021-q041",
+    "myAnswer": ["D"],
+    "confidence": 0.6,
+    "derivation": "802.11 = WiFi/WLAN, 802.15 = WPAN (Bluetooth/Zigbee), 802.16 = WiMAX, 802.3 = wired Ethernet. DEFECTIVE AS WRITTEN: taken literally ('not a WiFi standard') B, C and D are all correct. The item only has a unique answer under the intended reading 'not a WIRELESS standard', which gives D (802.3, the only wired one). Shipped key D matches that intent, so the key is usable, but the stem is broken for a single-answer MCQ.",
+    "defective": true,
+    "shippedAnswer": ["D"],
+    "agreement": "defective"
+  },
+  {
+    "id": "knpc2021-q042",
+    "myAnswer": ["Two different keys hash to the same index/bucket in the table"],
+    "confidence": 0.95,
+    "derivation": "Collision = distinct keys map to the same slot under the hash function; resolved by chaining or open addressing.",
+    "defective": false,
+    "shippedAnswer": ["When two keys map to the same value"],
+    "agreement": "agree"
+  }
+]

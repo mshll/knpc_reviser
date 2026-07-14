@@ -1,0 +1,882 @@
+[
+  {
+    "id": "bank-a-q061",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Lansdale and Baguley (2008) argue that memory dilution occurs because",
+    "options": [
+      {
+        "label": "A",
+        "text": "long-term memory capacity is limited",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "the number of null traces decreases",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "memories become indistinct from similar memories",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "the memory becomes less temporally distinctive",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "fdb07a36f8d24835a9ed0c3850bab3fb414def29"
+  },
+  {
+    "id": "bank-a-q062",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which element was NOT found to alter accounts of the ‘War of the Ghosts’ story?",
+    "options": [
+      {
+        "label": "A",
+        "text": "rationalizations",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "distortions",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "omissions",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "intrusions",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "dd02dc2851928b58dfdaa6a52011634320e3a674"
+  },
+  {
+    "id": "bank-a-q063",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "The study of how the ‘War of the Ghosts’ story accounts became altered at recall was carried out by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bartlett (1932)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Godden and Baddeley (1975)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Postman and Phillips (1965)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Eysenck (1979)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "46fd7f0bae4b31eb497a510cc2372a8aba3aff1c"
+  },
+  {
+    "id": "bank-a-q064",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Eyewitness testimonies are an example of what kind of memory experiment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "intentional learning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "context-dependent learning",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "incidental learning",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "cue-dependent learning",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "3c22bf104f0f0f9e9ac5d8f4854141364bb11fd0"
+  },
+  {
+    "id": "bank-a-q065",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which key academic is involved in the study of memory as a reconstructive process?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A. Baddeley",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "H. Eysenck",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "G. Hitch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "E. Loftus",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8b486e03fc628eb23cdcf32ec214090528d8c9c8"
+  },
+  {
+    "id": "bank-a-q066",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "The accuracy of eyewitness testimonies can be improved with",
+    "options": [
+      {
+        "label": "A",
+        "text": "recovered memories",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "cognitive interviews",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "noise reduction",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "neurofeedback",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ec01e696c385bec21d020db283420fe9a8b24473"
+  },
+  {
+    "id": "bank-a-q067",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "What can help improve the accuracy of eye witness testimonies?",
+    "options": [
+      {
+        "label": "A",
+        "text": "serial position",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "context reinstatement",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "mnemonics",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "distributed practice",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7e46a3ff2c46c7419899f2c099aa81666a282b34"
+  },
+  {
+    "id": "bank-a-q068",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Memory can be improved when information to be learnt is",
+    "options": [
+      {
+        "label": "A",
+        "text": "organized",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "written",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "spoken",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "elaborated",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0491718c03daf3529df9911cdc686efebd7519fa"
+  },
+  {
+    "id": "bank-a-q069",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which is a good method of revision:",
+    "options": [
+      {
+        "label": "A",
+        "text": "intense sessions",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "spaced learning",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "1 hour on/1 hour off",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "late night sessions",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "off_syllabus"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "20a1885be329ba47a7ddd146238c047c9978a63f"
+  },
+  {
+    "id": "bank-a-q070",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-addressing",
+    "stem": "How many address bits are needed to select all memory locations in the 2118 16K × 1 RAM?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "14",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d4ed9570597160138a51e57869d5f9313d11c158"
+  },
+  {
+    "id": "bank-a-q071",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom-testing",
+    "stem": "The check sum method of testing a ROM:",
+    "options": [
+      {
+        "label": "A",
+        "text": "indicates if the data in more than one memory location is incorrect.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "provides a means for locating and correcting data errors in specific memory locations.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "allows data errors to be pinpointed to a specific memory location.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "simply indicates that the contents of the ROM are incorrect.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9bc5110ac9005c17c11d18ae6d208f838ce8b36e"
+  },
+  {
+    "id": "bank-a-q072",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram-timing",
+    "stem": "Refer to the given figures (a) and (b). A logic analyzer is used to check the circuit in figure (a) and displays the waveforms shown in figure (b). The actual analyzer display shows all four data outputs, Q0-Q3. The analyzer's cursor is placed at position X and all four of the data output lines show a Low-level output. What is wrong, if anything, with the circuit?",
+    "stemFigure": "/figures/bank-a-q072.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nothing is wrong, according to the display. The outputs are in the open state and should show zero output voltage.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The circuit is in the READ mode and the outputs, Q0-Q3, should reflect the contents of the memory at that address. The chip is defective; replace the chip.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The circuit is in the      mode and should be writing the contents of the selected address to Q0–Q3.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "The Q0–Q3 lines can be either LOW or HIGH, since the chip is in the tristate mode in which case their level is unpredictable.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "212cbc457cf7ff54562c1db5dc8cf337becd3443"
+  },
+  {
+    "id": "bank-a-q073",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "What is the meaning of RAM, and what is its primary role?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Readily Available Memory; it is the first level of memory used by the computer in all of its operations.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Random Access Memory; it is memory that can be reached by any sub-system within a computer, and at any time.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Random Access Memory; it is the memory used for short-term temporary data storage within the computer.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Resettable Automatic Memory; it is memory that can be used and then automatically reset, or cleared, after being read from or written to.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e399e52afad22e0cbbb119f758e30ecf2ba76ce8"
+  },
+  {
+    "id": "bank-a-q074",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "sram",
+    "stem": "The storage element for a static RAM is the ________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "diode",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "resistor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "capacitor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "flip-flop",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4f67ba25b6ec9bdeb91ceb97f94d07b4193c9b3c"
+  },
+  {
+    "id": "bank-a-q075",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "dram",
+    "stem": "In a DRAM, what is the state of R/W during a read operation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "High",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Hi-Z",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "89d975147e49a86864a5b73f0537f262cb0fc818"
+  },
+  {
+    "id": "bank-a-q076",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "bus-contention",
+    "stem": "The condition occurring when two or more devices try to write data to a bus simultaneously is called ________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "address decoding",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "bus contention",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "bus collisions",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "address multiplexing",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d0adca10916267fa39c20a604239b624da1857cf"
+  },
+  {
+    "id": "bank-a-q077",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-addressing",
+    "stem": "For the given circuit, what memory location is being addressed?",
+    "stemFigure": "/figures/bank-a-q077.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "10111",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "249",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "157",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2ba096bb8da7cf93890b9c2b9327582b67833ef0"
+  },
+  {
+    "id": "bank-a-q079",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM is an example of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secondary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Primary memory",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Main memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Both (a) and (b)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "1d0c927af39670436795939f5cb5e872437efe14"
+  },
+  {
+    "id": "bank-a-q080",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "A command that takes what has been typed into the computer and can be seen on the screen and sends it to the printer for output on paper______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "print",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "return",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "jump",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "attention",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b1020f012c577908998f3df899bce8c2738b675f"
+  },
+  {
+    "id": "bank-a-q081",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM stands for :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read Access Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Random Access Memory",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Random Assigned Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4c9f83b9d9fea0b94528fadf41a85a0fd0d611be"
+  }
+]

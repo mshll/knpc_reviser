@@ -1,0 +1,36 @@
+- generic [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - button "End quiz" [ref=f10e7] [cursor=pointer]
+        - generic [ref=f10e11]:
+          - text: "2"
+          - generic [ref=f10e12]: / 5
+        - generic "Time elapsed" [ref=f10e13]: 00:52
+        - button "Open question map" [ref=f10e16] [cursor=pointer]
+      - main [ref=f10e21]:
+        - article [ref=f10e63]:
+          - generic [ref=f10e64]:
+            - generic [ref=f10e65]: Programming
+            - generic [ref=f10e66]: KNPC 2021
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f10e67] [cursor=pointer]:
+              - generic [ref=f10e68]: Answer unverified
+          - generic [ref=f10e71]:
+            - heading "What is value of count?" [level=2] [ref=f10e72]
+            - code [ref=f10e74]: "int count = 0; for(count = 1; count<10;count++) { } cout << count << endl;"
+          - radiogroup "Options" [ref=f10e75]:
+            - radio "1" [ref=f10e76] [cursor=pointer]:
+              - generic [ref=f10e77]: A
+            - radio "10" [ref=f10e80] [cursor=pointer]:
+              - generic [ref=f10e81]: B
+            - radio "0" [ref=f10e84] [cursor=pointer]:
+              - generic [ref=f10e85]: C
+            - radio "9" [ref=f10e88] [cursor=pointer]:
+              - generic [ref=f10e89]: D
+      - generic [ref=f10e37]:
+        - button "Previous question" [ref=f10e92] [cursor=pointer]
+        - button "Skip" [ref=f10e95] [cursor=pointer]
+        - button "Next" [active] [ref=f10e60] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f10e40]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dbbank-q020",
+    "verdict": "ok",
+    "explanation": "A report generator takes data from the database and formats it for printed or on-screen output. Updating files is done by DML or a data entry form, and data entry is the operator's job, so neither is a report generator's function."
+  },
+  {
+    "id": "dbbank-q021",
+    "verdict": "ok",
+    "explanation": "Related fields grouped together form one record (for example the title, artist and year fields of one album). Going one level up, related records grouped together form a data file, which is why option A is a level too high."
+  },
+  {
+    "id": "dbbank-q022",
+    "verdict": "ok",
+    "explanation": "DROP is the SQL DDL verb for removing a schema object, so DROP FUNCTION removes a stored function. The trap is DELETE, which is DML and removes rows from a table; it cannot remove the function itself. REMOVE and ERASE are not SQL keywords."
+  },
+  {
+    "id": "dbbank-q023",
+    "verdict": "ok",
+    "explanation": "SELECT DISTINCT is the standard SQL clause that collapses duplicate rows so each distinct set of values is returned once. SELECT UNIQUE is only a legacy Oracle synonym and is not standard SQL, which is why 'All of the above' is wrong."
+  },
+  {
+    "id": "dbbank-q024",
+    "verdict": "ok",
+    "explanation": "ALTER TRIGGER trigger_name ENABLE / DISABLE is the command that turns an individual trigger on or off. ALTER TABLE can enable or disable all triggers on a table at once in some dialects, but it is not the command that targets a trigger, and MODIFY TRIGGER does not exist."
+  },
+  {
+    "id": "dbbank-q025",
+    "verdict": "ok",
+    "explanation": "Modifying a database means changing the stored data: insertion, deletion and updating. Sorting only changes the order in which rows are presented in a result set; the stored data is untouched, so it is not a modification."
+  },
+  {
+    "id": "dbbank-q026",
+    "verdict": "ok",
+    "explanation": "DROP TABLE removes the relation itself - its rows, its structure and its definition in the schema. The classic trap is DELETE, which only removes rows and leaves the empty table in place; ALTER changes a table's structure but never removes it, and ERASE is not SQL at all."
+  },
+  {
+    "id": "dbbank-q027",
+    "verdict": "ok",
+    "explanation": "Referential integrity constrains the CHILD table: every non-null foreign-key value must already exist as a primary-key value in the referenced parent table, so a foreign key can never point at a row that does not exist. The reversed option (every primary key must match a foreign key) is the trap - a parent row is perfectly legal with no children referencing it."
+  },
+  {
+    "id": "dbbank-q028",
+    "verdict": "ok",
+    "explanation": "ALTER INDEX is the real SQL command for changing an existing index's properties, including its future storage allocation (e.g. ALTER INDEX ... STORAGE / REBUILD in Oracle). REDEFINE INDEX, MODIFY INDEX and DO INDEX are invented names and are not SQL commands."
+  },
+  {
+    "id": "dbbank-q029",
+    "verdict": "ok",
+    "explanation": "Data integrity is defined as the correctness (accuracy, validity) and completeness of the data held in the database. The distractors are adjacent but distinct: security is about controlling who may access data, a constraint is one of the mechanisms used to enforce integrity, and data independence is about insulating applications from schema changes."
+  },
+  {
+    "id": "dbbank-q030",
+    "verdict": "ok",
+    "explanation": "DML is the sub-language for working with the data itself: SELECT retrieves, INSERT adds, UPDATE changes and DELETE removes rows. Retrieval, insertion and deletion are all DML operations, so \"All of the above\" is correct; the trap is picking a single one and confusing DML with DDL (CREATE/ALTER/DROP), which acts on structure, not data."
+  }
+]

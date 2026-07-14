@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bank-a-q061",
+    "explanation": "Answer unverified: the key says D, but this is disputed. In Lansdale and Baguley's (2008) model retrieval is organised temporally and the trace population is diluted over time by null traces, so an old target loses its temporal distinctiveness, which supports D. The trap is C: 'indistinct from similar memories' is the older similarity-based interference account that their model is meant to replace, and it is a defensible reading of the word 'dilution', so C cannot be ruled out from the stem alone. Learn D as the exam answer."
+  },
+  {
+    "id": "bank-a-q062",
+    "explanation": "Answer unverified: the key says C (omissions), but Bartlett (1932) explicitly reported omissions in War of the Ghosts recalls, along with rationalisations and distortions, so C looks inverted. The option that does not belong to Bartlett's list is arguably D (intrusions), a term from the later DRM false-memory paradigm. Reviewers split three ways with no majority. Memorise the printed key C if you must, but know the item is defective."
+  },
+  {
+    "id": "bank-a-q063",
+    "explanation": "The 'War of the Ghosts' study is Frederic Bartlett (1932), Remembering, the classic demonstration that recall is reconstructive and shaped by schemas. Godden and Baddeley (1975) is the diver study on context-dependent memory, a common distractor here."
+  },
+  {
+    "id": "bank-a-q064",
+    "explanation": "Witnesses do not know in advance that they will be tested, so they never intend to memorise the event. Learning without intent to learn is incidental learning; intentional learning (A) is the trap, since it describes a lab participant deliberately told to memorise a list."
+  },
+  {
+    "id": "bank-a-q065",
+    "explanation": "Elizabeth Loftus is the name attached to reconstructive memory and the misinformation effect (leading questions altering what witnesses 'remember'). Baddeley and Hitch are the working-memory model, not reconstruction."
+  },
+  {
+    "id": "bank-a-q066",
+    "explanation": "The cognitive interview (Fisher and Geiselman) is the standard evidence-based technique for improving eyewitness accuracy: report everything, reinstate context, change order, change perspective. Recovered memories (A) are the opposite, they are associated with false memory, not accuracy."
+  },
+  {
+    "id": "bank-a-q067",
+    "explanation": "Context reinstatement, mentally putting yourself back at the scene, is a core component of the cognitive interview and reliably boosts recall by restoring retrieval cues. Mnemonics and distributed practice are study techniques for deliberate learning, not tools for recovering an unrehearsed witnessed event."
+  },
+  {
+    "id": "bank-a-q068",
+    "explanation": "Organising material (hierarchies, categories) gives recall a retrieval structure and reliably improves memory. Note the item is weak: elaboration (D) is also a genuine memory booster, so both A and D are defensible; the key is A."
+  },
+  {
+    "id": "bank-a-q069",
+    "explanation": "Spaced (distributed) learning beats massed cramming: the same total study time split across separated sessions produces markedly better long-term retention. Intense single sessions and late-night cramming are the classic wrong answers."
+  },
+  {
+    "id": "bank-a-q070",
+    "explanation": "16K = 16 x 1024 = 16384 locations, and 16384 = 2^14, so 14 address bits are needed. The trap is 16, which comes from reading the '16' in '16K' rather than computing the power of two."
+  },
+  {
+    "id": "bank-a-q071",
+    "explanation": "A checksum sums the ROM's contents and compares the total against a stored expected value, so a mismatch tells you only that something in the ROM is wrong. It cannot say which location failed and cannot correct it, and it can even miss errors that cancel out in the sum."
+  },
+  {
+    "id": "bank-a-q072",
+    "explanation": "At cursor X the timing diagram has the RAM in write mode with its three-state outputs disabled, so Q0-Q3 are in the open (high-impedance) state and the analyzer reads them as zero volts, i.e. LOW. Nothing is broken. Choice B is the trap: it assumes the chip is in READ mode, which the control lines at X do not show."
+  },
+  {
+    "id": "bank-a-q073",
+    "explanation": "RAM is Random Access Memory: volatile read/write memory used as the computer's short-term working store for the code and data currently in use. B is the trap, 'random access' refers to the ability to reach any address in constant time, not to which sub-systems may access it."
+  },
+  {
+    "id": "bank-a-q074",
+    "explanation": "A static RAM cell stores its bit in a latch (flip-flop), which holds state as long as power is applied and needs no refresh. The capacitor is the DRAM storage element, and its charge leaks away, which is exactly why DRAM must be refreshed."
+  },
+  {
+    "id": "bank-a-q075",
+    "explanation": "The line is R/W-bar: HIGH selects read, LOW selects write (the bar applies to the write half). So during a read it is HIGH. LOW is the trap for anyone who forgets the active-low convention on the W."
+  },
+  {
+    "id": "bank-a-q076",
+    "explanation": "Two or more devices driving the same bus lines at the same time is bus contention; it is prevented by three-state outputs and address decoding that enable only one driver at a time. Address decoding and multiplexing are the mechanisms that avoid the problem, not names for it."
+  },
+  {
+    "id": "bank-a-q077",
+    "explanation": "The address lines in the figure give A7..A0 = 11111001. Decoded as row/column: rows from A4-A0 = 11001 = 25 and columns from A7-A5 = 111 = 7, so the location is 7 x 32 + 25 = 249, which is just binary 11111001 read as a decimal number."
+  },
+  {
+    "id": "bank-a-q079",
+    "explanation": "Answer unverified: this item is broken as printed. 'Primary memory' (B) and 'main memory' (C) are synonyms, so RAM is equally an example of both, and D as printed ('Both (a) and (b)') is false because RAM is not secondary storage. The original almost certainly had D = 'Both (b) and (c)' as the key. The fact to hold: RAM is primary/main memory, not secondary storage."
+  },
+  {
+    "id": "bank-a-q080",
+    "explanation": "Straight definition item: the print command sends what is on screen or typed to the printer for output on paper. No reasoning behind it."
+  },
+  {
+    "id": "bank-a-q081",
+    "explanation": "RAM stands for Random Access Memory, meaning any address can be reached in roughly the same time regardless of its position. 'Read Access Memory' is the invented distractor."
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "id": "mock2018-q020",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "time-complexity",
+    "stem": "In context with time-complexity, find the odd out –",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deletion from Linked List.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Searching in Hash Table.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Adding edge in Adjacency Matrix.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Heapify a Binary Heap.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Binary heap heapify operation has time-complexity of O(n), while other operations have time-complexity of O(1) only.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "d4c9c82ece2b457779b023e9a6bbfcf878f5b53b",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q021",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "Shell sort uses",
+    "options": [
+      {
+        "label": "A",
+        "text": "insertion sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Merge sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Selection sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Quick sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Shell sort uses insertion sort when interval value is 1.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 21
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "97dec64a250efa7c502d05345ad61a20f9df545a",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q022",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "spanning-trees",
+    "stem": "All possible spanning trees of graph G",
+    "options": [
+      {
+        "label": "A",
+        "text": "Have same number of edges and vertices.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Have same number of edges and but not vertices.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Have same number of vertices but not edges.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Depends upon algorithm being used.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Review Spanning Trees.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 22
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "3fe25f0a64e86c7279c723899f3ab919c2828606",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q023",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "recursion",
+    "stem": "Which of the following algorithm cannot be designed without recursion –",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tower of Hanoi.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Fibonacci Series.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Tree Traversal.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Every problem which can be solved using recursion can also be solved using iterations.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 23
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "e3b067dd9704e8c6264edef1049a3b89f451e77c",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q024",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search",
+    "stem": "What is the worst-case run-time complexity of binary search algorithm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n log(n))",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(n³)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(n)",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "In the worst case, binary search will be left or right intended, making it compare all the n values.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 24
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "6035bacbe9765c4b32f7b4b610cd4b0b7bda8562",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q025",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "dynamic-programming",
+    "stem": "Which of the following uses memorization?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greedy approach.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Divide and conquer approach.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Dynamic programming approach.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above!",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Remembering the results of previously calculated solutions is called memoization.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 25
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "57b6f8329c0c385abd2cf00e44e028febd6f07e3",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q027",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "heaps",
+    "stem": "Heap is an example of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Complete binary tree.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Spanning tree.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Sparse tree.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Binary search tree.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A heap is a complete binary tree with the following ordering property: The value of every parent node is greater than or equal to the values of either of its daughter nodes.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 27
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "c05ccff60dc0b8b4b4de1e26fdfc9e0aad235470",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q028",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "shortest-path",
+    "stem": "What do we use Dijkstra algorithm for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find the number of vertices there are in a given graph.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Find the shortest path between two vertices on a weighted graph.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Find the number of edges there are in a given graph.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Find the path between a single node, on a weighted graph, to all other nodes in the graph.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Read about Dijkstra.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 28
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "e5c89ae1a6d7720427e203c73f1cc8d511a07bdf",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q029",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "boolean-algebra",
+    "stem": "Which of the following Boolean equations describes the action of Fig. 2.5.2?",
+    "stemFigure": "/figures/mock2018-q029.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "X = (A̅ ̅•̅ ̅B̅) + (B • C)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "X = (A • B) • (B + C)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "X = (A̅ • B̅) + (B • C)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "X = (A̅ ̅•̅ ̅B̅) + C",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Review Synthesis of Digital Circuits.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 29
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "cdd4ae1226e820b2eee12b6ddb3bb196ac33ff2f",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q030",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "truth-tables",
+    "stem": "Which of the following Boolean equations describes the truth table in Fig. 2.5.4?",
+    "stemFigure": "/figures/mock2018-q030.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "X = A + B",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "X = A • (A + B)",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "X = (A • B̅) + B",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "X = A + B̅",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Review Sum-of-Products basics.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 30
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "f364e75f6524322d799f696d55c7c138813d3f7a",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q031",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "What is the Boolean expression that can be obtained for the Karnaugh map cell indicated in Fig. 2.5.7?",
+    "stemFigure": "/figures/mock2018-q031.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "A̅ • B̅ • C • D",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A • B̅ • C̅ • D",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A • B̅ • C • D̅",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "A̅ • B̅ • C̅ • D",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Review K-Map basics.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 31
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "2d318341c1f6902d9e991e31fdd4bb4e0c1aa289",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q032",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "Refer to Fig. 2.5.7 (above). What is the minimum number of cell groups that can be obtained from the Karnaugh map using logic 1 cells only?",
+    "stemFigure": "/figures/mock2018-q032.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two groups.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Three groups.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Four groups.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Five groups.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Review K-Map basics.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 32
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "56929694fe3f769a275c66c615b7b674040f243e",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q033",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "Which logic function does the circuit in Fig. 2.5.6 perform?",
+    "stemFigure": "/figures/mock2018-q033.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "NAND",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "NOR",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "XOR",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "XNOR",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Review Synthesis of Digital Circuits.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 33
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "388736d8638d76cf5c19ab13e840480785785a56",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q034",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "combinational-circuits",
+    "stem": "What type of circuit is illustrated in to Fig 4.5.1?",
+    "stemFigure": "/figures/mock2018-q034.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Full Adder.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Demultiplexer.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Selector.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Equality Comparator.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Data Selector is the same as a Multiplexer",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 34
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "e53797e2a2338a6e018079ddd678c73598190c0a",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q035",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "propagation-delay",
+    "stem": "The time required for a gate or inverter to change its state is called:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rise time.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Decay time.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Charging time.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Propagation time.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Rise time: for a pulse to change from 10 to 90 percent of its maximum value.\nDecay time: for a pulse to decrease from 90 to 10 per cent of its maximum value.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 35
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "d894f63fc9e8acc8723b3facd3f120858f200d82",
+    "keyVerified": true,
+    "needsReview": false
+  }
+]

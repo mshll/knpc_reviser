@@ -1,0 +1,80 @@
+[
+  {
+    "id": "knpc2016-q106",
+    "verdict": "ok",
+    "explanation": "== is a reference (identity) comparison: it asks whether two variables hold the same address, and for primitives whether the raw values match. .equals() compares content according to the override in the class. Classic trap: new String(\"ab\") == new String(\"ab\") is false because they are two objects, while .equals() on them is true."
+  },
+  {
+    "id": "knpc2016-q107",
+    "verdict": "ok",
+    "explanation": "NAND is NOT(AND), so the output is low only when the AND condition is satisfied, i.e. both inputs are 1: 1 NAND 1 = 0. Inputs 00, 01 and 10 all give an AND of 0, so the inverted output is 1 (high)."
+  },
+  {
+    "id": "knpc2016-q108",
+    "verdict": "ok",
+    "explanation": "Algorithm efficiency is measured on two axes: time complexity (how many operations as a function of input size) and space complexity (how much extra memory). Processor and memory are the hardware resources, not the measures of the algorithm itself."
+  },
+  {
+    "id": "knpc2016-q109",
+    "verdict": "ok",
+    "explanation": "The question asks which statement is FALSE. In C++, cin is an object of the class istream, tied to standard input; it is not itself a class, so C reverses the relationship and is the false statement. A, B and D are all true descriptions of cin."
+  },
+  {
+    "id": "knpc2016-q110",
+    "verdict": "ok",
+    "explanation": "Constructors can be overloaded freely, so a class may declare any number of them as long as each has a distinct parameter signature. If you write none at all, the compiler supplies a default constructor, so the count is never actually forced to be 0, 1 or 2."
+  },
+  {
+    "id": "knpc2016-q111",
+    "verdict": "ok",
+    "explanation": "A schema is the complete logical description of a database, so it covers all three: the data elements (fields and their types), the records and files they are grouped into, and the relationships between records. Hence 'all of the above'."
+  },
+  {
+    "id": "knpc2016-q112",
+    "verdict": "ok",
+    "explanation": "Boehm's spiral model is the risk-driven process model: every loop of the spiral contains an explicit risk-analysis quadrant where prototypes are built to retire the biggest risks before committing to the next increment. Waterfall is strictly sequential with no risk loop, and agile and rapid prototyping manage change and requirements rather than risk analysis as such."
+  },
+  {
+    "id": "knpc2016-q113",
+    "verdict": "ok",
+    "explanation": "DDCMP is byte-count (character-oriented): a count field in the header states the data length, so the receiver can find message boundaries in software with no special framing hardware. SDLC is bit-oriented and relies on hardware detection of the flag pattern 01111110 plus bit de-stuffing to locate the start of a message. D is wrong because SDLC does use CRC."
+  },
+  {
+    "id": "knpc2016-q016",
+    "verdict": "rewritten",
+    "explanation": "The keyed text describes data-flow (define-use) testing: each variable is traced from the point where it is declared or assigned to every point where it is used or modified, looking for anomalies such as use-before-define or define-then-never-use. Do not confuse it with control-flow testing, which exercises branches and paths rather than variable lifetimes. Only the correct answer survived in the recalled paper, so treat this as a recall card.",
+    "issue": "Old text opened with 'Answer unverified' and then repeated the same no-distractor caveat a second time; padded to five sentences with filler ('the intended discrimination is lost'). Content kept, condensed, and the control-flow contrast added so the term is actually pinned down."
+  },
+  {
+    "id": "knpc2016-q018",
+    "verdict": "rewritten",
+    "explanation": "The key reads 'datagram' as the UDP user datagram, which is the transport-layer PDU. Be aware that most textbooks (Forouzan, Kurose, Tanenbaum) call the network-layer IP PDU a datagram, so 'Network' is the more common answer to this stem and the question is genuinely ambiguous. Learn both: IP datagram at layer 3, UDP datagram at layer 4; no distractors survived, so treat this as a recall card.",
+    "issue": "Not a wrong key, but a genuinely ambiguous stem: the dominant textbook convention makes 'datagram' the network-layer PDU. Old text said this over five sentences with the no-distractor caveat stated twice; condensed while keeping the warning intact."
+  },
+  {
+    "id": "knpc2016-q022",
+    "verdict": "ok",
+    "explanation": "A binary tree is a binary search tree when the ordering invariant holds at every node: every key in the left subtree is less than the node's key and every key in the right subtree is greater. This must hold for the whole subtree, not just the immediate children, which is the classic trap. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card."
+  },
+  {
+    "id": "knpc2016-q023",
+    "verdict": "ok",
+    "explanation": "Solve for host bits: you need 510 usable hosts, and usable hosts = 2^h - 2, so 2^h - 2 = 510 gives 2^h = 512, h = 9 host bits. Prefix = 32 - 9 = /23, and a /23 mask is 255.255.254.0. The trap is forgetting the minus 2 for the network and broadcast addresses, which would push you to /24 (254 hosts, too few). Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card."
+  },
+  {
+    "id": "knpc2016-q024",
+    "verdict": "ok",
+    "explanation": "Layer 1, the Physical layer, is defined as the layer that transmits an unstructured raw bit stream over the physical medium: voltages, light pulses, radio signals, connectors, and timing. Framing those bits into structured units is the Data Link layer's job, not the Physical layer's. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card."
+  },
+  {
+    "id": "knpc2016-q025",
+    "verdict": "ok",
+    "explanation": "An exception in Java is an event thrown while the program is running that disrupts the normal flow of execution, for example ArithmeticException or NullPointerException. Problems the compiler catches, such as a syntax or type error, are compile-time errors, not exceptions. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card."
+  },
+  {
+    "id": "knpc2016-q028",
+    "verdict": "rewritten",
+    "explanation": "Ping sends an ICMP echo request to the gateway address; a reply proves the host reached it at both the link layer (ARP resolved) and the IP layer (mask and default-gateway setting correct). A missing reply usually means a wrong gateway address, a wrong mask, or a dead link, though ICMP can also be filtered. No distractors survived in the recalled paper, so treat this as a recall card.",
+    "issue": "Old text stated the same no-distractor caveat twice in consecutive sentences. Condensed and added what a failed ping actually implies, which is the useful half of the mechanism."
+  }
+]

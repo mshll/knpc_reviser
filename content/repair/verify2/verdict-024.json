@@ -1,0 +1,101 @@
+[
+  {
+    "id": "dbbank-q020",
+    "myAnswer": ["B"],
+    "confidence": 0.82,
+    "derivation": "A report generator formats stored data into a printed/on-screen report; it does not update files (DML/forms) nor perform data entry.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q021",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "Data hierarchy: bit -> character -> field -> record -> file. Related fields group to form a record; related records form a file.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q022",
+    "myAnswer": ["C"],
+    "confidence": 0.98,
+    "derivation": "DROP is the DDL verb that removes schema objects; DROP FUNCTION removes a stored function. DELETE is DML (rows only); REMOVE/ERASE are not SQL.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q023",
+    "myAnswer": ["A"],
+    "confidence": 0.92,
+    "derivation": "SELECT DISTINCT is the standard SQL duplicate-collapsing clause. SELECT UNIQUE is only a legacy Oracle synonym and SELECT DIFFERENT does not exist, so 'All of the above' is false.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q024",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "ALTER TRIGGER <name> ENABLE|DISABLE is the command targeting an individual trigger. MODIFY TRIGGER does not exist; ALTER DATABASE/TABLE do not target a trigger.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q025",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "Modification of the database = insertion, deletion, updating (they change stored data). Sorting only orders a result set and changes nothing stored.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q026",
+    "myAnswer": ["B"],
+    "confidence": 0.98,
+    "derivation": "A relation = the table itself. DROP TABLE removes rows, structure and schema definition; DELETE removes only rows, ALTER only changes structure, ERASE is not SQL.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q027",
+    "myAnswer": ["C"],
+    "confidence": 0.97,
+    "derivation": "Referential integrity constrains the child table: every non-null foreign-key value must match an existing primary-key value in the referenced parent. The reverse direction is not required (a parent row may have no children).",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q028",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "ALTER INDEX is the only real SQL command among the options; it changes an existing index's properties including future storage allocation (ALTER INDEX ... STORAGE / REBUILD).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q029",
+    "myAnswer": ["B"],
+    "confidence": 0.92,
+    "derivation": "Data integrity is defined as the correctness/accuracy and completeness of stored data. Security = access control; a constraint is an enforcement mechanism; independence = insulation from schema change.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q030",
+    "myAnswer": ["D"],
+    "confidence": 0.95,
+    "derivation": "DML = SELECT/INSERT/UPDATE/DELETE, so retrieval, insertion and deletion are all DML capabilities -> All of the above.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

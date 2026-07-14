@@ -1,0 +1,78 @@
+[
+  {
+    "id": "koc2012-q074",
+    "verdict": "ok",
+    "explanation": "The CPU consists of the ALU (which computes) and the control unit (which fetches and decodes instructions and directs the other units), plus registers. Main memory is the trap: it is external to the CPU and sits on the other side of the bus, so any option containing 'Memory' is wrong."
+  },
+  {
+    "id": "koc2012-q075",
+    "verdict": "ok",
+    "explanation": "The CPU is the component that fetches instructions from memory and executes them. The accumulator and registers are sub-parts inside the CPU, so they are too narrow to be the component that 'executes programs'."
+  },
+  {
+    "id": "koc2012-q076",
+    "verdict": "ok",
+    "explanation": "A byte is 8 bits, so a 16-bit word is 16 / 8 = 2 bytes. The trap is answering '16 bytes' by copying the number out of the stem without converting bits to bytes."
+  },
+  {
+    "id": "koc2012-q077",
+    "verdict": "ok",
+    "explanation": "SRAM stands for Static RAM, that is static memory. It is called static because it holds its contents for as long as power is applied, with no refresh cycle, unlike DRAM (Dynamic RAM) which must be refreshed continuously."
+  },
+  {
+    "id": "koc2012-q078",
+    "verdict": "ok",
+    "explanation": "The three major components of the CPU are the arithmetic (logic) unit, the control unit and the registers. The I/O unit handles communication with peripherals and lives outside the CPU, so it is the one that does not belong."
+  },
+  {
+    "id": "koc2012-q079",
+    "verdict": "ok",
+    "explanation": "Mbps means megabits per second, with a lowercase b for bits. Mega Bytes per second is the classic trap: a byte is 8 bits, so MB/s is 8 times larger than Mb/s. Network link speeds are quoted in bits per second by convention."
+  },
+  {
+    "id": "koc2012-q080",
+    "verdict": "ok",
+    "explanation": "The hard disk is storage and I/O: it affects how fast programs load and how fast files are read, but not the speed of computing itself. CPU clock speed and memory speed and size both directly determine how fast instructions are executed, so they do affect computing speed."
+  },
+  {
+    "id": "koc2012-q081",
+    "verdict": "ok",
+    "explanation": "1 TB / 1 GB = 1024 (binary) or 1000 (decimal), and dividing bytes by bytes cancels the units, so the result is a plain number, not a quantity of bytes. Every listed option is labelled 'Bytes', so all three are wrong on units and the answer is 'None of the above'. The trap is picking '1000 Bytes' because 1000 looks like the right magnitude."
+  },
+  {
+    "id": "koc2012-q083",
+    "verdict": "ok",
+    "explanation": "WAN stands for Wide Area Network, a network spanning a large geographic area (a city, country or the globe), as opposed to a LAN (Local Area Network) confined to one site or building."
+  },
+  {
+    "id": "koc2012-q084",
+    "verdict": "ok",
+    "explanation": "GUI stands for Graphical User Interface: the windows, icons, menus and pointer style of interaction, as opposed to a command line interface (CLI)."
+  },
+  {
+    "id": "koc2012-q085",
+    "verdict": "ok",
+    "explanation": "The C shell (csh) is a real UNIX shell, alongside the Bourne shell (sh), Korn shell (ksh) and Bash. There is no 'D shell' or 'A shell', so 'All of the above' cannot be right."
+  },
+  {
+    "id": "koc2012-q086",
+    "verdict": "ok",
+    "explanation": "ANSI is the American National Standards Institute, the US body behind standards like ANSI C and ASCII. Option A is the intended expansion even though the printed wording drops the 's' in 'Standards'."
+  },
+  {
+    "id": "koc2012-q087",
+    "verdict": "rewritten",
+    "explanation": "There are 4 + 6 = 10 marbles and 4 of them are red, so P(red) = 4/10 = 0.4. The 1/10 distractor is the chance of drawing one specific named marble, and 1/4 comes from misreading the 4 red marbles as 1 chance in 4 rather than 4 out of 10.",
+    "issue": "The marked answer C (4/10) is correct and the arithmetic was right, but the distractor rationale was fabricated: it called 1/4 'the red-to-blue ratio confusion', and the red-to-blue ratio is 4/6 = 2/3, not 1/4. Replaced with an accurate account of where each distractor comes from."
+  },
+  {
+    "id": "koc2012-q088",
+    "verdict": "ok",
+    "explanation": "SQL (Structured Query Language) is the standard language for reading and modifying relational data via SELECT, INSERT, UPDATE and DELETE. XML is a data markup format, not a query language, and C++ is general purpose."
+  },
+  {
+    "id": "koc2012-q089",
+    "verdict": "ok",
+    "explanation": "Normalization decomposes tables through the normal forms (1NF, 2NF, 3NF) to eliminate redundancy and update anomalies, so a query returns one unambiguous result. Data modeling is the broader design activity, and Query by Example is a query interface, not an organizing process."
+  }
+]

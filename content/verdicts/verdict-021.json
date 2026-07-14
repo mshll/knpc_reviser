@@ -1,0 +1,162 @@
+[
+  {
+    "id": "code-q024",
+    "blindAnswer": ["64 subnets, 2 usable hosts per subnet"],
+    "confidence": 0.95,
+    "reason": "198.x = Class C -> default /24; 255.255.255.252 = /30 -> 6 borrowed bits = 2^6 = 64 subnets; 2 host bits -> 2^2-2 = 2 hosts.",
+    "sourceAnswer": ["2^6 = 64 subnets, each with 2^2 - 2 = 2 hosts."],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q001",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "Retaining data without power is the definition of non-volatile storage.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q002",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "Permanent start-up memory that survives power off is ROM (BIOS/firmware); RAM is volatile.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q003",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "DRAM stores bits in leaky capacitors and must be periodically refreshed; SRAM/ROM/EPROM do not.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q004",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "USB flash drive is secondary (auxiliary) storage, not primary/main memory; 'Axillary' is a misspelling and Secondary is the standard term.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q005",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Standard data hierarchy: character -> field -> record -> file -> database; D wrongly puts Record before Field.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q006",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Floppy, tape and network drive can all serve as backup targets -> All of the above.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q007",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "4 bits = half a byte = nibble.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q008",
+    "blindAnswer": ["A"],
+    "confidence": 0.85,
+    "reason": "Main memory (RAM) is internal/primary memory, as opposed to external/auxiliary secondary storage.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q009",
+    "blindAnswer": [],
+    "confidence": 0.0,
+    "reason": "unanswerable - stem is garbled ('contents of memory into blocks of the same size'); the concept it points at is paging/frames, and none of ROM/EPROM/EEPROM/All-of-above is a correct answer.",
+    "sourceAnswer": [],
+    "agreement": "unsolvable"
+  },
+  {
+    "id": "bank-a-q010",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Permanent built-in memory = ROM; CD-ROM is removable media, not built in.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q011",
+    "blindAnswer": ["A"],
+    "confidence": 0.5,
+    "reason": "A plain CD (CD-ROM) is a read-only medium; genuinely ambiguous since CD-R/CD-RW are writable, so 'read and write' is defensible.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q012",
+    "blindAnswer": ["D"],
+    "confidence": 0.6,
+    "reason": "RAM is the main (primary) memory; 'internal' is also true, so the item has two defensible options but 'main' is the intended term.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q013",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Permanent memory built into the computer is ROM.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q014",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Tape must be wound past intervening data, i.e. sequential access, so random recall is slow.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q015",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Core memory retains state without power (non-volatile); it is bulkier, costlier, and its reads ARE destructive (requiring rewrite), which rules out A, B and C.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q016",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Magnetic hard disks retain data without power -> non-volatile; 'Flash' describes SSDs, not HDDs.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q017",
+    "blindAnswer": ["C"],
+    "confidence": 0.4,
+    "reason": "Flash is non-volatile electrically-erasable ROM-family memory, so ROM is the best of the readable options; option E ('E REM') is garbled and may be intended as EEPROM, which would be the better answer. No source key.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "bank-a-q018",
+    "blindAnswer": ["A"],
+    "confidence": 0.93,
+    "reason": "Unchangeable start-up instructions (bootstrap/BIOS) live in ROM.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q019",
+    "blindAnswer": ["A"],
+    "confidence": 0.5,
+    "reason": "Flash memory is commonly called flash RAM in this question-bank tradition, though 'flash ROM' is arguably more accurate (flash is an EEPROM variant) - the item is ambiguous.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

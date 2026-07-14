@@ -1,0 +1,580 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - main [ref=f3e3]:
+      - generic [ref=f3e182]:
+        - link "History" [ref=f3e184] [cursor=pointer]:
+          - /url: /history
+        - region "Attempt score" [ref=f3e187]:
+          - generic [ref=f3e188]:
+            - paragraph [ref=f3e189]: Practice, 14 Jul 2026, 21:54
+            - paragraph [ref=f3e190]:
+              - text: "1"
+              - generic [ref=f3e191]: /20
+            - paragraph [ref=f3e192]: 5% correct in 2m 26s
+          - generic [ref=f3e193]:
+            - generic [ref=f3e194]: 1 correct
+            - generic [ref=f3e197]: 1 wrong
+            - generic [ref=f3e200]: 18 skipped
+          - generic [ref=f3e203]:
+            - link "Drill the 1 question I got wrong" [ref=f3e204] [cursor=pointer]:
+              - /url: /quiz?mode=drill&ids=mock2018-q048
+            - link "Start another quiz" [ref=f3e205] [cursor=pointer]:
+              - /url: /quiz
+        - separator
+        - region "Score by topic" [ref=f3e206]:
+          - heading "By topic" [level=2] [ref=f3e207]
+          - list [ref=f3e208]:
+            - listitem [ref=f3e209]:
+              - generic [ref=f3e210]:
+                - generic [ref=f3e211]: Software Engineering
+                - generic [ref=f3e212]: 0/1
+              - 'generic "Software Engineering: 0 of 1 correct" [ref=f3e213]':
+                - progressbar
+            - listitem [ref=f3e214]:
+              - generic [ref=f3e215]:
+                - generic [ref=f3e216]: Cloud Computing
+                - generic [ref=f3e217]: 0/2
+              - 'generic "Cloud Computing: 0 of 2 correct" [ref=f3e218]':
+                - progressbar
+              - generic [ref=f3e219]: 2 questions skipped
+            - listitem [ref=f3e220]:
+              - generic [ref=f3e221]:
+                - generic [ref=f3e222]: Computer Architecture
+                - generic [ref=f3e223]: 0/2
+              - 'generic "Computer Architecture: 0 of 2 correct" [ref=f3e224]':
+                - progressbar
+              - generic [ref=f3e225]: 2 questions skipped
+            - listitem [ref=f3e226]:
+              - generic [ref=f3e227]:
+                - generic [ref=f3e228]: Data Structures and Algorithms
+                - generic [ref=f3e229]: 0/2
+              - 'generic "Data Structures and Algorithms: 0 of 2 correct" [ref=f3e230]':
+                - progressbar
+              - generic [ref=f3e231]: 2 questions skipped
+            - listitem [ref=f3e232]:
+              - generic [ref=f3e233]:
+                - generic [ref=f3e234]: Networking
+                - generic [ref=f3e235]: 0/6
+              - 'generic "Networking: 0 of 6 correct" [ref=f3e236]':
+                - progressbar
+              - generic [ref=f3e237]: 6 questions skipped
+            - listitem [ref=f3e238]:
+              - generic [ref=f3e239]:
+                - generic [ref=f3e240]: Databases
+                - generic [ref=f3e241]: 0/3
+              - 'generic "Databases: 0 of 3 correct" [ref=f3e242]':
+                - progressbar
+              - generic [ref=f3e243]: 3 questions skipped
+            - listitem [ref=f3e244]:
+              - generic [ref=f3e245]:
+                - generic [ref=f3e246]: Digital Logic
+                - generic [ref=f3e247]: 0/1
+              - 'generic "Digital Logic: 0 of 1 correct" [ref=f3e248]':
+                - progressbar
+              - generic [ref=f3e249]: 1 question skipped
+            - listitem [ref=f3e250]:
+              - generic [ref=f3e251]:
+                - generic [ref=f3e252]: Number Systems
+                - generic [ref=f3e253]: 0/1
+              - 'generic "Number Systems: 0 of 1 correct" [ref=f3e254]':
+                - progressbar
+              - generic [ref=f3e255]: 1 question skipped
+            - listitem [ref=f3e256]:
+              - generic [ref=f3e257]:
+                - generic [ref=f3e258]: Programming
+                - generic [ref=f3e259]: 1/2
+              - 'generic "Programming: 1 of 2 correct" [ref=f3e260]':
+                - progressbar [ref=f3e261]
+              - generic [ref=f3e262]: 1 question skipped
+        - separator
+        - region "Question review" [ref=f3e263]:
+          - heading "Review" [level=2] [ref=f3e264]
+          - generic [ref=f3e265]:
+            - tablist [ref=f3e266]:
+              - tab "All (20)" [selected] [ref=f3e267] [cursor=pointer]
+              - tab "Wrong (1)" [ref=f3e268] [cursor=pointer]
+              - tab "Skipped (18)" [ref=f3e269] [cursor=pointer]
+            - tabpanel "All (20)" [ref=f3e271]:
+              - list [ref=f3e272]:
+                - listitem [ref=f3e273]:
+                  - generic [ref=f3e274]:
+                    - generic [ref=f3e275]: Question 1 of 20
+                    - generic [ref=f3e276]:
+                      - generic [ref=f3e277]: 1m 25s
+                      - generic [ref=f3e278]: Wrong
+                  - article [ref=f3e281]:
+                    - generic [ref=f3e282]:
+                      - generic [ref=f3e283]: Software Engineering
+                      - generic [ref=f3e284]: Mock exam 2018
+                    - heading "In UML diagrams, relationship between object and component parts is represented by" [level=2] [ref=f3e286]
+                    - radiogroup "Options" [ref=f3e287]:
+                      - radio "Increment." [disabled] [ref=f3e288]:
+                        - generic [ref=f3e289]: A
+                      - radio "Segregation. Your answer, incorrect" [checked] [disabled] [ref=f3e292]:
+                        - generic [ref=f3e296]: Segregation.
+                        - img "Your answer, incorrect" [ref=f3e299]
+                      - radio "Aggregation. Correct answer" [disabled] [ref=f3e301]:
+                        - generic [ref=f3e305]: Aggregation.
+                        - img "Correct answer" [ref=f3e308]
+                      - radio "Ordination." [disabled] [ref=f3e310]:
+                        - generic [ref=f3e311]: D
+                    - generic [ref=f3e314]:
+                      - generic [ref=f3e315]: Model answer (from the paper)
+                      - paragraph [ref=f3e316]: Review and Study UML Diagrams.
+                - listitem [ref=f3e317]:
+                  - generic [ref=f3e318]:
+                    - generic [ref=f3e319]: Question 2 of 20
+                    - generic [ref=f3e320]: Skipped
+                  - article [ref=f3e324]:
+                    - generic [ref=f3e325]:
+                      - generic [ref=f3e326]: Cloud Computing
+                      - generic [ref=f3e327]: Question bank
+                    - heading "Hybrid cloud is a combination of:" [level=2] [ref=f3e329]
+                    - radiogroup "Options" [ref=f3e330]:
+                      - radio "On-premise only" [disabled] [ref=f3e331]:
+                        - generic [ref=f3e332]: A
+                      - radio "SaaS and PaaS" [disabled] [ref=f3e335]:
+                        - generic [ref=f3e336]: B
+                      - radio "IaaS and SaaS" [disabled] [ref=f3e339]:
+                        - generic [ref=f3e340]: C
+                      - radio "Public and Private cloud Correct answer" [disabled] [ref=f3e343]:
+                        - generic [ref=f3e347]: Public and Private cloud
+                        - img "Correct answer" [ref=f3e350]
+                    - generic [ref=f3e352]:
+                      - generic [ref=f3e353]: AI-generated explanation
+                      - paragraph [ref=f3e356]: "Hybrid cloud is a deployment model that combines a private cloud (or on-premise infrastructure) with a public cloud, letting an organisation keep sensitive workloads in-house while bursting to public capacity. The trap is options A and C, which mix up deployment models with service models: SaaS, PaaS and IaaS are service models and never combine to form a hybrid cloud."
+                - listitem [ref=f3e357]:
+                  - generic [ref=f3e358]:
+                    - generic [ref=f3e359]: Question 3 of 20
+                    - generic [ref=f3e360]: Skipped
+                  - article [ref=f3e364]:
+                    - generic [ref=f3e365]:
+                      - generic [ref=f3e366]: Computer Architecture
+                      - generic [ref=f3e367]: KOC 2012
+                    - heading "Which of the following is not one of the 3 major components of the CPU?" [level=2] [ref=f3e369]
+                    - radiogroup "Options" [ref=f3e370]:
+                      - radio "The arithmetic unit" [disabled] [ref=f3e371]:
+                        - generic [ref=f3e372]: A
+                      - radio "The I/O unit Correct answer" [disabled] [ref=f3e375]:
+                        - generic [ref=f3e379]: The I/O unit
+                        - img "Correct answer" [ref=f3e382]
+                      - radio "The control unit" [disabled] [ref=f3e384]:
+                        - generic [ref=f3e385]: C
+                    - generic [ref=f3e388]:
+                      - generic [ref=f3e389]: AI-generated explanation
+                      - paragraph [ref=f3e392]: The three major components of the CPU are the arithmetic (logic) unit, the control unit and the registers. The I/O unit handles communication with peripherals and lives outside the CPU, so it is the one that does not belong.
+                - listitem [ref=f3e393]:
+                  - generic [ref=f3e394]:
+                    - generic [ref=f3e395]: Question 4 of 20
+                    - generic [ref=f3e396]: Skipped
+                  - article [ref=f3e400]:
+                    - generic [ref=f3e401]:
+                      - generic [ref=f3e402]: Data Structures and Algorithms
+                      - generic [ref=f3e403]: Mock exam 2018
+                    - heading "What is a hash table?" [level=2] [ref=f3e405]
+                    - radiogroup "Options" [ref=f3e406]:
+                      - radio "A structure that maps values to keys." [disabled] [ref=f3e407]:
+                        - generic [ref=f3e408]: A
+                      - radio "A structure used to implement stack and queue." [disabled] [ref=f3e411]:
+                        - generic [ref=f3e412]: B
+                      - radio "A structure used for storage." [disabled] [ref=f3e415]:
+                        - generic [ref=f3e416]: C
+                      - radio "A structure that maps keys to values. Correct answer" [disabled] [ref=f3e419]:
+                        - generic [ref=f3e423]: A structure that maps keys to values.
+                        - img "Correct answer" [ref=f3e426]
+                    - generic [ref=f3e428]:
+                      - generic [ref=f3e429]: Model answer (from the paper)
+                      - paragraph [ref=f3e430]: A hash table is used to implement an associative array, which has a key-value pair. So, the hash table maps keys to values.
+                - listitem [ref=f3e431]:
+                  - generic [ref=f3e432]:
+                    - generic [ref=f3e433]: Question 5 of 20
+                    - generic [ref=f3e434]: Skipped
+                  - article [ref=f3e438]:
+                    - generic [ref=f3e439]:
+                      - generic [ref=f3e440]: Networking
+                      - generic [ref=f3e441]: Question bank
+                    - heading "Your company has just been assigned the network 198.23.16.0. How many subnets and hosts-per-subnet you can create with a subnet mask of 255.255.255.252?" [level=2] [ref=f3e443]
+                    - generic [ref=f3e444]:
+                      - generic [ref=f3e445]:
+                        - generic [ref=f3e446]:
+                          - generic [ref=f3e447]: Your answer
+                          - generic [ref=f3e448]: You left this blank.
+                        - generic [ref=f3e449]:
+                          - generic [ref=f3e450]: Model answer
+                          - generic [ref=f3e451]: 2^6 = 64 subnets, each with 2^2 - 2 = 2 hosts.
+                      - generic [ref=f3e452]:
+                        - generic [ref=f3e453]: Mark it yourself. Free text is never auto-graded.
+                        - generic [ref=f3e454]:
+                          - button "I got it" [ref=f3e455] [cursor=pointer]
+                          - button "I missed it" [ref=f3e458] [cursor=pointer]
+                    - generic [ref=f3e461]:
+                      - generic [ref=f3e462]: AI-generated explanation
+                      - paragraph [ref=f3e465]: 198.23.16.0 has first octet 198, which is in 192-223, so it is Class C with a default mask of /24 (24 network bits). The given mask 255.255.255.252 has last octet 1111 1100 = /30, so borrowed bits = 30 - 24 = 6, giving 2^6 = 64 subnets. Host bits = 32 - 30 = 2, so 2^2 - 2 = 2 usable hosts per subnet (the classic point-to-point /30). The trap is forgetting the -2 for the network and broadcast addresses, which would give 4 hosts.
+                      - link "Reference" [ref=f3e466] [cursor=pointer]:
+                        - /url: http://www.9tut.com/subnetting-tutorial
+                - listitem [ref=f3e469]:
+                  - generic [ref=f3e470]:
+                    - generic [ref=f3e471]: Question 6 of 20
+                    - generic [ref=f3e472]: Skipped
+                  - article [ref=f3e476]:
+                    - generic [ref=f3e477]:
+                      - generic [ref=f3e478]: Data Structures and Algorithms
+                      - generic [ref=f3e479]: KNPC 2016
+                    - heading "a binary tree is a search tree when" [level=2] [ref=f3e481]
+                    - generic [ref=f3e482]:
+                      - generic [ref=f3e483]:
+                        - generic [ref=f3e484]:
+                          - generic [ref=f3e485]: Your answer
+                          - generic [ref=f3e486]: You left this blank.
+                        - generic [ref=f3e487]:
+                          - generic [ref=f3e488]: Model answer
+                          - generic [ref=f3e489]: Left children are smaller than the parent and the right children are bigger than the parent
+                      - generic [ref=f3e490]:
+                        - generic [ref=f3e491]: Mark it yourself. Free text is never auto-graded.
+                        - generic [ref=f3e492]:
+                          - button "I got it" [ref=f3e493] [cursor=pointer]
+                          - button "I missed it" [ref=f3e496] [cursor=pointer]
+                    - generic [ref=f3e499]:
+                      - generic [ref=f3e500]: AI-generated explanation
+                      - paragraph [ref=f3e503]: "A binary tree is a binary search tree when the ordering invariant holds at every node: every key in the left subtree is less than the node's key and every key in the right subtree is greater. This must hold for the whole subtree, not just the immediate children, which is the classic trap. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card."
+                - listitem [ref=f3e504]:
+                  - generic [ref=f3e505]:
+                    - generic [ref=f3e506]: Question 7 of 20
+                    - generic [ref=f3e507]: Skipped
+                  - article [ref=f3e511]:
+                    - generic [ref=f3e512]:
+                      - generic [ref=f3e513]: Networking
+                      - generic [ref=f3e514]: Mock exam 2018
+                    - heading "What is the throughput of simple/pure ALOHA?" [level=2] [ref=f3e516]
+                    - radiogroup "Options" [ref=f3e517]:
+                      - radio "18.8 %" [disabled] [ref=f3e518]:
+                        - generic [ref=f3e519]: A
+                      - radio "18 % Correct answer" [disabled] [ref=f3e522]:
+                        - generic [ref=f3e526]: 18 %
+                        - img "Correct answer" [ref=f3e529]
+                      - radio "36.8 %" [disabled] [ref=f3e531]:
+                        - generic [ref=f3e532]: C
+                      - radio "36 %" [disabled] [ref=f3e535]:
+                        - generic [ref=f3e536]: D
+                    - generic [ref=f3e539]:
+                      - generic [ref=f3e540]: Model answer (from the paper)
+                      - paragraph [ref=f3e541]: Pure ALOHA is 18.4%. Slotted ALOHA is 36.8%. Please review and Study AMAT.
+                - listitem [ref=f3e542]:
+                  - generic [ref=f3e543]:
+                    - generic [ref=f3e544]: Question 8 of 20
+                    - generic [ref=f3e545]: Skipped
+                  - article [ref=f3e549]:
+                    - generic [ref=f3e550]:
+                      - generic [ref=f3e551]: Cloud Computing
+                      - generic [ref=f3e552]: Question bank
+                    - heading "Which of the following is NOT a characteristic of cloud computing?" [level=2] [ref=f3e554]
+                    - radiogroup "Options" [ref=f3e555]:
+                      - radio "On-demand self-service" [disabled] [ref=f3e556]:
+                        - generic [ref=f3e557]: A
+                      - radio "Resource pooling" [disabled] [ref=f3e560]:
+                        - generic [ref=f3e561]: B
+                      - radio "Broad network access" [disabled] [ref=f3e564]:
+                        - generic [ref=f3e565]: C
+                      - radio "Fixed capacity Correct answer" [disabled] [ref=f3e568]:
+                        - generic [ref=f3e572]: Fixed capacity
+                        - img "Correct answer" [ref=f3e575]
+                    - generic [ref=f3e577]:
+                      - generic [ref=f3e578]: AI-generated explanation
+                      - paragraph [ref=f3e581]: The NIST essential characteristics are on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service. Fixed capacity is the direct opposite of rapid elasticity, so C is the odd one out; A, B and D are all on the list verbatim.
+                - listitem [ref=f3e582]:
+                  - generic [ref=f3e583]:
+                    - generic [ref=f3e584]: Question 9 of 20
+                    - generic [ref=f3e585]: Skipped
+                  - article [ref=f3e589]:
+                    - generic [ref=f3e590]:
+                      - generic [ref=f3e591]: Networking
+                      - generic [ref=f3e592]: KNPC 2021
+                    - heading "which of the following is not a WiFi standard" [level=2] [ref=f3e594]
+                    - radiogroup "Options" [ref=f3e595]:
+                      - radio "802.16" [disabled] [ref=f3e596]:
+                        - generic [ref=f3e597]: A
+                      - radio "802.3 Correct answer" [disabled] [ref=f3e600]:
+                        - generic [ref=f3e604]: "802.3"
+                        - img "Correct answer" [ref=f3e607]
+                      - radio "802.11" [disabled] [ref=f3e609]:
+                        - generic [ref=f3e610]: C
+                      - radio "802.15" [disabled] [ref=f3e613]:
+                        - generic [ref=f3e614]: D
+                    - generic [ref=f3e617]:
+                      - generic [ref=f3e618]: AI-generated explanation
+                      - paragraph [ref=f3e621]: "IEEE 802.3 is wired Ethernet, so it is the intended odd one out; 802.11 is Wi-Fi itself, and 802.15 (Bluetooth/WPAN) and 802.16 (WiMAX) are at least wireless. Note the question is loosely worded: strictly speaking 802.15 and 802.16 are also not Wi-Fi, but 802.3 is the only non-wireless standard and is the keyed answer."
+                      - link "Reference" [ref=f3e622] [cursor=pointer]:
+                        - /url: https://www.techopedia.com/definition/19938/ieee-8023
+                - listitem [ref=f3e625]:
+                  - generic [ref=f3e626]:
+                    - generic [ref=f3e627]: Question 10 of 20
+                    - generic [ref=f3e628]: Skipped
+                  - article [ref=f3e632]:
+                    - generic [ref=f3e633]:
+                      - generic [ref=f3e634]: Networking
+                      - generic [ref=f3e635]: Question bank
+                    - heading "Which network device sends data to all devices connected to it, making it less efficient than a switch?" [level=2] [ref=f3e637]
+                    - radiogroup "Options" [ref=f3e638]:
+                      - radio "Gateway" [disabled] [ref=f3e639]:
+                        - generic [ref=f3e640]: A
+                      - radio "Bridge" [disabled] [ref=f3e643]:
+                        - generic [ref=f3e644]: B
+                      - radio "Hub Correct answer" [disabled] [ref=f3e647]:
+                        - generic [ref=f3e651]: Hub
+                        - img "Correct answer" [ref=f3e654]
+                      - radio "Router" [disabled] [ref=f3e656]:
+                        - generic [ref=f3e657]: D
+                    - generic [ref=f3e660]:
+                      - generic [ref=f3e661]: AI-generated explanation
+                      - paragraph [ref=f3e664]: A hub is a physical-layer repeater with no addressing logic, so any frame arriving on one port is flooded out every other port, wasting bandwidth and creating a single collision domain. A switch is the efficient alternative because it learns MAC addresses and forwards each frame only to the destination port.
+                - listitem [ref=f3e665]:
+                  - generic [ref=f3e666]:
+                    - generic [ref=f3e667]: Question 11 of 20
+                    - generic [ref=f3e668]: Skipped
+                  - article [ref=f3e672]:
+                    - generic [ref=f3e673]:
+                      - generic [ref=f3e674]: Computer Architecture
+                      - generic [ref=f3e675]: KNPC 2021
+                    - heading "Advantage of RISC processors" [level=2] [ref=f3e677]
+                    - radiogroup "Options" [ref=f3e678]:
+                      - radio "Simple instructions Correct answer" [disabled] [ref=f3e679]:
+                        - generic [ref=f3e683]: Simple instructions
+                        - img "Correct answer" [ref=f3e686]
+                      - radio "Can operate on memory operands" [disabled] [ref=f3e688]:
+                        - generic [ref=f3e689]: B
+                      - radio "Many instructions" [disabled] [ref=f3e692]:
+                        - generic [ref=f3e693]: C
+                    - generic [ref=f3e696]:
+                      - generic [ref=f3e697]: AI-generated explanation
+                      - paragraph [ref=f3e700]: "RISC is defined by a small set of simple, fixed-length instructions that mostly execute in one cycle, which is what makes deep pipelining and hardwired control possible. Options B and C describe CISC: a large instruction set with instructions that can operate directly on memory operands. In RISC only load and store touch memory (load/store architecture); everything else works on registers."
+                - listitem [ref=f3e701]:
+                  - generic [ref=f3e702]:
+                    - generic [ref=f3e703]: Question 12 of 20
+                    - generic [ref=f3e704]: Skipped
+                  - article [ref=f3e708]:
+                    - generic [ref=f3e709]:
+                      - generic [ref=f3e710]: Databases
+                      - generic [ref=f3e711]: Question bank
+                    - heading "____________ refers to the correctness and completeness of the data in a database?" [level=2] [ref=f3e713]
+                    - radiogroup "Options" [ref=f3e714]:
+                      - radio "Data integrity Correct answer" [disabled] [ref=f3e715]:
+                        - generic [ref=f3e719]: Data integrity
+                        - img "Correct answer" [ref=f3e722]
+                      - radio "Data security" [disabled] [ref=f3e724]:
+                        - generic [ref=f3e725]: B
+                      - radio "Data independence" [disabled] [ref=f3e728]:
+                        - generic [ref=f3e729]: C
+                      - radio "Data constraint" [disabled] [ref=f3e732]:
+                        - generic [ref=f3e733]: D
+                    - generic [ref=f3e736]:
+                      - generic [ref=f3e737]: AI-generated explanation
+                      - paragraph [ref=f3e740]: "Data integrity is defined as the correctness (accuracy, validity) and completeness of the data held in the database. The distractors are adjacent but distinct: security is about controlling who may access data, a constraint is one of the mechanisms used to enforce integrity, and data independence is about insulating applications from schema changes."
+                - listitem [ref=f3e741]:
+                  - generic [ref=f3e742]:
+                    - generic [ref=f3e743]: Question 13 of 20
+                    - generic [ref=f3e744]: Skipped
+                  - article [ref=f3e748]:
+                    - generic [ref=f3e749]:
+                      - generic [ref=f3e750]: Programming
+                      - generic [ref=f3e751]: KNPC 2016
+                    - heading "Which of the following is false about cin?" [level=2] [ref=f3e753]
+                    - radiogroup "Options" [ref=f3e754]:
+                      - radio "It is a class of which stream is an object Correct answer" [disabled] [ref=f3e755]:
+                        - generic [ref=f3e759]: It is a class of which stream is an object
+                        - img "Correct answer" [ref=f3e762]
+                      - radio "It is an object of stream class" [disabled] [ref=f3e764]:
+                        - generic [ref=f3e765]: B
+                      - radio "It represents a standard input" [disabled] [ref=f3e768]:
+                        - generic [ref=f3e769]: C
+                      - radio "Using cin the data can be read from user terminal" [disabled] [ref=f3e772]:
+                        - generic [ref=f3e773]: D
+                    - generic [ref=f3e776]:
+                      - generic [ref=f3e777]: AI-generated explanation
+                      - paragraph [ref=f3e780]: The question asks which statement is FALSE. In C++, cin is an object of the class istream, tied to standard input; it is not itself a class, so C reverses the relationship and is the false statement. A, B and D are all true descriptions of cin.
+                - listitem [ref=f3e781]:
+                  - generic [ref=f3e782]:
+                    - generic [ref=f3e783]: Question 14 of 20
+                    - generic [ref=f3e784]: Skipped
+                  - article [ref=f3e788]:
+                    - generic [ref=f3e789]:
+                      - generic [ref=f3e790]: Networking
+                      - generic [ref=f3e791]: KNPC 2021
+                    - heading "ARP is it all 1's or 0's?" [level=2] [ref=f3e793]
+                    - generic [ref=f3e794]:
+                      - generic [ref=f3e795]:
+                        - generic [ref=f3e796]:
+                          - generic [ref=f3e797]: Your answer
+                          - generic [ref=f3e798]: You left this blank.
+                        - generic [ref=f3e799]:
+                          - generic [ref=f3e800]: Model answer
+                          - generic [ref=f3e801]: All 1’s
+                      - generic [ref=f3e802]:
+                        - generic [ref=f3e803]: Mark it yourself. Free text is never auto-graded.
+                        - generic [ref=f3e804]:
+                          - button "I got it" [ref=f3e805] [cursor=pointer]
+                          - button "I missed it" [ref=f3e808] [cursor=pointer]
+                    - generic [ref=f3e811]:
+                      - generic [ref=f3e812]: AI-generated explanation
+                      - paragraph [ref=f3e815]: "An ARP request is broadcast on the LAN, so the Ethernet destination MAC is FF:FF:FF:FF:FF:FF, which is all 1's, and that is the intended answer. The stem is loose: inside the ARP payload the target hardware address field is filled with all 0's precisely because it is the unknown being asked for. Rule of thumb: the frame's destination is all 1's (broadcast), the unknown field being queried is all 0's."
+                      - link "Reference" [ref=f3e816] [cursor=pointer]:
+                        - /url: http://www.cs.newpaltz.edu/~easwaran/CCN/Week13/ARP.pdf
+                - listitem [ref=f3e819]:
+                  - generic [ref=f3e820]:
+                    - generic [ref=f3e821]: Question 15 of 20
+                    - generic [ref=f3e822]: Skipped
+                  - article [ref=f3e826]:
+                    - generic [ref=f3e827]:
+                      - generic [ref=f3e828]: Databases
+                      - generic [ref=f3e829]: Question bank
+                    - heading "Related fields in a data base are grouped to form" [level=2] [ref=f3e831]
+                    - radiogroup "Options" [ref=f3e832]:
+                      - radio "Data file" [disabled] [ref=f3e833]:
+                        - generic [ref=f3e834]: A
+                      - radio "Data record Correct answer" [disabled] [ref=f3e837]:
+                        - generic [ref=f3e841]: Data record
+                        - img "Correct answer" [ref=f3e844]
+                      - radio "Bank" [disabled] [ref=f3e846]:
+                        - generic [ref=f3e847]: C
+                      - radio "Menu" [disabled] [ref=f3e850]:
+                        - generic [ref=f3e851]: D
+                    - generic [ref=f3e854]:
+                      - generic [ref=f3e855]: AI-generated explanation
+                      - paragraph [ref=f3e858]: Related fields grouped together form one record (for example the title, artist and year fields of one album). Going one level up, related records grouped together form a data file, which is why option A is a level too high.
+                - listitem [ref=f3e859]:
+                  - generic [ref=f3e860]:
+                    - generic [ref=f3e861]: Question 16 of 20
+                    - generic [ref=f3e862]: Skipped
+                  - article [ref=f3e866]:
+                    - generic [ref=f3e867]:
+                      - generic [ref=f3e868]: Digital Logic
+                      - generic [ref=f3e869]: KNPC 2021
+                    - generic [ref=f3e870]:
+                      - heading "Given this CMOS figure, which gate is it?" [level=2] [ref=f3e871]
+                      - button "Question figure. Tap to zoom." [ref=f3e872] [cursor=pointer]:
+                        - img "Question figure" [ref=f3e873]
+                    - radiogroup "Options" [ref=f3e877]:
+                      - radio "2 input NOR Correct answer" [disabled] [ref=f3e878]:
+                        - generic [ref=f3e882]: 2 input NOR
+                        - img "Correct answer" [ref=f3e885]
+                      - radio "2 input OR" [disabled] [ref=f3e887]:
+                        - generic [ref=f3e888]: B
+                      - radio "2 input AND" [disabled] [ref=f3e891]:
+                        - generic [ref=f3e892]: C
+                      - radio "2 input NAND" [disabled] [ref=f3e895]:
+                        - generic [ref=f3e896]: D
+                    - generic [ref=f3e899]:
+                      - generic [ref=f3e900]: AI-generated explanation
+                      - paragraph [ref=f3e903]: The figure shows the two PMOS transistors in series between Vdd and the output, and the two NMOS transistors in parallel to ground. Series pull-up with parallel pull-down means the output is high only when both inputs are low, which is NOR. NAND is the mirror image (parallel PMOS, series NMOS), and AND/OR are wrong because a single CMOS stage always inverts.
+                      - link "Reference" [ref=f3e904] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=601dZ7NYJf4&ab_channel=TutorialsPoint%28India%29Ltd.
+                - listitem [ref=f3e907]:
+                  - generic [ref=f3e908]:
+                    - generic [ref=f3e909]: Question 17 of 20
+                    - generic [ref=f3e910]: Skipped
+                  - article [ref=f3e914]:
+                    - generic [ref=f3e915]:
+                      - generic [ref=f3e916]: Networking
+                      - generic [ref=f3e917]: KOC 2012
+                    - heading "The IP address consists of two parts:" [level=2] [ref=f3e919]
+                    - radiogroup "Options" [ref=f3e920]:
+                      - radio "Gateway ID and Network ID" [disabled] [ref=f3e921]:
+                        - generic [ref=f3e922]: A
+                      - radio "Subnet ID and Network ID" [disabled] [ref=f3e925]:
+                        - generic [ref=f3e926]: B
+                      - radio "Network ID and Host ID Correct answer" [disabled] [ref=f3e929]:
+                        - generic [ref=f3e933]: Network ID and Host ID
+                        - img "Correct answer" [ref=f3e936]
+                      - radio "MAC Address ID and Host ID" [disabled] [ref=f3e938]:
+                        - generic [ref=f3e939]: D
+                    - generic [ref=f3e942]:
+                      - generic [ref=f3e943]: AI-generated explanation
+                      - paragraph [ref=f3e946]: The subnet mask splits an IP address into a network ID (which network the host is on) and a host ID (which machine on that network). The MAC address is a separate layer 2 identifier and is not part of the IP address.
+                - listitem [ref=f3e947]:
+                  - generic [ref=f3e948]:
+                    - generic [ref=f3e949]: Question 18 of 20
+                    - generic [ref=f3e950]: Skipped
+                  - article [ref=f3e954]:
+                    - generic [ref=f3e955]:
+                      - generic [ref=f3e956]: Number Systems
+                      - generic [ref=f3e957]: K-Companies 2016
+                    - generic [ref=f3e958]:
+                      - heading "Binary Numbers, what's the result and overflow of the following?" [level=2] [ref=f3e959]
+                      - code [ref=f3e961]: 1110 0000 + 1100 0000 --------------------------------
+                    - generic [ref=f3e962]:
+                      - generic [ref=f3e963]:
+                        - generic [ref=f3e964]:
+                          - generic [ref=f3e965]: Your answer
+                          - generic [ref=f3e966]: You left this blank.
+                        - generic [ref=f3e967]:
+                          - generic [ref=f3e968]: Model answer
+                          - generic [ref=f3e969]: 1 1010 0000
+                      - generic [ref=f3e970]:
+                        - generic [ref=f3e971]: Mark it yourself. Free text is never auto-graded.
+                        - generic [ref=f3e972]:
+                          - button "I got it" [ref=f3e973] [cursor=pointer]
+                          - button "I missed it" [ref=f3e976] [cursor=pointer]
+                    - generic [ref=f3e979]:
+                      - generic [ref=f3e980]: AI-generated explanation
+                      - paragraph [ref=f3e983]: 1110 0000 = 224 and 1100 0000 = 192, so 224 + 192 = 416 = 1 1010 0000. The 8-bit result is 1010 0000 with a 1 carried out of the MSB, which is the overflow bit the question is asking for. Note the carry-out signals unsigned overflow only; read as two's complement it is -32 + -64 = -96, which fits in 8 bits, so there is no signed overflow.
+                - listitem [ref=f3e984]:
+                  - generic [ref=f3e985]:
+                    - generic [ref=f3e986]: Question 19 of 20
+                    - generic [ref=f3e987]: Skipped
+                  - article [ref=f3e991]:
+                    - generic [ref=f3e992]:
+                      - generic [ref=f3e993]: Databases
+                      - generic [ref=f3e994]: KOC 2012
+                    - heading "Common File Organizations methods are:" [level=2] [ref=f3e996]
+                    - radiogroup "Options" [ref=f3e997]:
+                      - radio "1 and 2 Correct answer" [disabled] [ref=f3e998]:
+                        - generic [ref=f3e1002]: 1 and 2
+                        - img "Correct answer" [ref=f3e1005]
+                      - radio "Serial, Index Sequential, Random, Multi-key" [disabled] [ref=f3e1007]:
+                        - generic [ref=f3e1008]: B
+                      - radio "Multi-key, Random" [disabled] [ref=f3e1011]:
+                        - generic [ref=f3e1012]: C
+                      - radio "Sequential, Index Sequential" [disabled] [ref=f3e1015]:
+                        - generic [ref=f3e1016]: D
+                    - generic [ref=f3e1019]:
+                      - generic [ref=f3e1020]: AI-generated explanation
+                      - paragraph [ref=f3e1023]: "The four common file organization methods taught here are sequential, index-sequential, random (direct), and multi-key. Option A supplies the first two and option B the second two, so only 'D: 1 and 2' covers the full set. Option C is a decoy because it says 'serial' rather than 'sequential'."
+                - listitem [ref=f3e1024]:
+                  - generic [ref=f3e1025]:
+                    - generic [ref=f3e1026]: Question 20 of 20
+                    - generic [ref=f3e1027]:
+                      - generic [ref=f3e1028]: 1m 01s
+                      - generic [ref=f3e1029]: Correct
+                  - article [ref=f3e1032]:
+                    - generic [ref=f3e1033]:
+                      - generic [ref=f3e1034]: Programming
+                      - generic [ref=f3e1035]: KNPC 2016
+                    - heading "An exception in Java is" [level=2] [ref=f3e1037]
+                    - generic [ref=f3e1038]:
+                      - generic [ref=f3e1039]:
+                        - generic [ref=f3e1040]:
+                          - generic [ref=f3e1041]: Your answer
+                          - generic [ref=f3e1042]: You left this blank.
+                        - generic [ref=f3e1043]:
+                          - generic [ref=f3e1044]: Model answer
+                          - generic [ref=f3e1045]: an error in run time
+                      - generic [ref=f3e1046]:
+                        - generic [ref=f3e1047]: Mark it yourself. Free text is never auto-graded.
+                        - generic [ref=f3e1048]:
+                          - button "I got it" [ref=f3e1049] [cursor=pointer]
+                          - button "I missed it" [ref=f3e1052] [cursor=pointer]
+                    - generic [ref=f3e1055]:
+                      - generic [ref=f3e1056]: AI-generated explanation
+                      - paragraph [ref=f3e1059]: An exception in Java is an event thrown while the program is running that disrupts the normal flow of execution, for example ArithmeticException or NullPointerException. Problems the compiler catches, such as a syntax or type error, are compile-time errors, not exceptions. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.
+    - navigation "Primary" [ref=f3e1060]:
+      - generic [ref=f3e1061]:
+        - link "Home" [ref=f3e1062] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f3e1066] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f3e1070] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f3e1074] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e35]: KNPC Reviser

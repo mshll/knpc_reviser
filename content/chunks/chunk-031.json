@@ -1,0 +1,842 @@
+[
+  {
+    "id": "bank-a-q211",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ports",
+    "stem": "What is the port number for HTTP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "80",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "65",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d79f3095bf6153cebd269a3ba4c01d523ce7e2c2"
+  },
+  {
+    "id": "bank-a-q212",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "MAC addresses are also known as?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hardware address",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Physical address",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "both and b above",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "IP address",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "404e88425d519dd624de6fc6e418d5c692306307"
+  },
+  {
+    "id": "bank-a-q213",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "gateway",
+    "stem": "A network point that provides entrance into another network is called as ___________",
+    "options": [
+      {
+        "label": "A",
+        "text": "Node",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Gateway",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Switch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Router",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 21
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b5e77766314da5aba367f5c3e682e87a61b14f93"
+  },
+  {
+    "id": "bank-a-q214",
+    "type": "true_false",
+    "topic": "networking",
+    "subtopic": "udp",
+    "stem": "UDP is an unreliable protocol.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e167b7f89b5c5d0292233b978613b69326c88920"
+  },
+  {
+    "id": "bank-a-q215",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "sockets",
+    "stem": "A stream socket provides _________ communications between a client and a server",
+    "options": [
+      {
+        "label": "A",
+        "text": "One way",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Two way",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7a27825273ba160f642b9921312ed8c3c94db6cb"
+  },
+  {
+    "id": "bank-a-q216",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan",
+    "stem": "Token Ring is a data link technology for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WAN",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MAN",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "both a and b above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b0b6cfe916e4ff9a182b9f76613076cc489f1f87"
+  },
+  {
+    "id": "bank-a-q217",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "telnet",
+    "stem": "TELNET used _________ protocol for data connection",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "UDP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "IP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DHCP",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9c2c6215c9f2bebea32e688a41a9314e02f017e3"
+  },
+  {
+    "id": "bank-a-q218",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "url",
+    "stem": "What is the full form of URL?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uniform routing locator",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Uniform Resource Locator",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Universal Resource Locator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Uniform router locator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2d9e93edef2dc109480b528fbed98506b2bbce82"
+  },
+  {
+    "id": "bank-a-q219",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "The output Qn of of a J-K flip-flop is 0. It changes to 1 when a clock pulse is applied. The inputs Jn and Kn are respectively.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 and X",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "0 and X",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "X and 0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "X and 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c475c3696f4bf98ec2ca895187de0ccae9d17663"
+  },
+  {
+    "id": "bank-a-q220",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "The output Qn of a J-K (or S-R) flip-flop is 0. Its output does not change when a clock pulse is applied. The inputs Jn and Kn (or Sn-Rn) are respectively",
+    "options": [
+      {
+        "label": "A",
+        "text": "X and 0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "X and 1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 and X",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "0 and X",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "46f65c515e5d0ef6a33c416baba45ce21a5a98c6"
+  },
+  {
+    "id": "bank-b-q001",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "Which of the following retains the information it's storing when the power to the system is turned off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DIMM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "86d0bd075cdc7c3bd1791228bb0adab8fd25b964"
+  },
+  {
+    "id": "bank-b-q002",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan-wan",
+    "stem": "A network of computers and other devices that is confined to a relatively small space is called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wide Area Network",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Local Area Network",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Global Network",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Peer-to-Peer Network",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2bcc911b50391765f9fb75df6306395c97919d57"
+  },
+  {
+    "id": "bank-b-q003",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Every computer connected to the Internet is identified by a unique four-part string, known as",
+    "options": [
+      {
+        "label": "A",
+        "text": "IP address",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Host name",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Domain name",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e7a726f751924ca417f8a1d680ab47b5e922d7f6"
+  },
+  {
+    "id": "bank-b-q004",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "ENIAC was the first general-purpose electronic computer. ENIAC stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Electronic Network Interactive Analytic Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Electronic Numerical Integrator and Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Electronic Network Integrated Analytical Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Electronic Numerical Integrated Automatic Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "421bcf1f31aadd0355382197d7efe30e19281e8a"
+  },
+  {
+    "id": "bank-b-q005",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "Which of the following statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 KB = 1024 bytes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "1 MB=2048 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 MB = 1000 kilobytes",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 KB = 1000 bytes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e01efc8f9478775d984d1138ae0c77ca86cec67f"
+  },
+  {
+    "id": "bank-b-q007",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": ".PNG refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Image file",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Movie/animation file",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Audio file",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MS Office document",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b9ae6356b76352a2d838b8efe8ad01dca1e3b69a"
+  },
+  {
+    "id": "bank-b-q008",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "USB is a device used to store data and it stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unlimited Service Band",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Unlimited Serial Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Universal Serial Bus",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Universal Service Bus",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7e3771d851d429c937fe557a5317768076f8ff0e"
+  },
+  {
+    "id": "bank-b-q009",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "voip",
+    "stem": "_____ is a technology that allows telephone calls to be made over computer networks like the Internet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "VoIP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "GSM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CDMA",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d1d47f9a1ba31b91867016c087ac247023081630"
+  },
+  {
+    "id": "bank-b-q010",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "A program that runs in the background on your computer, sending information about your browsing habits to the company that installed it on your computer is called as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pop-ups",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Adware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Grayware",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Spyware",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "586cd69fca4ca7e1051080898abae65de708b686"
+  },
+  {
+    "id": "bank-b-q011",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "Software is a set of programs, which is designed to perform a well defined function and there are two types of software, application and system. The following are all application software except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Excel",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft Power Point",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Microsoft Windows",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5971a6cb8a32b4f53f82014a78e3adcb1478aea5"
+  }
+]

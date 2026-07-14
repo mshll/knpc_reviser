@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q061",
+    "blindAnswer": ["C"],
+    "confidence": 0.45,
+    "reason": "Lansdale & Baguley's 'dilute and disperse' account: forgetting arises because the target trace is diluted by accumulating competing traces, i.e. it becomes indistinguishable from similar memories; 'less temporally distinctive' is the rival SIMPLE/temporal-distinctiveness account.",
+    "sourceAnswer": ["D"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "bank-a-q062",
+    "blindAnswer": ["D"],
+    "confidence": 0.7,
+    "reason": "Bartlett's War of the Ghosts recalls showed omissions (story shortened), rationalisations and transformations/distortions; 'intrusions' (adding wholly new items, a DRM-paradigm term) is the one not among his reported alterations - omissions definitely WERE found, so the key looks inverted.",
+    "sourceAnswer": ["C"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "bank-a-q063",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "War of the Ghosts is Bartlett (1932), Remembering.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q064",
+    "blindAnswer": ["C"],
+    "confidence": 0.85,
+    "reason": "Witnesses had no intention to memorise the event, so eyewitness testimony is incidental learning.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q065",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "Elizabeth Loftus is the key figure for reconstructive memory / misinformation effect; Baddeley and Hitch are working-memory.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q066",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "The cognitive interview (Fisher & Geiselman) is the standard technique for improving eyewitness accuracy.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q067",
+    "blindAnswer": ["B"],
+    "confidence": 0.85,
+    "reason": "Context reinstatement (mentally reinstating the scene) is a core component of the cognitive interview and boosts recall.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q068",
+    "blindAnswer": ["A"],
+    "confidence": 0.5,
+    "reason": "Organisation of material improves recall (Bower's hierarchies); note elaboration (D) is also a genuine memory booster, so the item has two defensible options - the key's choice of 'organized' is acceptable but the item is weak.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q069",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Spaced/distributed practice beats massed cramming.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q070",
+    "blindAnswer": ["C"],
+    "confidence": 1.0,
+    "reason": "16K = 16384 = 2^14 locations, so 14 address bits.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q071",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "A checksum only detects that the ROM contents differ from expected; it cannot locate or correct the faulty location.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q072",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "From the timing diagram, at cursor X the R/W line is LOW (WRITE) and CS is LOW (enabled), so the RAM is writing and its three-state outputs are disabled - all-LOW Q0-Q3 is expected, nothing is wrong.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q073",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "RAM = Random Access Memory, volatile short-term/temporary working storage.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q074",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "SRAM cells are latches/flip-flops; capacitors are the DRAM storage element.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q075",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "R/W-bar is HIGH for read, LOW for write.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q076",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Two devices driving the same bus simultaneously is bus contention.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q077",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Figure gives A7..A0 = 1,1,1,1,1,0,0,1 -> row (A4-A0)=11001=25, column (A7-A5)=111=7, so 7*32+25 = 249 = binary 11111001.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q079",
+    "blindAnswer": ["B", "C"],
+    "confidence": 0.0,
+    "reason": "unanswerable: option B (primary memory) and option C (main memory) are synonyms and both true of RAM; the 'Both (a) and (b)' distractor points to an options-shuffling bug (original almost certainly had primary/main as (a)/(b)). Item needs editing.",
+    "sourceAnswer": ["B"],
+    "agreement": "unsolvable"
+  },
+  {
+    "id": "bank-a-q080",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "The print command sends screen/typed content to the printer.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q081",
+    "blindAnswer": ["B"],
+    "confidence": 1.0,
+    "reason": "RAM = Random Access Memory.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

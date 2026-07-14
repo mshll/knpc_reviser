@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mock2018-q025",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "Memoization (caching subproblem results) is the defining technique of dynamic programming.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q027",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "A binary heap is a complete binary tree satisfying the heap-order property; it is not a BST.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q028",
+    "blindAnswer": ["D"],
+    "confidence": 0.65,
+    "reason": "Dijkstra is single-source shortest path: from one node to all others. B is a partial/derived use, so D is the fuller description, though D's wording omits 'shortest'.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q029",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Figure: NAND(A,B) OR AND(B,C) => X = (A*B)' + (B*C); option A carries the bar over the whole A*B term, option C bars A and B separately.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q030",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Truth table gives X = A (00->0, 01->0, 10->1, 11->1); A*(A+B) = A by absorption.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q031",
+    "blindAnswer": ["B"],
+    "confidence": 0.92,
+    "reason": "Highlighted cell is column AB=10, row CD=01 => A=1,B=0,C=0,D=1 => A*B'*C'*D.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q032",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "Ones = m0,m1,m4,m6,m9,m10,m12,m14. m9 only pairs with m1, m10 only pairs with m14, m0 needs its own pair; minimal cover = BD' + B'C'D + ACD' + A'B'C' = 4 groups.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q033",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Classic four-NAND network: N=NAND(A,B), X=NAND(NAND(A,N),NAND(N,B)) = A XOR B.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q034",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "X = NAND(NAND(C,A),NAND(C',B)) = C*A + C'*B, a 2:1 multiplexer (data selector) with C as select.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q035",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Time for a gate/inverter to change output state is propagation delay; rise/decay times describe pulse edges.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q036",
+    "blindAnswer": ["B"],
+    "confidence": 0.93,
+    "reason": "Ripple-carry adder for n bits: half-adder for LSB, full adders for the other n-1 bits => 1 HA + 15 FA.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q037",
+    "blindAnswer": ["C"],
+    "confidence": 0.7,
+    "reason": "A demux routes one input to one of many outputs, and with a counter on the select lines it performs serial-to-parallel conversion; D describes a mux.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q038",
+    "blindAnswer": ["A"],
+    "confidence": 0.92,
+    "reason": "Pure ALOHA transmits whenever a frame is ready; slotted ALOHA must wait for the start of a time slot.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q039",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "ARP maps IP (internet layer) addresses to MAC (link layer) addresses.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q040",
+    "blindAnswer": ["D"],
+    "confidence": 0.65,
+    "reason": "Out-of-band control means control info carried on a separate connection from data: that is FTP (port 21 control / port 20 data). TCP carries its control in the segment headers of the same connection (in-band); its URG 'out-of-band data' is explicitly delivered in-band (RFC 6093), so E overreaches.",
+    "sourceAnswer": ["E"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "mock2018-q041",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "One record on each side of the relationship is by definition one-to-one.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q042",
+    "blindAnswer": ["D"],
+    "confidence": 0.92,
+    "reason": "Activity, use case, collaboration and sequence diagrams are all UML behavioral diagrams.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q043",
+    "blindAnswer": ["C"],
+    "confidence": 0.65,
+    "reason": "Collaboration/communication diagrams show object interactions via numbered series of messages; sequence diagrams are not offered as an option here.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q044",
+    "blindAnswer": ["A"],
+    "confidence": 0.93,
+    "reason": "Deployment diagrams map software artifacts (files, libraries, tables) onto the hardware topology.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q045",
+    "blindAnswer": ["B"],
+    "confidence": 0.75,
+    "reason": "Interaction diagrams (the general family, incl. sequence and collaboration) address the dynamic view of a system; sequence alone is too narrow.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

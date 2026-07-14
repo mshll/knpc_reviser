@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ce2016-q057",
+    "finalAnswer": ["C"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous 4/4 for C (11110111), and an EXTRACTION ERROR is confirmed: the pipeline recorded keyProvenance 'none', but a key does exist - '[CE] solutions.pdf' ('Model Answer', 2pp) was never joined to '[CE] questions.pdf'. The source-archaeologist rendered both. The printed paper (questions p.7, two-column layout) matches the shipped stem and options exactly, so the option extraction is clean. The printed key, row 57, reads literally 'B. 11110111' - the letter and the value CONTRADICT each other, since the paper's own option B is 11110110 and 11110111 is option C. The value is right and the letter is a slip of the pen, for three independent reasons: (1) arithmetic, executed by two judges: -9 & 0xFF = 11110111; decoding the ballot gives A = -119 (sign-magnitude of -9), B = -10 (the ONE'S complement of 9, i.e. you stopped before the +1 - the designed trap), C = -9 (unique match), D = -13 (noise); (2) the distractor set is purpose-built around 11110111 as the key, with B as the trap, so 'B' cannot be the intended answer without making the item unanswerable; (3) the same key writer's letters are correct on every neighbouring item checked against the printed paper (52 B, 53 A, 54 C, 55 C, 56 A, 58 B.Ring, 59 A, 61 C, 63 D), and Q58 in particular rules out any systematic row-wise misread of the two-column layout. All six on-disk copies of the two PDFs are byte-identical (md5), so no alternate option ordering exists. Key = C; the source key's VALUE agrees with us, only its letter is typo'd."
+  },
+  {
+    "id": "knpc2021-q022",
+    "finalAnswer": ["A"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous 4/4 for A (Class A), confidences 0.93-0.97. The source-archaeologist rendered PDF page 44 of 'KOC 2012 EXAM (2).pdf' (the KNPC 2021 recall doc sits at pp.39-50; the standalone copies are byte-identical) and confirmed the printed item is exactly the shipped stem and options, so the extraction is faithful. Crucially, that document DOES mark its answers - by bolding and underlining the correct option, often with a 'Reference:' URL (e.g. Q21's 'B. Data Link', Q43's 'D. All the above') - and Q22 has NO bolded option and no Reference line. So keyProvenance 'none' is honest: the compiler of the recall sheet simply never answered Q22, and nothing was lost in extraction. The item is nonetheless fully determined. Classful addressing is decided by the first octet alone: 100 = 01100100b, leading bit 0, so it falls in 1-126 = Class A. Rejections are hard: Class B needs 128-191 (10xxxxxx), Class C needs 192-223 (110xxxxx), Class D (multicast) needs 224-239 (1110xxxx); 100 is in none of them, and 100 is neither of the two carve-outs (0.x, 127.x loopback). The '.1.3.0' tail is a red herring - it invites a subnet/'/24 therefore Class C' misread, which is the intended miss. Exactly one option can be correct and it is A."
+  },
+  {
+    "id": "knpc2021-q046",
+    "finalAnswer": ["A function (also accepted: method, procedure, subroutine, routine) - a named, reusable block of code that performs one specific task and can be called from elsewhere."],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous 4/4 on 'function'. The source-archaeologist rendered PDF page 49 of 'KOC 2012 EXAM (2).pdf' and showed WHY the answerText is empty: 'Q46: Code that does a specific task is called?' is the very last line on the page with nothing beneath it, and page 50 is a different section entirely ('KNPC 2021 EXAM IMPORTANT TOPICS'), so this is not a deferred-answer mis-join - the recall document simply ends after the stem, and the same blank appears in the standalone copy. The empty answerText is a faithful reproduction of the paper, not a dropped field; there is no lost key to recover. The answer is not in doubt: the stem is a near-verbatim inversion of the textbook definition 'a function is a block of code that performs a specific task'. Candidates tested and rejected: 'module'/'library' (a grouping of many such tasks, not one specific task), 'program' (the whole thing), 'statement' (a single instruction), 'algorithm' (a procedure in the abstract, not code). 'Method' (a function bound to a class) and 'procedure'/'subroutine'/'routine' (Pascal/Fortran-era vocabulary) are synonyms at different granularity and MUST be marked correct; the source doc's own topics page emphasises C++, where 'function' is the term of art. The skeptic's alternative reading ('a program') is noted but loses on the wording: the stem says 'code that does a specific task', which is the function definition, not the program definition."
+  },
+  {
+    "id": "sample2-q010",
+    "finalAnswer": ["C"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous 4/4 for C (LAN), 0.94-0.96, AND an extraction error plus a genuine error in the paper's own key. Extraction: the pipeline reported 'no_answer_key', which is FALSE - 'Sample -2.pdf' page 3 prints a 'Question No | Answer' table directly under Q10 that the extractor dropped (its glyphs rasterise as tofu from a broken font map, which is likely why it was missed, but the text layer decodes cleanly and identically under both 'pdftotext -layout' and 'pdftotext -raw'). The printed key for Q10 is 'A'. WE OVERRIDE IT, and the override is not a close call: option A is WAN, so that key asserts a wide-area network covers a home or office, which is indefensible under any definition - a WAN spans cities and countries, and LAN is by definition the home/office/single-building network ('a network covering a small geographical area such as a room, a building or a compound' - the exact language used by the answer-page explanations of the sibling items bank-b-q059 and bank-c-q059 in this same corpus). Items 1-9 of that same key were checked against the paper and are all correct, so there is no off-by-one row shift; Q10 is an isolated mis-keyed cell. Distractor analysis: A (WAN) and B (MAN, city-scale) fail the 'small geographical area' predicate outright; D (PAN) is the planted trap via the word 'home', but a PAN is the ~10 m bubble around ONE person (Bluetooth/USB/IrDA) and cannot span an office. WARNING TO THE PIPELINE: if this item is ever regenerated from the source answer table it will re-import 'A' and teach a falsehood. The source key must stay overridden here."
+  },
+  {
+    "id": "sample1-q007",
+    "finalAnswer": ["D"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": false,
+    "addFlags": ["key_disputed"],
+    "panelReasoning": "DISPUTED - ships badged. All four judges answer D (Community Cloud), but every one of them sits at or below 0.78 confidence (0.78 / 0.78 / 0.75 / 0.55), and the source-archaeologist found that the paper DOES carry a key and it says C. Extraction error: 'Sample-1.pdf' page 3 prints an answer table the extractor dropped (same tofu-font table as Sample -2); decoded identically by 'pdftotext -layout' and '-raw' it reads 1 C, 2 C, 3 B, 4 C, 5 C, 6 C, 7 C, 8 C, 9 B, 10 B - so THE PRINTED KEY FOR Q7 IS 'C' = Public Cloud, and the rendered page confirms the option order matches the bank (A Private, B Hybrid, C Public, D Community), so there is no letter-shift artefact. We do not adopt C, for two reasons. (1) On the merits, the stem 'shared among multiple organizations' is a near-quote of the NIST SP 800-145 community-cloud definition ('provisioned for exclusive use by a specific community of consumers from ORGANIZATIONS that have shared concerns'), whereas a public cloud is defined by its AUDIENCE ('provisioned for open use by the general public'), not by a defined set of organizations; and structurally, an examiner who intended C would not have put D on the ballot, since D is the strictly better match to the literal words. (2) The same author's key in the companion 'Sample -2.pdf' contains a flatly impossible cell (Q10 keyed WAN for a home/office network), so this key demonstrably mis-keys about one item in ten and cannot arbitrate a contested cell. But the counter-case is real, not pedantic: many introductory decks do gloss the public cloud as 'multi-tenant / shared among multiple organizations', which is exactly the reading the printed key took. So this is a live 2-horse item, not a resolved one. Ship D with the amber badge; a student who answered C must not be scored as ignorant. The thing to learn is the distinction, not the letter: community = a specific set of organizations with shared concerns; public = open to anyone."
+  },
+  {
+    "id": "knpc2021-q036",
+    "finalAnswer": ["Search trees are ordered trees obeying the search property. Two families: (1) binary search trees - the plain BST plus its self-balancing variants (AVL, red-black, splay, treap); (2) multi-way / m-way search trees - 2-3 tree, 2-3-4 tree, B-tree, B+ tree (used for database and filesystem indexes). The ternary search tree is a specialised string variant."],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": false,
+    "addFlags": ["key_disputed"],
+    "panelReasoning": "DISPUTED - ships badged, NOT quarantined. Three judges answer with the standard taxonomy but all three are at or below 0.6 confidence (0.55 / 0.50 / 0.60); the source-archaeologist dissents and rules it unanswerable at 0.80. The quarantine rule does not fire because the dissenter-on-unanswerability is the archaeologist, not the skeptic - the skeptic explicitly rules the item answerable - so this lands in the 'split / all low confidence' branch: key_disputed. What the archaeologist established, and what nobody contests: PDF page 47 of 'KOC 2012 EXAM (2).pdf' prints 'Q36: What are the types of search trees?' followed by roughly four lines of DELIBERATE WHITE SPACE, then Q37, while every neighbouring short-answer item on the same page (Q32-Q35, Q37, Q38) carries a bulleted answer and several carry a 'Reference:' URL. The same blank appears in the standalone copy. So the empty answerText is a faithful reproduction - no extraction error, and no lost key to recover. The content is not what is disputed: the binary family (BST, AVL, red-black, splay) plus the multi-way family (2-3, B-tree, B+ tree) is the standard curriculum taxonomy, derivable from the ordering invariant itself (1 key / 2 children, generalised to m-1 keys / m children), and no marker would reject it. What IS disputed is whether an open taxonomy question with no printed key can be SCORED at all: the examiner may have wanted only 'BST and B-tree', or a longer named list, and that enumeration is unrecoverable. Consequence for the user: study this as a taxonomy card - memorise binary family + multi-way family and be able to name BST, AVL, red-black, B-tree, B+ tree - and do not treat any fixed list as a verified key. Recommended repair path is conversion to a flashcard rather than a scored item."
+  }
+]

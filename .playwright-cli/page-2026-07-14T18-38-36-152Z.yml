@@ -1,0 +1,33 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e6]:
+        - button "End quiz" [ref=f1e7] [cursor=pointer]
+        - generic [ref=f1e11]:
+          - text: "1"
+          - generic [ref=f1e12]: / 10
+        - generic "Time remaining" [ref=f1e13]: 59:56
+        - button "Open question map" [ref=f1e16] [cursor=pointer]
+      - main [ref=f1e21]:
+        - article [ref=f1e22]:
+          - generic [ref=f1e23]:
+            - generic [ref=f1e24]: Operating Systems
+            - generic [ref=f1e25]: KOC 2012
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f1e26] [cursor=pointer]:
+              - generic [ref=f1e27]: Answer unverified
+          - heading "What is a Distributed System?" [level=2] [ref=f1e31]
+          - radiogroup "Options" [ref=f1e32]:
+            - radio "A collection of processors that do not share memory or a clock" [checked] [active] [ref=f1e33] [cursor=pointer]:
+              - generic [ref=f1e34]: A
+            - radio "A system that consists of many computers at different locations" [ref=f1e37] [cursor=pointer]:
+              - generic [ref=f1e38]: B
+            - radio "A system that is distributed over more than one server" [ref=f1e41] [cursor=pointer]:
+              - generic [ref=f1e42]: C
+            - radio "None of the above" [ref=f1e45] [cursor=pointer]:
+              - generic [ref=f1e46]: D
+      - generic [ref=f1e50]:
+        - button "Previous question" [disabled]
+        - button "Next" [ref=f1e52] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f1e55]

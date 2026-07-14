@@ -1,0 +1,46 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - main [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e5]:
+          - heading "KNPC Reviser" [level=1] [ref=f2e6]
+          - paragraph [ref=f2e7]: 361 questions from recalled KNPC and KOC papers and close practice sets.
+        - generic [ref=f2e8]:
+          - link "Mock Exam Timed. Scored at the end, like the real paper." [ref=f2e9] [cursor=pointer]:
+            - /url: /setup?mode=mock
+            - generic [ref=f2e13]:
+              - generic [ref=f2e14]: Mock Exam
+              - generic [ref=f2e15]: Timed. Scored at the end, like the real paper.
+          - link "Practice Pick topics. See each answer as you go." [ref=f2e16] [cursor=pointer]:
+            - /url: /setup?mode=practice
+            - generic [ref=f2e20]:
+              - generic [ref=f2e21]: Practice
+              - generic [ref=f2e22]: Pick topics. See each answer as you go.
+        - region "Getting started" [ref=f2e23]:
+          - heading "Getting started" [level=2] [ref=f2e24]
+          - generic [ref=f2e25]:
+            - paragraph [ref=f2e26]: Nothing tracked yet.
+            - paragraph [ref=f2e27]: A mock exam gives you an honest baseline. Practice lets you pick topics and see each answer as you go. Your readiness score, weak topics, and missed questions all appear here after your first quiz.
+            - generic [ref=f2e28]:
+              - generic [ref=f2e29]:
+                - term [ref=f2e30]: Past papers
+                - definition [ref=f2e31]: "228"
+              - generic [ref=f2e32]:
+                - term [ref=f2e33]: Practice sets
+                - definition [ref=f2e34]: "133"
+              - generic [ref=f2e35]:
+                - term [ref=f2e36]: General bank
+                - definition [ref=f2e37]: "331"
+    - navigation "Primary" [ref=f2e38]:
+      - generic [ref=f2e39]:
+        - link "Home" [ref=f2e40] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f2e44] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f2e48] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f2e52] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f2e56]

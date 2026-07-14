@@ -1,0 +1,809 @@
+[
+  {
+    "id": "ce2016-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "ROM stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-Only Memory.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Random Access Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Random Only Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "808332341ccee77102dfc63a87d0feeaf1661f35"
+  },
+  {
+    "id": "ce2016-q012",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "In the following Kmap, what is f(x₁, x₂, x₃)?",
+    "stemFigure": "/figures/ce2016-q012.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "F = 1",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2c66a3605b9a10e4a411b1d783057330c9d48330"
+  },
+  {
+    "id": "ce2016-q013",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "The function xy + xy' is minimized to __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "x",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "x + y'",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "x + y",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "y'",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5c41583bc56dd573f8a5893725b495c06a98da1e"
+  },
+  {
+    "id": "ce2016-q014",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "cpu-scheduling",
+    "stem": "Round Robin is essentially the preemptive a version of ___________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "SJF (Shortest Job First)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "FIFO",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "LIFO",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Longest Time First.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a77e8e13cb82cad640060658216224244c4efad7"
+  },
+  {
+    "id": "ce2016-q015",
+    "type": "true_false",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-trees",
+    "stem": "In a balanced binary tree, the left and right subtree has the same number of nodes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "97ae1eebef57396aa29b4ee42ce09fe9808e627b"
+  },
+  {
+    "id": "ce2016-q016",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "software-maintenance",
+    "stem": "Which of the following is NOT a kind of software maintenance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adaptive",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Perfective",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Customer Serviced",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Preventive",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4c8ca50bb00563fb296a66c1cab0fe171d08a8a1"
+  },
+  {
+    "id": "ce2016-q017",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "What is the function of a Network Bridge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connect two nodes in the same network.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Connect two LANs.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Control Network Speed.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "3165af62b65a6175e91d7b15181c0243ba2cb893"
+  },
+  {
+    "id": "ce2016-q018",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "A repeater is a connection device that operates in the ________ layer of the Internet model.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Network.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6d2947e0d88517931184098a2849893d50a8adf7"
+  },
+  {
+    "id": "ce2016-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "The __________ regenerates a signal, connects segments of a LAN, and has no filtering capability.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Repeater.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bridge.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Router.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6f3fe21da33420d83cfc0fa9a36e5141e01c34c8"
+  },
+  {
+    "id": "ce2016-q020",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Which one of the following is a famous commercial DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Oracle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "249896dafa84ae1f4a9a9fa3bd0489a0a5e57baa"
+  },
+  {
+    "id": "ce2016-q021",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "How many layers are in the OSI network model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 21
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c7d940cbdde04509aabbb32e4a78c0287d6b5602"
+  },
+  {
+    "id": "ce2016-q022",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "How many steps are in the systems development life cycle (SDLC)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "7",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 22
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "472f9c11f65dda6c194255e2f84c07e94afda2a1"
+  },
+  {
+    "id": "ce2016-q023",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "In SDLC, in which step do we check the results to meat with software specifications?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Testing",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Requirement Analysis",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Planning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Design",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 23
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f0661a23a6edd35311d9f00abdfa185bdd43c4f6"
+  },
+  {
+    "id": "ce2016-q024",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "DNS stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Name System.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Domain Name System.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Network System.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Domain Network Service.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 24
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c6d003ae300570d9b58f9fe0c35bff6d02ce0ba6"
+  },
+  {
+    "id": "ce2016-q025",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dhcp",
+    "stem": "DHCP stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Host Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dynamic Host Configuration Protocol.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Hyper Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dynamic Hyper Configuration Protocol.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 25
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2cf96efcea1d56bf98471ee585a85586be74f557"
+  },
+  {
+    "id": "ce2016-q026",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 26
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "21342a11d7ab54c147d05bb62257541417645018"
+  },
+  {
+    "id": "ce2016-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 27
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0f4ab4bca23fc6856a17ae6475755f920f1056cf"
+  },
+  {
+    "id": "ce2016-q028",
+    "type": "short_answer",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What is the truth table for T-flipflop?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "[T-FF] Truth Table:\nT = 0 → Q(t+1) = Q(t)\nT = 1 → Q(t+1) = Q(t)'\nEquation → Qt+1 = T Qt' + T' Qt",
+    "answerFigure": "/figures/ce2016-q028-answer.png",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 28
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c6acc3d62bc6dff8012a256678f034e5eae7263c"
+  },
+  {
+    "id": "ce2016-q029",
+    "type": "short_answer",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What is the truth table for JK-flipflop?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "[JK-FF] Truth Table:\nJ = 0, K = 0 → Q(t+1) = Q(t)\nJ = 0, K = 1 → Q(t+1) = 0\nJ = 1, K = 0 → Q(t+1) = 1\nJ = 1, K = 1 → Q(t+1) = Q(t)'\nEquation → Qt+1 = J Qt' + K' Qt",
+    "answerFigure": "/figures/ce2016-q029-answer.png",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 29
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8f5096028b0279b9e88a510635c628197271e179"
+  },
+  {
+    "id": "ce2016-q030",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to T-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 30
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b35a078c03611870312a6dd41cc2ac78b80b8a6a"
+  }
+]

@@ -1,0 +1,862 @@
+[
+  {
+    "id": "koc2012-q001",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "os-role",
+    "stem": "The function of an Operating System is to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Process input data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Manage and allocate computer hardware and software resources",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Display Error messages for computer operators",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Print reports",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10728132e161cb0285e01337095c30f3b9e138c1"
+  },
+  {
+    "id": "koc2012-q002",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command to display a file on a terminal, one screen-full at a time:",
+    "options": [
+      {
+        "label": "A",
+        "text": "more",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "cat",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "dir",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ls",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3c6507865f1803c6360d86115fe85e15ee59cd0f"
+  },
+  {
+    "id": "koc2012-q003",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command used to change your password?",
+    "options": [
+      {
+        "label": "A",
+        "text": "chpassword",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "passwd",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "passwordch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Change_Password",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0d1d469a9c693203b456423be4234839b074f726"
+  },
+  {
+    "id": "koc2012-q004",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command to list a directory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "dir",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "dir /w",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "lsd",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ls",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0f9dbf0096e8095b672237294f3828871538feee"
+  },
+  {
+    "id": "koc2012-q005",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-editors",
+    "stem": "What is the standard Unix editor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "emacs",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "edit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "vi",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "cat",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "479357a2039c146243a3ad56a21bac8880d1767f"
+  },
+  {
+    "id": "koc2012-q006",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-editors",
+    "stem": "What are the two modes of the \"vi\" editor in Unix?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insert and Delete",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Edit and Insert",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Delete and Edit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ee94b7e5d45edd7d16848fb51c0690f48790dce8"
+  },
+  {
+    "id": "koc2012-q007",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "The decimal conversion of binary 1110 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "14",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6953517f9882af777285af53d6e499ce380591fe"
+  },
+  {
+    "id": "koc2012-q008",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "decimal-to-binary",
+    "stem": "The binary conversion of decimal 30 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "11110",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10110",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "10001",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "00111",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "637b886f29fa8ccc4866d8696abf4de49736a987"
+  },
+  {
+    "id": "koc2012-q009",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "The command \"rlogin\" under Unix stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reset Login",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Regular Login",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Remote Login",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46f291d5695357b0653a65f0ebf8bb1c9f3ec121"
+  },
+  {
+    "id": "koc2012-q010",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "units",
+    "stem": "How many bits are in a byte?",
+    "options": [
+      {
+        "label": "A",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4f56d40270975891ff697ef31e394cc53ea7a480"
+  },
+  {
+    "id": "koc2012-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-geometry",
+    "stem": "What is a Cylinder on a magnetic disk pack?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One disk surface",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Group of tracks that are vertically aligned on a disk pack",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Group of tracks that are horizontally aligned on a disk pack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4eaf34a3ec4cbc11b6c5aa32dfde22a384b1992a"
+  },
+  {
+    "id": "koc2012-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-devices",
+    "stem": "Some Data Storage Devices are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disk, Tape and Compact Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tape, Hard Disk and Optical Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Disk, Tape and Floppy Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "37f54396e5b7c6b4caecfb1e64131dde9f9a1a55"
+  },
+  {
+    "id": "koc2012-q013",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "How many layers are there according to the OSI standard?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "14",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10d5aa982b8fa94f7b100c9d4d908b246118d54c"
+  },
+  {
+    "id": "koc2012-q014",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "The main function of the DNS server in the Internet Computing is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To convert IP addresses to hostnames",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert PC identification",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To connect your terminal or PC to the Internet world",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "To resolve hostname to IP address",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eb33ac24e9bc6a2f797d887ebd7f8193a95886bb"
+  },
+  {
+    "id": "koc2012-q015",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "modem",
+    "stem": "The main function of a modem from engineering point of view is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To connect from one destination to another",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert binary codes to hexadecimal codes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To convert analog signals to digital signals and vice versa",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To convert binary codes to ASCII codes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ab716e74e7d730176497adcd0435f56a7ef4976c"
+  },
+  {
+    "id": "koc2012-q016",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "What is Format Painter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Copies the Format from a selected object or text & applies to the object you click",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Erases the Format you click",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Saves the Format to a File",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "a85ade6a1d6bd55a45bcba08860f8bf0c5029d91"
+  },
+  {
+    "id": "koc2012-q017",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "What is Freeze Panes command in Excel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Freezes the area you highlighted.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Freezes the file you are working.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Closes the file you are working.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "25c7fde1295b1b247244009f87e29f05aa62baec"
+  },
+  {
+    "id": "koc2012-q018",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "For what Ctrl+C key board shortcut is used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To copy",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "To delete",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To cancel",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "c73c287a3516cc70f05eeb8f466f26423ec049e0"
+  },
+  {
+    "id": "koc2012-q019",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "How can the gridlines in an excel spreadsheet be invisible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "By unchecking the gridlines check button in options tab.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "By clicking hide all toggle button in options tab.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "69c0350209d9f4c173ed69d29f39301207e1b32d"
+  },
+  {
+    "id": "koc2012-q020",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "What is Page Break Preview?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An editing view that displays your work sheet how it will print",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "An editing view to draw objects in a work sheet",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "An editing view to draw charts in excel",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "6f4a3422d9f3030eca0aeaf81e88c95e5abf3c2c"
+  }
+]

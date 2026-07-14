@@ -1,0 +1,889 @@
+[
+  {
+    "id": "sample2-q005",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "elasticity",
+    "stem": "Which cloud feature automatically adjusts resources?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Virtualization",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Elasticity",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Encryption",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Metering",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "666d419b206d08af11ba04e13682d17db05550c3"
+  },
+  {
+    "id": "sample2-q006",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-fundamentals",
+    "stem": "What is a computer network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A collection of standalone computers.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A collection of interconnected devices that share resources and information.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A single powerful computer that manages all data.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "A system for storing data on external hard drives.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "93980658282265160849141bc08c559854a6d567"
+  },
+  {
+    "id": "sample2-q007",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-fundamentals",
+    "stem": "Which of the following is NOT a basic terminology of computer networks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Node",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Transmission Media",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Networking Devices",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Operating System",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "15d415da5d96bfbf252be752a92687d01852a08c"
+  },
+  {
+    "id": "sample2-q008",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "What is the primary function of a Router in a network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To connect devices within a single network segment.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert digital signals to analog signals.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To connect multiple networks and direct data packets to their correct destination.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To provide wireless connectivity to devices.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "dd8a599e04ff50b5290efe40dad4de89e0bdf97c"
+  },
+  {
+    "id": "sample2-q009",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "service-models",
+    "stem": "Gmail is an example of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "IaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SaaS",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Private Cloud",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "bdbcba554d7eb4d149281c25a1dfc0418e458bf1"
+  },
+  {
+    "id": "sample2-q010",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-types",
+    "stem": "Which type of network covers a small geographical area like a home or office?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WAN (Wide Area Network)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MAN (Metropolitan Area Network)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN (Local Area Network)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "PAN (Personal Area Network)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 10
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "c1645f0c4b94593801665382192ea2bb89cee64f"
+  },
+  {
+    "id": "sample3-q001",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "tcp-ip",
+    "stem": "What does TCP/IP stand for and what is its role?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transmission Control Protocol/Internet Protocol; breaks data into packets for secure and efficient delivery.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Total Control Protocol/Internal Protocol; manages internal network traffic.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Technical Communication Protocol/Internet Process; handles web browsing.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Transfer Control Program/Internet Provider; provides internet services.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "11a3ff3729cabbc662d3abf091f7451adb465319"
+  },
+  {
+    "id": "sample3-q002",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "Which network device sends data to all devices connected to it, making it less efficient than a switch?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Router",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hub",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Bridge",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Gateway",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0b2e0a1f61cec7c275d69f69e714b36a43b772f4"
+  },
+  {
+    "id": "sample3-q003",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "deployment-models",
+    "stem": "Hybrid cloud is a combination of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "SaaS and PaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Public and Private cloud",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "IaaS and SaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "On-premise only",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9def3766350f91f415501b122f3c56df90ef60c2"
+  },
+  {
+    "id": "sample3-q004",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "multi-cloud",
+    "stem": "Multi-cloud refers to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "One provider with many services",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Using multiple cloud providers",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Private cloud only",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Local data center",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d75c67f8c2b9ebe04ccfc3e7b74210097e72723b"
+  },
+  {
+    "id": "sample3-q005",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-providers",
+    "stem": "Which is NOT a cloud service provider?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AWS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Azure",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Google Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Oracle Database",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f3db41aa3715aba55a2b030d00d95be22ade4d8a"
+  },
+  {
+    "id": "sample3-q006",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-architecture",
+    "stem": "What is the main characteristic of a Peer-to-Peer (P2P) network architecture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has a central server that manages all client nodes.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Each device is free to work as either a client or a server.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "It primarily uses wireless connections.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "It is designed for wide geographical areas.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5ebd1b0c7b1b5602914e4632ef501307eb6e85ca"
+  },
+  {
+    "id": "sample3-q007",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "pricing-model",
+    "stem": "The “pay-as-you-go” model means:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fixed monthly payment",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Free services",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Payment based on usage",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Lifetime subscription",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "495ea1e684c4f2c67947b26ac34d14a631163761"
+  },
+  {
+    "id": "sample3-q008",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-fundamentals",
+    "stem": "Which of the following is a goal of computer networks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To complicate computer usage for users.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To limit resource sharing.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To ensure security & protection of data and resources.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To decrease efficiency in hardware resource management.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9b9f1afdde23cca48306c21ab6788d5814915504"
+  },
+  {
+    "id": "sample3-q009",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "service-models",
+    "stem": "Which service model is best suited for application developers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PaaS",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "SaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DaaS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "264a57fb9946b277d50fa960354c26fd4996c605"
+  },
+  {
+    "id": "sample3-q010",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-types",
+    "stem": "What is a PAN (Personal Area Network) primarily used for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connecting multiple LANs across cities.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Connecting devices within a very short range, for individual use.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Providing internet access to a large organization.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Establishing secure, encrypted connections over public networks.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "sample - 3.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "01e0700d3486c56290fd977efed47f5bdef90bbd"
+  },
+  {
+    "id": "mock2018-q001",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting-complexity",
+    "stem": "What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recurrence is T(n) = T(n − 2) + O(n) and time complexity is O(n²).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Recurrence is T(n) = T(n − 1) + O(n) and time complexity is O(n²).",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Recurrence is T(n) = 2T(n/2) + O(n) and time complexity is O(n Log (n)).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Recurrence is T(n) = T(n/10) + T(9n/10) + O(n) and time complexity is O(n Log(n)).",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The worst case of QuickSort occurs when the picked pivot is always one of the corner elements in sorted array. In worst case, QuickSort recursively calls one subproblem with size 0 and other subproblem with size (n-1). So the recurrence is:\n\nT(n) = T(n-1) + T(0) + O(n)\n\nAnd the time complexity is: T(n) = ∑ᵢ₌₁ⁿ i = n(n+1)/2 = O(n²)",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "2900fa59827896a917b539ca9b20e93d294d3424",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q002",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "time-complexity",
+    "stem": "What is time complexity of fun()?",
+    "stemCode": "int fun(int n)\n{\n  int count = 0;\n  for (int i=n; i>0; i /= 2)\n     for (int j=0; j<i; j++)\n        count += 1;\n  return count;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n Log(n))",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "O(n Log(n) Log(n))",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "For a input integer n, the innermost statement of fun() is executed following times. n + n/2 + n/4 + ... 1 So time complexity T(n) can be written as T(n) = O(n + n/2 + n/4 + ... 1) = O(n) The value of count is also n + n/2 + n/4 + .. + 1",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "846e4292096feb33c985799af5c963ab53f1ddbb",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q003",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting-complexity",
+    "stem": "Which of the following sorting algorithms has the lowest worst-case complexity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Merge Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bubble Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Quick Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Selection Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Worst case complexities for the sorting algorithms are as follows:\nMerge Sort — n Log(n).\nBubble Sort — n^2.\nQuick Sort — n^2.\nSelection Sort — n^2.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "54798c6fe066e3d410166689519c0ef9baae3f9e",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q004",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "algorithm-design-techniques",
+    "stem": "Which of the following algorithm design technique is used in finding all pairs of shortest distances in a graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic programming.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Backtracking.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Greedy.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Divide and Conquer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Floyd Warshall Algorithm is the All Pairs Shortest Path problem which uses Dynamic Programming to find shortest distances between every pair of vertices in a given edge weighted directed Graph.\nOR Bellman-Ford algorithm when there is only one source.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "c3000448cf8e64247d3a22efdfc22ee65e219860",
+    "keyVerified": false,
+    "needsReview": false
+  }
+]

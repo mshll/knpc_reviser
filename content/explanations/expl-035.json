@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bank-b-q073",
+    "explanation": "An analog computer represents values as continuous physical quantities (voltage, shaft rotation, fluid pressure) and computes on them directly, so the input is never converted to digital form and the output stays analog too. Options A and C describe a digital or hybrid machine, which makes 'All of above' wrong as well."
+  },
+  {
+    "id": "bank-b-q074",
+    "explanation": "Modern CPUs still fetch instructions in program order but overlap them with pipelining, superscalar issue, and multiple cores, so execution is both sequential and parallel. Picking 'Parallel only' is the trap: the programmer's model and the retirement order remain sequential even when the hardware runs several instructions at once."
+  },
+  {
+    "id": "bank-b-q075",
+    "explanation": "ENIAC was designed and built by J. Presper Eckert and John W. Mauchly at the University of Pennsylvania. Von Neumann is the classic distractor: he joined the project later and is associated with the stored-program architecture of EDVAC, not with the design of ENIAC itself."
+  },
+  {
+    "id": "bank-b-q076",
+    "explanation": "C was created by Dennis M. Ritchie at Bell Labs in the early 1970s. The distractors are each famous for something else: Niklaus Wirth for Pascal, Seymour Papert for Logo, Donald Knuth for TeX and The Art of Computer Programming."
+  },
+  {
+    "id": "bank-b-q077",
+    "explanation": "Peopleware is the standard term for the human component of a computing system, sitting alongside hardware and software. Programmer, console operator, and system analyst are each only one specific role within peopleware, so they are too narrow for a definition that spans design, programming, operation, and maintenance."
+  },
+  {
+    "id": "bank-b-q078",
+    "explanation": "IBM and Apple joined forces in 1991 in what became the AIM alliance (Apple, IBM, Motorola), which produced the PowerPC chip and the Taligent and Kaleida ventures. 1984 is the trap: that is the Macintosh launch year, not the alliance."
+  },
+  {
+    "id": "bank-b-q079",
+    "explanation": "'Silico Sapiens' is a coined nickname for the computer, playing on Homo sapiens by swapping carbon-based thinking for silicon-based. Pure terminology trivia with no reasoning behind it."
+  },
+  {
+    "id": "bank-b-q080",
+    "explanation": "Glitch is the alternative jargon for a bug, that is a fault in hardware or software. Leech, squid, and slug are not computing fault terms and exist here only as filler distractors."
+  },
+  {
+    "id": "bank-b-q081",
+    "explanation": "The stock phrasing is 'computers are reliable but not infallible': they execute correctly, but they still produce wrong results from wrong input or wrong programs (garbage in, garbage out). Fast, powerful, and cheap all describe what modern computers are, so only 'infallible' completes a negation."
+  },
+  {
+    "id": "bank-b-q082",
+    "explanation": "Reverse video swaps the foreground and background colours of a screen region so it stands out and draws the operator's attention. A pixel is just the smallest addressable dot, a cursor only marks the input position, and a touch screen is an input technology, so none of them is a highlighting feature."
+  },
+  {
+    "id": "bank-b-q083",
+    "explanation": "The video display for the original 1981 IBM-PC was supplied from Taiwan. Legacy trivia with no reasoning behind it; memorize the pairing (Intel chips, Tandon drives, Microsoft OS, Epson printer, Taiwan display)."
+  },
+  {
+    "id": "bank-b-q084",
+    "explanation": "The main circuit board that carries the chips in a PC is the motherboard. A daughter board is a smaller board that plugs into the motherboard rather than being the main board, and a breadboard is a solderless prototyping board, not a production PC board."
+  },
+  {
+    "id": "bank-b-q085",
+    "explanation": "The single board carrying the CPU, memory expansion slots, drive interfaces, and active components is the motherboard, by definition the main board everything else attaches to. Same fact as the previous item, asked from the component-list direction."
+  },
+  {
+    "id": "bank-b-q086",
+    "explanation": "A dedicated computer is one assigned to a single task or function, for example an embedded controller or a dedicated word processor. 'Used by one person only' is the trap: that is the definition of a personal computer, which can still run any number of different tasks."
+  },
+  {
+    "id": "bank-b-q087",
+    "explanation": "The system unit houses the microprocessor, the disk controller, and the serial interface, so those three are all inside; the modem is the exception because it is classically an external device (or an add-on card) that connects the machine to a phone line. Note this is a dated question: internal modem cards do exist, but the exam key treats the modem as the outside-the-box item."
+  },
+  {
+    "id": "bank-b-q088",
+    "explanation": "A compiler translates the entire source program into machine code in one pass before any of it runs, producing an object or executable file. The interpreter distractor is the direct contrast: it works one statement at a time (see the next question)."
+  },
+  {
+    "id": "bank-b-q089",
+    "explanation": "An interpreter reads, translates, and executes one instruction at a time, with no separate whole-program translation step and no executable file left behind. This is the exact complement of the compiler in the previous item: whole program at once = compiler, one statement at a time = interpreter."
+  },
+  {
+    "id": "bank-b-q090",
+    "explanation": "Answer unverified: the circulated key marks D (Sensor), but the review panel resolved to B (Microcomputer). A device is called smart or intelligent because it embeds computation, that is a microcomputer (microprocessor plus memory and I/O) small enough to fit inside it; a sensor only transduces a physical quantity and confers no intelligence on its own. If the grader follows the printed key, expect D; on the merits the answer is B."
+  },
+  {
+    "id": "bank-b-q091",
+    "explanation": "The control unit decodes each instruction and issues the control signals that tell the ALU which operation to perform, so the ALU responds to the control section. Memory (primary, cache, or external) only supplies operands and instructions; it does not command the ALU."
+  },
+  {
+    "id": "bank-b-q092",
+    "explanation": "'Read', 'read-out', and 'read-from' are all accepted names for the operation of retrieving data already stored in memory, so 'All of above' is correct. Note that reading is non-destructive in modern memory: the data stays in place, unlike a write, which overwrites it."
+  }
+]

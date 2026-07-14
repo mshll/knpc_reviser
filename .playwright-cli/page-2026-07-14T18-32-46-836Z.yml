@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - button "End quiz" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]:
+          - text: "1"
+          - generic [ref=e12]: / 5
+        - generic "Time elapsed" [ref=e13]: 00:00
+        - button "Open question map" [ref=e16] [cursor=pointer]
+      - main [ref=e21]:
+        - article [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: Networking
+            - generic [ref=e25]: KOC 2012
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: Answer unverified
+          - heading "The IP address consists of two parts:" [level=2] [ref=e31]
+          - radiogroup "Options" [ref=e32]:
+            - radio "Gateway ID and Network ID" [ref=e33] [cursor=pointer]:
+              - generic [ref=e34]: A
+            - radio "Subnet ID and Network ID" [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]: B
+            - radio "Network ID and Host ID" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: C
+            - radio "MAC Address ID and Host ID" [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]: D
+      - generic [ref=e50]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=e51] [cursor=pointer]
+        - button "Next" [ref=e52] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e55]

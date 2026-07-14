@@ -1,0 +1,162 @@
+[
+  {
+    "id": "knpc2016-q028",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "Pinging the gateway's IP is the standard reachability test; only one option present (no distractors), so item is degenerate but the option is substantively correct.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q029",
+    "blindAnswer": ["A"],
+    "confidence": 0.85,
+    "reason": "IP addressing is hierarchical (network/host, aggregatable for routing) whereas MAC/Ethernet addressing is flat.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q030",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Receive equalizers compensate delay/amplitude distortion with a transversal (tapped delay line) filter.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q031",
+    "blindAnswer": [],
+    "confidence": 0,
+    "reason": "unanswerable - single option, no distractors, and the lone option 'Ethernet topology' is factually wrong: FDDI is a dual counter-rotating token-passing fiber ring used for high-speed backbones/MANs, not an Ethernet topology.",
+    "sourceAnswer": ["A"],
+    "agreement": "unsolvable"
+  },
+  {
+    "id": "knpc2016-q101",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Page traffic = the movement (transfer rate) of pages in and out of main memory.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q102",
+    "blindAnswer": ["B"],
+    "confidence": 0.8,
+    "reason": "Fundamental process states are new/ready/running/blocked(waiting)/terminated; 'Blocked' IS fundamental, while 'Executed' is not a state (the state is 'running/executing'), so the odd one out is B.",
+    "sourceAnswer": ["D"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "knpc2016-q103",
+    "blindAnswer": ["B"],
+    "confidence": 1.0,
+    "reason": "LRU = Least Recently Used.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q104",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "802.11 WLAN family is branded Wi-Fi; Ethernet is 802.3 and WiMAX is 802.16.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q105",
+    "blindAnswer": ["B"],
+    "confidence": 0.6,
+    "reason": "Standard textbook justification: the kernel is memory-resident because it is the most frequently used/called portion of the OS; A (interrupt handling) is a consequence, not the reason. Only two options given and no source key, so low confidence.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "knpc2016-q106",
+    "blindAnswer": ["== compares references (same memory location); .equals() compares object values/content (for primitives == compares values)"],
+    "confidence": 0.95,
+    "reason": "Java semantics: == is reference (identity) comparison, .equals() is value/content comparison as overridden by the class.",
+    "sourceAnswer": ["== is a reference comparison (both point at the same memory location) where. equals () evaluate the comparison of values of objects"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q107",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "NAND output is 0 only when both inputs are 1.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q108",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Algorithm efficiency is measured by time complexity and space complexity.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q109",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "cin is an object of class istream, not a class; therefore 'it is a class of which stream is an object' is the false statement.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q110",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Constructors can be overloaded arbitrarily; a class may have any number of them.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q111",
+    "blindAnswer": ["D"],
+    "confidence": 0.8,
+    "reason": "A schema is the overall logical description of the database: data elements, records/files and the relationships between records.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q112",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Boehm's spiral model is the risk-driven process model.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q113",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "DDCMP is byte-count/character oriented so framing needs no special hardware, whereas bit-oriented SDLC needs hardware flag detection and bit de-stuffing to find message start.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q001",
+    "blindAnswer": ["Mealy output depends on present state AND present inputs; Moore output depends on present state only"],
+    "confidence": 0.95,
+    "reason": "Standard FSM definition of Mealy vs Moore output functions.",
+    "sourceAnswer": ["- Mealy FSM depends on present state and present input\n- Moore FSM depends on present state only"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q004",
+    "blindAnswer": ["JK flip-flop"],
+    "confidence": 0.95,
+    "reason": "Figure table: 00 -> Q (hold), 01 -> 0 (reset), 10 -> 1 (set), 11 -> Q' (toggle); the toggle on 11 uniquely identifies JK (SR would be invalid there).",
+    "sourceAnswer": ["JK Flip Flop"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2018-q005",
+    "blindAnswer": ["O(log n)"],
+    "confidence": 0.75,
+    "reason": "Search/insert/delete in a balanced BST run in O(log n) (height-proportional); worst case degenerates to O(n).",
+    "sourceAnswer": ["O(logn)"],
+    "agreement": "agree"
+  }
+]

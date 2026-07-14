@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mock2018-q046",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "Class, component, object and deployment diagrams are all UML structure (structural) diagrams; behavioral diagrams are use case, activity, state, sequence, etc.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q047",
+    "blindAnswer": ["D"],
+    "confidence": 0.75,
+    "reason": "ER weak entities map to UML qualified aggregation/association, where the qualifier is the partial (discriminator) key; 'segregation' options are nonsense distractors.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q048",
+    "blindAnswer": ["B"],
+    "confidence": 0.92,
+    "reason": "Whole-part (object to its component parts) relationship in UML is aggregation.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q049",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "A hash table implements an associative array: it maps keys to values, not values to keys.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q050",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Two or more keys hashing to the same bucket is by definition a collision.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q051",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Direct addressing allocates one distinct array slot for every possible key in the universe, so no hash function is needed.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q052",
+    "blindAnswer": ["D"],
+    "confidence": 0.97,
+    "reason": "Key doubles as the index, so lookup is a single array access: O(1).",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q053",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "A hash function maps a key to a slot index, i.e. computes the key's location in the array.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q054",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "Randomized/uniform hash functions and chaining are all standard textbook collision-handling techniques, so 'all of the mentioned' is intended.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q055",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Load factor alpha = n/m, which under chaining is the average number of elements per chain (average chain length).",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q056",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Simple uniform hashing assumes each element is equally likely to hash into any of the m slots, independently of others.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q057",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "Expected search time under simple uniform hashing with chaining is Theta(1 + alpha), which is O(1) for constant load factor.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q058",
+    "blindAnswer": ["B"],
+    "confidence": 0.78,
+    "reason": "Doubly linked lists are the standard choice (CLRS) because deletion of a given element becomes O(1) rather than requiring a predecessor search.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q059",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "The E-R diagram is the standard graphical representation of the database's logical structure.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q060",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "A relationship set is drawn as a diamond; a double diamond is reserved for identifying relationship sets of weak entities.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q061",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "In Silberschatz notation an entity set is a rectangle split into two parts: name on top, attributes below.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q062",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "Arrows (directed lines) pointing to both entity sets mean 'at most one' on each side, i.e. one-to-one cardinality.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q063",
+    "blindAnswer": ["D"],
+    "confidence": 0.88,
+    "reason": "Roles are labels on the lines joining the relationship set (diamond) to the entity set (rectangle); the blanks are ordered diamond then rectangle.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q064",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "By definition, an entity set lacking sufficient attributes for a primary key is a weak entity set.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q065",
+    "blindAnswer": ["A"],
+    "confidence": 0.62,
+    "reason": "Silberschatz calls it the identifying entity set; however 'owner set' (B) and 'strong entity set' (D) name the same thing, so the item has multiple defensible answers - flag as ambiguous even though A is the intended one.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

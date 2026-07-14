@@ -1,0 +1,30 @@
+- generic [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - button "End quiz" [ref=f10e7] [cursor=pointer]
+        - generic [ref=f10e11]:
+          - text: "4"
+          - generic [ref=f10e12]: / 5
+        - generic "Time elapsed" [ref=f10e13]: 01:06
+        - button "Open question map" [ref=f10e16] [cursor=pointer]
+      - main [ref=f10e21]:
+        - article [ref=f10e127]:
+          - generic [ref=f10e128]:
+            - generic [ref=f10e129]: Data Structures and Algorithms
+            - generic [ref=f10e130]: K-Companies 2016
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f10e131] [cursor=pointer]:
+              - generic [ref=f10e132]: Answer unverified
+          - heading "In a balanced binary tree, the left and right subtree has the same number of nodes." [level=2] [ref=f10e136]
+          - radiogroup "Options" [ref=f10e137]:
+            - radio "True" [ref=f10e138] [cursor=pointer]:
+              - generic [ref=f10e139]: A
+            - radio "False" [ref=f10e142] [cursor=pointer]:
+              - generic [ref=f10e143]: B
+      - generic [ref=f10e37]:
+        - button "Previous question" [ref=f10e92] [cursor=pointer]
+        - button "Skip" [ref=f10e95] [cursor=pointer]
+        - button "Next" [active] [ref=f10e60] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f10e40]

@@ -1,0 +1,42 @@
+- generic [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - button "End quiz" [ref=f10e7] [cursor=pointer]
+        - generic [ref=f10e11]:
+          - text: "1"
+          - generic [ref=f10e12]: / 5
+        - generic "Time elapsed" [ref=f10e13]: 00:05
+        - button "Open question map" [ref=f10e16] [cursor=pointer]
+      - main [ref=f10e21]:
+        - article [ref=f10e22]:
+          - generic [ref=f10e23]:
+            - generic [ref=f10e24]: Data Structures and Algorithms
+            - generic [ref=f10e25]: K-Companies 2016
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f10e26] [cursor=pointer]:
+              - generic [ref=f10e27]: Answer unverified
+          - generic [ref=f10e30]:
+            - heading "How many times will foo(i) work?" [level=2] [ref=f10e31]
+            - code [ref=f10e33]: for(i=1; i<=n; i++) for(j=1; j<=i; j++) foo(i);
+          - generic [ref=f10e34]:
+            - generic [ref=f10e41]:
+              - generic [ref=f10e42]:
+                - generic [ref=f10e43]: Your answer
+                - generic [ref=f10e44]: You left this blank.
+              - generic [ref=f10e45]:
+                - generic [ref=f10e46]: Model answer
+                - generic [ref=f10e47]: n(n + 1) / 2
+            - generic [ref=f10e48]:
+              - generic [ref=f10e49]: Mark it yourself. Free text is never auto-graded.
+              - generic [ref=f10e50]:
+                - button "I got it" [ref=f10e51] [cursor=pointer]
+                - button "I missed it" [ref=f10e54] [cursor=pointer]
+          - generic [ref=f10e57]:
+            - generic [ref=f10e58]: Model answer (from the paper)
+            - paragraph [ref=f10e59]: 1 + 2 + 3 + ⋯ + n = Σ (k = 1 to n) k = n(n + 1) / 2
+      - generic [ref=f10e37]:
+        - button "Previous question" [disabled]
+        - button "Next" [active] [ref=f10e60] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f10e40]

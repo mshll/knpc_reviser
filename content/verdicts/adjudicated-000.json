@@ -1,0 +1,82 @@
+[
+  {
+    "id": "koc2012-q066",
+    "finalAnswer": ["B"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "An operating system is the definitional example of system software - it manages hardware and provides the platform on which application software runs - so it is not application software and the statement is False. The source key of 'True' contradicts the standard software taxonomy and the bank's own other items."
+  },
+  {
+    "id": "koc2012-q117",
+    "finalAnswer": ["B"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "The canonical component list is input devices, output devices, processor, memory and auxiliary storage, which is exactly option B; the keyed option C is B with memory silently deleted, an indefensible omission for a question about primary components. A duplicates the ALU (a sub-unit of the processor) while dropping memory, and D lists peripherals rather than components."
+  },
+  {
+    "id": "knpc2016-q001",
+    "finalAnswer": [],
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": true,
+    "addFlags": ["unanswerable"],
+    "panelReasoning": "The item is corrupted exam recall - option D is literally 'I don't remember', proving the option set was never fully recovered - and the merits are muddy: Win2000 Professional already supports 2 CPUs (killing B) and ships IIS 5.0 for a small web site (weakening the keyed C), leaving only A (DNS Server is Server-only) as technically clean. With a placeholder option in the list and both non-skeptic judges below 0.6, there is no trustworthy answer."
+  },
+  {
+    "id": "knpc2016-q102",
+    "finalAnswer": ["B"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "The fundamental process states are New, Ready, Running, Blocked/Waiting and Terminated, so Ready, Terminated and Blocked are all genuine states while 'Executed' is not - the corresponding state is 'Running'. The keyed option D even annotates itself '(can be substituted with wait)', conceding that Blocked is a legitimate state, so the key is inverted."
+  },
+  {
+    "id": "ce2016-q061",
+    "finalAnswer": ["D"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "The canonical OSI application-layer service list (Forouzan) is network virtual terminal, file transfer/access/management, mail services and directory services, so options A, B and C are each individually true and none can be rejected. 'All of the above' is therefore the only consistent answer; the key picked one true item out of three."
+  },
+  {
+    "id": "ce2016-q063",
+    "finalAnswer": ["A"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Only A is true: a single processor executes one process at any given instant. B is false because multiprogramming time-slices and preempts processes long before completion, and C is false and self-refuting since a uniprocessor is precisely where CPU scheduling is needed - so the keyed 'All of the above' collapses with them."
+  },
+  {
+    "id": "mock2018-q008",
+    "finalAnswer": ["B"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Graph traversal must maintain a visited set solely because graphs may contain cycles, whereas a tree's acyclicity lets you recurse freely; having a root only changes where you start, not how traversal works, and trees are connected by definition (A false). The item's own bundled explanation ('as trees do not have loops, they are easier to traverse') argues for B and contradicts its key of C."
+  },
+  {
+    "id": "mock2018-q040",
+    "finalAnswer": ["D"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "By the item's own definition (control data on a connection separate from the data), FTP is the canonical out-of-band-control protocol - commands on port 21, payload on port 20. TCP carries its control information in the header of the same connection, and its URG/urgent 'out-of-band data' rides inside the same byte stream (RFC 6093 calls the label a misnomer), so the keyed 'Both C and D' fails the explanation attached to it."
+  }
+]

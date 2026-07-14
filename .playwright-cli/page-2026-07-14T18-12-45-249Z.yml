@@ -1,0 +1,93 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "KNPC Reviser" [ref=f1e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=f1e6]:
+          - link "Home" [ref=f1e7] [cursor=pointer]:
+            - /url: /
+          - link "Practice" [ref=f1e10] [cursor=pointer]:
+            - /url: /quiz
+          - link "History" [ref=f1e13] [cursor=pointer]:
+            - /url: /history
+          - link "Settings" [ref=f1e16] [cursor=pointer]:
+            - /url: /settings
+        - tablist [ref=f1e113]:
+          - tab [ref=f1e114] [cursor=pointer]
+          - tab [selected] [ref=f1e117] [cursor=pointer]
+          - tab [ref=f1e120] [cursor=pointer]
+    - main [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e21]:
+          - heading "Settings" [level=1] [ref=f1e22]
+          - paragraph [ref=f1e23]: Everything stays on this device. There is no account and no server.
+        - generic [ref=f1e24]:
+          - heading "Appearance" [level=2] [ref=f1e25]
+          - tablist "Theme" [ref=f1e28]:
+            - tab "Light" [ref=f1e29] [cursor=pointer]
+            - tab "Dark" [active] [selected] [ref=f1e32] [cursor=pointer]
+            - tab "System" [ref=f1e35] [cursor=pointer]
+        - separator
+        - generic [ref=f1e142]:
+          - heading "Quiz defaults" [level=2] [ref=f1e143]
+          - paragraph [ref=f1e144]: Pre-fills quiz setup. You can still change everything per quiz.
+          - generic [ref=f1e146]:
+            - generic [ref=f1e147]:
+              - generic [ref=f1e148] [cursor=pointer]:
+                - generic [ref=f1e149]: Past papers8 questions
+                - generic [ref=f1e150]: Recalled KNPC and KOC papers, and the K-Companies placement exam.
+              - switch "Past papers8 questions Recalled KNPC and KOC papers, and the K-Companies placement exam." [checked] [ref=f1e152] [cursor=pointer]
+            - generic [ref=f1e154]:
+              - generic [ref=f1e155] [cursor=pointer]:
+                - generic [ref=f1e156]: Practice sets2 questions
+                - generic [ref=f1e157]: Mock exams, question banks and code-trace items close to the real paper.
+              - switch "Practice sets2 questions Mock exams, question banks and code-trace items close to the real paper." [checked] [ref=f1e159] [cursor=pointer]
+            - generic [ref=f1e161]:
+              - generic [ref=f1e162] [cursor=pointer]:
+                - generic [ref=f1e163]: General bank2 questions
+                - generic [ref=f1e164]: Scraped general IT trivia. The largest set, the least representative, the worst answer keys.
+              - switch "General bank2 questions Scraped general IT trivia. The largest set, the least representative, the worst answer keys." [ref=f1e166] [cursor=pointer]
+            - generic [ref=f1e168]:
+              - generic [ref=f1e169] [cursor=pointer]:
+                - generic [ref=f1e170]: Include unverified answers
+                - generic [ref=f1e171]: Items whose answer key could not be confirmed. They carry an amber badge during a quiz.
+              - switch "Include unverified answers Items whose answer key could not be confirmed. They carry an amber badge during a quiz." [checked] [ref=f1e173] [cursor=pointer]
+        - separator
+        - generic [ref=f1e72]:
+          - heading "Your data" [level=2] [ref=f1e73]
+          - paragraph [ref=f1e74]: Your history lives in this browser only. Clearing browser data, or switching to your phone, loses it. Export a backup and import it on the other device.
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]:
+              - button "Export backup" [ref=f1e78] [cursor=pointer]
+              - button "Import backup" [ref=f1e81] [cursor=pointer]
+              - button "Choose a backup file to import" [ref=f1e84]
+            - paragraph [ref=f1e85]: "Importing merges: attempts already on this device are kept, never overwritten. A malformed file is rejected outright, so a bad import can never eat your history."
+            - status [ref=f1e175]:
+              - generic [ref=f1e176]: All history and settings were deleted.
+            - button "Reset all history" [ref=f1e86] [cursor=pointer]
+        - separator
+        - generic [ref=f1e89]:
+          - heading "About the question bank" [level=2] [ref=f1e90]
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - term [ref=f1e95]: Total questions
+                - definition [ref=f1e96]: "12"
+              - generic [ref=f1e97]:
+                - term [ref=f1e98]: Past papers
+                - definition [ref=f1e99]: "8"
+              - generic [ref=f1e100]:
+                - term [ref=f1e101]: Practice sets
+                - definition [ref=f1e102]: "2"
+              - generic [ref=f1e103]:
+                - term [ref=f1e104]: General bank
+                - definition [ref=f1e105]: "2"
+            - paragraph [ref=f1e106]: Every item here is a crowd-sourced recollection of a past paper, transcribed verbatim. None of it is official material, and recall quality varies. Answer keys were re-checked by independent solvers; where the key could not be confirmed the item stays in the pool with an amber Answer unverified badge.
+            - link "Browse the question bank 1 needs review" [ref=f1e107] [cursor=pointer]:
+              - /url: /bank
+              - text: Browse the question bank
+              - generic [ref=f1e108]: 1 needs review
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f1e111]

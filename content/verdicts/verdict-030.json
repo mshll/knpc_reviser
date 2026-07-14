@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q191",
+    "blindAnswer": ["D"],
+    "confidence": 0.93,
+    "reason": "Four NOR gates: NOR(A,A)=A', NOR(B,B)=B', NOR(A',B')=A.B, NOR(AB,AB)=(AB)' -> NAND.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q192",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Y = A'.(A+B) and Z = Y + (A+B); with A=B=1: A'=0 so Y=0, and A+B=1 so Z=1.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q193",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Circuit switching establishes a dedicated end-to-end channel for the call duration; packet switching shares links.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q194",
+    "blindAnswer": ["D"],
+    "confidence": 0.6,
+    "reason": "Bus topology lets devices tap the shared trunk anywhere with no central hub or closed loop constraint, so wiring is most flexible; question is loosely worded.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q195",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Modem is for WAN/telephone-line access, not a LAN component; cable, printer and computer all are.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q196",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "A proxy is the intermediary machine holding external/Internet access on behalf of internal clients.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q197",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "A firewall filters/blocks unauthorized external access; gateway and router forward traffic, virus checker targets malware.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q198",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "Granting full access rights to all users lets anyone alter data, breaching integrity; the others are physical protections.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q199",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "IPv4 total-length field is 16 bits, so max datagram size = 2^16 - 1 = 65535 bytes.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q200",
+    "blindAnswer": [],
+    "confidence": 0,
+    "reason": "unanswerable - options are garbled/truncated dotted-quads; 10 equal subnets of a /24 needs 255.255.255.240 (/28), which no option states. No source key either.",
+    "sourceAnswer": [],
+    "agreement": "unsolvable"
+  },
+  {
+    "id": "bank-a-q201",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "Class C uses 24 network bits + 8 host bits.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q202",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "IANA = Internet Assigned Numbers Authority.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q203",
+    "blindAnswer": ["C"],
+    "confidence": 0.7,
+    "reason": "Two IP versions are in use/deployed: IPv4 and IPv6.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q204",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "TCP/IP host-to-host (transport) layer maps to OSI layer 4.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q205",
+    "blindAnswer": ["C"],
+    "confidence": 0.92,
+    "reason": "ECB is a symmetric block-cipher mode of operation; RSA and Diffie-Hellman are public-key.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q206",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "A router interconnects two (or more) distinct networks at layer 3.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q207",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "That is the standard definition of Message Oriented Middleware - asynchronous message exchange via queues.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q208",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "127.0.0.1 is the canonical loopback host address (127.0.0.0 is the network address of the loopback block).",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q209",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Ping sends ICMP echo request/reply messages.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q210",
+    "blindAnswer": ["D"],
+    "confidence": 0.75,
+    "reason": "POP and FTP are both application-layer; PPP is data-link. Option D is the combined choice, though its text is garbled ('a and d' should read 'a and c').",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "koc2012-q021",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "In classic Excel menus AutoFilter lives at Data > Filter > AutoFilter.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q022",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "Ctrl+P is the universal Print shortcut; Ctrl+V pastes.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q023",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "Format Cells > Alignment > Wrap text wraps long text onto multiple lines within the cell.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q024",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Excel sheets can be embedded/linked in Word via Insert Object or paste-special.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q025",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "In classic Word menus Bullets and Numbering is on the Format menu (option labelled C).",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q026",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "Ctrl+B applies bold; Ctrl+U underlines.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q027",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Table columns can be deleted (Table > Delete > Columns).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q028",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Print Preview displays how the whole file/document will look when printed; it does not print, and it is not limited to tables.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q029",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "The Office Assistant (Clippy) surfaced help topics and tips; it did not automate commands or autosave.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q030",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "WordArt inserts decorative/stylised text effects.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q031",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Subscript lowers text below the baseline; superscript raises it.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q032",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "PowerPoint supports Insert > Movies and Sounds on a slide.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q033",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Pictures can be inserted onto slides.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q034",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Format > Background changes slide background colour/fill.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q035",
+    "blindAnswer": ["A"],
+    "confidence": 0.96,
+    "reason": "PowerPoint provides an organization chart / SmartArt hierarchy diagram.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q036",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "The Relationships window joins tables (and queries can be added to it); reports and forms have no relationship definitions.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q037",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "Access forms are the standard UI for viewing and entering record data.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q038",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Forms are bound to tables or queries, never to reports.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q039",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Queries retrieve/filter data from tables (or other queries); forms and reports are consumers, not sources to query.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q040",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "Reports can be built/edited in Design View (also via wizard, but Design View is the authoring surface), so Yes.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

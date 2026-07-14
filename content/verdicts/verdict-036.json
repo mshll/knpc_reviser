@@ -1,0 +1,146 @@
+[
+  {
+    "id": "bank-b-q093",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "Computers process data; information is the processed result. Floppies/word are not things a computer 'operates on'.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q094",
+    "blindAnswer": ["B"],
+    "confidence": 0.75,
+    "reason": "Both instructions and addresses are encoded as binary codes; 'binary word' names a unit, not a representation, and parity is error checking.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q095",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "EBCDIC was created by IBM for System/360 and is still used on IBM mainframes; ASCII is ANSI, Baudot is telegraphy, Hollerith is obsolete punched-card coding.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q096",
+    "blindAnswer": ["A"],
+    "confidence": 0.7,
+    "reason": "CD-ROM is read-only (pressed), not write-once, and magneto-optical is rewritable; among the write-once optical media listed, digital paper is the newest, WORM the older one. Source key 'CD-ROM disk' is factually wrong.",
+    "sourceAnswer": ["D"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "bank-b-q097",
+    "blindAnswer": ["B"],
+    "confidence": 0.7,
+    "reason": "Videodisc's headline advantage over prior media is its very large potential storage capacity.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q098",
+    "blindAnswer": ["A"],
+    "confidence": 0.92,
+    "reason": "A 9-track tape drive has one read/write head per track = 9.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q099",
+    "blindAnswer": ["D"],
+    "confidence": 0.88,
+    "reason": "A CHS disk address identifies surface (head), track (cylinder) and sector, so all three.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q100",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Hard disks are less portable, more rigid and faster than diskettes; the only true option is more expensive.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q101",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Floppy disk and diskette are synonyms.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q102",
+    "blindAnswer": ["C"],
+    "confidence": 0.55,
+    "reason": "Poorly formed: A, C and D are all true. A VDU/terminal historically includes a keyboard so it is not purely an output device; the broadest statement that is always correct is 'peripheral device'.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q103",
+    "blindAnswer": ["C"],
+    "confidence": 0.85,
+    "reason": "A terminal producing paper output is by definition a hard copy terminal; a plotter is a device, not a terminal.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q104",
+    "blindAnswer": ["E"],
+    "confidence": 0.95,
+    "reason": "Dot-matrix is an impact printer type (option labels in this item are A/E/F/G).",
+    "sourceAnswer": ["E"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q105",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Main (primary) memory is divided into ROM and RAM; primary/secondary is the wider storage split, not a split of main memory.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q106",
+    "blindAnswer": ["B"],
+    "confidence": 0.88,
+    "reason": "Spraying electrically/magnetically charged ink droplets to form a dot matrix describes an ink-jet printer.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q107",
+    "blindAnswer": ["A"],
+    "confidence": 0.88,
+    "reason": "Desktop publishing needs high-resolution page output, which is laser printing.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q108",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Producing audio output from prerecorded words is a voice response unit; a voice recognition unit is input.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q109",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "A write to a memory location is destructive: it overwrites/erases the previous content.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q110",
+    "blindAnswer": ["B"],
+    "confidence": 0.92,
+    "reason": "A buffer is storage that compensates for speed differences between units.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

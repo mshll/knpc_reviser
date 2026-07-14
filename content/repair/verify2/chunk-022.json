@@ -1,0 +1,547 @@
+[
+  {
+    "id": "mock2018-q066",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagrams",
+    "stem": "Weak entity set is represented as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Underline.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Double line.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Double diamond.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Double rectangle.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "An entity set that has a primary key is termed a strong entity set.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 66
+    },
+    "keyProvenance": "derived",
+    "flags": [],
+    "dedupeHash": "7fac89a4f0b9f47abc7754d3f45f9db7f9a267c1",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q067",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-model",
+    "stem": "If you were collecting and storing information about your music collection, an album would be considered a(n) ______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relation.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Entity.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Instance.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Attribute.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "An entity set is a logical container for instances of an entity type and instances of any type derived from that entity type.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 67
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "157d13cc33d4281078512e86e9528d41c5e7b196",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q068",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-model",
+    "stem": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relation.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Instance.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Table.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Column.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The environment of database is said to be instance. A database instance or an ‘instance’ is made up of the background processes needed by the database.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 68
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "b1ee3eebed9d71f94a6c90243eaa2f13217fa40c",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q069",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "cache-performance",
+    "stem": "Average memory access time can be calculated as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average memory access time = Hit time + (Miss rate * Miss penalty).",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Average memory access time = Hit time – (Miss rate * Miss penalty).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Average memory access time = Hit time + (Miss rate / Miss penalty).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Average memory access time = Miss rate / Miss penalty.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Review and Study AMAT.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 69
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "f40a8c9c9248b3f6460d45eeaa75f9a95abcab98",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q070",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "media-access-control",
+    "stem": "What is the throughput of simple/pure ALOHA?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18.8 %",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "18 %",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "36.8 %",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "36 %",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Pure ALOHA is 18.4%. Slotted ALOHA is 36.8%. Please review and Study AMAT.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 70
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "a659f4f8ebf566fff4faf421ccc9bf21a2fbbb3c",
+    "keyVerified": true,
+    "needsReview": false
+  },
+  {
+    "id": "code-q001",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "conditional-statements",
+    "stem": "Find The output of C++ Code (Program 1)",
+    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main()\n{\n    if (NULL) {\n        cout << \"Hello World\";\n    }\n    else {\n        cout << \"Hii World\";\n    }\n\n    return 0;\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "Hii World",
+    "explanation": "NULL is defined as the integer constant 0, so if (NULL) is if (0), which is false and the else branch runs, printing \"Hii World\". The trap is reading NULL as a special \"nothing\" value that might be truthy - in a boolean context it is just zero.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "becfc2f22aeae5a50996d6f08f02d1f72b4e46d2"
+  },
+  {
+    "id": "code-q002",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "conditional-statements",
+    "stem": "Find The output of C++ Code (Program 2)",
+    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main()\n{\n    int A = 5, B = 10, C = 20;\n\n    if (A && B > C) {\n        cout << \"ABC\";\n    }\n    else if (A = B || C == 20) {\n        cout << \"PQR\";\n    }\n    else {\n        cout << \"XYZ\";\n    }\n\n    return 0;\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "PQR",
+    "explanation": "The first test is A && (B > C) because > binds tighter than &&, so it is 5 && (10 > 20) = false. The second test uses a single = : it is an ASSIGNMENT A = (B || C == 20) = (10 || 1) = 1, and the value 1 is truthy, so the else-if branch is taken and the program prints PQR.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "253f26c94b41dc1586748814c4792a3ae9906bfa"
+  },
+  {
+    "id": "code-q003",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "Find The output of C++ Code",
+    "stemCode": "#include <iostream>\nusing namespace std;\n\nint main(){\n    int i=5;\n    for (int j=4;j<12;j++){\n    i=j++;\n    if (j==8)\n     continue;\n    cout << i << endl;\n    }\n    return 0;\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "4\n6\n8\n10",
+    "explanation": "Output is 4, 6, 8, 10 on separate lines. i = j++ copies j into i and then increments j, so j is already odd (5, 7, 9, 11) by the time if (j == 8) is tested - the continue never fires - and the j++ in the loop header advances j by a further 1, giving j = 4, 6, 8, 10 at the top of each iteration, which is exactly what i receives and prints.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "38b9be56143b9a69194a5d8e05c22864a38c7c1e"
+  },
+  {
+    "id": "code-q005",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "Find The output of C++ Code (C++ for loop)",
+    "stemCode": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n        for (int i = 1; i <= 5; ++i) {\n        cout << i << \" \";\n    }\n    return 0;\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "1 2 3 4 5",
+    "explanation": "A straightforward counted loop: i runs 1 through 5 inclusive and each value is printed followed by a space, giving \"1 2 3 4 5\". Note ++i and i++ behave identically in a for-header increment, since the value of the expression is discarded.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "8ce530956090f1b29d12df7b02c4c4a39e5a1d64"
+  },
+  {
+    "id": "code-q007",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "What will be the output of the following C++ code?",
+    "stemCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int i ;\n    for (i = 0; i < 10; i++);\n    {\n        cout << i;\n    }\n    return 0;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "0123456789",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "012345678910",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "compile time error",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The semicolon immediately after for (i = 0; i < 10; i++) makes the loop body EMPTY, so the loop simply runs i up to 10 and stops. The following braces are then just an ordinary block that executes once, printing the final value of i, so the output is 10 rather than 0123456789.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 25
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "e740fe29f89762481d246163aed9154382e3a25f"
+  },
+  {
+    "id": "code-q008",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "How many types of loops are there in C++?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "There are four types of loop. They are the while, do while, nested, for the loop.",
+    "explanationSource": "source",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 26
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "7e10a09c3e4d2a4a11942b6ff0d220c461589e09"
+  },
+  {
+    "id": "code-q009",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "What is the effect of writing a break statement inside a loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It cancels remaining iterations.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "It skips a particular iteration.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The program terminates immediately.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Loop counter is reset.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "break exits the enclosing loop immediately, so all remaining iterations are cancelled. The trap is option B: skipping one iteration and carrying on is continue, not break; and break ends only the loop, not the whole program (that would be exit or return from main).",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 29
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "4171c62c44d8f78a0b0de844579f6e1e1e4f852b"
+  },
+  {
+    "id": "code-q010",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "How many times \"Hello\" is printed?",
+    "stemCode": "int x;\nfor(x=-1; x<=10; x++)\n{\n    if(x < 5)\n        continue;\n    else\n        break;\n    printf(\"Hello\");\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "0 (never printed)",
+    "explanation": "\"Hello\" is printed 0 times. Every iteration takes one of the two branches - continue while x < 5, break once x reaches 5 - so control never reaches the printf that sits after the if/else; it is unreachable dead code.",
+    "referenceUrl": "http://www.indiabix.com/c-programming/control-instructions/",
+    "source": {
+      "file": "[CE] Lecture.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "4cd38ca0dcf2ed4e2c9928e7e37d56ab691bc9a7"
+  },
+  {
+    "id": "code-q011",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "How many times the while loop will be executed?",
+    "stemCode": "int j=1;\nwhile(j <= 250)\n{\n      printf(\"%d %d\\n\", j, j);\n      j += 2;\n}",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "125 times",
+    "explanation": "j starts at 1 and increases by 2, so it takes the odd values 1, 3, 5, ..., 249 (249 is the last value <= 250) and the loop then exits with j = 251. Count = (249 - 1) / 2 + 1 = 125 iterations; the trap is halving 250 to get 125 by luck, or answering 126 by mis-including j = 251.",
+    "referenceUrl": "http://www.indiabix.com/c-programming/control-instructions/",
+    "source": {
+      "file": "[CE] Lecture.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "compiled",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "8b19a48d05b3e0d38e3281fe34b7cbc63cfa20c5"
+  },
+  {
+    "id": "code-q012",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "operators",
+    "stem": "Which of the following is not logical operator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "&",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "&&",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "||",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "!",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "& is the BITWISE AND operator: it combines operands bit by bit. The three logical operators in C/C++ are && (AND), || (OR) and ! (NOT); unlike &, the logical && also short-circuits.",
+    "referenceUrl": "http://www.indiabix.com/c-programming/control-instructions/",
+    "source": {
+      "file": "[CE] Lecture.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "derived",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "b691ed6eda5a94c796464835efaaa622b639e69f"
+  }
+]

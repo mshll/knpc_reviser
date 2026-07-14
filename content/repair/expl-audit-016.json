@@ -1,0 +1,78 @@
+[
+  {
+    "id": "sample1-q003",
+    "verdict": "ok",
+    "explanation": "Virtualization inserts a hypervisor between hardware and guests, letting it multiplex one physical CPU, memory and NIC into many isolated virtual machines. Encryption, load balancing and firewalls are all security or traffic functions and create no VMs."
+  },
+  {
+    "id": "sample1-q004",
+    "verdict": "ok",
+    "explanation": "Only C is stated as an advantage: the provider patches and upgrades the platform, so customers get updates automatically. A and B are worded as drawbacks (cloud lowers maintenance cost and gives near-unlimited scalability) and D is the manual work cloud backup services remove."
+  },
+  {
+    "id": "sample1-q005",
+    "verdict": "ok",
+    "explanation": "Customer control decreases along IaaS > PaaS > SaaS. In IaaS you manage OS and runtime, in PaaS only the app and data, and in SaaS you consume a finished application and control nothing below it, so SaaS gives the least infrastructure control. Private Cloud is a deployment model, not a service model, so it does not belong on this scale."
+  },
+  {
+    "id": "sample1-q006",
+    "verdict": "ok",
+    "explanation": "A bus is the shared set of address, data and control lines that carries signals between CPU, memory and I/O modules, so its role is communication. Storage is memory's job and execution is the CPU's job."
+  },
+  {
+    "id": "sample1-q008",
+    "verdict": "ok",
+    "explanation": "Azure is Microsoft's cloud platform. Amazon sells AWS, Google sells GCP, IBM sells IBM Cloud."
+  },
+  {
+    "id": "sample1-q009",
+    "verdict": "ok",
+    "explanation": "IAM = Identity and Access Management: the service that authenticates principals (users, roles, services) and authorizes what each may do via policies."
+  },
+  {
+    "id": "sample1-q010",
+    "verdict": "ok",
+    "explanation": "Encryption transforms plaintext into ciphertext that is unreadable without the key. Compression also makes data unreadable to the eye but is fully reversible by anyone with no secret, so it protects nothing; backup and replication just copy the data."
+  },
+  {
+    "id": "sample2-q001",
+    "verdict": "ok",
+    "explanation": "A Service Level Agreement is the contract between the cloud service provider and its customer, defining committed service levels (uptime, response time) and the remedies if they are missed."
+  },
+  {
+    "id": "sample2-q002",
+    "verdict": "ok",
+    "explanation": "Serverless (FaaS) means the provider owns provisioning, scaling and patching of the servers; the customer only uploads code that runs on an event. Servers still exist, they are just invisible to the user, so A is the inverse of the model."
+  },
+  {
+    "id": "sample2-q003",
+    "verdict": "ok",
+    "explanation": "AWS Lambda runs event-triggered functions with no instance, OS or capacity to manage, which is the definition of serverless / Function as a Service. PaaS is the classic trap: it is close because the provider also manages the platform, but in PaaS you still deploy and keep a running application (and pay for its idle time), while Lambda bills only per invocation."
+  },
+  {
+    "id": "sample2-q004",
+    "verdict": "rewritten",
+    "explanation": "Edge computing runs the processing at or near the data source instead of sending every request to a distant data centre, so the network round trip shrinks and latency drops. It does also cut backhaul bandwidth as a side effect, but latency is the reduction that follows directly from shortening the physical distance, and it is the defining benefit of the model.",
+    "issue": "The original justified choosing latency over bandwidth by saying latency 'is the keyed answer' - circular reasoning that leans on the key instead of on mechanism. Both latency and bandwidth are genuinely reduced by edge computing, so this item's discrimination between C and B is weak; the rewrite argues from distance-to-round-trip-time rather than from the key. Answer C stands."
+  },
+  {
+    "id": "sample2-q005",
+    "verdict": "ok",
+    "explanation": "Elasticity is the cloud property of automatically scaling resources up when demand rises and back down when it falls, with no manual provisioning. The distractors are all real cloud features but none of them adjust capacity: virtualization is the underlying abstraction of hardware, encryption protects data, and metering only measures usage so it can be billed."
+  },
+  {
+    "id": "sample2-q006",
+    "verdict": "ok",
+    "explanation": "A computer network is a set of interconnected devices (nodes) linked by transmission media so they can share resources and exchange information. Option A is the exact negation: 'standalone' computers are by definition not networked."
+  },
+  {
+    "id": "sample2-q007",
+    "verdict": "ok",
+    "explanation": "Node, transmission media and networking devices are the basic building blocks used to define a network. The operating system is general computing software that runs on a host; it is not part of the vocabulary used to describe a network's structure, so it is the odd one out."
+  },
+  {
+    "id": "sample2-q008",
+    "verdict": "ok",
+    "explanation": "A router operates at the network layer: it connects separate networks and forwards packets toward their destination by consulting its routing table for the destination IP. Each distractor describes a different device - A is a switch or hub (one segment), B is a modem (digital-to-analog conversion), D is a wireless access point."
+  }
+]

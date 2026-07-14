@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - status "Preparing your quiz" [ref=e4]
+    - navigation "Primary" [ref=e15]:
+      - generic [ref=e16]:
+        - link "Home" [ref=e17] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=e21] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=e25] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=e29] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e33]

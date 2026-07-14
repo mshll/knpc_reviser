@@ -1,0 +1,78 @@
+[
+  {
+    "id": "dbbank-q026",
+    "explanation": "DROP TABLE removes the relation itself - its rows, its structure and its definition in the schema. The classic trap is DELETE, which only removes rows and leaves the empty table in place; ALTER changes a table's structure but never removes it, and ERASE is not SQL at all."
+  },
+  {
+    "id": "dbbank-q027",
+    "explanation": "Referential integrity constrains the CHILD table: every non-null foreign-key value must already exist as a primary-key value in the referenced parent table, so a foreign key can never point at a row that does not exist. The reversed option (every primary key must match a foreign key) is the trap - a parent row is perfectly legal with no children referencing it."
+  },
+  {
+    "id": "dbbank-q028",
+    "explanation": "ALTER INDEX is the real SQL command for changing an existing index's properties, including its future storage allocation (e.g. ALTER INDEX ... STORAGE / REBUILD in Oracle). REDEFINE INDEX, MODIFY INDEX and DO INDEX are invented names and are not SQL commands."
+  },
+  {
+    "id": "dbbank-q029",
+    "explanation": "Data integrity is defined as the correctness (accuracy, validity) and completeness of the data held in the database. The distractors are adjacent but distinct: security is about controlling who may access data, a constraint is one of the mechanisms used to enforce integrity, and data independence is about insulating applications from schema changes."
+  },
+  {
+    "id": "dbbank-q030",
+    "explanation": "DML is the sub-language for working with the data itself: SELECT retrieves, INSERT adds, UPDATE changes and DELETE removes rows. Retrieval, insertion and deletion are all DML operations, so \"All of the above\" is correct; the trap is picking a single one and confusing DML with DDL (CREATE/ALTER/DROP), which acts on structure, not data."
+  },
+  {
+    "id": "code-q001",
+    "explanation": "NULL is defined as the integer constant 0, so if (NULL) is if (0), which is false and the else branch runs, printing \"Hii World\". The trap is reading NULL as a special \"nothing\" value that might be truthy - in a boolean context it is just zero."
+  },
+  {
+    "id": "code-q002",
+    "explanation": "The first test is A && (B > C) because > binds tighter than &&, so it is 5 && (10 > 20) = false. The second test uses a single = : it is an ASSIGNMENT A = (B || C == 20) = (10 || 1) = 1, and the value 1 is truthy, so the else-if branch is taken and the program prints PQR."
+  },
+  {
+    "id": "code-q003",
+    "explanation": "Output is 4, 6, 8, 10 on separate lines. i = j++ copies j into i and then increments j, so j is already odd (5, 7, 9, 11) by the time if (j == 8) is tested - the continue never fires - and the j++ in the loop header advances j by a further 1, giving j = 4, 6, 8, 10 at the top of each iteration, which is exactly what i receives and prints."
+  },
+  {
+    "id": "code-q005",
+    "explanation": "A straightforward counted loop: i runs 1 through 5 inclusive and each value is printed followed by a space, giving \"1 2 3 4 5\". Note ++i and i++ behave identically in a for-header increment, since the value of the expression is discarded."
+  },
+  {
+    "id": "code-q007",
+    "explanation": "The semicolon immediately after for (i = 0; i < 10; i++) makes the loop body EMPTY, so the loop simply runs i up to 10 and stops. The following braces are then just an ordinary block that executes once, printing the final value of i, so the output is 10 rather than 0123456789."
+  },
+  {
+    "id": "code-q009",
+    "explanation": "break exits the enclosing loop immediately, so all remaining iterations are cancelled. The trap is option B: skipping one iteration and carrying on is continue, not break; and break ends only the loop, not the whole program (that would be exit or return from main)."
+  },
+  {
+    "id": "code-q010",
+    "explanation": "\"Hello\" is printed 0 times. Every iteration takes one of the two branches - continue while x < 5, break once x reaches 5 - so control never reaches the printf that sits after the if/else; it is unreachable dead code."
+  },
+  {
+    "id": "code-q011",
+    "explanation": "j starts at 1 and increases by 2, so it takes the odd values 1, 3, 5, ..., 249 (249 is the last value <= 250) and the loop then exits with j = 251. Count = (249 - 1) / 2 + 1 = 125 iterations; the trap is halving 250 to get 125 by luck, or answering 126 by mis-including j = 251."
+  },
+  {
+    "id": "code-q012",
+    "explanation": "& is the BITWISE AND operator: it combines operands bit by bit. The three logical operators in C/C++ are && (AND), || (OR) and ! (NOT); unlike &, the logical && also short-circuits."
+  },
+  {
+    "id": "code-q013",
+    "explanation": "BODMAS stands for Brackets, Orders, Division, Multiplication, Addition, Subtraction. Restricted to the four operators listed in the options, that order is Division, Multiplication, Addition, Subtraction. In practice division and multiplication share one precedence level (as do addition and subtraction) and are evaluated left to right."
+  },
+  {
+    "id": "code-q014",
+    "explanation": "The trailing semicolon on for(; i<=5; i++); makes the loop body empty, so the loop only increments i until the condition i <= 5 fails, which leaves i = 6. The printf is not part of the loop despite its indentation - indentation means nothing in C - so it executes once afterwards and prints 6, not 5 and not the sequence 0..5."
+  },
+  {
+    "id": "code-q021",
+    "explanation": "The class is read from the first octet: 11 is in the range 1-126 (binary 0000 1011, leading bit 0), which is Class A. Class A's default mask is 255.0.0.0, i.e. /8: 8 network bits and 24 host bits."
+  },
+  {
+    "id": "code-q022",
+    "explanation": "4.0.0.0 has first octet 4, so it is Class A with a default mask of 255.0.0.0 (/8) = 8 network bits. The given mask 255.255.255.0 is /24, so 24 - 8 = 16 bits are borrowed from the host part, giving 2^16 = 65,536 subnets, and the 32 - 24 = 8 remaining host bits give 2^8 - 2 = 254 usable hosts per subnet (subtracting the network and broadcast addresses). Watch the convention: the -2 applies to HOSTS; older textbooks also subtract 2 from the subnet count (65,534), but the modern count used here is 2^borrowed."
+  },
+  {
+    "id": "code-q023",
+    "explanation": "130 falls in 128-191, so 130.0.0.0 is Class B with a default mask of 255.255.0.0 (/16). The given mask 255.255.128.0 is 1111 1111.1111 1111.1000 0000.0000 0000 = /17, so only 17 - 16 = 1 bit is borrowed, giving 2^1 = 2 subnets, and the 32 - 17 = 15 remaining host bits give 2^15 - 2 = 32,766 usable hosts per subnet. The trap is forgetting the Class B baseline and counting all 17 mask bits as borrowed."
+  }
+]

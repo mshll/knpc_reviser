@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bank-b-q093",
+    "explanation": "Computers operate on data: raw, unprocessed values. Trap: \"Information\" is the classic distractor because information is what data becomes after processing, so it is the output, not the material the machine works on."
+  },
+  {
+    "id": "bank-b-q094",
+    "explanation": "Everything inside the machine, both the instructions and the addresses they refer to, is held as patterns of 0s and 1s, i.e. binary codes. Character code (like ASCII) encodes text only, a binary word names a unit of storage rather than a representation, and a parity bit is only for error detection."
+  },
+  {
+    "id": "bank-b-q095",
+    "explanation": "EBCDIC (Extended Binary Coded Decimal Interchange Code) was created by IBM for the System/360 and is still used on IBM mainframes today. Trap: Hollerith code is also IBM-lineage (punched cards) but it is obsolete, and the stem says \"used in present day computing\"; ASCII is an ANSI standard and Baudot came from telegraphy."
+  },
+  {
+    "id": "bank-b-q096",
+    "explanation": "Answer unverified: the printed key says CD-ROM, but CD-ROM is factory-pressed read-only media, not write-once, and magneto-optical disks are rewritable. Applying the stem literally, the only write-once optical media listed are WORM disk (early 1980s) and digital paper (around 1990), so \"latest write-once\" points to digital paper, and the keyed answer is self-contradictory."
+  },
+  {
+    "id": "bank-b-q097",
+    "explanation": "The videodisc's headline advantage over the magnetic media of its era was the sheer amount it could hold, i.e. its potential capacity. It was neither cheap nor especially compact compared with the alternatives, so those distractors fail."
+  },
+  {
+    "id": "bank-b-q098",
+    "explanation": "A 9-track tape drive reads all 9 tracks in parallel, one head per track, so 9 heads. Legacy hardware trivia: the count of heads always equals the track count in the stem."
+  },
+  {
+    "id": "bank-b-q099",
+    "explanation": "This is classic CHS addressing: a sector is uniquely located only by naming the surface (which platter side, i.e. which head), the track (cylinder) on that surface, and the sector within that track. Any single one of the three is insufficient, so \"all of above\" is correct."
+  },
+  {
+    "id": "bank-b-q100",
+    "explanation": "Compared with diskettes, hard disks are fixed and rigid (not portable, not less rigid) and have far faster access, so the only remaining true statement is that they cost more. Legacy item, decided by elimination."
+  },
+  {
+    "id": "bank-b-q101",
+    "explanation": "\"Floppy disk\" and \"diskette\" are the same thing; the name comes from the flexible plastic disc inside the jacket. Legacy terminology."
+  },
+  {
+    "id": "bank-b-q102",
+    "explanation": "The stem asks which statement is \"more correct\", so pick the one that is always true: a VDU is a peripheral (it sits outside the CPU and main memory). Calling it purely an output device fails for VDU terminals that include a keyboard. Note the item is loosely written, since \"hardware item\" is also true but is far too broad to be the distinguishing statement."
+  },
+  {
+    "id": "bank-b-q103",
+    "explanation": "Paper output is \"hard copy\", screen output is \"soft copy\", so a terminal that prints on paper is a hard copy terminal. A plotter is a device, not a terminal."
+  },
+  {
+    "id": "bank-b-q104",
+    "explanation": "Dot-matrix is an impact printer that forms each character by firing a grid of pins through an inked ribbon. The option labels in this item run A/E/F/G because of an OCR artifact in the source; the key is the \"Printer\" option."
+  },
+  {
+    "id": "bank-b-q105",
+    "explanation": "Main memory is primary memory, and it is split into RAM (volatile, read/write) and ROM (non-volatile, read-only). Trap: \"primary and secondary\" is the division of all storage, not a division of main memory itself, so it cannot be the answer."
+  },
+  {
+    "id": "bank-b-q106",
+    "explanation": "An ink-jet printer sprays tiny charged ink droplets and deflects them onto the paper to build up a dot matrix, exactly as described. A laser printer fuses toner via a photoconductive drum, and drum and chain printers are impact line printers with fixed character shapes."
+  },
+  {
+    "id": "bank-b-q107",
+    "explanation": "Desktop publishing needs high-resolution, near-typeset page output, which is what laser printers deliver. Inkjet and dot-matrix were lower resolution, and a daisywheel can only print fixed character shapes, so it cannot render graphics or fonts at all."
+  },
+  {
+    "id": "bank-b-q108",
+    "explanation": "Playing back prerecorded words to produce spoken output is a voice response unit, which is an output device. Trap: a voice recognition unit is the mirror image (an input device that converts speech to data)."
+  },
+  {
+    "id": "bank-b-q109",
+    "explanation": "Writing to a memory location is destructive: the new value overwrites whatever was there. Reading, by contrast, is non-destructive. The address of a location never changes, and there is no automatic accumulation of the old value with the new."
+  },
+  {
+    "id": "bank-b-q110",
+    "explanation": "A buffer is temporary storage placed between two units that run at different speeds (for example CPU and printer) so the fast unit can dump its output and carry on instead of waiting for the slow one. An accumulator is a CPU register for arithmetic results, and an address just names a location."
+  }
+]

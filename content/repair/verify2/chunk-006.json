@@ -1,0 +1,638 @@
+[
+  {
+    "id": "ce2016-q055",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "stacks",
+    "stem": "“Push” and “Pop” are used for the data structure known as __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Array",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hash Table",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Stack",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Queue",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 55
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "60b77b7c745aec9d8eab6443d64481c2559a5868",
+    "explanation": "Push and pop are the two primitives of a stack, a LIFO structure where the last item pushed is the first popped. A queue's primitives are enqueue and dequeue (FIFO)."
+  },
+  {
+    "id": "ce2016-q056",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "subnetting",
+    "stem": "Default network mask for CLASS A is ____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "255.0.0.0",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "255.255.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "255.255.255.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "255.255.255.255",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 56
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "c8b144e82d0b87a9f4d49364ebc64e9ec0337e39",
+    "explanation": "In classful addressing a Class A address uses only the first octet for the network ID, so the default mask is /8 = 255.0.0.0. 255.255.0.0 (/16) is Class B and 255.255.255.0 (/24) is Class C."
+  },
+  {
+    "id": "ce2016-q058",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "topologies",
+    "stem": "Which Ethernet topology do we use FDDI in?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Ring",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Star",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 58
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "44f80c3e643c95df4467bb0ab39b3ea4a1b639c0",
+    "explanation": "FDDI is built on a dual counter-rotating token ring: two rings running in opposite directions so a break in one can be wrapped onto the other. Bus and star are the Ethernet topologies, not FDDI's."
+  },
+  {
+    "id": "ce2016-q059",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "The ___________ layer changes bits onto electromagnetic signals.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Transport.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Presentation.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 59
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "25de8b0fb7733bb53d71fc3ed3156cbb656de2b6",
+    "explanation": "The physical layer is the only layer that touches the medium: it converts the bit stream into electrical, optical or electromagnetic signals and defines voltages, timing and connectors. Data Link works on frames of bits, not on signals."
+  },
+  {
+    "id": "ce2016-q060",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which of the following is the main function of transport layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Node to node delivery.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "End to end delivery.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Maintaining routing tables.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 60
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "ef3c9209e58f04546c697b9e8a39256d21a86f77",
+    "explanation": "The transport layer's job is end-to-end (process-to-process) delivery: it takes the message from the sending process and delivers it to the receiving process, regardless of how many hops lie between. Node-to-node delivery is the data link layer and maintaining routing tables is the network layer, which are the two distractors."
+  },
+  {
+    "id": "ce2016-q061",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which of the following is an application layer service?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Network virtual terminal.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "File transfer & management.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Mail service.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 61
+    },
+    "keyProvenance": "derived",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "4264f9bb3eea5729e5699882bc3a204de1fb4f8c",
+    "explanation": "The canonical OSI application-layer service list is network virtual terminal, file transfer/access/management, mail services and directory services, so options A, B and C are each true and 'All of the above' (D) is the only consistent answer. Note the printed answer sheet keys this as C (Mail service); that key is wrong because it singles out one item from a list where all three are correct."
+  },
+  {
+    "id": "ce2016-q062",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "fddi",
+    "stem": "FDDI stands for ______________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Fiber Data Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fiber Dual Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 62
+    },
+    "keyProvenance": "derived",
+    "flags": [
+      "key_disputed"
+    ],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "5043476920d95e81679d90cc7f787e35ba111271",
+    "explanation": "Answer unverified: as printed, options A and D are byte-identical ('Fiber Distributed Data Interface'), so two labels are simultaneously correct and the choice of A over D is positional, not technical. On the content there is no doubt: FDDI expands to Fiber Distributed Data Interface, and B and C are word-swap traps."
+  },
+  {
+    "id": "ce2016-q063",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "processes",
+    "stem": "Single Processor means _____________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perform only one process at a given time.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Executes next process only after the current process is completed.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "No need for process scheduling in CPU.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 63
+    },
+    "keyProvenance": "derived",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "5b799f740875952fc9b9cfc0dee520bbed8f47f3",
+    "explanation": "Only A is true: a single processor can execute just one process at any given instant. B is false because a multiprogrammed OS preempts and time-slices, so the next process runs long before the current one finishes, and C is false and self-refuting since a single CPU is exactly the case that needs scheduling. Note the printed answer sheet keys D ('All of the above'), which cannot hold once B and C are false."
+  },
+  {
+    "id": "ce2016-q064",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "In blocking state, we can find __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "The processes waiting for I/O.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The process that is running.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The processes waiting for the processor.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 64
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "20d5a77e218aa7aab3afd96b8312f7371b7eaf22",
+    "explanation": "The blocked (waiting) state holds processes that cannot run until some external event completes, typically an I/O operation. Option C is the trap: a process waiting for the processor is in the Ready state, not blocked, because it needs nothing but the CPU."
+  },
+  {
+    "id": "ce2016-q065",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "Which of the following is NOT considered a state of a process?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Blocked",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Running",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ready",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Privileged",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 65
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "43d403d044f6e52ba26a232223ba77bd5a875a6a",
+    "explanation": "The process states are new, ready, running, blocked/waiting and terminated. 'Privileged' is a CPU execution mode (kernel vs user mode), not a state a process sits in."
+  },
+  {
+    "id": "ce2016-q066",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "state-machines",
+    "stem": "The outputs in Moore State Machine depends on:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current state & current input.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Current state & previous state.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Current state only.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Current input only.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 66
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "1f7da7eba4ae49e09321b110b5201f14b449cd3a",
+    "explanation": "In a Moore machine the output is a function of the current state alone, so the output is labelled inside the state bubble. Option A describes a Mealy machine, where the output depends on both the current state and the current input."
+  },
+  {
+    "id": "ce2016-q067",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "multitasking",
+    "stem": "When you use multiple computer tools/programs at same time, this is known as _____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multioperating.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Multipaging.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Extreme Programming.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Multitasking.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 67
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "4d5d97bbea9e775c5d3a12042b3bbbfcfa3a3902",
+    "explanation": "Running several programs apparently at the same time is multitasking: the OS interleaves them on the CPU so each appears to run concurrently. The other three options are not real OS terms in this sense."
+  },
+  {
+    "id": "ce2016-q068",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "Big-O is used for ____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Best case.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worst case.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Average case.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 68
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "e1b5e0d6ab2416a6861994213abf3fd2e1b74a1e",
+    "explanation": "Big-O is an asymptotic upper bound, so by convention it is used to state the worst case. Omega is the lower bound (best case) and Theta is a tight bound; the trap is assuming Big-O means 'average', which it does not."
+  },
+  {
+    "id": "ce2016-q069",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "truth-tables",
+    "stem": "Find the Truth Table for the following function:\n\nF = x + y'z",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "x y z | F\n0 0 0 | 0\n0 0 1 | 1\n0 1 0 | 0\n0 1 1 | 0\n1 0 0 | 1\n1 0 1 | 1\n1 1 0 | 1\n1 1 1 | 1",
+    "answerFigure": "/figures/ce2016-q069-answer.png",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 69
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "affa32a185065de623b0578bddb27dbb71ba3971",
+    "explanation": "F = x + y'z is 1 whenever either term is 1. The x term makes all four rows with x=1 (100, 101, 110, 111) output 1, and y'z makes the single row with y=0 and z=1 output 1, which with x=0 is row 001. Every other row (000, 010, 011) is 0."
+  },
+  {
+    "id": "ce2016-q070",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "truth-tables",
+    "stem": "Find the Truth Table for the following circuit:",
+    "stemFigure": "/figures/ce2016-q070.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "x₁ x₂ x₃ | f\n0  0  0  | 0\n0  0  1  | 0\n0  1  0  | 1\n0  1  1  | 0\n1  0  0  | 0\n1  0  1  | 0\n1  1  0  | 1\n1  1  1  | 1",
+    "answerFigure": "/figures/ce2016-q070-answer.png",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 70
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "c48b9bc35c44505ef4f57e02ec24355ffd6890cf",
+    "explanation": "Tracing the circuit gives three AND terms fed into an OR: f = x1'x2x3' + x1x2x3' + x1x2x3, which simplifies to x2(x1 + x3'). So f is 1 only on rows 010, 110 and 111, and 0 everywhere else. Note x2 = 1 is required in every product term, so any row with x2 = 0 is immediately 0."
+  }
+]

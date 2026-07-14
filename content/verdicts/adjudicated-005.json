@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bank-a-q130",
+    "finalAnswer": ["A"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous for A: a monitor is driven by a display adapter, and the adapter is the thing that occupies a bus, so the path is monitor -> graphics card -> PCI expansion bus -> CPU; SCSI is a storage/scanner peripheral bus that has never carried video, while Memory bus and Rambus (RDRAM) both serve DRAM, not display output. The copied Sanfoundry-lineage key of 'SCSI' rests on the fabricated gloss that SCSI connects video devices and is factually indefensible, so the panel derives PCI on the merits."
+  },
+  {
+    "id": "bank-a-q144",
+    "finalAnswer": ["C"],
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "Unanimous for C: the control unit decodes instructions and asserts control signals to the ALU, memory and I/O ('the nerve center that sends control signals to other units'), whereas timing signals come from the clock and answer when an action occurs rather than what does the controlling; 'transfer signals' and 'command signals' are not terms of art. The stem's qualifier 'to control other units' disambiguates against the Timing distractor."
+  },
+  {
+    "id": "bank-a-q161",
+    "finalAnswer": [],
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": true,
+    "addFlags": ["unanswerable"],
+    "panelReasoning": "All three judges call the item corrupt: as printed, minimum duplication/redundancy (A), high level of security (B) and ACID support (D) are all genuine DBMS features, so three options are simultaneously correct while only C ('Single-user Access only') is false. The 3-true/1-false pattern is the fingerprint of a dropped negation - the source item reads 'Which of the following is NOT a feature of DBMS?' keyed C - so the stem must be repaired rather than keyed."
+  },
+  {
+    "id": "bank-a-q200",
+    "finalAnswer": ["A"],
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": false,
+    "addFlags": ["key_disputed"],
+    "panelReasoning": "The arithmetic is settled: 192.168.50.0 is a /24, so 10 equal subnets needs 4 borrowed bits (2^3=8 < 10 <= 2^4=16), giving /28 = 255.255.255.240, and A is the only option retaining the required .240 boundary (B is a /16 supernet, C and D are /24s and not even valid dotted-quads). The panel splits on gradability - two judges key A as an OCR-mangled 255.255.255.240 while one refuses to key an option whose printed text is not a valid subnet mask - so the option text must be repaired before the item is used."
+  }
+]

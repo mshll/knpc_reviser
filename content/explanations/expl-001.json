@@ -1,0 +1,82 @@
+[
+  {
+    "id": "koc2012-q021",
+    "explanation": "AutoFilter operates on a data list, so it sits on the Data menu (Data > Filter > AutoFilter in menu-era Excel; Data tab > Filter in the ribbon). Tools held options and macros, Insert held objects and functions."
+  },
+  {
+    "id": "koc2012-q022",
+    "explanation": "Ctrl+P is the standard Print shortcut across Office and almost every Windows application. The distractors are other shortcuts: Ctrl+V pastes and Alt+F4 closes the application."
+  },
+  {
+    "id": "koc2012-q023",
+    "explanation": "Wrap Text (Format Cells > Alignment) breaks long text onto multiple lines inside the cell boundary and grows the row height to fit. It is a cell-level alignment setting and has nothing to do with page margins or the file."
+  },
+  {
+    "id": "koc2012-q024",
+    "explanation": "Yes. Insert > Object or Paste Special embeds or links a live Excel worksheet inside a Word document via OLE, so the sheet stays editable in place."
+  },
+  {
+    "id": "koc2012-q025",
+    "explanation": "Bullets and Numbering is paragraph formatting, so in classic Word menus it lives under Format (the option labelled C here). Modern ribbon Word moved it to Home > Paragraph."
+  },
+  {
+    "id": "koc2012-q026",
+    "explanation": "Ctrl+B makes the selected text and numbers bold. Ctrl+U is the underline shortcut, which is the distractor in option C."
+  },
+  {
+    "id": "koc2012-q027",
+    "explanation": "Yes. Word table columns can be removed with Table > Delete > Columns (or right-click the column and choose Delete Columns)."
+  },
+  {
+    "id": "koc2012-q028",
+    "explanation": "Print Preview renders the whole file as it will appear on the printed page (pagination, margins, headers and footers) without sending anything to the printer. Option B describes the Print command itself, and option C wrongly narrows the preview to tables only."
+  },
+  {
+    "id": "koc2012-q029",
+    "explanation": "The Office Assistant (Clippy) surfaced context-sensitive help topics and usage tips. It did not automate commands (that is what macros do) or save files automatically (that is AutoSave/AutoRecover)."
+  },
+  {
+    "id": "koc2012-q030",
+    "explanation": "WordArt inserts decorative text as a graphic object with effects such as curving, shadowing and 3-D. Shading text with color is a separate Highlight/Shading command, which is the trap in option C."
+  },
+  {
+    "id": "koc2012-q031",
+    "explanation": "Subscript lowers the text below the baseline, as in the 2 of H2O. Option A is the definition of superscript (raising above the baseline, as in x squared), the classic subscript/superscript swap."
+  },
+  {
+    "id": "koc2012-q032",
+    "explanation": "Yes. PowerPoint supports adding audio to a slide via Insert > Movies and Sounds (Insert > Audio in newer versions)."
+  },
+  {
+    "id": "koc2012-q033",
+    "explanation": "Yes. Images are added with Insert > Picture, either from a file or from clip art."
+  },
+  {
+    "id": "koc2012-q034",
+    "explanation": "Yes. Format > Background (Design > Format Background in newer versions) changes a slide's background color, gradient, texture or picture fill."
+  },
+  {
+    "id": "koc2012-q035",
+    "explanation": "Yes. PowerPoint ships an organization chart tool, reached via Insert > Diagram in older versions and Insert > SmartArt > Hierarchy in newer ones."
+  },
+  {
+    "id": "koc2012-q036",
+    "explanation": "The Relationships window defines joins between the objects that hold data, linking a primary key in one table to a foreign key in another (queries can also be placed there). Forms and reports only display data, so they have no relationships to define, which rules out B and C."
+  },
+  {
+    "id": "koc2012-q037",
+    "explanation": "Yes. Forms are the Access user interface bound to a table or query, used both to view existing records and to key in new ones."
+  },
+  {
+    "id": "koc2012-q038",
+    "explanation": "No, the direction is backwards. A form's record source is a table or a query; reports are output-only consumers of data and can never act as a data source for a form."
+  },
+  {
+    "id": "koc2012-q039",
+    "explanation": "Queries retrieve, filter and join data held in tables (or in other queries). Forms and reports consume query output rather than store data, so they are not things you query."
+  },
+  {
+    "id": "koc2012-q040",
+    "explanation": "Yes. Design View is the authoring surface where a report's layout, sections and bound controls are built and edited. A wizard or AutoReport can generate a first draft, but it hands the result to Design View for actual design work."
+  }
+]

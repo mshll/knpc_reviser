@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ce2016-q024",
+    "verdict": "ok",
+    "explanation": "DNS = Domain Name System, the distributed directory that resolves human-readable names such as example.com into IP addresses. The distractors swap in 'Dynamic' (which belongs to DHCP) or 'Network' for 'Name'."
+  },
+  {
+    "id": "ce2016-q025",
+    "verdict": "ok",
+    "explanation": "DHCP = Dynamic Host Configuration Protocol: it hands hosts an IP address, subnet mask, default gateway and DNS servers automatically on joining a network. 'Control' in place of 'Configuration' is the trap; DHCP configures hosts, it does not control them."
+  },
+  {
+    "id": "ce2016-q026",
+    "verdict": "ok",
+    "explanation": "An IPv4 address is 32 bits: four octets of 8 bits each (8 * 4 = 32), written in dotted decimal such as 192.168.1.1. That yields 2^32, roughly 4.3 billion, addresses, which is why exhaustion forced IPv6."
+  },
+  {
+    "id": "ce2016-q027",
+    "verdict": "ok",
+    "explanation": "An IPv6 address is 128 bits: eight groups of 16 bits (16 * 8 = 128), written as hex separated by colons. That is four times the width of IPv4's 32 bits, giving 2^128 addresses."
+  },
+  {
+    "id": "ce2016-q028",
+    "verdict": "ok",
+    "explanation": "The T (toggle) flip-flop has one input. T = 0 holds the current state, Q(t+1) = Q(t); T = 1 inverts it, Q(t+1) = Q(t)'. Combining the two rows gives the characteristic equation Q(t+1) = T·Q(t)' + T'·Q(t), which is exactly T XOR Q(t)."
+  },
+  {
+    "id": "ce2016-q029",
+    "verdict": "ok",
+    "explanation": "The JK flip-flop is the SR flip-flop with the forbidden 1,1 input redefined as toggle. J=0,K=0 holds Q(t); J=0,K=1 resets to 0; J=1,K=0 sets to 1; J=1,K=1 toggles to Q(t)'. Those four rows give the characteristic equation Q(t+1) = J·Q(t)' + K'·Q(t)."
+  },
+  {
+    "id": "ce2016-q030",
+    "verdict": "rewritten",
+    "explanation": "Tie J and K together and drive both from T: substituting J = K = T into Q(t+1) = J·Q(t)' + K'·Q(t) gives Q(t+1) = T·Q(t)' + T'·Q(t), which is the T flip-flop equation, so T=0 holds and T=1 toggles. Only a wire is needed, no gate. Adding a NOT gate (J = T, K = T') would instead build a D flip-flop that loads the input, which is the conversion asked for in the next question.",
+    "issue": "Key (D, no gate) is correct and the derivation was correct, but the distractor rationale was imprecise: it claimed a NOT gate yields 'an SR-style set/reset'. Feeding J = T and K = T' is exactly the JK-to-D conversion keyed in ce2016-q031, so naming it correctly removes a confusion between two adjacent items."
+  },
+  {
+    "id": "ce2016-q031",
+    "verdict": "ok",
+    "explanation": "A D flip-flop is a JK flip-flop with J = D and K = D', so you only need to invert D on its way to the K input: one NOT gate. Recall the JK table: J=1,K=0 sets, J=0,K=1 resets, which is exactly D=1 and D=0 once K is tied to D'. 'No additional gate' is the trap, since wiring D straight to both J and K gives J=K, which toggles or holds instead of loading."
+  },
+  {
+    "id": "ce2016-q032",
+    "verdict": "ok",
+    "explanation": "1110 0000 = 224 and 1100 0000 = 192, so 224 + 192 = 416 = 1 1010 0000. The 8-bit result is 1010 0000 with a 1 carried out of the MSB, which is the overflow bit the question is asking for. Note the carry-out signals unsigned overflow only; read as two's complement it is -32 + -64 = -96, which fits in 8 bits, so there is no signed overflow."
+  },
+  {
+    "id": "ce2016-q033",
+    "verdict": "rewritten",
+    "explanation": "WATS (Wide Area Telephone Service) is a carrier-provided bulk long-distance telephone service, so it is the only listed item that is actually a means of carrying communication: DDT is an insecticide (and an old debugging tool) and DTS is not a telephony service. Fair warning on this item: DDD (Direct Distance Dialing) is also a genuine telephone service, so the option set is weak, but the exam key marks WATS.",
+    "issue": "Old explanation was a bare expansion of the acronym with zero justification and no treatment of the distractors. It also hid the real hazard: DDD is a legitimate telephony term, so the student needs to know the key marks WATS despite the weak option set."
+  },
+  {
+    "id": "ce2016-q034",
+    "verdict": "ok",
+    "explanation": "Clustering is what happens when keys pile up on the same hash address rather than spreading evenly, which is what option A describes. Be aware the item is loosely worded: two keys landing on one address is strictly a collision, and B (probing for another slot when the address is taken) is the open-addressing mechanism that actually produces primary clustering. A is the best of a poor option set and is what the key marks."
+  },
+  {
+    "id": "ce2016-q035",
+    "verdict": "ok",
+    "explanation": "ipconfig on the server already confirms the server's own IP stack and addressing are fine, so the fault is somewhere on the path between client and server. tracert from the host to the server walks the route hop by hop and shows exactly where it dies, which rechecking the server (C) cannot do. A and B are weaker because a bare ping only gives a pass/fail with no location, and pinging the gateway tests just the first hop."
+  },
+  {
+    "id": "ce2016-q036",
+    "verdict": "ok",
+    "explanation": "A counter advances by toggling bits, and the T (toggle) flip-flop toggles its output on every clock when T = 1, so chaining T flip-flops directly yields a ripple counter. A JK with J = K = 1 behaves identically and is why B looks tempting, but T is the element defined for the job and is the keyed answer."
+  },
+  {
+    "id": "ce2016-q037",
+    "verdict": "ok",
+    "explanation": "The concentric (on a CD, spiral) rings of data on the disc surface are tracks. Sectors are the angular subdivisions cut across a track, and clusters are groups of sectors the filesystem allocates as one unit, so both are units within a track rather than the circles themselves."
+  },
+  {
+    "id": "ce2016-q038",
+    "verdict": "ok",
+    "explanation": "Quick sort is the keyed answer: it averages O(n log n) with the smallest constant factors of the general-purpose comparison sorts and sorts in place, so in practice it is the fastest of the four. Know the caveat, because it is the classic trap in reverse here: quick sort degrades to O(n^2) on already-sorted input with a poor pivot, while heap sort is O(n log n) in the worst case, so 'best' is arguable and depends on whether you mean average or worst case."
+  }
+]

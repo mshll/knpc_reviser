@@ -1,0 +1,82 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - main [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - generic [ref=f4e5]:
+          - heading "Question bank" [level=1] [ref=f4e6]
+          - paragraph [ref=f4e7]: "The whole corpus: 703 questions, including items a quiz never serves. Expand any row to see the answer and explanation."
+        - generic [ref=f4e8]:
+          - generic [ref=f4e10]:
+            - searchbox "Search the question bank" [ref=f4e13]: knpc2021-q007
+            - button "Clear search" [ref=f4e207] [cursor=pointer]
+          - button "Needs review (5)" [ref=f4e14] [cursor=pointer]
+          - generic [ref=f4e17]:
+            - combobox "Filter by topic" [ref=f4e18] [cursor=pointer]:
+              - generic: All topics
+            - combobox "Filter by source tier" [ref=f4e21] [cursor=pointer]:
+              - generic: All sources
+            - combobox "Filter by flag" [ref=f4e24] [cursor=pointer]:
+              - generic: All flags
+            - combobox "Filter by answer key status" [ref=f4e27] [cursor=pointer]:
+              - generic: Any key status
+          - generic [ref=f4e30]:
+            - paragraph [ref=f4e31]: 1 of 703 questions match
+            - button "Clear filters" [ref=f4e210] [cursor=pointer]
+        - list [ref=f4e32]:
+          - listitem [ref=f4e68]:
+            - button "KNPC 2021 Q7 · Programming What is value of count?" [expanded] [active] [ref=f4e69] [cursor=pointer]:
+              - generic [ref=f4e70]:
+                - generic [ref=f4e71]: KNPC 2021 Q7 · Programming
+                - generic [ref=f4e72]: What is value of count?
+            - generic [ref=f4e211]:
+              - article [ref=f4e212]:
+                - generic [ref=f4e213]:
+                  - generic [ref=f4e214]: Programming
+                  - generic [ref=f4e215]: KNPC 2021
+                - generic [ref=f4e216]:
+                  - heading "What is value of count?" [level=2] [ref=f4e217]
+                  - code [ref=f4e219]: "int count = 0; for(count = 1; count<10;count++) { } cout << count << endl;"
+                - radiogroup "Options" [ref=f4e220]:
+                  - radio "1" [disabled] [ref=f4e221]:
+                    - generic [ref=f4e222]: A
+                  - radio "10 Correct answer" [disabled] [ref=f4e225]:
+                    - generic [ref=f4e229]: "10"
+                    - img "Correct answer" [ref=f4e232]
+                  - radio "0" [disabled] [ref=f4e234]:
+                    - generic [ref=f4e235]: C
+                  - radio "9" [disabled] [ref=f4e238]:
+                    - generic [ref=f4e239]: D
+                - generic [ref=f4e242]:
+                  - generic [ref=f4e243]: AI-generated explanation
+                  - paragraph [ref=f4e246]: "The loop runs count = 1..9, and on the iteration where count becomes 10 the test 10 < 10 fails, so the loop exits with count still holding 10 and cout prints 10. The trap is 9: that is the last value the body saw, but the increment that ends the loop still executes before the test."
+                  - link "Reference" [ref=f4e247] [cursor=pointer]:
+                    - /url: https://www.onlinegdb.com/online_c++_compiler
+              - generic [ref=f4e250]:
+                - generic [ref=f4e251]:
+                  - term [ref=f4e252]: Source
+                  - definition [ref=f4e253]: KNPC 2021, question 7
+                - generic [ref=f4e254]:
+                  - term [ref=f4e255]: Source file
+                  - definition [ref=f4e256]: KOC 2012 EXAM (2).pdf
+                - generic [ref=f4e257]:
+                  - term [ref=f4e258]: Tier
+                  - definition [ref=f4e259]: Past papers
+                - generic [ref=f4e260]:
+                  - term [ref=f4e261]: Answer key
+                  - definition [ref=f4e262]: Marked in the source paper
+                - generic [ref=f4e263]:
+                  - term [ref=f4e264]: Verification
+                  - definition [ref=f4e265]: Blind re-answer agreed with the key
+    - navigation "Primary" [ref=f4e188]:
+      - generic [ref=f4e189]:
+        - link "Home" [ref=f4e190] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f4e194] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f4e198] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f4e202] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f4e206]

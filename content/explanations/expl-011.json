@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ce2016-q011",
+    "explanation": "ROM = Read-Only Memory: non-volatile storage written at manufacture and normally only read thereafter (it holds firmware/BIOS). The trap is B, Random Access Memory, which is RAM, the volatile read/write working memory. C mixes the two acronyms and is not a real term."
+  },
+  {
+    "id": "ce2016-q012",
+    "explanation": "Every one of the eight cells (minterms 0 through 7) holds a 1, so the whole map is one group covering all variables. A group that spans the entire map cancels every literal, leaving F = 1 (the constant-1 function, true for all inputs)."
+  },
+  {
+    "id": "ce2016-q013",
+    "explanation": "Factor out x: xy + xy' = x(y + y'), and y + y' = 1 by the complement law, so the result is x·1 = x. The distractors come from misapplying distribution: adding rather than factoring gives the bogus x + y or x + y'."
+  },
+  {
+    "id": "ce2016-q014",
+    "explanation": "Round Robin is FIFO (FCFS) with a time quantum bolted on: processes are dispatched in arrival order from a FIFO ready queue, but a process that exhausts its quantum is preempted and put back at the tail. SJF is the trap, its preemptive version is SRTF (Shortest Remaining Time First), not Round Robin."
+  },
+  {
+    "id": "ce2016-q015",
+    "explanation": "False. Balanced refers to HEIGHT, not node count: a tree is height-balanced when the heights of the left and right subtrees differ by at most 1 at every node. A balanced tree can easily have 3 nodes on one side and 1 on the other, so equal node counts is not required."
+  },
+  {
+    "id": "ce2016-q016",
+    "explanation": "The four standard categories of software maintenance are corrective (fix defects), adaptive (adjust to a changed environment), perfective (improve or extend function/performance), and preventive (reduce future decay). 'Customer Serviced' is not one of them, it is an invented option."
+  },
+  {
+    "id": "ce2016-q017",
+    "explanation": "A bridge is a data-link (layer 2) device that joins two LANs or LAN segments into one logical network and forwards or filters frames based on MAC addresses. Option A describes cabling within one segment, not a bridge, and C describes traffic shaping, which no bridge does."
+  },
+  {
+    "id": "ce2016-q018",
+    "explanation": "A repeater does nothing but amplify and regenerate the raw signal to overcome attenuation; it does not read addresses or interpret frames, so it operates purely at the physical layer. Data Link is the trap: that is where a bridge or switch works, because those devices do read MAC addresses."
+  },
+  {
+    "id": "ce2016-q019",
+    "explanation": "'Regenerates a signal' plus 'no filtering capability' is the exact definition of a repeater, a physical-layer device that blindly retransmits everything it receives. Bridge is wrong precisely because a bridge does filter, forwarding frames only toward the segment holding the destination MAC; a router filters and forwards by IP."
+  },
+  {
+    "id": "ce2016-q020",
+    "explanation": "Answer unverified: as written, A, B and C are all commercial (non-free) DBMS products, so the item has more than one defensible answer. The keyed answer is Oracle because it is the archetypal large-scale commercial DBMS. Only Linux is unambiguously wrong, since it is an operating system, not a DBMS."
+  },
+  {
+    "id": "ce2016-q021",
+    "explanation": "The OSI reference model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application. The trap is 4 or 5, which are the layer counts of the TCP/IP model, not OSI."
+  },
+  {
+    "id": "ce2016-q022",
+    "explanation": "Answer unverified: the phase count of the SDLC is convention-dependent and textbooks give 5, 6 or 7. The keyed answer, 6, matches the common breakdown of planning, requirement analysis, design, implementation/coding, testing, and maintenance. Memorize the six-phase list for this exam, but expect other sources to merge or split phases."
+  },
+  {
+    "id": "ce2016-q023",
+    "explanation": "Testing is the phase in which the built system is exercised against the requirements to confirm the results match the software specification. Requirement Analysis is where the spec is produced and Design is where a solution is planned; neither checks results, since no results exist yet at those stages."
+  },
+  {
+    "id": "ce2016-q024",
+    "explanation": "DNS = Domain Name System, the distributed directory that resolves human-readable names such as example.com into IP addresses. The distractors swap in 'Dynamic' (which belongs to DHCP) or 'Network' for 'Name'."
+  },
+  {
+    "id": "ce2016-q025",
+    "explanation": "DHCP = Dynamic Host Configuration Protocol: it hands hosts an IP address, subnet mask, default gateway and DNS servers automatically on joining a network. 'Control' in place of 'Configuration' is the trap; DHCP configures hosts, it does not control them."
+  },
+  {
+    "id": "ce2016-q026",
+    "explanation": "An IPv4 address is 32 bits: four octets of 8 bits each (8 * 4 = 32), written in dotted decimal such as 192.168.1.1. That yields 2^32, roughly 4.3 billion, addresses, which is why exhaustion forced IPv6."
+  },
+  {
+    "id": "ce2016-q027",
+    "explanation": "An IPv6 address is 128 bits: eight groups of 16 bits (16 * 8 = 128), written as hex separated by colons. That is four times the width of IPv4's 32 bits, giving 2^128 addresses."
+  },
+  {
+    "id": "ce2016-q028",
+    "explanation": "The T (toggle) flip-flop has one input. T = 0 holds the current state, Q(t+1) = Q(t); T = 1 inverts it, Q(t+1) = Q(t)'. Combining the two rows gives the characteristic equation Q(t+1) = T·Q(t)' + T'·Q(t), which is exactly T XOR Q(t)."
+  },
+  {
+    "id": "ce2016-q029",
+    "explanation": "The JK flip-flop is the SR flip-flop with the forbidden 1,1 input redefined as toggle. J=0,K=0 holds Q(t); J=0,K=1 resets to 0; J=1,K=0 sets to 1; J=1,K=1 toggles to Q(t)'. Those four rows give the characteristic equation Q(t+1) = J·Q(t)' + K'·Q(t)."
+  },
+  {
+    "id": "ce2016-q030",
+    "explanation": "Wire J and K together and drive both from T. Substituting J = K = T into Q(t+1) = J·Q(t)' + K'·Q(t) gives Q(t+1) = T·Q(t)' + T'·Q(t), which is precisely the T flip-flop equation: T=0 holds, T=1 toggles. Only a wire is needed, no gate. A NOT gate is the trap, but inverting K would give an SR-style set/reset instead of a toggle."
+  }
+]

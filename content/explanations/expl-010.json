@@ -1,0 +1,74 @@
+[
+  {
+    "id": "knpc2021-q037",
+    "explanation": "A trap door (back door) is a hidden, undocumented entry point deliberately left in a program, OS or service that bypasses the normal authentication and access controls. Programmers add them for debugging or maintenance convenience, and attackers exploit or plant them for persistent access."
+  },
+  {
+    "id": "knpc2021-q038",
+    "explanation": "Propagation delay is the time a bit spends travelling through the physical medium, distance / propagation speed, and it depends on link length, not on packet size. Rate (bandwidth) is the link's nominal transfer speed in bits per second, while throughput is the data actually delivered per unit time end to end; throughput is bounded by the slowest link and is normally lower than the rate."
+  },
+  {
+    "id": "knpc2021-q039",
+    "explanation": "Answer unverified: this item is flagged key_disputed and its truth-table figure is partly degraded. The derived key is B (JK flip flop): the table has two inputs, which rules out T (one input), and every row has a defined output with no forbidden/invalid state, which rules out SR; only JK covers hold, reset, set and toggle in four fully defined rows. The dissent is that if the degraded cells contain no complemented Q, the table would actually describe a gated D flip flop, which is not offered."
+  },
+  {
+    "id": "knpc2021-q040",
+    "explanation": "Answer unverified: this item is unanswerable as recalled. 10010 in base 2 is 18 unsigned, or -14 as 5-bit two's complement, and a 5-bit signed field spans only -16 to +15, so neither surviving option (-37, -27) is reachable under any standard encoding. The stem hedges itself ('i think it was'), so the recalled bit string is wrong. Method to remember: 1*16 + 0*8 + 0*4 + 1*2 + 0*1 = 18."
+  },
+  {
+    "id": "knpc2021-q041",
+    "explanation": "IEEE 802.3 is wired Ethernet, so it is the intended odd one out; 802.11 is Wi-Fi itself, and 802.15 (Bluetooth/WPAN) and 802.16 (WiMAX) are at least wireless. Note the question is loosely worded: strictly speaking 802.15 and 802.16 are also not Wi-Fi, but 802.3 is the only non-wireless standard and is the keyed answer."
+  },
+  {
+    "id": "knpc2021-q042",
+    "explanation": "A collision is when two different keys hash to the same table slot (index). It is unavoidable once the number of keys exceeds the number of buckets (pigeonhole), so hash tables resolve it with chaining (a list per bucket) or open addressing (probe for another slot)."
+  },
+  {
+    "id": "knpc2021-q043",
+    "explanation": "All three are email protocols, so D. SMTP sends/relays mail between servers, POP3 downloads mail from the server to a client (typically deleting the server copy), and IMAP keeps mail on the server so it stays in sync across devices."
+  },
+  {
+    "id": "knpc2021-q044",
+    "explanation": "The body never runs, so C. The condition x<=1 && x>=10 requires x to be both at most 1 and at least 10 at the same time, which no value satisfies, so the while test fails on the first evaluation and the loop executes zero times. The trap is misreading && as ||, where x=0 would satisfy x<=1 and loop forever."
+  },
+  {
+    "id": "knpc2021-q045",
+    "explanation": "Answer unverified: this item is a free-recall note rather than a question, with no options and no key, and 'read' is presumably a typo for 'ready'. The underlying fact is settled: a thread in the ready state has everything it needs to execute except the CPU, and sits in the ready queue until the scheduler dispatches it to the running state."
+  },
+  {
+    "id": "knpc2021-q046",
+    "explanation": "Answer unverified: no key was recorded for this item. The expected answer is a function (also called a method, procedure, subroutine or routine): a named, reusable block of code that performs one specific task and can be called from elsewhere."
+  },
+  {
+    "id": "ce2016-q001",
+    "explanation": "SQL is the language used to define and query relational databases (SELECT, INSERT, CREATE TABLE, joins). HTML and XML are markup languages for documents and data interchange, and CSS is a styling language; none of them queries an RDBMS."
+  },
+  {
+    "id": "ce2016-q002",
+    "explanation": "Oracle is a database vendor and RDBMS product, not an operating system. Solaris (Unix), Linux and Windows all manage hardware and run applications, so they are operating systems."
+  },
+  {
+    "id": "ce2016-q003",
+    "explanation": "Best complexity means slowest growth: lg n < n < n lg n < n^2 for large n. At n = 1,000,000, lg n is about 20 operations while n^2 is 10^12, so O(lg n) wins."
+  },
+  {
+    "id": "ce2016-q004",
+    "explanation": "Big-O drops constant factors and lower-order terms, so O(2000n - 1) = O(n). The trap is answering O(2000n), which is not wrong mathematically but is not the reduced form Big-O asks for; the 2000 is a constant multiplier and the -1 is lower order."
+  },
+  {
+    "id": "ce2016-q005",
+    "explanation": "Bubble sort is an algorithm (a procedure that operates on data), not a data structure. Tree, heap and list are ways of organising and storing data, which is what a data structure is."
+  },
+  {
+    "id": "ce2016-q007",
+    "explanation": "The function makes two recursive calls, on n-1 and n-2, and does only constant work per call (one comparison plus one addition), so T(n) = T(n-2) + T(n-1) + 1. The trap is choosing the +n version, which would apply only if the body did O(n) work such as a loop over n; here the body is O(1)."
+  },
+  {
+    "id": "ce2016-q009",
+    "explanation": "Recursion is a technique in which a function calls itself, solving a problem by reducing it to smaller instances of the same problem until it reaches a base case that is solved directly. Without a base case the recursion never terminates and the call stack overflows."
+  },
+  {
+    "id": "ce2016-q010",
+    "explanation": "Multitasking is the OS running several tasks/processes apparently at the same time, achieved on a single CPU by rapidly switching (context switching) between them so each appears to progress concurrently. Do not confuse it with multiprocessing, which means genuinely executing on multiple CPUs/cores."
+  }
+]

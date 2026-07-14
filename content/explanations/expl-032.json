@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bank-b-q012",
+    "explanation": "The binary ladder steps by 1024 each rung: 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB. Option A (1024 bytes) is the definition of a kilobyte, not a gigabyte, and 1024 TB would be a petabyte, so the only rung that lands on GB is 1024 MB."
+  },
+  {
+    "id": "bank-b-q013",
+    "explanation": "Generations track the switching technology: 1st = vacuum tubes, 2nd = transistors, 3rd = integrated circuits, 4th = VLSI microprocessors (Intel 4004 onward, whole CPU on one chip), 5th = ULSI and AI machines. Transistor and IC are the previous two generations, and ULSI (option D) is the classic trap because it is the next one, not the fourth."
+  },
+  {
+    "id": "bank-b-q014",
+    "explanation": "A printer takes data from the computer and renders it on paper, so it is an output device. Keyboard, mouse and joystick all feed data into the computer, so they are inputs."
+  },
+  {
+    "id": "bank-b-q015",
+    "explanation": "CD-RW drives are rated in write x rewrite x read order, so 12x 10x 32x means 12x write, 10x rewrite, 32x read. The shortcut for the exam: the read speed is always the largest of the three numbers because reading is the fastest operation, so the 32x has to sit in the last position, which rules out every other ordering."
+  },
+  {
+    "id": "bank-b-q016",
+    "explanation": "RAM is volatile: its cells need power to hold their charge, so contents are lost when the machine is switched off. ROM and the BIOS chip are non-volatile and keep their contents without power, and the CPU is a processor, not storage."
+  },
+  {
+    "id": "bank-b-q017",
+    "explanation": "Malware is an umbrella term for any malicious software, so spyware, worms and viruses are all instances of it rather than alternatives to it. That makes 'all of the above' the only answer that covers the definition."
+  },
+  {
+    "id": "bank-b-q018",
+    "explanation": "A backup is a second copy on separate media, so it is the only listed action that survives drive failure, ransomware or accidental deletion. Scanning detects malware, defragmentation reorganises files for speed and deleting junk frees space, but none of them preserve the data if the drive dies."
+  },
+  {
+    "id": "bank-b-q019",
+    "explanation": "A gateway is the protocol translator: it can reach up to the application layer and convert between dissimilar protocols or architectures. A repeater only regenerates the signal (layer 1), a bridge forwards frames between segments running the same protocol (layer 2), and a modem converts digital to analogue, none of which translate protocols."
+  },
+  {
+    "id": "bank-b-q020",
+    "explanation": "Answer unverified: the exam PDF keys option C (the C language), but that is almost certainly a keying error, and the same file miskeys several consecutive items to C. The defensible answer is B, PROLOG (PROgramming in LOGic), the classic AI language alongside LISP. FORTRAN is for numeric computation, COBOL for business data processing, and C is a general-purpose systems language with no AI-specific constructs."
+  },
+  {
+    "id": "bank-b-q021",
+    "explanation": "LibreOffice is released under a free/open licence with its source code publicly available and modifiable. Photoshop, Microsoft Word and Skype are all proprietary, closed-source products."
+  },
+  {
+    "id": "bank-b-q022",
+    "explanation": "JPEG stands for Joint Photographic Experts Group, the committee that defined the standard. The other options are invented expansions built from plausible-sounding words."
+  },
+  {
+    "id": "bank-b-q023",
+    "explanation": "URL stands for Uniform Resource Locator: 'uniform' because the syntax is the same for every scheme, and 'locator' because it says where the resource is and how to fetch it. The distractors swap in 'Universal' or 'Link', which belong to no standard."
+  },
+  {
+    "id": "bank-b-q024",
+    "explanation": "SD stands for Secure Digital, the flash memory card standard from the SD Association. 'Scan Disk' is the trap: it echoes the old ScanDisk disk-checking utility, which has nothing to do with memory cards."
+  },
+  {
+    "id": "bank-b-q025",
+    "explanation": "A byte is defined as 8 bits, which gives 2^8 = 256 distinct values, enough for the extended ASCII character set."
+  },
+  {
+    "id": "bank-b-q026",
+    "explanation": "The standard Windows enhanced keyboard has 104 keys: the older 101-key layout plus two Windows keys and one menu key. The 84-key figure is the obsolete IBM AT layout."
+  },
+  {
+    "id": "bank-b-q027",
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the application-layer protocol browsers use to request and receive web pages. The other options scramble the words into expansions that do not exist."
+  },
+  {
+    "id": "bank-b-q028",
+    "explanation": "The formatted capacity of a 3.5 inch high-density floppy disk is 1.44 MB. Legacy trivia: the other options are near-miss numbers with no basis."
+  },
+  {
+    "id": "bank-b-q029",
+    "explanation": "In ASCII and extended ASCII, one character is stored in one byte, which is 8 bits. Note this is the exam's convention: Unicode encodings such as UTF-8 can use up to 4 bytes per character, but this question is asking for the classic one-byte-per-character rule."
+  },
+  {
+    "id": "bank-b-q030",
+    "explanation": "Application software is written to perform specific user tasks (word processing, spreadsheets, browsing). System software, which includes operating systems such as Windows 2000 and Windows XP, manages the hardware and provides the platform that applications run on, so options B, C and D are all the same wrong category."
+  },
+  {
+    "id": "bank-b-q031",
+    "explanation": "Answer unverified: the exam PDF keys Switch, but the standard 'traffic cop' metaphor (deciding which way traffic goes at a junction) describes the Router, which selects paths and forwards packets between different networks. A switch only forwards frames by MAC address inside a single LAN, a hub blindly floods every port, and a modem just modulates the signal. Published versions of this stem answer Router, and this source file miskeys several items to C, so treat Router as the intended answer but know both readings."
+  }
+]

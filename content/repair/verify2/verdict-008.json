@@ -1,0 +1,137 @@
+[
+  {
+    "id": "knpc2016-q012",
+    "myAnswer": ["C"],
+    "confidence": 0.92,
+    "derivation": "MAC address = 24-bit IEEE-assigned OUI + 24-bit vendor-assigned serial, so the 48-bit address is globally unique, not merely locally unique.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q013",
+    "myAnswer": ["C"],
+    "confidence": 0.97,
+    "derivation": "Ripple-carry delay is O(n) because each full adder waits for the previous carry; carry-look-ahead computes carries in parallel from G/P terms, so it is faster.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q014",
+    "myAnswer": ["A"],
+    "confidence": 0.3,
+    "derivation": "Only options are TCP and UDP; neither transport provides security. The correct answer to 'connect securely across a public network' is a VPN / encrypted tunnel, which is absent, so no option is truly correct. A is only least-wrong because TLS runs over TCP. Option list is truncated.",
+    "defective": true,
+    "shippedAnswer": ["A"],
+    "agreement": "defective"
+  },
+  {
+    "id": "knpc2016-q015",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "Handling growth in data volume/load is scalability; extensibility is the ability to add new features or capability, not more data.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q019",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "1 TB = 10^12 bytes = one trillion bytes; 'flash' and 'storage' name a medium/category, not a quantity.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q020",
+    "myAnswer": ["D"],
+    "confidence": 0.95,
+    "derivation": "Data bus width 32 bits / 8 bits per byte = 4 bytes transferred per memory access.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q021",
+    "myAnswer": ["A"],
+    "confidence": 0.97,
+    "derivation": "Full mesh gives every host a direct link to every other (n(n-1)/2 links), so multiple alternate paths survive any single failure; ring gives 2 paths, star has a single hub SPOF.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q026",
+    "myAnswer": ["A"],
+    "confidence": 0.6,
+    "derivation": "Whether purchased software runs at all is set by the platform's system requirements (CPU/OS/RAM/disk), so hardware compatibility is the binding constraint; 'expensive' is not a correctness criterion and D is a compound trap.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q029",
+    "myAnswer": ["A"],
+    "confidence": 0.75,
+    "derivation": "Stem is garbled but recoverable ('why is IP used rather than the Ethernet address'): IP addresses are hierarchical (network prefix + host) so routers can aggregate and forward on the prefix; MAC addresses are flat and carry no location information.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q030",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "A receive equalizer is a transversal filter built from a tapped delay line: delayed copies are weighted and summed to cancel intersymbol interference from delay distortion. Gearshift, descrambler and difference engine are unrelated.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q101",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "Page traffic is the rate of page-ins and page-outs, i.e. movement of pages between memory and backing store (excessive page traffic = thrashing). D describes the resident set, a static count.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q102",
+    "myAnswer": ["B"],
+    "confidence": 0.65,
+    "derivation": "Five-state model = new, ready, running, blocked/waiting, terminated. Ready, Terminated and Blocked are all fundamental states; 'Executed' (past tense) is not a state, the state is 'running/executing'. Independently derived B, matching the panel's correction of the crowd-sourced key.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q103",
+    "myAnswer": ["B"],
+    "confidence": 0.99,
+    "derivation": "LRU = Least Recently Used; the other three expansions are invented.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q104",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "The IEEE 802.11 WLAN family, including 802.11a, is branded Wi-Fi. Ethernet is 802.3, WiMAX is 802.16, and 802.11g is a different PHY (2.4 GHz) not another name for 802.11a (5 GHz).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q105",
+    "myAnswer": ["B"],
+    "confidence": 0.7,
+    "derivation": "The kernel is kept memory-resident because it is the most frequently invoked code (every system call, interrupt and context switch); paging it out would fault on nearly every dispatch. Managing interrupt calls is a function the kernel performs, not the reason it stays in primary memory.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

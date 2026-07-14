@@ -383,6 +383,12 @@
     --social-zendesk: #fff;
   }
   /*#endregion Colors */
+
+  /* Installed to the iOS home screen, the app must not rubber-band like a webpage. */
+  html,
+  body {
+    overscroll-behavior-y: none;
+  }
 }
 
 /* custom scale for Remix Icon */

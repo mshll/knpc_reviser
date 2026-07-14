@@ -1,0 +1,747 @@
+[
+  {
+    "id": "knpc2016-q028",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-tools",
+    "stem": "to know that the computer is connected to gate way?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ping gate way IP",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": true,
+    "flags": [
+      "no_distractors"
+    ],
+    "dedupeHash": "58c677d458cde1da74d22b3f8084f316056ac009"
+  },
+  {
+    "id": "knpc2016-q029",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "why is IP used that ether net address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hieratical",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Flat",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46c3e3f4cd3ca57c83bcdd04f33d22af195071f8"
+  },
+  {
+    "id": "knpc2016-q030",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "signal-processing",
+    "stem": "The receive equalizer reduces delay distortions using a",
+    "options": [
+      {
+        "label": "A",
+        "text": "tapped delay lines",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "gearshift",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "descrambler",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "difference engine",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ce1e84e16f87bd1e88e0ae6aa2f22751a8076a90"
+  },
+  {
+    "id": "knpc2016-q031",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "fddi",
+    "stem": "When to use FDDI?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ethernet topology",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 31
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": true,
+    "flags": [
+      "no_distractors"
+    ],
+    "dedupeHash": "27b8431cda54b8000cf0af39ba28791fabdd8f24"
+  },
+  {
+    "id": "knpc2016-q101",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "paging",
+    "stem": "Page traffic describes",
+    "options": [
+      {
+        "label": "A",
+        "text": "The pages in memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "The papers required to be brought is a given page request",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The movement of pages in and out of the memory",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "The number of pages of executing programs loaded in memory",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b1f969e67772202354c61560c61936500fb299b6"
+  },
+  {
+    "id": "knpc2016-q102",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "Which of the following is not a fundamental process state?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ready",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Executed",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Terminated",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Blocked (can be substituted with wait)",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2229c415e088cd20655722464283f8149f64f69c"
+  },
+  {
+    "id": "knpc2016-q103",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "page-replacement",
+    "stem": "LRU page replacement policy stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Last replaced unit",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Least recently used",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Last restored unit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Least required unit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "71f0a1622c0f876aa463aa653173e3c31924f575"
+  },
+  {
+    "id": "knpc2016-q104",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "wireless-standards",
+    "stem": "Another name for IEEE 802.11 a is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wi-Fi",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Ethernet",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "WiMAX",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "802.11 g",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "137d7f06cab9e314cff82b4156f8c7773198a313"
+  },
+  {
+    "id": "knpc2016-q105",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "kernel",
+    "stem": "The kernel of the operating system remains in primary memory because",
+    "options": [
+      {
+        "label": "A",
+        "text": "It manages interrupt calls",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It is mostly used or called",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 5
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "needsReview": true,
+    "flags": [],
+    "dedupeHash": "f84e6c16ca6dffb3d8fab04bcdca7a245c1b5361"
+  },
+  {
+    "id": "knpc2016-q106",
+    "type": "short_answer",
+    "topic": "programming",
+    "subtopic": "java-equality",
+    "stem": "Difference between == and. equals?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "== is a reference comparison (both point at the same memory location) where. equals () evaluate the comparison of values of objects",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f71ab9cf064af609ff2d6c10fcbdad05a3548769"
+  },
+  {
+    "id": "knpc2016-q107",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "The Nand gate output is low, if the 2 inputs are",
+    "options": [
+      {
+        "label": "A",
+        "text": "00",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "01",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "11",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "512eeec8e2fece610e5bb5715d665c4a3101503d"
+  },
+  {
+    "id": "knpc2016-q108",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "complexity",
+    "stem": "Two main measures for the efficiency of an algorithm",
+    "options": [
+      {
+        "label": "A",
+        "text": "Processor and memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Complexity and capacity",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Time and space",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Data and space",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8c8d3681bc9900dab69b4ead113baf78efa6d1ac"
+  },
+  {
+    "id": "knpc2016-q109",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-streams",
+    "stem": "Which of the following is false about cin?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It represents a standard input",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It is an object of stream class",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "It is a class of which stream is an object",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Using cin the data can be read from user terminal",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ddce5e9be1427c4916abecdcae93cbea9431230f"
+  },
+  {
+    "id": "knpc2016-q110",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-classes",
+    "stem": "How many constructors can a class have?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Any number",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "42fcb80a9c92378dd4c817fdffce3888ed2a1f66"
+  },
+  {
+    "id": "knpc2016-q111",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "schema",
+    "stem": "A schema describes",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data element",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Records and files",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Records relation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d07fa6e8ab2e8ba9fa400556dcd320dfa0cd33a0"
+  },
+  {
+    "id": "knpc2016-q112",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "process-models",
+    "stem": "Software developing method that focuses on risk analysis",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spiral",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Waterfall",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Agile",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Rapid prototyping",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cb2cc7426cd35b2ee9d0464b9a0fb92ab72cca8b"
+  },
+  {
+    "id": "knpc2016-q113",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "data-link-protocols",
+    "stem": "What is the main difference between DDCMP and SDLC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "DDCMP does not need special hardware to final the beginning of a message",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "DDCMP has a message header",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SDLC has an IP address",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SDLC does not use CRC",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7aba779534795de5b641b929bfb85e832b427511"
+  },
+  {
+    "id": "knpc2018-q001",
+    "type": "short_answer",
+    "topic": "digital-logic",
+    "subtopic": "fsm",
+    "stem": "Mealy and Moore FSM depend on?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "- Mealy FSM depends on present state and present input\n- Moore FSM depends on present state only",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fef4effdb3da745be1dba0dc24915d94d6630ef5"
+  },
+  {
+    "id": "knpc2018-q004",
+    "type": "short_answer",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "Given this truth table, which flip flop is it?",
+    "stemFigure": "/figures/knpc2018-q004.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "JK Flip Flop",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a61f1883d9533f6d9187e8031c3028f870804778"
+  },
+  {
+    "id": "knpc2018-q005",
+    "type": "short_answer",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search-tree",
+    "stem": "What is the best time complexity of a Binary Search Tree algorithm?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "O(logn)",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2a8f8fd7d06a5b4b361950d4ff09f1fc7e086bbe"
+  }
+]

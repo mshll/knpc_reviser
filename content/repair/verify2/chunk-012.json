@@ -1,0 +1,602 @@
+[
+  {
+    "id": "koc2012-q056",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "data-block",
+    "stem": "Definition of the term Data block in record is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Largest amount of data accessed from a second storage device at a time",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Smallest amount of data accessed from a second storage device at a time",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "One record that is read or written to a disk or a tape.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 56
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "989e25e2860f0c31577119eac0a38eafec88720b",
+    "explanation": "A data block is the smallest unit of data that can be transferred to or from secondary storage in a single access; the disk cannot read half a block. Option C is the trap: a block usually holds several records (blocking factor), so it is not one record."
+  },
+  {
+    "id": "koc2012-q057",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "file-io",
+    "stem": "Physical Write means outputting to an external file. True or False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 57
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "dfd167442fc1847a3c10ea2252ceb6cbee1995ee",
+    "explanation": "True. A physical write is the actual transfer of a buffer's contents out to the external file/device, as opposed to a logical write, which only moves a record into the program's buffer in memory."
+  },
+  {
+    "id": "koc2012-q058",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "file-io",
+    "stem": "Blocking Routine accesses a block of data from a file and sends one component at a time to a program. True or False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 58
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c89604bacf3919ef4e9328a11cdbea491ab97a72",
+    "explanation": "True per the course definition: the blocking routine sits between the file and the program, reading a whole block from disk once and then handing the program one record (component) at a time. Strictly speaking, splitting a block into records is called de-blocking, so the wording is loose, but the intended answer is True."
+  },
+  {
+    "id": "koc2012-q059",
+    "type": "true_false",
+    "topic": "computer-architecture",
+    "subtopic": "parity",
+    "stem": "Odd Parity uses parity bit to make the number of (1) bits an even number and detects error by finding odd numbers of bits. True or False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 59
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ebe703fdcfd551835264c998d81b7422441aa305",
+    "explanation": "False. Odd parity sets the parity bit so the total number of 1 bits is ODD; the stem describes EVEN parity. Careful with the labels: False is option A here."
+  },
+  {
+    "id": "koc2012-q061",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "keys",
+    "stem": "What is a secondary key of a file?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The second key on a file.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "The second field on a file that is used to access another file.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Any field that is used as a key to another file other than the primary key.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 61
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e27cc32f5f8b4a4fd324b0e8d3b71b202f7d21c2",
+    "explanation": "A secondary key is any field other than the primary key that is used as an access key to retrieve records. The trap is reading 'secondary' positionally: it has nothing to do with being the second key or second field in the record."
+  },
+  {
+    "id": "koc2012-q062",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "The decimal conversion of binary 0110 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "8",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 62
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "51f275c3c6417820d42c36852f8d83523d6ce4a0",
+    "explanation": "Expand by place value from the right: 0110 = 0*8 + 1*4 + 1*2 + 0*1 = 4 + 2 = 6. The trap is misaligning the weights, for example reading only one of the two set bits, which lands you on 2 or 4."
+  },
+  {
+    "id": "koc2012-q064",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "os-basics",
+    "stem": "Windows and DOS are not Operating Systems. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 64
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "44c61c2f7093e8a16023cd9845c70d4d1a69c8fc",
+    "explanation": "Windows and DOS both are operating systems, so the stem's negative claim ('are not Operating Systems') is False. Watch the double negative: the correct answer is 'False' even though the underlying fact is a positive one."
+  },
+  {
+    "id": "koc2012-q066",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "os-basics",
+    "stem": "Operating System is an Application Software. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 66
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56ce4159d4259f3fc4bb5937c5a61df36d1a3be0",
+    "explanation": "Answer unverified: the printed key marks 'True', but an operating system is the textbook example of system software, not application software. It manages the hardware and provides the platform that application software (Word, Excel, a browser) runs on top of. On the standard software taxonomy the statement is False, so treat the printed key as wrong and know both the fact and the discrepancy."
+  },
+  {
+    "id": "koc2012-q067",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "The first two phases of Software Development Process are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Requirement Analysis and Specification",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Software Design and Specification.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Software Design and Coding.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Coding and Testing",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 67
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a56590b831dda29eb520f2e8ae2aa9d482c0def4",
+    "explanation": "The classic SDLC waterfall order is requirement analysis and specification, then design, then coding, then testing. You cannot design or code before the requirements are captured and written down, which rules out every option that leads with design or coding."
+  },
+  {
+    "id": "koc2012-q068",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "language-fundamentals",
+    "stem": "What are the major components of a programming language?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Commands and Procedures",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Commands, Procedures, and Program Logic",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Syntax and Semantics",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Syntax and Language Rules",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 68
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e560b29cb3a0c1bb15721941b9cdcd46a04c4e36",
+    "explanation": "A programming language is defined by its syntax (the legal form of statements) and its semantics (what those statements mean when executed). Commands, procedures and program logic are things you write in a language, not the components that define one."
+  },
+  {
+    "id": "koc2012-q069",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "program-definition",
+    "stem": "The term Computer Program can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Detailed set of instructions that tells the computer what to do.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Detailed set of instructions to only read files and print reports.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Both 1 and 2.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 69
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56870cf687d9ad6b13f5f36ff74b8eed2a600b8f",
+    "explanation": "A computer program is a detailed set of instructions that tells the computer what to do. Option B ('only read files and print reports') is an artificially narrow subset of that, so 'Both 1 and 2' fails: B is not a valid definition on its own."
+  },
+  {
+    "id": "koc2012-q070",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "decimal-to-binary",
+    "stem": "The binary form of decimal 20 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "00010100",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "00011111",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "00010101",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 70
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a1d7acf802b709ebf51225aba1e326aa43c1e394",
+    "explanation": "20 = 16 + 4 = 2^4 + 2^2, so the bits at positions 4 and 2 are set: 10100, padded to 8 bits as 00010100. 00010101 is 21 (an extra 1 at position 0) and 00011111 is 31."
+  },
+  {
+    "id": "koc2012-q071",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The device that performs elementary operations in a computer is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ALU",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "I/O device",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 71
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fb0dcfcae4b4b2dbf204da7ce7bdf07708a10dd1",
+    "explanation": "The ALU (Arithmetic Logic Unit) is the specific device that carries out the elementary arithmetic and logic operations such as add, subtract, AND, OR and compare. CPU is the trap: it is the containing unit, too broad an answer when the question asks which device actually performs the operations."
+  },
+  {
+    "id": "koc2012-q072",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp",
+    "stem": "A command that is not used in C++ language is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reads",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Printf",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Scanf",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 72
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5b53ac30790e72a097adaaece9b8638d3a919e7a",
+    "explanation": "'Reads' is not a command in C++. printf and scanf are standard C library functions and remain usable in C++ via <cstdio>, so they are not the odd one out, even though idiomatic C++ prefers cout and cin."
+  },
+  {
+    "id": "koc2012-q073",
+    "type": "true_false",
+    "topic": "computer-architecture",
+    "subtopic": "stack-pointer",
+    "stem": "The function of stack pointer is to hold the data currently being worked on.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 73
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b75192c0387679963339ed8fa6109843817cc6df",
+    "explanation": "False. The stack pointer holds the address of the top of the stack, a pointer, not the data itself. The register that holds the data currently being worked on is the accumulator or a general-purpose register."
+  }
+]

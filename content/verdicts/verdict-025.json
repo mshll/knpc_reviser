@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q082",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "RFID tags are implanted/attached to animals for identification and tracking; POS/PPS are not tags, GPS is not a tag on a database of movements read by readers.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q083",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "\"Chip\" is the common nickname for an integrated circuit (many transistors on one silicon die).",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "bank-a-q084",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "Printer is an output device, not storage; HDD, USB drive, DVD drive all store data.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q085",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Hardware is by definition the physical, touchable parts of a computer.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q086",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "A keyboard feeds data into the computer, so it is an input device.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q087",
+    "blindAnswer": ["D"],
+    "confidence": 0.99,
+    "reason": "The CPU is called the brains of the computer and performs processing.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q088",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "During boot the BIOS runs POST and then searches the boot devices for the OS/system files.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q089",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "The monitor/screen is the output device that displays what the computer is doing; the printer outputs to paper, not a live view.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q091",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "A scanner captures images into the computer (input); speaker and printer are output, CD is media.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q092",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "Barcodes on retail items are read by a laser (barcode) scanner; a wand is a contact reader, OCR reads characters, MICR reads magnetic ink on cheques.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q093",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "A hard disk is a physical storage component, i.e. computer hardware.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q094",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Computer-manipulated surgical devices are robotics (robot-assisted surgery).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q095",
+    "blindAnswer": ["D"],
+    "confidence": 0.99,
+    "reason": "A modem modulates digital signals to analog for telephone lines and demodulates on receipt; the other options are nonsense distractors.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "bank-a-q096",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Laptops are the portable computers used by travelers.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q097",
+    "blindAnswer": ["C"],
+    "confidence": 0.65,
+    "reason": "Among the given options DPI (dots/pixels per inch) is the resolution measure; Hz is refresh rate and inches is screen size. Strictly, monitor resolution is usually quoted in pixels (e.g. 1920x1080), so the item is loosely worded.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q099",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "CD-ROM is read by laser from pits/lands on a reflective layer: an optical disk, not magnetic or magneto-optical.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "bank-a-q100",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "BIOS = Basic Input/Output System.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q102",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "The motherboard hosts the CPU socket and RAM slots.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q103",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "LCD = Liquid Crystal Display.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q104",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "The cursor (pointer/insertion point) indicates the current location on screen; the mouse is the device that moves it.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

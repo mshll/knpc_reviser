@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - button "End quiz" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]:
+          - text: "1"
+          - generic [ref=e12]: / 15
+        - generic "Time elapsed" [ref=e13]: 00:00
+        - button "Open question map" [ref=e16] [cursor=pointer]
+      - main [ref=e21]:
+        - article [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: Databases
+            - generic [ref=e25]: Mock exam 2018
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: Answer unverified
+          - heading "Consider a directed line (→) from the relationship set advisor to both entity sets instructor and student. This indicates __________ cardinality." [level=2] [ref=e31]
+          - radiogroup "Options" [ref=e32]:
+            - radio "Many to many." [ref=e33] [cursor=pointer]:
+              - generic [ref=e34]: A
+            - radio "One to many." [ref=e37] [cursor=pointer]:
+              - generic [ref=e38]: B
+            - radio "Many to one." [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: C
+            - radio "One to one." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]: D
+      - generic [ref=e50]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=e51] [cursor=pointer]
+        - button "Next" [ref=e52] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e55]

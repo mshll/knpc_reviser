@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-b-q073",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "Analog computers process continuous physical quantities directly; input is never digitized.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q074",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "Modern machines use pipelining/superscalar parallelism while still honoring sequential program order, so both.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q075",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "ENIAC was designed by J. Presper Eckert and John Mauchly at UPenn; von Neumann joined later for EDVAC.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q076",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "Dennis Ritchie created C at Bell Labs; Wirth did Pascal, Papert Logo, Knuth TeX/TAOCP.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q077",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Peopleware is the standard term for the human component alongside hardware and software.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q078",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "IBM and Apple formed the AIM alliance (Taligent/Kaleida) in 1991.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q079",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "\"Sillico Sapiens\" is a coined nickname for the computer (silicon-based thinker).",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q080",
+    "blindAnswer": ["D"],
+    "confidence": 0.92,
+    "reason": "Glitch is the alternative jargon for a bug/fault; leech, squid, slug are not.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q081",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Reliable but not infallible is the standard phrasing; the other options contradict \"very reliable\" framing.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q082",
+    "blindAnswer": ["B"],
+    "confidence": 0.85,
+    "reason": "Reverse video inverts foreground/background to highlight a screen region needing attention.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q083",
+    "blindAnswer": ["D"],
+    "confidence": 0.7,
+    "reason": "Standard answer for the original IBM-PC video display contribution is Taiwan.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q084",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "The main circuit board holding the chips is the motherboard.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q085",
+    "blindAnswer": ["A"],
+    "confidence": 0.98,
+    "reason": "CPU, expansion slots and active components sit on the motherboard.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q086",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "A dedicated computer is one assigned to a single task/function.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q087",
+    "blindAnswer": ["D"],
+    "confidence": 0.8,
+    "reason": "Microprocessor, disk controller and serial interface are inside the system unit; the modem is classically an external/add-on device.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q088",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "A compiler translates the entire source program to machine code at once.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q089",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "An interpreter translates and executes one statement at a time.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q090",
+    "blindAnswer": ["B"],
+    "confidence": 0.7,
+    "reason": "A smart/intelligent device is called so because it embeds a microcomputer (microprocessor); a sensor provides sensing, not intelligence.",
+    "sourceAnswer": ["D"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "bank-b-q091",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "The control unit issues the commands that drive the ALU.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q092",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "Read, read-out and read-from are all accepted names for retrieving stored data.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

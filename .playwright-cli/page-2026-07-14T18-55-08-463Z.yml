@@ -1,0 +1,36 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e3]:
+    - generic [ref=f1e82]:
+      - generic [ref=f1e84]:
+        - button "End quiz" [ref=f1e85] [cursor=pointer]
+        - generic [ref=f1e89]:
+          - text: "1"
+          - generic [ref=f1e90]: / 20
+        - generic "Time elapsed" [ref=f1e91]: 00:26
+        - button "Open question map" [ref=f1e94] [cursor=pointer]
+      - main [ref=f1e99]:
+        - article [ref=f1e100]:
+          - generic [ref=f1e101]:
+            - generic [ref=f1e102]: Software Engineering
+            - generic [ref=f1e103]: Mock exam 2018
+          - heading "In UML diagrams, relationship between object and component parts is represented by" [level=2] [ref=f1e105]
+          - radiogroup "Options" [ref=f1e106]:
+            - radio "Increment." [disabled] [ref=f1e107]:
+              - generic [ref=f1e108]: A
+            - radio "Segregation. Your answer, incorrect" [checked] [disabled] [ref=f1e129]:
+              - generic [ref=f1e113]: Segregation.
+              - img "Your answer, incorrect" [ref=f1e133]
+            - radio "Aggregation. Correct answer" [disabled] [ref=f1e135]:
+              - generic [ref=f1e117]: Aggregation.
+              - img "Correct answer" [ref=f1e139]
+            - radio "Ordination." [disabled] [ref=f1e119]:
+              - generic [ref=f1e120]: D
+          - generic [ref=f1e141]:
+            - generic [ref=f1e142]: Model answer (from the paper)
+            - paragraph [ref=f1e143]: Review and Study UML Diagrams.
+      - generic [ref=f1e124]:
+        - button "Previous question" [disabled]
+        - button "Next" [ref=f1e126] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f1e81]: Quiz - KNPC Reviser

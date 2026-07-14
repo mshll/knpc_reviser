@@ -1,0 +1,79 @@
+[
+  {
+    "id": "knpc2021-q025",
+    "verdict": "ok",
+    "explanation": "A deadlock is a set of processes each blocked holding one resource and waiting on a resource held by another process in the set, so none of them can ever proceed. The key word is 'forever': the processes are alive but permanently blocked, not terminated (A) and not destroying each other (B). Remember the four Coffman conditions that must all hold: mutual exclusion, hold and wait, no preemption, circular wait."
+  },
+  {
+    "id": "knpc2021-q026",
+    "verdict": "ok",
+    "explanation": "Propagation delay is the length of the longest path from an input to the output (the critical path), not the total number of gates. The circuit has 5 gates arranged in 3 levels (inverters feeding two middle gates feeding one output gate), so a signal passes through 3 gates: 3 x 1T = 3T. Option C (5T) is the trap: it sums all 5 gates, which would only be right if they were all in series."
+  },
+  {
+    "id": "knpc2021-q027",
+    "verdict": "ok",
+    "explanation": "RISC is defined by a small set of simple, fixed-length instructions that mostly execute in one cycle, which is what makes deep pipelining and hardwired control possible. Options B and C describe CISC: a large instruction set with instructions that can operate directly on memory operands. In RISC only load and store touch memory (load/store architecture); everything else works on registers."
+  },
+  {
+    "id": "knpc2021-q028",
+    "verdict": "ok",
+    "explanation": "Multimedia networking is conventionally split into exactly three classes: streaming stored audio/video, streaming live audio/video, and real-time interactive (voice/video over IP). 'Sensitive streaming' is not one of them, it is an invented term, so it is the odd one out. Do not confuse it with the property that multimedia traffic is delay-sensitive but loss-tolerant, which is probably where the distractor's wording came from."
+  },
+  {
+    "id": "knpc2021-q029",
+    "verdict": "rewritten",
+    "explanation": "Invert every bit, then add 1: 1111 1111 1111 -> 0000 0000 0000, then 0000 0000 0000 + 1 = 0000 0000 0001. Check by value: 1111 1111 1111 is -1 in 12-bit two's complement, and -(-1) = +1 = 0000 0000 0001. The classic slip is stopping at the one's complement (all zeros) and forgetting the +1.",
+    "issue": "Content was correct and matched the key; ran to 4 sentences. Trimmed to 3 with the arithmetic kept explicit."
+  },
+  {
+    "id": "knpc2021-q031",
+    "verdict": "ok",
+    "explanation": "An ARP request is broadcast on the LAN, so the Ethernet destination MAC is FF:FF:FF:FF:FF:FF, which is all 1's, and that is the intended answer. The stem is loose: inside the ARP payload the target hardware address field is filled with all 0's precisely because it is the unknown being asked for. Rule of thumb: the frame's destination is all 1's (broadcast), the unknown field being queried is all 0's."
+  },
+  {
+    "id": "knpc2021-q032",
+    "verdict": "ok",
+    "explanation": "A node is the single element of a linked list: it stores a data field plus a pointer (link) to the next node, and in a doubly linked list also a pointer to the previous node. The chain of next-pointers starting from the head is what holds the list together, which is why a list has no random indexing and must be traversed from the head, giving O(n) access but O(1) insert/delete once you hold the node."
+  },
+  {
+    "id": "knpc2021-q033",
+    "verdict": "ok",
+    "explanation": "The difference is only in the output function: a Moore machine's output depends on the present state alone, while a Mealy machine's output depends on the present state AND the present input. Consequences worth quoting: Mealy usually needs fewer states and reacts in the same cycle as the input, but its outputs can glitch with the inputs; Moore's outputs are stable/registered but appear one clock later. The next-state logic is the same for both (state and input)."
+  },
+  {
+    "id": "knpc2021-q034",
+    "verdict": "ok",
+    "explanation": "HTTP uses well-known TCP port 80. Pair it with HTTPS on 443, which is the distractor people reach for; other common ones on the same exam sheet are FTP 20/21, SSH 22, Telnet 23, SMTP 25, DNS 53 and DHCP 67/68."
+  },
+  {
+    "id": "knpc2021-q035",
+    "verdict": "ok",
+    "explanation": "TLB = Translation Lookaside Buffer, a small fully/highly associative cache inside the MMU that holds recently used virtual-page-to-physical-frame translations. On a TLB hit the physical address is formed without touching memory; on a miss the hardware or OS walks the page table in memory (slow) and then loads the entry into the TLB. It caches address translations, not data, which is what separates it from the L1/L2 data cache."
+  },
+  {
+    "id": "knpc2021-q037",
+    "verdict": "ok",
+    "explanation": "A trap door (back door) is a hidden, undocumented entry point deliberately left in a program, OS or service that bypasses the normal authentication and access controls. Programmers add them for debugging or maintenance convenience, and attackers exploit or plant them for persistent access."
+  },
+  {
+    "id": "knpc2021-q038",
+    "verdict": "ok",
+    "explanation": "Propagation delay is the time a bit spends travelling through the physical medium, distance / propagation speed, and it depends on link length, not on packet size. Rate (bandwidth) is the link's nominal transfer speed in bits per second, while throughput is the data actually delivered per unit time end to end; throughput is bounded by the slowest link and is normally lower than the rate."
+  },
+  {
+    "id": "knpc2021-q039",
+    "verdict": "rewritten",
+    "explanation": "Two input columns (A, B) rule out the T flip flop, which has a single input, and no row of the table carries a forbidden or undefined output, which rules out SR, whose S=R=1 row is invalid; that leaves JK, the only offered flip flop with four fully defined rows (hold, reset, set, toggle). In the figure A reads 0, 1, 0, 1 and Qnext reads Q, Q, 0, 1, so the table clearly shows hold, reset and set, and JK is the only option that can also supply the remaining row. The figure is degraded and this item is key-disputed: if that second Qnext cell is a plain Q rather than Q complement, the table is really a gated D flip flop, which is not on the option list, so B remains the only defensible pick.",
+    "issue": "Original opened with 'Answer unverified' filler, ran to 4 sentences, and claimed the table shows 'hold, reset, set and toggle' when the readable cells (A = 0,1,0,1; Qnext = Q, Q, 0, 1) show no unambiguous toggle row. Rewritten to state what the figure actually shows and to reach B by elimination, which is still sound: T is single-input and SR needs an invalid row."
+  },
+  {
+    "id": "knpc2021-q041",
+    "verdict": "ok",
+    "explanation": "IEEE 802.3 is wired Ethernet, so it is the intended odd one out; 802.11 is Wi-Fi itself, and 802.15 (Bluetooth/WPAN) and 802.16 (WiMAX) are at least wireless. Note the question is loosely worded: strictly speaking 802.15 and 802.16 are also not Wi-Fi, but 802.3 is the only non-wireless standard and is the keyed answer."
+  },
+  {
+    "id": "knpc2021-q042",
+    "verdict": "ok",
+    "explanation": "A collision is when two different keys hash to the same table slot (index). It is unavoidable once the number of keys exceeds the number of buckets (pigeonhole), so hash tables resolve it with chaining (a list per bucket) or open addressing (probe for another slot)."
+  }
+]

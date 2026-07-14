@@ -1,0 +1,162 @@
+[
+  {
+    "id": "sample2-q005",
+    "blindAnswer": ["B"],
+    "confidence": 0.96,
+    "reason": "Elasticity is the cloud property of automatically scaling resources up/down with demand; virtualization, encryption and metering do not adjust capacity.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q006",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "A computer network is a set of interconnected devices that share resources and information; 'standalone computers' is the negation of a network.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q007",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Nodes, transmission media and networking devices are core network terminology; operating system is a general computing concept.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q008",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "A router interconnects distinct networks and forwards/routes packets toward their destination; A describes a switch, B a modem, D an access point.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q009",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Gmail is a ready-to-use hosted application, i.e. Software as a Service.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q010",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "LAN covers a small area such as a home, office or building; PAN is a much smaller personal range (a few metres), so LAN is the intended answer.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "sample3-q001",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "TCP/IP = Transmission Control Protocol/Internet Protocol, the suite that packetizes and delivers data across the internet.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q002",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "A hub is a dumb repeater that floods frames out every port, unlike a switch which forwards by MAC address.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q003",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Hybrid cloud is a deployment model combining public and private cloud.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q004",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Multi-cloud means consuming services from more than one cloud provider.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q005",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "AWS, Azure and Google Cloud are providers; 'Oracle Database' is a DBMS product (the provider would be Oracle Cloud/OCI).",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q006",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "In P2P there is no dedicated server: every peer can act as both client and server.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q007",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Pay-as-you-go bills strictly by actual consumption/usage.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q008",
+    "blindAnswer": ["C"],
+    "confidence": 0.92,
+    "reason": "Security and protection of data/resources is a standard stated goal; the other three options are anti-goals.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q009",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "PaaS supplies runtime, middleware and tooling so developers deploy code without managing infrastructure.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample3-q010",
+    "blindAnswer": ["B"],
+    "confidence": 0.96,
+    "reason": "A PAN connects an individual's personal devices over a very short range (e.g. Bluetooth).",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q001",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Worst case pivot is the extreme element, giving subproblems of size 0 and n-1: T(n)=T(n-1)+O(n) = O(n^2).",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q002",
+    "blindAnswer": ["C"],
+    "confidence": 0.96,
+    "reason": "Inner loop runs i times while i halves each pass: n + n/2 + n/4 + ... = 2n, so O(n).",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q003",
+    "blindAnswer": ["A"],
+    "confidence": 0.96,
+    "reason": "Merge sort is O(n log n) worst case; bubble, quick and selection are all O(n^2) worst case.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q004",
+    "blindAnswer": ["A"],
+    "confidence": 0.94,
+    "reason": "All-pairs shortest paths (Floyd-Warshall) is the classic dynamic programming algorithm.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

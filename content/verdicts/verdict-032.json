@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-b-q012",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "1 GB = 1024 MB in the binary-prefix convention used by these exams.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q013",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "4th generation = VLSI microprocessors; ULSI belongs to the 5th generation, transistors to 2nd, ICs to 3rd.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q014",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "Printer is an output device; keyboard, mouse and joystick are inputs.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q015",
+    "blindAnswer": ["A"],
+    "confidence": 0.92,
+    "reason": "CD-RW speed ratings are quoted as write x rewrite x read (highest is always read).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q016",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "RAM is volatile; ROM/BIOS retain contents without power.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q017",
+    "blindAnswer": ["D"],
+    "confidence": 0.97,
+    "reason": "Malware is an umbrella term covering spyware, worms and viruses.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q018",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Backup is the only option that actually preserves data against loss; scanning/defrag/cleanup do not.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q019",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "A gateway performs protocol translation between dissimilar networks; bridges/repeaters operate on the same protocol.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q020",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "PROLOG (logic programming) is the classic AI language among these; FORTRAN/C/COBOL are general-purpose. Source key 'C' looks like a mis-keyed letter.",
+    "sourceAnswer": ["C"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "bank-b-q021",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "LibreOffice is open source; Photoshop, Word and Skype are proprietary.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q022",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "JPEG = Joint Photographic Experts Group.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q023",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "URL = Uniform Resource Locator.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q024",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "SD = Secure Digital.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q025",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "1 byte = 8 bits.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q026",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "The standard (Windows/enhanced) PC keyboard layout has 104 keys.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q027",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "HTTP = HyperText Transfer Protocol.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q028",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "3.5-inch HD floppy formatted capacity is 1.44 MB.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q029",
+    "blindAnswer": ["B"],
+    "confidence": 0.85,
+    "reason": "A character (ASCII/extended) occupies one byte = 8 bits.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q030",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Application software performs specific user tasks; system software (incl. Windows) manages the machine.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q031",
+    "blindAnswer": ["A"],
+    "confidence": 0.6,
+    "reason": "The 'traffic cop' analogy is standardly applied to the router, which directs/forwards packets between networks; a switch merely forwards frames within a LAN. Ambiguous wording, but router is the conventional answer.",
+    "sourceAnswer": ["C"],
+    "agreement": "disagree"
+  }
+]

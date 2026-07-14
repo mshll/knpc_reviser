@@ -1,0 +1,753 @@
+[
+  {
+    "id": "ce2016-q071",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "Find the function representation for the following circuit:",
+    "stemFigure": "/figures/ce2016-q071.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "Fsop = X'Y'Z' + X'Y'Z + X'Y'Z' + XY'Z' + XYZ\n     = X'Y'(Z' + Z) + (X + X')Y'Z' + XYZ\n     = X'Y' + Y'Z' + XYZ",
+    "explanationSource": "source",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 71
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "1c0cbdb77cac10833e1db9307e85fb1e0a50311d"
+  },
+  {
+    "id": "ce2016-q072",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "Find the function representation for the following K-Map:",
+    "stemFigure": "/figures/ce2016-q072.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "F = X Z + X'Z'",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 72
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5f11c398f4896bd2eff9d109a3102a94e12a1ba9"
+  },
+  {
+    "id": "ce2016-q073",
+    "type": "worked_problem",
+    "topic": "number-systems",
+    "subtopic": "base-conversion",
+    "stem": "(1001101)₂ = ( ____________ )₁₀ = ( ______________ )₁₆ = ( _______________ )₈.",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "( 77 )₁₀ = ( 4D )₁₆ = (115)₈",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 73
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0242b9267a89aa406b393f550f6ecc6c4b1127b9"
+  },
+  {
+    "id": "ce2016-q074",
+    "type": "worked_problem",
+    "topic": "number-systems",
+    "subtopic": "base-conversion",
+    "stem": "(36CA)₁₆ = ( ____________ )₁₀ = ( ______________ )₂ = ( _______________ )₈.",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "(14026)₁₀ = (11011011001010)₂ = (33312)₈",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 74
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "53d2a19c9d4d41948980ed3e62fbccd10e8a1fd8"
+  },
+  {
+    "id": "ce2016-q075",
+    "type": "short_answer",
+    "topic": "computer-architecture",
+    "subtopic": "addressing-modes",
+    "stem": "Give an example for each of the following memory addressing modes:\nA. Register Direct: ………………………………\nB. Immediate: ……………………………………..\nC. Register Indirect: …………………………….\nD. Register Indirect- Indexed Basic: ………………………",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "A. Move R1,R2 (move R1 to R2)\nB. Move #X,R1 (move X to R1)\nC. Move (A0),R1 ([A0] → R1)\nD. Move X(A0),R1 ([[A0]+X] → R1)",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 75
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9442edad2e8959d86dfc83154a39c82376dbc89d"
+  },
+  {
+    "id": "ce2016-q076",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "timing-diagrams",
+    "stem": "For a positive edge-triggered T-FlipFlop, what would be the signal for Q in the following timing diagram:",
+    "stemFigure": "/figures/ce2016-q076.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "See the model-answer figure: the Q waveform is drawn beneath the Clock and T waveforms.",
+    "answerFigure": "/figures/ce2016-q076-answer.png",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 76
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5e2fadc04db31dddf5151cac7c74c713f899cac4"
+  },
+  {
+    "id": "sample1-q001",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-characteristics",
+    "stem": "Which of the following is NOT a characteristic of cloud computing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "On-demand self-service",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Broad network access",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fixed capacity",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Resource pooling",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f22ab7c1a0ddbaaec251fa0e0f7b3ede4ced18c9"
+  },
+  {
+    "id": "sample1-q002",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-cycle",
+    "stem": "The process of fetching an instruction, decoding it, and then executing it is known as the:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory cycle",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "I/O cycle",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Instruction cycle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bus cycle",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7aeb0f438add2ab07ae34470f6395d56bd8c9f79"
+  },
+  {
+    "id": "sample1-q003",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "virtualization",
+    "stem": "Which technology enables multiple virtual machines on one physical server?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Encryption",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Virtualization",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Load balancing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Firewall",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e9e6c93594df5b6d239ea035f3a209ec8128f584"
+  },
+  {
+    "id": "sample1-q004",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-benefits",
+    "stem": "Which of the following is a benefit of cloud computing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High maintenance cost",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Limited scalability",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Automatic updates",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Manual backup",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4ed90e3fc4b6e790f17b46c119d3fa9ca545ec27"
+  },
+  {
+    "id": "sample1-q005",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "service-models",
+    "stem": "In which model does the user have the least control over infrastructure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SaaS",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Private Cloud",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "24ae002d8f6d86aa3486b95210780526dd688b17"
+  },
+  {
+    "id": "sample1-q006",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "system-bus",
+    "stem": "What is the role of a `bus` in a computer system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To store data permanently",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To execute programs",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To provide communication pathways between components",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To manage power supply",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e96af6378d408b502b448ade79911b19724de942"
+  },
+  {
+    "id": "sample1-q007",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "deployment-models",
+    "stem": "Which cloud is shared among multiple organizations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Private Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hybrid Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Public Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Community Cloud",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 7
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "1d68d1805b2ddce0a6503082da047cde953ed97d"
+  },
+  {
+    "id": "sample1-q008",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-providers",
+    "stem": "Which company provides Azure cloud services?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Amazon",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "IBM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "60e1237cf16f16a0796a35eebabc8d95bc51e785"
+  },
+  {
+    "id": "sample1-q009",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "iam",
+    "stem": "IAM stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Internet Access Module",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Identity and Access Management",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Internal Application Management",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Information Access Model",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a39cebabdc60d82e3825b0c568e784e7f5e0c903"
+  },
+  {
+    "id": "sample1-q010",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "encryption",
+    "stem": "Which technique protects data by converting it into unreadable form?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Backup",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Encryption",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Compression",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Replication",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ec93fe5a724231a01ce498edd47b707a1cba7cdc"
+  },
+  {
+    "id": "sample2-q001",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "sla",
+    "stem": "SLA is an agreement between:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two users",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Cloud provider and customer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Two cloud providers",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Developers and testers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c52342d320bfd4d91d23a56cbbd4ede2c0c26d00"
+  },
+  {
+    "id": "sample2-q002",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "serverless",
+    "stem": "Serverless computing allows users to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Manage physical servers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Run code without managing servers",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Store unlimited data",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Build hardware",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8f2268bfbd4c181f537024312c71317a8485b47f"
+  },
+  {
+    "id": "sample2-q003",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "serverless",
+    "stem": "AWS Lambda is an example of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "IaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Serverless computing",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d47f255c1711dc8b0c29b2b5a8f1773a3394e7c9"
+  },
+  {
+    "id": "sample2-q004",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "edge-computing",
+    "stem": "Edge computing reduces:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Security",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Bandwidth",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Latency",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Storage",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Sample -2.pdf",
+      "exam": "bank",
+      "year": 2026,
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6a06dd6e19f9b88288a0edfc619a1814f9e27294"
+  }
+]

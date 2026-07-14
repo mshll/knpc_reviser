@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ce2016-q072",
+    "verdict": "ok",
+    "explanation": "The 1s sit exactly where X and Z hold the same value: one group of four covers X=0,Z=0 and another covers X=1,Z=1. Inside each group the remaining variables take every combination, so they cancel out, leaving F = X'Z' + XZ (which is X XNOR Z)."
+  },
+  {
+    "id": "ce2016-q073",
+    "verdict": "ok",
+    "explanation": "Decimal: 1001101 = 64 + 8 + 4 + 1 = 77. Hex: group in 4s from the right, 100 1101 -> 0100 1101 = 4 D. Octal: group in 3s from the right, 1 001 101 -> 1 1 5. Grouping must always start at the right-hand (least significant) end; padding on the wrong side is the classic error here."
+  },
+  {
+    "id": "ce2016-q074",
+    "verdict": "ok",
+    "explanation": "Decimal: 3*4096 + 6*256 + C(12)*16 + A(10) = 12288 + 1536 + 192 + 10 = 14026. Binary: expand each hex digit to 4 bits, 3=0011, 6=0110, C=1100, A=1010 -> 0011 0110 1100 1010, i.e. 11011011001010. Octal: regroup those bits in 3s from the right, 011 011 011 001 010 -> 33312."
+  },
+  {
+    "id": "ce2016-q075",
+    "verdict": "ok",
+    "explanation": "Each mode differs in how many levels of lookup are needed to reach the operand. Register direct (MOVE R1,R2) uses the register's contents itself; immediate (MOVE #X,R1) carries the literal inside the instruction; register indirect (MOVE (A0),R1) treats the register as a pointer and fetches memory at [A0]; indexed register indirect (MOVE X(A0),R1) adds the displacement X to the base register first, fetching from [A0]+X."
+  },
+  {
+    "id": "ce2016-q076",
+    "verdict": "ok",
+    "explanation": "A T flip-flop toggles Q on each active clock edge only when T = 1, and holds Q unchanged when T = 0. Sample T at the rising edges only: T = 1,0,1,1 with Q starting at 0 gives Q = 1, 1, 0, 1. The trap is treating T as a level (making Q follow T) or reacting to the falling edge."
+  },
+  {
+    "id": "knpc2016-q002",
+    "verdict": "ok",
+    "explanation": "The first standardized Ethernet (10BASE5, IEEE 802.3) ran at 10 Mbps. 100 Mbps is Fast Ethernet, which came later."
+  },
+  {
+    "id": "knpc2016-q003",
+    "verdict": "ok",
+    "explanation": "DDS (Digital Data Service) is the digital leased-line service. DDD (Direct Distance Dialing) and WATS are analog telephone services, and DDT is not a communications service at all."
+  },
+  {
+    "id": "knpc2016-q004",
+    "verdict": "ok",
+    "explanation": "Prim's algorithm greedily grows a minimum spanning tree by repeatedly adding the cheapest edge leaving the tree (Kruskal also solves MST). The trap is Dijkstra: it has a near-identical greedy shape but minimizes path cost from a source, not total tree weight. Huffman builds an optimal prefix code and DFS is only a traversal."
+  },
+  {
+    "id": "knpc2016-q005",
+    "verdict": "ok",
+    "explanation": "Dijkstra is the canonical single-source shortest-path algorithm, greedily settling the nearest unvisited node (valid only for non-negative edge weights). The item is technically flawed: Bellman-Ford also solves shortest path and additionally handles negative weights, so A is not really wrong - the exam wants Dijkstra."
+  },
+  {
+    "id": "knpc2016-q006",
+    "verdict": "ok",
+    "explanation": "In C++ a pointer is declared with a star: int *p; (the capitalized 'Int' is an OCR artifact). The trap is A: int &p is a reference, not a pointer. Plain int p is an ordinary value, and Ptr is not a C++ type."
+  },
+  {
+    "id": "knpc2016-q007",
+    "verdict": "ok",
+    "explanation": "A D flip-flop simply latches its input on the clock edge: Q(t+1) = D, independent of the present state Q. So D=0 gives Q(t+1)=0 and D=1 gives Q(t+1)=1 whether Q was 0 or 1, which is why it is used as a one-bit store or one-clock delay."
+  },
+  {
+    "id": "knpc2016-q008",
+    "verdict": "rewritten",
+    "explanation": "A row in a relational table is one complete data item, and its standard synonyms are record (option D) and tuple. Field and column both name the vertical attribute that cuts across all rows, not the row itself, and 'entry' is not a relational-model term.",
+    "issue": "The old text was a copy-pasted encyclopedia snippet containing an em dash, and it never ruled out the Field/Column/Entry distractors, so it restated the key rather than justifying it."
+  },
+  {
+    "id": "knpc2016-q009",
+    "verdict": "ok",
+    "explanation": "DROP TABLE removes the table object itself: its rows, its structure, and its definition in the catalog. The trap is DELETE, which is a DML statement that removes rows only and leaves an empty table behind."
+  },
+  {
+    "id": "knpc2016-q010",
+    "verdict": "ok",
+    "explanation": "A Network Operating System is the software layer that provides shared access to files, printers, and other resources across the network, plus the user accounts and permissions that control that sharing. A router only forwards packets between networks and IOS is one vendor's router OS, neither manages resource sharing."
+  },
+  {
+    "id": "knpc2016-q011",
+    "verdict": "ok",
+    "explanation": "Two buildings on different IP networks means different subnets, and moving traffic between subnets requires a layer-3 forwarding decision, which is the router's job. Switches, hubs, and bridges operate at layer 1 or 2 and only extend a single broadcast domain, so they cannot join two distinct IP networks."
+  }
+]

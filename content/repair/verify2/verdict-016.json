@@ -1,0 +1,197 @@
+[
+  {
+    "id": "sample1-q003",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.98,
+    "derivation": "Hypervisor/virtualization multiplexes one physical host into many isolated VMs.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q004",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.95,
+    "derivation": "Provider patches the platform, so updates are automatic; A/B are drawbacks and D is manual toil cloud removes.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q005",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.93,
+    "derivation": "SaaS exposes only the app; IaaS gives most control, private cloud gives full infrastructure control.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q006",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.98,
+    "derivation": "A bus is the shared set of wires carrying address/data/control signals between components.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q008",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.99,
+    "derivation": "Azure is Microsoft public cloud.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q009",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.99,
+    "derivation": "IAM = Identity and Access Management.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q010",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.98,
+    "derivation": "Encryption transforms plaintext into unreadable ciphertext; backup/compression/replication do not hide content.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q001",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.97,
+    "derivation": "SLA is the contracted service commitment between the cloud provider and its customer.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q002",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.98,
+    "derivation": "Serverless = provider runs/scales the infrastructure, user only supplies code.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q003",
+    "myAnswer": [
+      "D"
+    ],
+    "confidence": 0.9,
+    "derivation": "Lambda is FaaS/serverless; D is the specific, intended category (PaaS is broader and not the best fit).",
+    "defective": false,
+    "shippedAnswer": [
+      "D"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q004",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.78,
+    "derivation": "Processing near the data source cuts round-trip time; latency is the canonical answer, though edge also cuts backhaul bandwidth, so B is arguably defensible.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q005",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.95,
+    "derivation": "Elasticity = automatic scale-out/scale-in of resources with demand.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q006",
+    "myAnswer": [
+      "B"
+    ],
+    "confidence": 0.99,
+    "derivation": "A network is interconnected devices sharing resources and information.",
+    "defective": false,
+    "shippedAnswer": [
+      "B"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q007",
+    "myAnswer": [
+      "D"
+    ],
+    "confidence": 0.95,
+    "derivation": "Node, transmission media and networking devices are core network terms; OS is not.",
+    "defective": false,
+    "shippedAnswer": [
+      "D"
+    ],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q008",
+    "myAnswer": [
+      "C"
+    ],
+    "confidence": 0.98,
+    "derivation": "Router forwards packets between different networks using routing tables; A is a switch, B a modem, D an AP.",
+    "defective": false,
+    "shippedAnswer": [
+      "C"
+    ],
+    "agreement": "agree"
+  }
+]

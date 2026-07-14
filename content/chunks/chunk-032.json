@@ -1,0 +1,866 @@
+[
+  {
+    "id": "bank-b-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "1 Gigabyte (GB) is equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "1024 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1024 KB",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1024 MB",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "1024 TB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "1c102a162298231e053f99bde3abd14f7e8d9173"
+  },
+  {
+    "id": "bank-b-q013",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "The fourth generation computers are based on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transistor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Integrated circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "VLSI microprocessor",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ULSI microprocessor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ff346e4e62343ca3deecdeaaf9b75371cb1f905c"
+  },
+  {
+    "id": "bank-b-q014",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "All the following are computer input devices except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Mouse",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joy Stick",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8c05a96559d7f8d06fb6885dbcb47059ef840a38"
+  },
+  {
+    "id": "bank-b-q015",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "A CD-RW has a speed rating of 12x 10x 32x. What do the three numbers refer to in order?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Write, rewrite, read",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Read, write, rewrite",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Rewrite, read, write",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Write, read, rewrite",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "71e9e8aac7aebdd189a67a83fdbd405ba6ceab98"
+  },
+  {
+    "id": "bank-b-q016",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "The information stored in _______ is erased when the computer is turned off",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "BIOS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CPU",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "70772287974983f6c88cc3d224f626d73262afcc"
+  },
+  {
+    "id": "bank-b-q017",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "Malware is the short form for malicious software and used to refer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spyware",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Virus",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "898f210c2c08a5134aff3bb69c757d3d97d8110e"
+  },
+  {
+    "id": "bank-b-q018",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "data-protection",
+    "stem": "What is the best way to protect your hard drive data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Backup",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Defragmentation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Delete junk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e3106afbc942f8bdfa90853239e5383e1b97d53c"
+  },
+  {
+    "id": "bank-b-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "The following device is used to connect two systems using different protocols",
+    "options": [
+      {
+        "label": "A",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Repeater",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Gateway",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bridge",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0c828e0f17ca75e8d1317d4d5e5b31d358755015"
+  },
+  {
+    "id": "bank-b-q020",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "programming-languages",
+    "stem": "The computer language used for artificial intelligence is",
+    "options": [
+      {
+        "label": "A",
+        "text": "FOTRAN",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PROLOG",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "C",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "COBOL",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 21
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "339a7985adf18b6015be476f04efa27d3541d8f1"
+  },
+  {
+    "id": "bank-b-q021",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "open-source",
+    "stem": "Open source software is software whose source code is available for modification or enhancement by anyone. Which of the following is an example of open source software?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adobe Photoshop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Libre Office",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Skype",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "94270b6102667566debad282ea372f6db909517d"
+  },
+  {
+    "id": "bank-b-q022",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": "JPEG seen with the .jpg or .jpeg filename extension is commonly used method for compression of digital images. What does JPEG stand for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Joint Picture Encoding Graphics",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Joint Photographic Experts Group",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Joint Photo Edit Grid",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joint Picture Express Grid",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9ebacc62f1e05b04607ef25d4fab0c687845c5d7"
+  },
+  {
+    "id": "bank-b-q023",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "web",
+    "stem": "A “URL” is a formatted text string used by web browsers, email clients and other software to identify a network resource on the Internet. It stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Universal Resource Link",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Uniform Resource Locator",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Unlimited Resource Locator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Universal Reference Link",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "083dcb83575427a8b1e3bb3b6f1a36a9c1f79d75"
+  },
+  {
+    "id": "bank-b-q024",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "SD Card is a memory cards used in electronic equipments including digital cameras and cell phones.  What does SD stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secure Digital",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Scan Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Short Drive",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Slot Disk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5a42c1f9544a0cbe1bb142ed9ff60b7c4fd948ac"
+  },
+  {
+    "id": "bank-b-q025",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A byte is equivalent to",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "6 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8 bits",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "10 bits",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d66322872a8c1db86464a26ca5ce796281d9234c"
+  },
+  {
+    "id": "bank-b-q026",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "A standard computer keyboard has how many keys?",
+    "options": [
+      {
+        "label": "A",
+        "text": "84",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "94",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "104",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "114",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8a9b342069116260380c394777481c02c450839e"
+  },
+  {
+    "id": "bank-b-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "protocols",
+    "stem": "HTTP stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hyper Text Transfer Protocol",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Hyper Timed Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hopper Transfer Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Hopper Text Timer Protocol",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d16bb32b5d88eaf88428e1e8f0f7d9f9f550c4e9"
+  },
+  {
+    "id": "bank-b-q028",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The capacity of 3-1/2 inch floppy is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.33MB",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1.44MB",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "1.34MB",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1.43MB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "legacy"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a2f68fc826a741fe87dd0fd0a4af20f3772e1569"
+  },
+  {
+    "id": "bank-b-q029",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A character has how many bits:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "900f3b68882c028d5326c3609ae29a25b2a85f62"
+  },
+  {
+    "id": "bank-b-q030",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "A program that allows us to do specific tasks is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Application software",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "System software",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Windows 2000",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Windows Xp",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 31
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "legacy"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0ca4811152e0b2b13be27840c06f255e81f4052c"
+  },
+  {
+    "id": "bank-b-q031",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "In a computer network which device acts as a traffic cop:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Router",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hub",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Switch",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 32
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b3da535574ad6b626dc7e5d0eee9c90c8fd24165"
+  }
+]

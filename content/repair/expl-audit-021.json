@@ -1,0 +1,85 @@
+[
+  {
+    "id": "mock2018-q051",
+    "verdict": "ok",
+    "explanation": "Direct addressing is possible only when we can afford to allocate an array that has one position for every possible key."
+  },
+  {
+    "id": "mock2018-q052",
+    "verdict": "ok",
+    "explanation": "Since every key has a unique array position, searching takes a constant time."
+  },
+  {
+    "id": "mock2018-q053",
+    "verdict": "ok",
+    "explanation": "In a hash table, there are fewer array positions than the keys, so the position of the key in the array has to be computed, this is done using the hash function."
+  },
+  {
+    "id": "mock2018-q054",
+    "verdict": "rewritten",
+    "explanation": "All three listed items act against collisions: a hash function that behaves randomly stops any regular pattern of keys from piling into one slot, simple uniform hashing makes each of the m slots equally likely for every key, and chaining holds all keys that land on the same slot in a list at that slot. Since A, B and C are each valid, D is the answer.",
+    "issue": "Original was self-contradictory ('making the hash function random is not really a good choice, although it is considered one of the techniques') and never stated what chaining or uniform hashing do, so it did not justify the 'All of the mentioned' key."
+  },
+  {
+    "id": "mock2018-q055",
+    "verdict": "ok",
+    "explanation": "In simple chaining, load factor is the average number of elements stored in a chain, and is given by the ratio of number of elements stored to the number of slots in the array."
+  },
+  {
+    "id": "mock2018-q056",
+    "verdict": "ok",
+    "explanation": "In simple uniform hashing, any given element is equally likely to hash into any of the slots available in the array."
+  },
+  {
+    "id": "mock2018-q057",
+    "verdict": "rewritten",
+    "explanation": "Under simple uniform hashing with chaining, both successful and unsuccessful searches cost Theta(1 + alpha): constant work to compute the hash and index the slot, plus the expected chain length alpha = n/m. When the table is sized proportional to the number of keys, alpha is a constant, so the search is O(1).",
+    "issue": "Original stopped at O(1+alpha) and never connected that to the marked option O(1), so it left the answer unjustified."
+  },
+  {
+    "id": "mock2018-q058",
+    "verdict": "rewritten",
+    "explanation": "Chaining wants deletion of an element to be O(1) once you hold a pointer to its node, and a doubly linked list allows that node to be spliced out directly using its prev and next pointers. In a singly linked list you would first have to walk the chain to find the predecessor, making deletion proportional to the chain length.",
+    "issue": "Original ('deletion becomes easier with doubly linked list, hence it is appropriate') asserted the conclusion without the prev-pointer mechanism that makes deletion constant time."
+  },
+  {
+    "id": "mock2018-q059",
+    "verdict": "rewritten",
+    "explanation": "The entity-relationship diagram is the graphical notation of the E-R model: entity sets are drawn as rectangles, relationship sets as diamonds, and lines connect them, so the diagram shows the logical structure of the database as a picture. The other three names are not standard E-R notations.",
+    "issue": "Original ('E-R diagrams are simple and clear, qualities that may well account for the widespread use of the E-R model') is filler that never says why an E-R diagram is the graphical logical structure, and it contained an em dash."
+  },
+  {
+    "id": "mock2018-q060",
+    "verdict": "rewritten",
+    "explanation": "In E-R notation a relationship set is drawn as a diamond, joined by lines to the rectangles of the entity sets it relates. Double diamonds are used only for the identifying relationship set of a weak entity, and dashed lines only attach attributes to a relationship set, so neither of those is the plain relationship set.",
+    "issue": "Original explanation ('dashed lines link attributes of a relationship set to the relationship set') is a true statement but describes distractor C, not the marked answer D. It never mentioned the diamond. Key is correct; the explanation was simply misfiled."
+  },
+  {
+    "id": "mock2018-q061",
+    "verdict": "ok",
+    "explanation": "The first part of the rectangle contains the name of the entity set. The second part contains the names of all the attributes of the entity set."
+  },
+  {
+    "id": "mock2018-q062",
+    "verdict": "ok",
+    "explanation": "An arrow pointing at an entity set means at most one entity of that set takes part in the relationship, so arrows into both instructor and student mean an instructor advises at most one student and a student has at most one advisor, which is one to one."
+  },
+  {
+    "id": "mock2018-q063",
+    "verdict": "rewritten",
+    "explanation": "A role label distinguishes the parts an entity set plays when the same entity set participates more than once in one relationship set, and the label is written on the line that joins the relationship-set diamond to the entity-set rectangle, hence diamond to rectangle.",
+    "issue": "Original only defined the two shapes and gave no reason to prefer D over the reversed distractor B."
+  },
+  {
+    "id": "mock2018-q064",
+    "verdict": "rewritten",
+    "explanation": "An entity set whose own attributes are enough to form a primary key is a strong entity set; one that lacks such attributes cannot be identified by itself and is called a weak entity set, which is why it must borrow identification from an owning entity set.",
+    "issue": "Original only defined the opposite term (strong entity set) and never named the marked answer or said why an entity set without a primary key is called weak."
+  },
+  {
+    "id": "mock2018-q065",
+    "verdict": "rewritten",
+    "explanation": "A weak entity set has no primary key of its own, so it is existence dependent on another entity set whose key, combined with the weak entity's discriminator, identifies it; in standard E-R terminology that set is the identifying entity set.",
+    "issue": "Original ended with 'It is also called as owner entity set', which endorses distractor B ('Owner set') as much as the marked answer A. The key still follows the textbook term 'identifying entity set', so it stands, but the item is ambiguous between A and B and the explanation should not have argued for the distractor."
+  }
+]

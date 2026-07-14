@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sample2-q005",
+    "explanation": "Elasticity is the cloud property of automatically scaling resources up when demand rises and back down when it falls, with no manual provisioning. The distractors are all real cloud features but none of them adjust capacity: virtualization is the underlying abstraction of hardware, encryption protects data, and metering only measures usage so it can be billed."
+  },
+  {
+    "id": "sample2-q006",
+    "explanation": "A computer network is a set of interconnected devices (nodes) linked by transmission media so they can share resources and exchange information. Option A is the exact negation: 'standalone' computers are by definition not networked."
+  },
+  {
+    "id": "sample2-q007",
+    "explanation": "Node, transmission media and networking devices are the basic building blocks used to define a network. The operating system is general computing software that runs on a host; it is not part of the vocabulary used to describe a network's structure, so it is the odd one out."
+  },
+  {
+    "id": "sample2-q008",
+    "explanation": "A router operates at the network layer: it connects separate networks and forwards packets toward their destination by consulting its routing table for the destination IP. Each distractor describes a different device - A is a switch or hub (one segment), B is a modem (digital-to-analog conversion), D is a wireless access point."
+  },
+  {
+    "id": "sample2-q009",
+    "explanation": "Gmail is a finished application delivered over the browser, with Google managing the servers, runtime and the software itself, which is exactly Software as a Service. IaaS would give you raw VMs and PaaS would give you a runtime to deploy your own code; in both cases you still build the application, whereas with Gmail you only use it."
+  },
+  {
+    "id": "sample2-q010",
+    "explanation": "Answer unverified: the source PDF gives no answer key for this item and no option is marked correct. On the facts the intended answer is C, LAN, since a Local Area Network is defined as covering a small area such as a home, office or single building. The ambiguity is D, PAN, which also fits 'home' loosely but is a much smaller personal range of a few metres around one person (Bluetooth, USB), so LAN remains the standard answer."
+  },
+  {
+    "id": "sample3-q001",
+    "explanation": "TCP/IP is the Transmission Control Protocol / Internet Protocol suite, the core protocol stack of the internet: IP handles addressing and routing of packets while TCP breaks data into segments, delivers them reliably and reassembles them in order. The other three options are invented expansions of the acronym."
+  },
+  {
+    "id": "sample3-q002",
+    "explanation": "A hub is a physical-layer repeater with no addressing logic, so any frame arriving on one port is flooded out every other port, wasting bandwidth and creating a single collision domain. A switch is the efficient alternative because it learns MAC addresses and forwards each frame only to the destination port."
+  },
+  {
+    "id": "sample3-q003",
+    "explanation": "Hybrid cloud is a deployment model that combines a private cloud (or on-premise infrastructure) with a public cloud, letting an organisation keep sensitive workloads in-house while bursting to public capacity. The trap is options A and C, which mix up deployment models with service models: SaaS, PaaS and IaaS are service models and never combine to form a hybrid cloud."
+  },
+  {
+    "id": "sample3-q004",
+    "explanation": "Multi-cloud means an organisation consumes services from more than one cloud provider, for example AWS plus Azure, typically to avoid vendor lock-in or improve resilience. Option A is the classic trap: using many services from a single provider is still single-cloud, no matter how many services are involved."
+  },
+  {
+    "id": "sample3-q005",
+    "explanation": "AWS, Microsoft Azure and Google Cloud are all cloud platforms that sell compute, storage and managed services. Oracle Database is a database product you install and license, not a cloud provider - the trap is the Oracle name, since Oracle's actual cloud offering is Oracle Cloud Infrastructure (OCI), not 'Oracle Database'."
+  },
+  {
+    "id": "sample3-q006",
+    "explanation": "In a peer-to-peer architecture there is no dedicated server: every device can request a service (act as a client) and supply one (act as a server), which is what distinguishes it from client-server. Option A describes exactly the client-server model it is being contrasted with; P2P is defined by the role of the nodes, not by the medium (C) or the geographic span (D)."
+  },
+  {
+    "id": "sample3-q007",
+    "explanation": "Pay-as-you-go bills strictly by actual consumption (compute hours, GB stored, requests made), so cost tracks usage and there is no charge for idle capacity. A fixed monthly payment (A) and a lifetime subscription (D) are the opposite arrangement: you pay the same regardless of what you use."
+  },
+  {
+    "id": "sample3-q008",
+    "explanation": "Security and protection of data and resources is one of the standard stated goals of computer networking, alongside resource sharing, reliability and cost saving. The other three options are deliberately written as anti-goals (complicate usage, limit sharing, decrease efficiency), so they can be eliminated on sight."
+  },
+  {
+    "id": "sample3-q009",
+    "explanation": "PaaS gives developers a ready runtime, middleware, database and deployment tooling, so they write and ship application code without provisioning or patching servers. IaaS would still leave them managing the OS and the stack themselves, and SaaS is a finished application with no room to develop anything."
+  },
+  {
+    "id": "sample3-q010",
+    "explanation": "A PAN interconnects one person's own devices - phone, laptop, headset, smartwatch - over a very short range, typically a few metres via Bluetooth, infrared or USB. The distractors are the larger network classes: A describes a WAN or MAN, C describes a LAN or campus network, and D describes a VPN."
+  }
+]

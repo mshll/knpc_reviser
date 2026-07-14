@@ -1,0 +1,819 @@
+[
+  {
+    "id": "ce2016-q051",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "What is the minimized function represented below?",
+    "stemFigure": "/figures/ce2016-q051.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "f = xy + (x'y)'\n  = xy + (x + y')\n  = x(y + 1) + y'\n  = x + y'",
+    "explanationSource": "source",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 51
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "56928c09cea1718518fda9b52361c1576274ccef"
+  },
+  {
+    "id": "ce2016-q052",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "deadlock",
+    "stem": "What is the situation called when two processes are waiting for each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rolling Back.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Deadlock.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Starvation.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dining Philosophers.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 52
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "634136bfeee41c055aecacb0e9d536407e33a912"
+  },
+  {
+    "id": "ce2016-q053",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which OSI layer is responsible for reliable communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 53
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "870751df96d7c090eeaf7d4243e20c41b5db20a4"
+  },
+  {
+    "id": "ce2016-q054",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-types",
+    "stem": "___________ instructions change the flow of the program.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Transfer (or Handling).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Arithmetic (and Logic).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Branch (or Control Flow).",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Registers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 54
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e7a45a79f15dc89a1f7f27666734509b40ba9424"
+  },
+  {
+    "id": "ce2016-q055",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "stacks",
+    "stem": "“Push” and “Pop” are used for the data structure known as __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Array",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hash Table",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Stack",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Queue",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 55
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "60b77b7c745aec9d8eab6443d64481c2559a5868"
+  },
+  {
+    "id": "ce2016-q056",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "subnetting",
+    "stem": "Default network mask for CLASS A is ____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "255.0.0.0",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "255.255.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "255.255.255.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "255.255.255.255",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 56
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c8b144e82d0b87a9f4d49364ebc64e9ec0337e39"
+  },
+  {
+    "id": "ce2016-q057",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "twos-complement",
+    "stem": "The number (-9) with signed 2's complement representation is",
+    "options": [
+      {
+        "label": "A",
+        "text": "10001001",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "11110110",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "11110111",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "11110011",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 57
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "ec728776f31694589a2a513a0b4205bcabcb6631"
+  },
+  {
+    "id": "ce2016-q058",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "topologies",
+    "stem": "Which Ethernet topology do we use FDDI in?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Ring",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Star",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 58
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "44f80c3e643c95df4467bb0ab39b3ea4a1b639c0"
+  },
+  {
+    "id": "ce2016-q059",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "The ___________ layer changes bits onto electromagnetic signals.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Transport.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Presentation.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 59
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "25de8b0fb7733bb53d71fc3ed3156cbb656de2b6"
+  },
+  {
+    "id": "ce2016-q060",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which of the following is the main function of transport layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Node to node delivery.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "End to end delivery.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Maintaining routing tables.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 60
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ef3c9209e58f04546c697b9e8a39256d21a86f77"
+  },
+  {
+    "id": "ce2016-q061",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which of the following is an application layer service?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Network virtual terminal.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "File transfer & management.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Mail service.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 61
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4264f9bb3eea5729e5699882bc3a204de1fb4f8c"
+  },
+  {
+    "id": "ce2016-q062",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "fddi",
+    "stem": "FDDI stands for ______________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Fiber Data Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fiber Dual Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 62
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5043476920d95e81679d90cc7f787e35ba111271"
+  },
+  {
+    "id": "ce2016-q063",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "processes",
+    "stem": "Single Processor means _____________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perform only one process at a given time.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Executes next process only after the current process is completed.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "No need for process scheduling in CPU.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 63
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5b799f740875952fc9b9cfc0dee520bbed8f47f3"
+  },
+  {
+    "id": "ce2016-q064",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "In blocking state, we can find __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "The processes waiting for I/O.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The process that is running.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The processes waiting for the processor.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 64
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "20d5a77e218aa7aab3afd96b8312f7371b7eaf22"
+  },
+  {
+    "id": "ce2016-q065",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "Which of the following is NOT considered a state of a process?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Blocked",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Running",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ready",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Privileged",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 65
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "43d403d044f6e52ba26a232223ba77bd5a875a6a"
+  },
+  {
+    "id": "ce2016-q066",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "state-machines",
+    "stem": "The outputs in Moore State Machine depends on:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current state & current input.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Current state & previous state.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Current state only.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Current input only.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 66
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "1f7da7eba4ae49e09321b110b5201f14b449cd3a"
+  },
+  {
+    "id": "ce2016-q067",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "multitasking",
+    "stem": "When you use multiple computer tools/programs at same time, this is known as _____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multioperating.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Multipaging.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Extreme Programming.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Multitasking.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 67
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4d5d97bbea9e775c5d3a12042b3bbbfcfa3a3902"
+  },
+  {
+    "id": "ce2016-q068",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "Big-O is used for ____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Best case.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worst case.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Average case.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 68
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e1b5e0d6ab2416a6861994213abf3fd2e1b74a1e"
+  },
+  {
+    "id": "ce2016-q069",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "truth-tables",
+    "stem": "Find the Truth Table for the following function:\n\nF = x + y'z",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "x y z | F\n0 0 0 | 0\n0 0 1 | 1\n0 1 0 | 0\n0 1 1 | 0\n1 0 0 | 1\n1 0 1 | 1\n1 1 0 | 1\n1 1 1 | 1",
+    "answerFigure": "/figures/ce2016-q069-answer.png",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 69
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "affa32a185065de623b0578bddb27dbb71ba3971"
+  },
+  {
+    "id": "ce2016-q070",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "truth-tables",
+    "stem": "Find the Truth Table for the following circuit:",
+    "stemFigure": "/figures/ce2016-q070.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "x₁ x₂ x₃ | f\n0  0  0  | 0\n0  0  1  | 0\n0  1  0  | 1\n0  1  1  | 0\n1  0  0  | 0\n1  0  1  | 0\n1  1  0  | 1\n1  1  1  | 1",
+    "answerFigure": "/figures/ce2016-q070-answer.png",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 70
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c48b9bc35c44505ef4f57e02ec24355ffd6890cf"
+  }
+]

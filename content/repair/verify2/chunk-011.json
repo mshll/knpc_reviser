@@ -1,0 +1,637 @@
+[
+  {
+    "id": "koc2012-q041",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "In two input OR Gate, if both inputs are 1, what will be the output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "One",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Two",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unknown",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 41
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "604ff7dc43a8368b5c9cd0797dcb88e183772d6d",
+    "explanation": "OR outputs 1 whenever at least one input is 1, so 1 OR 1 = 1. Do not confuse OR with XOR: XOR would give 0 here because it outputs 1 only when the inputs differ."
+  },
+  {
+    "id": "koc2012-q042",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "If two input NOR Gate, if both inputs are 1, what will be the output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "One",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Two",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unknown",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 42
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "27d87d576dc95d041b0b67ede57d199822ceb3d7",
+    "explanation": "NOR is OR followed by NOT: 1 OR 1 = 1, then inverted gives 0. A NOR gate outputs 1 only when both inputs are 0."
+  },
+  {
+    "id": "koc2012-q043",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What do R and S stand for in RS-flip flop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "R- Reset; S- Set",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "R- Reset; S- Snooze",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "R- Rest; S- Set",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "R- Rest; S- Snooze",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 43
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d7f52e6a4b195d43e9121f9039a51581ff6b0d7c",
+    "explanation": "In an RS (SR) flip-flop, S is Set (drives Q to 1) and R is Reset (drives Q to 0). The other options are nonsense words placed to catch careless reading."
+  },
+  {
+    "id": "koc2012-q044",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What will be the output from RS-flip flop under the condition of R=1 and S=0 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output is reset to zero",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The output is set to one",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The output is set to zero",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "The output is reset to one",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 44
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cb96bb9295f9aaaf3709ac4b652b2e18b7b1d59f",
+    "explanation": "R=1 with S=0 asserts the Reset input, so Q goes to 0. Option C is the trap: 'set to zero' misuses the word set, which in flip-flop terminology specifically means driving the output to 1. Note R=1 and S=1 together is the forbidden/invalid state."
+  },
+  {
+    "id": "koc2012-q045",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "dbms-definition",
+    "stem": "Database Management System? is a set of computer programs that controls the creation, maintenance, and use of the databases of an organization and its end users.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 45
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9708eca9abc176d1c69f52d895d5b1ae534fd73f",
+    "explanation": "This is the standard textbook definition of a DBMS: software that controls creation, maintenance, and use of an organization's databases. True."
+  },
+  {
+    "id": "koc2012-q046",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-dictionary",
+    "stem": "The term Data Dictionary can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dictionary that contains database commands.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dictionary that contains commonly used computer commands.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "A computer-based catalog or directory containing metadata.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 46
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fe9db5e42841a961b6f6e80640202ea29af7dcdf",
+    "explanation": "The data dictionary is the system catalog: a computer-based directory of metadata (table names, column names, types, constraints, users), not a store of commands or of the user data itself."
+  },
+  {
+    "id": "koc2012-q047",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql",
+    "stem": "What does SQL stand for in relation to Database Management System?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Standard Query Language.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Structured Query Language.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Systematic Query Language.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 47
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "55590de7453bc6a8bdd564186b9eab2d0a4542e0",
+    "explanation": "SQL stands for Structured Query Language. 'Standard Query Language' is the common trap answer."
+  },
+  {
+    "id": "koc2012-q048",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "metadata",
+    "stem": "In relation to Database Management System the term Metadata can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Metric Data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data about data",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Description of programs",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 48
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "585e10aba59ba5d5eca7fe8a8c6be41cbcd62f4c",
+    "explanation": "Metadata literally means data about data: it describes the structure of the stored data (schemas, field types, lengths) rather than being the data values themselves."
+  },
+  {
+    "id": "koc2012-q049",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "three-schema-architecture",
+    "stem": "The three Schema Architecture types are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Analysis, Code, and Test",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Serial, Random, and Continuous",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internal, Conceptual, and External",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Vertical, Horizontal, and Circular",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 49
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "87e9e0df08d45ce8261e97e40004407285c3888a",
+    "explanation": "The ANSI/SPARC three-schema architecture has three levels: internal (physical storage), conceptual (logical whole-database structure), and external (individual user views). Separating them is what gives physical and logical data independence."
+  },
+  {
+    "id": "koc2012-q050",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "ddl",
+    "stem": "Name the language used by both the DBA and the Designer to define schemas",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Base Language (DBL)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Database Schema Language (DSL)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Definition Language (DDL)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Database Management Language (DML)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 50
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e1728847403843abcb99db5ab54374dbc3467bda",
+    "explanation": "The DBA and database designer define schemas with the Data Definition Language (DDL) - statements like CREATE TABLE and ALTER TABLE. The trap is option D: DML is Data Manipulation Language (SELECT/INSERT/UPDATE/DELETE), which operates on data, not on schema definitions."
+  },
+  {
+    "id": "koc2012-q051",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "MS-Access is used for creating databases. True or False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 51
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "799fd0057fe52163ed21e7e3dd39302cbe163ce2",
+    "explanation": "MS-Access is a desktop relational DBMS used to create and manage databases, so True. Careful with the labels here: True is option B, not A."
+  },
+  {
+    "id": "koc2012-q052",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "MS-Excel software is used for creating spreadsheets. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 52
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "78e80b91eb7c0cf895b9057a9a0f11e6c2dc17f4",
+    "explanation": "MS-Excel is a spreadsheet application, so the statement is True."
+  },
+  {
+    "id": "koc2012-q053",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "file-concepts",
+    "stem": "The term FILE can be defined as a collection of related data, true or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 53
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "08974e34e76103c6e9b6f8089f78ade89421d8de",
+    "explanation": "A file is defined as a collection of related records/data, so True. Note the label order is reversed on this item: True is option B."
+  },
+  {
+    "id": "koc2012-q054",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "file-organization",
+    "stem": "Common File Organizations methods are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sequential, Index Sequential",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Multi-key, Random",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Serial, Index Sequential, Random, Multi-key",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 and 2",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 54
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "38052452011dde562fff62ddf7fb4fe20571e3cb",
+    "explanation": "The four common file organization methods taught here are sequential, index-sequential, random (direct), and multi-key. Option A supplies the first two and option B the second two, so only 'D: 1 and 2' covers the full set. Option C is a decoy because it says 'serial' rather than 'sequential'."
+  },
+  {
+    "id": "koc2012-q055",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "file-types",
+    "stem": "Some common Data File Types are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Master, Transaction, History.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Large, Medium, Small",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Table, Control, Report",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 and 3",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 55
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "53303fa1386afd6ed2191d794a4b29342cb36f2b",
+    "explanation": "Common data file types include master, transaction, and history files (option 1) and table, control, and report files (option 3), so the answer is 'D: 1 and 3'. Option B (large/medium/small) is not a classification of file type at all, which is the giveaway."
+  }
+]

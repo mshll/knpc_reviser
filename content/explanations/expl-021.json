@@ -1,0 +1,82 @@
+[
+  {
+    "id": "code-q024",
+    "explanation": "198.23.16.0 has first octet 198, which is in 192-223, so it is Class C with a default mask of /24 (24 network bits). The given mask 255.255.255.252 has last octet 1111 1100 = /30, so borrowed bits = 30 - 24 = 6, giving 2^6 = 64 subnets. Host bits = 32 - 30 = 2, so 2^2 - 2 = 2 usable hosts per subnet (the classic point-to-point /30). The trap is forgetting the -2 for the network and broadcast addresses, which would give 4 hosts."
+  },
+  {
+    "id": "bank-a-q001",
+    "explanation": "Retaining data after power is removed is the definition of non-volatile storage (ROM, hard disk, flash). Volatile storage (RAM) loses its contents when power is cut. Sequential and direct describe how storage is accessed, not whether it survives power off, so they answer a different question."
+  },
+  {
+    "id": "bank-a-q002",
+    "explanation": "The start-up (bootstrap/BIOS) instructions must be present the instant power comes on, before anything can be loaded from disk, so they live in ROM, which is non-volatile and permanent. RAM is the trap: it is memory, but it is volatile and empty at power-on."
+  },
+  {
+    "id": "bank-a-q003",
+    "explanation": "Dynamic RAM stores each bit as charge on a tiny capacitor, and that charge leaks away, so every cell must be read and rewritten (refreshed) thousands of times per second. Static RAM holds bits in a flip-flop and needs no refresh; ROM and EPROM are non-volatile and hold their contents with no power at all."
+  },
+  {
+    "id": "bank-a-q004",
+    "explanation": "A USB flash drive holds data outside the CPU's directly addressable main memory and persists it, which makes it secondary (auxiliary) storage. Primary is the trap: primary/main memory means RAM, which the CPU reads directly. 'Axillary' is a misspelling of auxiliary and is not the term the key uses."
+  },
+  {
+    "id": "bank-a-q005",
+    "explanation": "The standard data hierarchy builds upward: character (a single symbol) -> field (a group of characters, e.g. a name) -> record (a group of related fields) -> file (a group of records) -> database (a group of files). Option D is the trap: it starts correctly with bit and byte but then puts Record before Field, which inverts the containment."
+  },
+  {
+    "id": "bank-a-q006",
+    "explanation": "Backup only requires a medium that can hold a second copy of the data, and floppy disks, magnetic tape and a network drive all qualify, so 'All of the above' is correct. Tape is the traditional answer and is the trap if you pick a single option; the question asks which device can be used, not which is best."
+  },
+  {
+    "id": "bank-a-q007",
+    "explanation": "A byte is 8 bits, so half a byte is 4 bits, which is called a nibble. Option C ('half byte') is a restatement of the stem rather than the technical name."
+  },
+  {
+    "id": "bank-a-q008",
+    "explanation": "Main memory (RAM plus ROM) sits on the motherboard and is directly addressable by the CPU, which makes it internal or primary memory. External/auxiliary refers to secondary storage such as disks and USB drives, which the CPU cannot address directly and must load into main memory first."
+  },
+  {
+    "id": "bank-a-q009",
+    "explanation": "Answer unverified: this item is quarantined as unanswerable and has no key. Dividing memory into equal-size blocks is paging (equal blocks are pages in logical memory and frames in physical memory), but every option offered (ROM, EPROM, EEPROM, all of the above) is a non-volatile memory technology, so the stem and the option set come from two different questions and no option can be correct. Learn the concept instead: paging = fixed-size blocks, segmentation = variable-size blocks."
+  },
+  {
+    "id": "bank-a-q010",
+    "explanation": "Permanent memory built into the machine and readable at power-on is ROM. RAM is volatile so it cannot be permanent, and CD-ROM is the trap: it is read-only but it is removable optical media, not memory built into the computer."
+  },
+  {
+    "id": "bank-a-q011",
+    "explanation": "The bank treats a plain CD (CD-ROM) as a read-only medium: it is pressed at manufacture and a normal drive can only read it. Note the item is loose, because CD-R and CD-RW discs plus a burner are writable, so 'read and write' is defensible in the real world; on the exam, CD alone means read."
+  },
+  {
+    "id": "bank-a-q012",
+    "explanation": "RAM is the working store the CPU reads and writes directly while programs run, which is by definition the main (primary) memory. 'Internal' is the trap here because it is also true of RAM, but it is a location, not the standard name for the memory tier; auxiliary/external means secondary storage such as disk."
+  },
+  {
+    "id": "bank-a-q013",
+    "explanation": "Permanent, non-volatile memory built into the computer is ROM, which holds the firmware that runs at power-on. RAM is volatile and loses its contents; DVD-ROM is removable media, not built-in memory."
+  },
+  {
+    "id": "bank-a-q014",
+    "explanation": "Tape is a sequential-access medium: to reach a record the drive must physically wind past everything stored before it, so access time depends on position and can be minutes. A disk is random access and can seek straight to the data, which is why tape is used for backup and archive, not for data that must be recalled quickly."
+  },
+  {
+    "id": "bank-a-q015",
+    "explanation": "Magnetic core memory stores each bit as the magnetisation direction of a ferrite ring, which persists with no power, so it is non-volatile, unlike semiconductor RAM. The other options are wrong in the opposite direction: core is bulkier, more expensive, and its reads are destructive, so a bit does have to be written back after being read."
+  },
+  {
+    "id": "bank-a-q016",
+    "explanation": "A hard disk stores bits as magnetised regions on a platter, and magnetisation survives power off, so an HDD is non-volatile storage. 'Flash' is the trap: flash is also non-volatile, but it is the semiconductor technology used in SSDs and USB sticks, not in a magnetic hard disc drive."
+  },
+  {
+    "id": "bank-a-q017",
+    "explanation": "Answer unverified: this item is quarantined and has no key. Flash is block-erasable EEPROM, which rules out ROM (mask-programmed, not rewritable) and PROM (programmable once), and the only technically correct option, EEPROM, is corrupted in the source to 'E REM'. With the correct choice unreadable the item cannot be graded. What to remember: flash = non-volatile, electrically erasable, erased in blocks rather than byte by byte."
+  },
+  {
+    "id": "bank-a-q018",
+    "explanation": "The bootstrap/BIOS instructions that run at power-on and cannot be overwritten by ordinary programs are stored in ROM, which is non-volatile and read-only. RAM and DRAM are volatile and empty at power-on; the ALU and CPU execute instructions rather than store them permanently."
+  },
+  {
+    "id": "bank-a-q019",
+    "explanation": "The bank's intended answer is Flash RAM, the informal name used because flash can be read and written like RAM while still being non-volatile. Be aware the item is technically shaky: flash is an EEPROM variant, so 'flash ROM' is the more accurate label and is the distractor most likely to tempt you; go with the bank's Flash RAM on this exam."
+  }
+]

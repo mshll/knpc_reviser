@@ -1,0 +1,161 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - main [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - heading "History" [level=1] [ref=f1e5]
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]:
+            - term [ref=f1e8]: Attempts
+            - definition [ref=f1e9]: "1"
+          - generic [ref=f1e10]:
+            - term [ref=f1e11]: Answered
+            - definition [ref=f1e12]: "0"
+          - generic [ref=f1e13]:
+            - term [ref=f1e14]: Accuracy
+            - definition [ref=f1e15]: 0%
+        - region "Topic mastery" [ref=f1e16]:
+          - generic [ref=f1e17]:
+            - heading "Topic mastery" [level=2] [ref=f1e18]
+            - paragraph [ref=f1e19]: "Worst first. Tap a topic to drill it. 13 topics are untouched: that is unknown, not 0%."
+          - paragraph [ref=f1e20]: No topic has been attempted yet.
+          - generic [ref=f1e21]:
+            - heading "Untouched" [level=3] [ref=f1e22]
+            - list [ref=f1e23]:
+              - listitem [ref=f1e24]:
+                - link "Start drilling Digital Logic. 36 questions available, none attempted yet." [ref=f1e25] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=digital-logic
+                  - generic [ref=f1e26]:
+                    - generic [ref=f1e27]:
+                      - generic [ref=f1e28]: Digital Logic
+                      - generic [ref=f1e29]: Untouched
+                    - generic [ref=f1e30]: 36 questions waiting, none attempted
+              - listitem [ref=f1e33]:
+                - link "Start drilling Computer Architecture. 17 questions available, none attempted yet." [ref=f1e34] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=computer-architecture
+                  - generic [ref=f1e35]:
+                    - generic [ref=f1e36]:
+                      - generic [ref=f1e37]: Computer Architecture
+                      - generic [ref=f1e38]: Untouched
+                    - generic [ref=f1e39]: 17 questions waiting, none attempted
+              - listitem [ref=f1e42]:
+                - link "Start drilling Operating Systems. 30 questions available, none attempted yet." [ref=f1e43] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=operating-systems
+                  - generic [ref=f1e44]:
+                    - generic [ref=f1e45]:
+                      - generic [ref=f1e46]: Operating Systems
+                      - generic [ref=f1e47]: Untouched
+                    - generic [ref=f1e48]: 30 questions waiting, none attempted
+              - listitem [ref=f1e51]:
+                - link "Start drilling Networking. 73 questions available, none attempted yet." [ref=f1e52] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=networking
+                  - generic [ref=f1e53]:
+                    - generic [ref=f1e54]:
+                      - generic [ref=f1e55]: Networking
+                      - generic [ref=f1e56]: Untouched
+                    - generic [ref=f1e57]: 73 questions waiting, none attempted
+              - listitem [ref=f1e60]:
+                - link "Start drilling Databases. 56 questions available, none attempted yet." [ref=f1e61] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=databases
+                  - generic [ref=f1e62]:
+                    - generic [ref=f1e63]:
+                      - generic [ref=f1e64]: Databases
+                      - generic [ref=f1e65]: Untouched
+                    - generic [ref=f1e66]: 56 questions waiting, none attempted
+              - listitem [ref=f1e69]:
+                - link "Start drilling Data Structures and Algorithms. 55 questions available, none attempted yet." [ref=f1e70] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=data-structures-algorithms
+                  - generic [ref=f1e71]:
+                    - generic [ref=f1e72]:
+                      - generic [ref=f1e73]: Data Structures and Algorithms
+                      - generic [ref=f1e74]: Untouched
+                    - generic [ref=f1e75]: 55 questions waiting, none attempted
+              - listitem [ref=f1e78]:
+                - link "Start drilling Programming. 26 questions available, none attempted yet." [ref=f1e79] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=programming
+                  - generic [ref=f1e80]:
+                    - generic [ref=f1e81]:
+                      - generic [ref=f1e82]: Programming
+                      - generic [ref=f1e83]: Untouched
+                    - generic [ref=f1e84]: 26 questions waiting, none attempted
+              - listitem [ref=f1e87]:
+                - link "Start drilling Number Systems. 15 questions available, none attempted yet." [ref=f1e88] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=number-systems
+                  - generic [ref=f1e89]:
+                    - generic [ref=f1e90]:
+                      - generic [ref=f1e91]: Number Systems
+                      - generic [ref=f1e92]: Untouched
+                    - generic [ref=f1e93]: 15 questions waiting, none attempted
+              - listitem [ref=f1e96]:
+                - link "Start drilling Software Engineering. 15 questions available, none attempted yet." [ref=f1e97] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=software-engineering
+                  - generic [ref=f1e98]:
+                    - generic [ref=f1e99]:
+                      - generic [ref=f1e100]: Software Engineering
+                      - generic [ref=f1e101]: Untouched
+                    - generic [ref=f1e102]: 15 questions waiting, none attempted
+              - listitem [ref=f1e105]:
+                - link "Start drilling Cloud Computing. 17 questions available, none attempted yet." [ref=f1e106] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=cloud-computing
+                  - generic [ref=f1e107]:
+                    - generic [ref=f1e108]:
+                      - generic [ref=f1e109]: Cloud Computing
+                      - generic [ref=f1e110]: Untouched
+                    - generic [ref=f1e111]: 17 questions waiting, none attempted
+              - listitem [ref=f1e114]:
+                - link "Start drilling Hardware and Memory. 11 questions available, none attempted yet." [ref=f1e115] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=hardware-memory
+                  - generic [ref=f1e116]:
+                    - generic [ref=f1e117]:
+                      - generic [ref=f1e118]: Hardware and Memory
+                      - generic [ref=f1e119]: Untouched
+                    - generic [ref=f1e120]: 11 questions waiting, none attempted
+              - listitem [ref=f1e123]:
+                - link "Start drilling General IT. 9 questions available, none attempted yet." [ref=f1e124] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=general-it
+                  - generic [ref=f1e125]:
+                    - generic [ref=f1e126]:
+                      - generic [ref=f1e127]: General IT
+                      - generic [ref=f1e128]: Untouched
+                    - generic [ref=f1e129]: 9 questions waiting, none attempted
+              - listitem [ref=f1e132]:
+                - link "Start drilling Misc. 1 question available, none attempted yet." [ref=f1e133] [cursor=pointer]:
+                  - /url: /quiz?mode=drill&topics=misc
+                  - generic [ref=f1e134]:
+                    - generic [ref=f1e135]:
+                      - generic [ref=f1e136]: Misc
+                      - generic [ref=f1e137]: Untouched
+                    - generic [ref=f1e138]: 1 question waiting, none attempted
+        - separator
+        - region "Accuracy over time" [ref=f1e141]:
+          - heading "Accuracy over time" [level=2] [ref=f1e142]
+          - paragraph [ref=f1e143]: A trend needs at least 3 finished attempts. You have 1 so far.
+        - separator
+        - region "Attempts" [ref=f1e144]:
+          - heading "Attempts" [level=2] [ref=f1e145]
+          - list [ref=f1e146]:
+            - listitem [ref=f1e147]:
+              - link "Mock Exam, 10m ago, scored 1/2. Open results." [ref=f1e148] [cursor=pointer]:
+                - /url: /results?id=att-ft
+                - generic [ref=f1e149]:
+                  - generic [ref=f1e150]: Mock Exam
+                  - generic [ref=f1e152]: 1/2 50%
+                - generic [ref=f1e153]:
+                  - generic [ref=f1e154]: 10m ago
+                  - generic [ref=f1e155]: ·
+                  - generic [ref=f1e156]: 10m 00s
+                  - generic [ref=f1e157]: ·
+                  - generic [ref=f1e158]: All topics
+              - button "Delete the Mock Exam attempt from 10m ago" [ref=f1e159] [cursor=pointer]
+    - navigation "Primary" [ref=f1e162]:
+      - generic [ref=f1e163]:
+        - link "Home" [ref=f1e164] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f1e168] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f1e172] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f1e176] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f1e180]

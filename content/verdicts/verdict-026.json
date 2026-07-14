@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q105",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "First generation (1940s-50s) used vacuum tubes; transistors define the second generation.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q106",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "By definition an impact printer's print head physically strikes the paper.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q107",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "Hardware is the term for the physical components of a computer.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q108",
+    "blindAnswer": ["A"],
+    "confidence": 0.96,
+    "reason": "Disk drive is the only storage device among the options; keyboard/monitor/printer are I/O.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q109",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "QWERTY names the standard keyboard layout.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q110",
+    "blindAnswer": ["B"],
+    "confidence": 0.85,
+    "reason": "Officially Digital Versatile Disc; 'Digital Video Disc' was the early informal name, so B is the intended key.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q111",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "Monitor is an output device; keyboard, joystick, microphone are inputs.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q112",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "The CPU processes data into information and is built from integrated circuits.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q113",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "An Uninterruptible Power Supply supplies backup power during outages.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q114",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "Only Plotter/Printer/Monitor are all outputs; other groups contain scanner, keyboard, or mouse (inputs).",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q115",
+    "blindAnswer": ["D"],
+    "confidence": 0.98,
+    "reason": "Buses are the motherboard pathways carrying data/address/control signals between components.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q116",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "A card cage is the frame/chassis into which circuit boards are slotted and mounted.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q117",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "A printer renders computer data to paper, i.e. an output device.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q118",
+    "blindAnswer": ["D"],
+    "confidence": 0.99,
+    "reason": "Printer is the only output device; scanner, mouse, keyboard are inputs.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q119",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "A chip (smart) card embeds memory and a microprocessor in a credit-card form factor.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q121",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "The physical structure of a computer is its hardware.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q123",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "Two rapid presses of the left button is a double-click.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q124",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Notebooks, cell phones and PDAs are programmable computing devices; a digital scanner is a peripheral input device.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q126",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "A single bus minimizes wiring/cost and lets peripherals attach easily; it sacrifices speed, so options citing speed are wrong.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q127",
+    "blindAnswer": ["D"],
+    "confidence": 0.88,
+    "reason": "Buffer registers hold data so processor and slower I/O devices can each transfer at their own rate.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

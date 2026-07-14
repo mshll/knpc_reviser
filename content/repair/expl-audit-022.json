@@ -1,0 +1,83 @@
+[
+  {
+    "id": "mock2018-q066",
+    "verdict": "rewritten",
+    "explanation": "In standard ER notation a weak entity set is drawn as a double rectangle, which is why D is correct. The distractors are the other ER symbols: a double diamond is the identifying relationship of the weak entity, an underline marks a primary key, and a double line marks total participation in a relationship.",
+    "issue": "Old text ('An entity set that has a primary key is termed a strong entity set') is true but never mentions the double rectangle or any symbol, so it justifies nothing. Key D is correct."
+  },
+  {
+    "id": "mock2018-q067",
+    "verdict": "rewritten",
+    "explanation": "An album is a real-world object you store data about and it has its own properties (title, artist, year), so in ER terms it is an entity. One specific album would be an instance of it, an attribute is a single property such as title, and a relation is the table the entity maps onto in the relational model.",
+    "issue": "Old text defined 'entity set' generically and never connected it to the album, so it did not justify B. Key B is correct."
+  },
+  {
+    "id": "mock2018-q068",
+    "verdict": "rewritten",
+    "explanation": "One specific stored record, the data held about one particular album, is a single instance (occurrence) of the Album entity, so B is correct. Relation and Table both name the whole collection of album records and Column names one attribute, so none of those refers to a single record.",
+    "issue": "Old text described a DBMS instance ('made up of the background processes needed by the database'), which is the Oracle server-process sense of the word and is irrelevant here. It would actively mislead. Key B is correct."
+  },
+  {
+    "id": "mock2018-q069",
+    "verdict": "rewritten",
+    "explanation": "Every access pays the hit time, and only the miss-rate fraction of accesses additionally pays the miss penalty, so AMAT = hit time + (miss rate * miss penalty). For example a 1 ns hit time with a 5% miss rate and a 100 ns miss penalty gives 1 + 0.05 * 100 = 6 ns.",
+    "issue": "Old text was 'Review and Study AMAT' - a non-explanation with zero mechanism and zero arithmetic. Key A is correct."
+  },
+  {
+    "id": "mock2018-q070",
+    "verdict": "rewritten",
+    "explanation": "Pure ALOHA throughput is S = G * e^(-2G), which peaks at G = 0.5 giving S = 1/(2e) = 0.184, i.e. 18.4%, and to the nearest whole percent that is the 18% option. Slotted ALOHA halves the vulnerable period and peaks at 1/e = 36.8%, so C and D are the slotted-ALOHA distractors, while 18.8% corresponds to no ALOHA result at all.",
+    "issue": "Old text ended with 'Please review and Study AMAT', a copy-paste leak from the previous cache question. Also note the option set is imprecise: the true value is 18.4% and no option states it. B (18%) is the correct rounding of 18.4 and matches the answer page; A (18.8%) is not a rounding of any ALOHA figure. Key B stands, but the item is sloppy."
+  },
+  {
+    "id": "code-q001",
+    "verdict": "ok",
+    "explanation": "NULL is defined as the integer constant 0, so if (NULL) is if (0), which is false and the else branch runs, printing \"Hii World\". The trap is reading NULL as a special \"nothing\" value that might be truthy - in a boolean context it is just zero."
+  },
+  {
+    "id": "code-q002",
+    "verdict": "ok",
+    "explanation": "The first test is A && (B > C) because > binds tighter than &&, so it is 5 && (10 > 20) = false. The second test uses a single = : it is an ASSIGNMENT A = (B || C == 20) = (10 || 1) = 1, and the value 1 is truthy, so the else-if branch is taken and the program prints PQR."
+  },
+  {
+    "id": "code-q003",
+    "verdict": "ok",
+    "explanation": "Output is 4, 6, 8, 10 on separate lines. i = j++ copies j into i and then increments j, so j is already odd (5, 7, 9, 11) by the time if (j == 8) is tested - the continue never fires - and the j++ in the loop header advances j by a further 1, giving j = 4, 6, 8, 10 at the top of each iteration, which is exactly what i receives and prints."
+  },
+  {
+    "id": "code-q005",
+    "verdict": "ok",
+    "explanation": "A straightforward counted loop: i runs 1 through 5 inclusive and each value is printed followed by a space, giving \"1 2 3 4 5\". Note ++i and i++ behave identically in a for-header increment, since the value of the expression is discarded."
+  },
+  {
+    "id": "code-q007",
+    "verdict": "ok",
+    "explanation": "The semicolon immediately after for (i = 0; i < 10; i++) makes the loop body EMPTY, so the loop simply runs i up to 10 and stops. The following braces are then just an ordinary block that executes once, printing the final value of i, so the output is 10 rather than 0123456789."
+  },
+  {
+    "id": "code-q008",
+    "verdict": "rewritten",
+    "explanation": "This item uses the question-bank taxonomy that counts four loop forms: for, while, do-while, and nested loops, so the expected answer is 4. Be aware the taxonomy is non-standard - a nested loop is just one loop placed inside another, not a distinct statement, and C++11 added the range-based for - but the exam key treats the count as four.",
+    "issue": "Old text merely listed the four names with no acknowledgement that 'nested' is not a distinct loop statement, so a student who knows C++ properly would pick 3 and be marked wrong without understanding why. Key A (4) is what the answer page grades; the rewrite justifies it while flagging the convention."
+  },
+  {
+    "id": "code-q009",
+    "verdict": "ok",
+    "explanation": "break exits the enclosing loop immediately, so all remaining iterations are cancelled. The trap is option B: skipping one iteration and carrying on is continue, not break; and break ends only the loop, not the whole program (that would be exit or return from main)."
+  },
+  {
+    "id": "code-q010",
+    "verdict": "ok",
+    "explanation": "\"Hello\" is printed 0 times. Every iteration takes one of the two branches - continue while x < 5, break once x reaches 5 - so control never reaches the printf that sits after the if/else; it is unreachable dead code."
+  },
+  {
+    "id": "code-q011",
+    "verdict": "ok",
+    "explanation": "j starts at 1 and increases by 2, so it takes the odd values 1, 3, 5, ..., 249 (249 is the last value <= 250) and the loop then exits with j = 251. Count = (249 - 1) / 2 + 1 = 125 iterations; the trap is halving 250 to get 125 by luck, or answering 126 by mis-including j = 251."
+  },
+  {
+    "id": "code-q012",
+    "verdict": "ok",
+    "explanation": "& is the BITWISE AND operator: it combines operands bit by bit. The three logical operators in C/C++ are && (AND), || (OR) and ! (NOT); unlike &, the logical && also short-circuits."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ce2016-q051",
+    "blindAnswer": ["f = x + y'"],
+    "confidence": 0.95,
+    "reason": "Figure: AND(x,y) OR'd with NAND(x',y). f = xy + (x'y)' = xy + x + y' = x + y'. Truth table check: 00->1, 01->0, 10->1, 11->1 = x + y'.",
+    "sourceAnswer": ["f = x + y'"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q052",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "Two processes each waiting on the other is the textbook definition of deadlock (circular wait).",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q053",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Transport layer provides reliable end-to-end delivery (TCP: ack, retransmit, sequencing).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q054",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Branch / control-flow instructions alter the program counter and thus program flow.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q055",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "Push/pop are the LIFO stack primitives.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q056",
+    "blindAnswer": ["A"],
+    "confidence": 0.99,
+    "reason": "Class A uses /8, i.e. 255.0.0.0.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q057",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "+9 = 00001001; invert -> 11110110; +1 -> 11110111. Note option B (11110110) is the 1's complement, a classic distractor.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "ce2016-q058",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "FDDI is a dual counter-rotating token ring.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q059",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "Physical layer converts bits into electrical/optical/electromagnetic signals on the medium.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q060",
+    "blindAnswer": ["B"],
+    "confidence": 0.92,
+    "reason": "Transport = end-to-end (process-to-process) delivery; node-to-node is data link, routing tables are network layer.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q061",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "Network virtual terminal, file transfer/access/management, and mail service are ALL standard application-layer services (Forouzan's list), so 'All of the above' is correct; keying only 'Mail service' is wrong.",
+    "sourceAnswer": ["C"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "ce2016-q062",
+    "blindAnswer": [],
+    "confidence": 0.0,
+    "reason": "unanswerable - options A and D are literally identical ('Fiber Distributed Data Interface'), so two labels are equally correct. The expansion itself is Fiber Distributed Data Interface; option D is a transcription defect and must be fixed.",
+    "sourceAnswer": ["A"],
+    "agreement": "unsolvable"
+  },
+  {
+    "id": "ce2016-q063",
+    "blindAnswer": ["A"],
+    "confidence": 0.75,
+    "reason": "A single processor executes only one process at a given instant (A true), but B is false (multiprogramming preempts before completion) and C is false (a single CPU is exactly where scheduling is needed), so 'All of the above' cannot hold.",
+    "sourceAnswer": ["D"],
+    "agreement": "disagree"
+  },
+  {
+    "id": "ce2016-q064",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Blocked/waiting state holds processes waiting on I/O or an event; waiting for the processor is the Ready state.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q065",
+    "blindAnswer": ["D"],
+    "confidence": 0.97,
+    "reason": "Process states are new/ready/running/blocked/terminated; 'Privileged' is a CPU mode, not a process state.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q066",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Moore outputs are a function of the current state only; Mealy depends on state and input.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q067",
+    "blindAnswer": ["D"],
+    "confidence": 0.97,
+    "reason": "Running several programs concurrently is multitasking.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q068",
+    "blindAnswer": ["B"],
+    "confidence": 0.85,
+    "reason": "Big-O is an asymptotic upper bound, conventionally used to express worst-case complexity (Omega = best, Theta = tight).",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q069",
+    "blindAnswer": ["F=0,1,0,0,1,1,1,1 for xyz=000..111"],
+    "confidence": 0.98,
+    "reason": "F = x + y'z: F=1 whenever x=1 (rows 100-111) or y=0,z=1 (row 001); all other rows 0.",
+    "sourceAnswer": ["F=0,1,0,0,1,1,1,1 for xyz=000..111"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q070",
+    "blindAnswer": ["f=0,0,1,0,0,0,1,1 for x1x2x3=000..111"],
+    "confidence": 0.85,
+    "reason": "Traced figure: three 3-input ANDs feeding an OR -> f = x1'x2x3' + x1x2x3' + x1x2x3 = x2(x1 + x3'); ones only at 010, 110, 111.",
+    "sourceAnswer": ["f=0,0,1,0,0,0,1,1 for x1x2x3=000..111"],
+    "agreement": "agree"
+  }
+]

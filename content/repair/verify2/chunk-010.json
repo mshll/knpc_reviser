@@ -1,0 +1,677 @@
+[
+  {
+    "id": "koc2012-q001",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "os-role",
+    "stem": "The function of an Operating System is to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Process input data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Manage and allocate computer hardware and software resources",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Display Error messages for computer operators",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Print reports",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10728132e161cb0285e01337095c30f3b9e138c1",
+    "explanation": "The OS is the resource manager: it allocates the CPU, memory, I/O devices and files among competing programs and users, and provides the interface between hardware and application software. Processing data, printing reports and showing errors are things applications or utilities do on top of the OS, not the OS's defining function."
+  },
+  {
+    "id": "koc2012-q002",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command to display a file on a terminal, one screen-full at a time:",
+    "options": [
+      {
+        "label": "A",
+        "text": "more",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "cat",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "dir",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ls",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3c6507865f1803c6360d86115fe85e15ee59cd0f",
+    "explanation": "'more' is the classic Unix pager: it prints one screen-full and waits for a keypress before showing the next. 'cat' is the trap here, it prints the file but dumps the whole thing without pausing; 'ls' (and DOS 'dir') list directory names, not file contents."
+  },
+  {
+    "id": "koc2012-q003",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command used to change your password?",
+    "options": [
+      {
+        "label": "A",
+        "text": "chpassword",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "passwd",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "passwordch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Change_Password",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0d1d469a9c693203b456423be4234839b074f726",
+    "explanation": "'passwd' is the standard Unix command to change a user's password. The other three are not real commands, they are invented DOS-flavoured names."
+  },
+  {
+    "id": "koc2012-q004",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "What is the Unix command to list a directory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "dir",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "dir /w",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "lsd",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ls",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0f9dbf0096e8095b672237294f3828871538feee",
+    "explanation": "'ls' lists directory contents in Unix. 'dir' and 'dir /w' are the DOS/Windows equivalents and are the intended trap for anyone answering out of DOS habit; 'lsd' does not exist."
+  },
+  {
+    "id": "koc2012-q005",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-editors",
+    "stem": "What is the standard Unix editor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "emacs",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "edit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "vi",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "cat",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "479357a2039c146243a3ad56a21bac8880d1767f",
+    "explanation": "'vi' is the standard Unix visual editor, required by POSIX and present on essentially every Unix system. emacs is widely used but is an add-on rather than a standard component, and 'cat' only displays files, it cannot edit them."
+  },
+  {
+    "id": "koc2012-q006",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-editors",
+    "stem": "What are the two modes of the \"vi\" editor in Unix?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insert and Delete",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Edit and Insert",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Delete and Edit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ee94b7e5d45edd7d16848fb51c0690f48790dce8",
+    "explanation": "vi has two modes: command mode (which this exam calls 'edit' mode, where keystrokes are interpreted as commands) and insert mode (where keystrokes become text). You press 'i' to enter insert mode and Esc to return to command mode. Deleting is not a mode, it is a command ('dd', 'x') issued from command mode, which rules out A and C."
+  },
+  {
+    "id": "koc2012-q007",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "The decimal conversion of binary 1110 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "14",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6953517f9882af777285af53d6e499ce380591fe",
+    "explanation": "Binary 1110 = 1*8 + 1*4 + 1*2 + 0*1 = 14. The classic slip is answering 15, which is 1111; the low bit here is 0, so subtract 1."
+  },
+  {
+    "id": "koc2012-q008",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "decimal-to-binary",
+    "stem": "The binary conversion of decimal 30 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "11110",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10110",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "10001",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "00111",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "637b886f29fa8ccc4866d8696abf4de49736a987",
+    "explanation": "30 = 16 + 8 + 4 + 2, so bits 4,3,2,1 are set and bit 0 is clear, giving 11110. Check the distractor: 10110 = 16 + 4 + 2 = 22, not 30."
+  },
+  {
+    "id": "koc2012-q009",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "The command \"rlogin\" under Unix stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reset Login",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Regular Login",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Remote Login",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46f291d5695357b0653a65f0ebf8bb1c9f3ec121",
+    "explanation": "'rlogin' stands for remote login, the BSD utility for opening a login session on another host over the network. It is obsolete in practice because it transmits credentials in the clear; ssh replaced it."
+  },
+  {
+    "id": "koc2012-q010",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "units",
+    "stem": "How many bits are in a byte?",
+    "options": [
+      {
+        "label": "A",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4f56d40270975891ff697ef31e394cc53ea7a480",
+    "explanation": "A byte is 8 bits by definition. 4 bits is a nibble, and 16 or 32 bits describe word sizes, not bytes."
+  },
+  {
+    "id": "koc2012-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-geometry",
+    "stem": "What is a Cylinder on a magnetic disk pack?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One disk surface",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Group of tracks that are vertically aligned on a disk pack",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Group of tracks that are horizontally aligned on a disk pack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4eaf34a3ec4cbc11b6c5aa32dfde22a384b1992a",
+    "explanation": "In a disk pack each platter surface has tracks at the same radii; the cylinder is the set of all same-numbered tracks stacked vertically across every surface. It matters because the whole cylinder can be read with the head assembly in one position, so no seek is needed between its tracks."
+  },
+  {
+    "id": "koc2012-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-devices",
+    "stem": "Some Data Storage Devices are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disk, Tape and Compact Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tape, Hard Disk and Optical Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Disk, Tape and Floppy Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "37f54396e5b7c6b4caecfb1e64131dde9f9a1a55",
+    "explanation": "Every device named across options A, B and C (disk, tape, compact disk, hard disk, optical disk, floppy disk) is a genuine data storage device, so no single option can be preferred over the others and 'All the above' is the only consistent answer."
+  },
+  {
+    "id": "koc2012-q013",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "How many layers are there according to the OSI standard?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "14",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10d5aa982b8fa94f7b100c9d4d908b246118d54c",
+    "explanation": "The OSI reference model has 7 layers: physical, data link, network, transport, session, presentation, application. Do not confuse it with the TCP/IP model, which collapses these into 4 or 5 layers."
+  },
+  {
+    "id": "koc2012-q014",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "The main function of the DNS server in the Internet Computing is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To convert IP addresses to hostnames",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert PC identification",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To connect your terminal or PC to the Internet world",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "To resolve hostname to IP address",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eb33ac24e9bc6a2f797d887ebd7f8193a95886bb",
+    "explanation": "DNS's main job is forward resolution: it maps a hostname such as www.example.com to an IP address so packets can actually be routed. Option A is the trap, IP to hostname is reverse DNS (PTR lookup), a secondary capability rather than the main function."
+  },
+  {
+    "id": "koc2012-q015",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "modem",
+    "stem": "The main function of a modem from engineering point of view is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To connect from one destination to another",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert binary codes to hexadecimal codes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To convert analog signals to digital signals and vice versa",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To convert binary codes to ASCII codes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ab716e74e7d730176497adcd0435f56a7ef4976c",
+    "explanation": "Modem is short for modulator/demodulator: it modulates outgoing digital data onto an analog carrier for transmission over an analog line, and demodulates the incoming analog signal back into digital data. It performs no code conversion (binary to hex or ASCII), which rules out B and D."
+  }
+]

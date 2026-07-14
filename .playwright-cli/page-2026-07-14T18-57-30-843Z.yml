@@ -1,0 +1,49 @@
+- generic:
+  - generic:
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - button
+            - generic:
+              - generic:
+                - text: "20"
+                - generic: / 20
+            - generic: 02:04
+            - button
+        - main:
+          - article:
+            - generic:
+              - generic: Programming
+              - generic: KNPC 2016
+            - generic:
+              - heading [level=2]: An exception in Java is
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Your answer
+                  - generic: You left this blank.
+                - generic:
+                  - generic: Model answer
+                  - generic: an error in run time
+              - generic:
+                - generic: Mark it yourself. Free text is never auto-graded.
+                - generic:
+                  - button: I got it
+                  - button: I missed it
+            - generic:
+              - generic: AI-generated explanation
+              - paragraph: An exception in Java is an event thrown while the program is running that disrupts the normal flow of execution, for example ArithmeticException or NullPointerException. Problems the compiler catches, such as a syntax or type error, are compile-time errors, not exceptions. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.
+        - generic:
+          - generic:
+            - button
+            - button: Finish
+  - list
+  - alert
+  - dialog [ref=f3e171]:
+    - generic [ref=f3e176]:
+      - heading "Submit this attempt?" [level=2] [ref=f3e177]
+      - paragraph [ref=f3e178]: You have 18 unanswered questions. They will be marked as skipped.
+    - generic [ref=f3e179]:
+      - button "Keep going" [active] [ref=f3e180] [cursor=pointer]
+      - button "Submit" [ref=f3e181] [cursor=pointer]

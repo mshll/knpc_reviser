@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ce2016-q071",
+    "blindAnswer": ["F = X'Y' + Y'Z' + XYZ"],
+    "confidence": 0.9,
+    "reason": "Circuit is F = (X+Y) XOR ((Y XOR Z) + X'); truth table gives minterms 0,1,4,7 = X'Y'Z'+X'Y'Z+XY'Z'+XYZ = X'Y' + Y'Z' + XYZ.",
+    "sourceAnswer": ["Fsop = X'Y' + Y'Z' + XYZ"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q072",
+    "blindAnswer": ["F = XZ + X'Z'"],
+    "confidence": 0.95,
+    "reason": "K-map ones at minterms 0,2,8,10 (X=0,Z=0 -> X'Z') and 5,7,13,15 (X=1,Z=1 -> XZ); W and Y are don't-cares.",
+    "sourceAnswer": ["F = X Z + X'Z'"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q073",
+    "blindAnswer": ["(77)10 = (4D)16 = (115)8"],
+    "confidence": 0.99,
+    "reason": "1001101b = 64+8+4+1 = 77; 77 = 0x4D; 77 = 115 octal (64+8+5).",
+    "sourceAnswer": ["( 77 )10 = ( 4D )16 = (115)8"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q074",
+    "blindAnswer": ["(14026)10 = (11011011001010)2 = (33312)8"],
+    "confidence": 0.99,
+    "reason": "0x36CA = 3*4096+6*256+12*16+10 = 14026; nibbles 0011 0110 1100 1010 -> 11011011001010; regrouped by 3s -> 33312 octal.",
+    "sourceAnswer": ["(14026)10 = (11011011001010)2 = (33312)8"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q075",
+    "blindAnswer": ["A: MOVE R1,R2 | B: MOVE #X,R1 | C: MOVE (A0),R1 | D: MOVE X(A0),R1"],
+    "confidence": 0.85,
+    "reason": "Register direct uses the register's contents; immediate uses a literal (#); register indirect dereferences the register; indexed-basic adds a displacement to the base register before dereferencing.",
+    "sourceAnswer": ["A. Move R1,R2  B. Move #X,R1  C. Move (A0),R1  D. Move X(A0),R1"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q076",
+    "blindAnswer": ["Q starts 0; toggles to 1 at clock edge 1 (T=1), holds 1 at edge 2 (T=0), toggles to 0 at edge 3 (T=1), toggles to 1 at edge 4 (T=1)."],
+    "confidence": 0.9,
+    "reason": "T-FF toggles on a rising clock edge only when T=1; sampling T at the four rising edges gives 1,0,1,1 -> Q = 1,1,0,1.",
+    "sourceAnswer": ["Model-answer figure: Q rises at edge 1, stays high through edge 2, falls at edge 3, rises at edge 4."],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q001",
+    "blindAnswer": ["C"],
+    "confidence": 0.97,
+    "reason": "NIST essential characteristics include on-demand self-service, broad network access, resource pooling, rapid elasticity; fixed capacity is the opposite of elasticity.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q002",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "Fetch-decode-execute is by definition the instruction cycle.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q003",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "A hypervisor/virtualization layer multiplexes one physical server into many VMs.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q004",
+    "blindAnswer": ["C"],
+    "confidence": 0.93,
+    "reason": "Automatic updates is the only listed item that is an advantage; the other three are drawbacks.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q005",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Control decreases IaaS > PaaS > SaaS; SaaS users only consume the application.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q006",
+    "blindAnswer": ["C"],
+    "confidence": 0.98,
+    "reason": "A bus is the shared set of lines carrying address/data/control between CPU, memory, and I/O.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q007",
+    "blindAnswer": ["D"],
+    "confidence": 0.85,
+    "reason": "NIST community cloud = infrastructure shared by several organizations with common concerns; public cloud is open to the general public rather than 'multiple organizations' specifically.",
+    "sourceAnswer": [],
+    "agreement": "no-source-key"
+  },
+  {
+    "id": "sample1-q008",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "Azure is Microsoft's cloud platform.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q009",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "IAM = Identity and Access Management.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q010",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Encryption transforms plaintext into ciphertext (unreadable without the key).",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q001",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "A Service Level Agreement binds the cloud service provider and its customer to agreed service levels.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q002",
+    "blindAnswer": ["B"],
+    "confidence": 0.98,
+    "reason": "Serverless (FaaS) lets users run code while the provider handles provisioning and scaling of servers.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q003",
+    "blindAnswer": ["D"],
+    "confidence": 0.93,
+    "reason": "AWS Lambda is the canonical serverless/FaaS offering; 'Serverless computing' is the most specific listed option.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample2-q004",
+    "blindAnswer": ["C"],
+    "confidence": 0.9,
+    "reason": "Processing near the data source cuts round-trip time to the cloud, so the headline benefit is reduced latency (bandwidth use also drops, but latency is the standard answer).",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  }
+]

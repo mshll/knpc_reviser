@@ -1,0 +1,137 @@
+[
+  {
+    "id": "mock2018-q020",
+    "myAnswer": ["D"],
+    "confidence": 0.8,
+    "derivation": "Deletion from linked list (given node ptr), hash-table search (avg), and adding an edge in an adjacency matrix are all O(1); heapify is O(n) for build-heap / O(log n) for sift-down, never O(1) -> D is the odd one out.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q021",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "Shell sort is a generalisation of insertion sort using diminishing gaps; at gap=1 it degenerates to plain insertion sort.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q022",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "Every spanning tree of a connected graph on n vertices has exactly n vertices and n-1 edges, independent of the algorithm used.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q023",
+    "myAnswer": ["D"],
+    "confidence": 0.9,
+    "derivation": "Any recursive algorithm can be rewritten iteratively with an explicit stack; Hanoi, Fibonacci and tree traversal all have well-known iterative forms -> None of the above.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q024",
+    "myAnswer": ["D"],
+    "confidence": 0.5,
+    "derivation": "DEFECTIVE: worst-case binary search is O(log n), which is not among the options. O(n) is the tightest of the four listed upper bounds (and log n is O(n)), so D is the option to select, but the item's premise and its explanation ('compares all n values') are both wrong.",
+    "defective": true,
+    "shippedAnswer": ["D"],
+    "agreement": "defective"
+  },
+  {
+    "id": "mock2018-q025",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "'Memorization' is a typo for memoization: caching results of overlapping subproblems, which is the defining feature of dynamic programming.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q027",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "A binary heap is by definition a complete binary tree satisfying the heap-order property; it is not a BST (siblings are unordered).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q028",
+    "myAnswer": ["D"],
+    "confidence": 0.65,
+    "derivation": "Dijkstra is single-source shortest paths: from one node to ALL other nodes in a weighted graph. B (two vertices) is a defensible restricted use and makes the item soft, but D is the description that actually characterises the algorithm.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q029",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "Fig 2.5.2: top gate is AND with output bubble = NAND(A,B); bottom gate is AND(B,C); both feed an OR -> X = NOT(A*B) + (B*C). Option A has the bar spanning A*B; option C has separate bars (A_bar * B_bar) which is a different function.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q030",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "Fig 2.5.4 truth table: 00->0, 01->0, 10->1, 11->1, i.e. X = A. A*(A+B) = A by absorption. A+B fails at (0,1); (A*B_bar)+B = A+B fails at (0,1); A+B_bar fails at (0,0).",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q031",
+    "myAnswer": ["B"],
+    "confidence": 0.9,
+    "derivation": "Fig 2.5.7: columns AB = 00,01,11,10; rows CD = 00,01,11,10. The shaded '?' cell sits in column AB=10, row CD=01 -> A=1, B=0, C=0, D=1 -> A * B_bar * C_bar * D.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q032",
+    "myAnswer": ["C"],
+    "confidence": 0.8,
+    "derivation": "Ones at (AB,CD) = (00,00),(01,00),(11,00),(00,01),(10,01),(01,10),(11,10),(10,10) i.e. minterms 0,4,12,1,9,6,14,10. Only one quad exists: {4,12,6,14} = B*D_bar (cols 01/11 x rows 00/10). Leftover 0,1,9,10 cannot be covered by two pairs: 10's only neighbour is 14 and 9's only neighbour is 1, so 0,1,9,10 need three groups -> 1 quad + 3 = 4 groups minimum.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q033",
+    "myAnswer": ["C"],
+    "confidence": 0.9,
+    "derivation": "Fig 2.5.6 is the canonical four-NAND XOR: N = NAND(A,B); X = NAND(NAND(A,N), NAND(N,B)) = A XOR B.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q034",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "Fig 4.5.1: X = NAND(NAND(A,C), NAND(C_bar,B)) = A*C + B*C_bar, a 2-to-1 multiplexer with C as the select line. Multiplexer = data selector. Not a demux (one input, many outputs).",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "mock2018-q035",
+    "myAnswer": ["D"],
+    "confidence": 0.9,
+    "derivation": "Time for a gate/inverter to change state in response to an input change is propagation delay. Rise/decay times describe 10-90% edge transitions of a pulse, not the gate's response time.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

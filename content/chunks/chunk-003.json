@@ -1,0 +1,802 @@
+[
+  {
+    "id": "koc2012-q062",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "The decimal conversion of binary 0110 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "8",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 62
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "51f275c3c6417820d42c36852f8d83523d6ce4a0"
+  },
+  {
+    "id": "koc2012-q064",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "os-basics",
+    "stem": "Windows and DOS are not Operating Systems. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 64
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "44c61c2f7093e8a16023cd9845c70d4d1a69c8fc"
+  },
+  {
+    "id": "koc2012-q066",
+    "type": "true_false",
+    "topic": "operating-systems",
+    "subtopic": "os-basics",
+    "stem": "Operating System is an Application Software. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 66
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56ce4159d4259f3fc4bb5937c5a61df36d1a3be0"
+  },
+  {
+    "id": "koc2012-q067",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "The first two phases of Software Development Process are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Requirement Analysis and Specification",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Software Design and Specification.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Software Design and Coding.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Coding and Testing",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 67
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a56590b831dda29eb520f2e8ae2aa9d482c0def4"
+  },
+  {
+    "id": "koc2012-q068",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "language-fundamentals",
+    "stem": "What are the major components of a programming language?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Commands and Procedures",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Commands, Procedures, and Program Logic",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Syntax and Semantics",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Syntax and Language Rules",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 68
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e560b29cb3a0c1bb15721941b9cdcd46a04c4e36"
+  },
+  {
+    "id": "koc2012-q069",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "program-definition",
+    "stem": "The term Computer Program can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Detailed set of instructions that tells the computer what to do.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Detailed set of instructions to only read files and print reports.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Both 1 and 2.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 69
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56870cf687d9ad6b13f5f36ff74b8eed2a600b8f"
+  },
+  {
+    "id": "koc2012-q070",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "decimal-to-binary",
+    "stem": "The binary form of decimal 20 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "00010100",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "00011111",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "00010101",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 70
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a1d7acf802b709ebf51225aba1e326aa43c1e394"
+  },
+  {
+    "id": "koc2012-q071",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The device that performs elementary operations in a computer is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ALU",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "I/O device",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 71
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fb0dcfcae4b4b2dbf204da7ce7bdf07708a10dd1"
+  },
+  {
+    "id": "koc2012-q072",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp",
+    "stem": "A command that is not used in C++ language is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reads",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Printf",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Scanf",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 72
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5b53ac30790e72a097adaaece9b8638d3a919e7a"
+  },
+  {
+    "id": "koc2012-q073",
+    "type": "true_false",
+    "topic": "computer-architecture",
+    "subtopic": "stack-pointer",
+    "stem": "The function of stack pointer is to hold the data currently being worked on.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 73
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b75192c0387679963339ed8fa6109843817cc6df"
+  },
+  {
+    "id": "koc2012-q074",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The CPU components are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory & ALU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Register & Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ALU & Control Unit",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 74
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1497fc3bc254c1027653b2a2c41f364a6e6607a0"
+  },
+  {
+    "id": "koc2012-q075",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "Component of a computer that executes programs stored in memory is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Accumulator",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Register",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 75
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "dac36b3197f10777b736ec64ff0d0b6460046c8f"
+  },
+  {
+    "id": "koc2012-q076",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "word-size",
+    "stem": "Number of bytes in word of 16 bit computers is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 bytes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "8 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "16 bytes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 76
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5b0a86197b8a735918ff45497b6a3f28c66a533e"
+  },
+  {
+    "id": "koc2012-q077",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "The computer term SRAM stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Synchronous memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Static memory",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Serial memory",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 77
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6f9ab1a5d3e31a256d796e9aa780db8490947179"
+  },
+  {
+    "id": "koc2012-q078",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "Which of the following is not one of the 3 major components of the CPU?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The I/O unit",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The arithmetic unit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The control unit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 78
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4b358d097192912c49172d9a7819852c10f4393a"
+  },
+  {
+    "id": "koc2012-q079",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "units",
+    "stem": "MBPs stand for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mega bits per second",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Mega Bytes per second",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 79
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "23c8980662feea1146c6a8cfbc3edbbe189b20f4"
+  },
+  {
+    "id": "koc2012-q080",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "performance",
+    "stem": "One of the following does not affect the speed of computing in computers:",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hard Disk",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 80
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "54834f5d44255f7bd76bdd894fa916f64c9dfd03"
+  },
+  {
+    "id": "koc2012-q081",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "units",
+    "stem": "The result of dividing one Terabyte by one GB is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "100000 Bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "10000 Bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1000 Bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 81
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4ef0657e8bc03745c8dc4f3ac41e72b3f1666247"
+  },
+  {
+    "id": "koc2012-q083",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "acronyms",
+    "stem": "WAN stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wide Area Network",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "World Area Network",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Web Area Language",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 83
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6a47372f9e279c6129f9c740d44501ff29c9e365"
+  },
+  {
+    "id": "koc2012-q084",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "GUI stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Graphical User Interface",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Graphical Unit Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Graphical Unit Internet",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 84
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fb53011d8e7059d5535ef9423c88396f644718bb"
+  }
+]

@@ -1,0 +1,862 @@
+[
+  {
+    "id": "bank-b-q073",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "In analog computer",
+    "options": [
+      {
+        "label": "A",
+        "text": "Input is first converted to digital form",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Input is never converted to digital form",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Output is displayed in digital form",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "bdc9ba48df55a623c5c2af4d94359e205d410a14"
+  },
+  {
+    "id": "bank-b-q074",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-execution",
+    "stem": "In latest generation computers, the instructions are executed",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parallel only",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sequentially only",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Both sequentially and parallel",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "970a8abda17642ca372ba411858396847e57ddcf"
+  },
+  {
+    "id": "bank-b-q075",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "Who designed the first electronics computer – ENIAC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Van-Neumann",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Joseph M. Jacquard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "J. Presper Eckert and John W Mauchly",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e707b612d06ec81488b11923926ddf0697c36405"
+  },
+  {
+    "id": "bank-b-q076",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "programming-languages",
+    "stem": "Who invented the high level language c?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dennis M. Ritchie",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Niklaus Writh",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Seymour Papert",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Donald Kunth",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5eab32e05f8e9584fc7534e89d01c4932587eaad"
+  },
+  {
+    "id": "bank-b-q077",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-terminology",
+    "stem": "Personnel who design, program, operate and maintain computer equipment refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Console-operator",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Programmer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Peopleware",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "System Analyst",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e369516a63de362e7b9deae51ceee010196de2e1"
+  },
+  {
+    "id": "bank-b-q078",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "When did arch rivals IBM and Apple Computers Inc. decide to join hands?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1978",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1984",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1990",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1991",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "eab1b0f0e003c42c530bc17a5d350b7cd59e36eb"
+  },
+  {
+    "id": "bank-b-q079",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-terminology",
+    "stem": "Human beings are referred to as Homosapinens, which device is called Sillico Sapiens?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hardware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Robot",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Computer",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7c829798b548cc1b368fe87dcce14185c85cb481"
+  },
+  {
+    "id": "bank-b-q080",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-terminology",
+    "stem": "An error in software or hardware is called a bug. What is the alternative computer jargon for it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leech",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Squid",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Slug",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Glitch",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9294f1b10e4a317a9268a447b993acf3aa8574cd"
+  },
+  {
+    "id": "bank-b-q081",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-basics",
+    "stem": "Modern Computer are very reliable but they are not",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fast",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Powerful",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Infallible",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Cheap",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "db0ef04bfcd69ca9c14682088ab30bf918cf1bc2"
+  },
+  {
+    "id": "bank-b-q082",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "display",
+    "stem": "What is the name of the display feature that highlights are of the screen which requires operator attention?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pixel",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Reverse video",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Touch screen",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cursor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9107997c88a673c9445cc93cc837a24ce1df4354"
+  },
+  {
+    "id": "bank-b-q083",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "IMB launched its first personal computer called IBM-PC in 1981. It had chips from Intel, disk drives from Tandon, operating system from Microsoft, the printer from Epson and the application software from everywhere. Can you name the country which contributed the video display?",
+    "options": [
+      {
+        "label": "A",
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Taiwan",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "160cafeaa841f7405ecea0bcaa6a5f5615caf7f5"
+  },
+  {
+    "id": "bank-b-q084",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Personal computers use a number of chips mounted on a main circuit board. What is the common name for such boards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter board",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Father board",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Breadboard",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "20ae38bdde56c81130a127cf383ee97d121dd4af"
+  },
+  {
+    "id": "bank-b-q085",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "In most IBM PCs, the CPU, the device drives, memory expansion slots and active components are mounted on a single board. What is the name of this board?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Breadboard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Daughter board",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Grandmother board",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7d0ac9dd697d32d2175d6c45e06d2c61ea7e00bd"
+  },
+  {
+    "id": "bank-b-q086",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "What is meant by a dedicated computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Which is used by one person only",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Which is assigned one and only one task",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Which uses one kind of software",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Which is meant for application software",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6722b4c4e917b7fad753c2e3f534fd0c0c57e991"
+  },
+  {
+    "id": "bank-b-q087",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "The system unit of a personal computer typically contains all of the following except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microprocessor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Disk controller",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Serial interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0758d07377e6dcb96ad3639d9ce20f3d44766217"
+  },
+  {
+    "id": "bank-b-q088",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "compilers",
+    "stem": "A computer program that converts an entire program into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Simulator",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Commander",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2ddd79a18ddf16c348b22e9f0ba97a821f8720ed"
+  },
+  {
+    "id": "bank-b-q089",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "compilers",
+    "stem": "A computer program that translates one program instructions at a time into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Simulator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "4e8f6b4d48fd4dbd23663b6a77db2fcb5cc34983"
+  },
+  {
+    "id": "bank-b-q090",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-terminology",
+    "stem": "A small or intelligent device is so called because it contains within it a",
+    "options": [
+      {
+        "label": "A",
+        "text": "Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microcomputer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Programmable",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Sensor",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2137642c566bfd81da81b5ee7b0601a91e1fac87"
+  },
+  {
+    "id": "bank-b-q091",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The ALU of a computer responds to the commands coming from",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Control section",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "External memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cache memory",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f0b60458d54b633770ba2caa8adfc9e0d46de026"
+  },
+  {
+    "id": "bank-b-q092",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-operations",
+    "stem": "The act of retrieving existing data from memory is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-out",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Read from",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Read",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "10d2314dfa8e1f577ceee29607db0952d2c8d7a8"
+  }
+]

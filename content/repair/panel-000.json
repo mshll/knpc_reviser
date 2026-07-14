@@ -1,0 +1,74 @@
+[
+  {
+    "id": "knpc2021-q012",
+    "finalAnswer": [],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": true,
+    "addFlags": ["key_disputed"],
+    "panelReasoning": "QUARANTINED - no source key exists. The source-archaeologist rendered the original page (KOC 2012 EXAM (2).pdf, PDF p.42) at 150dpi and read it directly: the document's answer convention is BOLD+UNDERLINE (verified on Q17/Q18/Q19/Q41/Q43/Q44), and on Q12 none of the four options carries it. The document ends at Q46 with a topics list and has no deferred answer-key page. So the paper supplies no key, matching the raw bundle (koc-bundle.json: keyProvenance 'none', answerOptionLabels []). The stem and options were extracted FAITHFULLY, broken grammar and all - this is not an extraction error, it is a recall document that never captured the answer. The shipped 'B' was manufactured by an earlier panel, not read off the paper. Panel split three ways with no derivation surviving: first-principles unanswerable (0.3), distractor-analysis B (0.5), skeptic unanswerable (0.8), archaeologist unanswerable (0.8) - skeptic-unanswerable plus sub-0.6 co-judges triggers quarantine. The best structural inference (Q12/Q13 are a matched pair sharing an option pool; Q13 'when a software keeps changing during development' is unmistakably Stability, and IEEE 830 consistency = no conflict among competing requirements, so Q12 leans B) is an inference, not the paper speaking. The textbook term the stem actually describes - 'modifiable' (IEEE 830 4.3.6) or 'requirements negotiation' - is not among the options at all, which is the tell that the recall is corrupted. Do not ship a key here."
+  },
+  {
+    "id": "knpc2021-q018",
+    "finalAnswer": ["A"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "All four judges land on A (theta(1)). SOURCE: the archaeologist rendered PDF p.43 and read the print - 'A. theta(1)' is set in bold AND underlined, the document's answer convention, followed by the recaller's own reference link (javatpoint.com/binary-search, whose complexity table gives Best Case theta(1)). Extraction is faithful. DERIVATION, independent of the key: (i) theta(2n) = theta(n), so options C and D are the same complexity class - under a single-answer premise neither can be the key, which collapses the item to A vs B before any semantics. (ii) The stem asks for BEST running time, and best-case search terminates on the first comparison - the root of a BST, or the midpoint of a binary search on a sorted array - which is theta(1) for EVERY tree shape, including the degenerate right-spine you get from sorted insertion. (iii) theta(n) is the WORST case of the degenerate tree, not the best; theta(log n) requires both misreading 'best' as 'average' and ignoring 'already sorted'. Every self-consistent reading of the stem lands on A. The stem is garbled ('binary search tree ... already sorted' is almost certainly recall noise for 'binary search', whose precondition IS a sorted array) and the archaeologist found a second, looser recollection of the same exam on p.37 answering 'O(logn)' - noted, but it is a bare topic list with no options, while p.43 carries this item's four options verbatim. Answer A. Do not memorise 'BST search is O(1)' as a general fact - memorise 'best case = first-probe hit'."
+  },
+  {
+    "id": "ce2016-q022",
+    "finalAnswer": ["C"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "All four judges land on C (6). The item has no objectively correct answer - SDLC phase count is pure convention (5, 6 and 7 phase models are all published) - so the only question that affects the score is what THIS paper keys, and that is now settled by primary source. The archaeologist read [CE] questions.pdf (two-column option layout 'A. 4 | C. 6' / 'B. 5 | D. 7' - the pipeline mapped the columns correctly, no interleave bug) and rendered p.1 of [CE] solutions.pdf, the printed 'Model Answer' grid. Row 22 = '6'. Answers are given as values, not letters, so row alignment was verified against unambiguous neighbours rather than trusted: row 19 = 'Repeater' (matches Q19), row 21 = '7' (matches Q21, OSI layers), row 23 = 'Testing' (matches Q23). No off-by-one. Independent corroboration from the paper itself: the adjacent ce2016-q023 draws its options from the six-phase vocabulary (planning / requirement analysis / design / implementation / testing / maintenance). CAVEAT for the candidate: the ancestor MCQ-bank version of this stem keys 4, and the popular '7 phases of the SDLC' articles will pull you to D. Memorise this exam's six: planning, analysis, design, implementation, testing, maintenance."
+  },
+  {
+    "id": "code-q008",
+    "finalAnswer": [],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "needsReview": true,
+    "quarantine": true,
+    "addFlags": ["key_disputed"],
+    "panelReasoning": "QUARANTINED - EXTRACTION ERROR: the item is not in its cited source and its provenance is fabricated. The archaeologist opened the cited file (2.pdf, source originalNumber 26, keyProvenance 'answer_page') and read all 18 pages: it is a KNPC 'Subject 2 - Programming & Algorithm' STUDY PACK - cover, contents, screenshot tutorials of C++ loop syntax, typed data-structures notes, handwritten Big-O working. There is no numbered MCQ list, no question 26, and NO ANSWER PAGE anywhere in the file; a full-text grep for 'types of loop' across every source PDF returns zero hits. So 'answer_page' cannot be true - there is no answer page for it to have come from. The stem, options and explanation are stock text lifted from a generic online C++ quiz and given a false KNPC provenance in content/raw/code-trace.json. Under the panel's first decision rule the archaeologist wins on extraction, and the corrected provenance is 'none': the paper supplies no key, so the bank may not assert one. The item is also pedagogically toxic: its shipped explanation ('while, do while, nested, for') is taxonomically wrong - a nested loop is not a loop type, it is a loop inside a loop. Two judges compiled the four C++11 iteration-statement forms (for, range-based for, while, do-while) and reached the count 4 by a route the source never states, and pre-C++11 the correct count is 3 - so even the number is convention-dependent. Recommend deletion from the bank rather than service. If the candidate ever sees this stem in a practice bank, the bank scores 4; the defensible C++ fact is three classical iteration statements plus range-for."
+  },
+  {
+    "id": "knpc2021-q041",
+    "finalAnswer": ["D"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "All four judges land on D (802.3). SOURCE: the item is split across a page break (PDF pp.48-49), exactly the shape that mangles extractions, so the archaeologist rendered both pages: p.48 ends with the stem and A/B/C in plain roman, p.49 opens with 'D. 802.3' in BOLD AND UNDERLINED - the document's answer convention - followed by the recaller's techopedia IEEE 802.3 reference. The pipeline reassembled the split option list correctly; the shipped key matches the print exactly. DERIVATION: 802.11 = WLAN/Wi-Fi, 802.15 = WPAN (Bluetooth/Zigbee), 802.16 = WMAN (WiMAX), 802.3 = wired Ethernet. DEFECT, stated plainly: read literally, THREE options are 'not a WiFi standard' (802.15, 802.16 and 802.3), so the item is not well-posed as written; only 802.11 (A) is safely excludable under every reading. Uniqueness is recoverable only under the intended reading 'which is not a WIRELESS standard', and the option set has exactly one 3-vs-1 split - three radio standards versus one wired one - which is standard odd-one-out construction and is what the author's own reference points at. Answer D. THE TRAP: this item punishes the well-informed, who see three literally-true answers and freeze. The discriminator is wired vs wireless: pick the only wired one."
+  },
+  {
+    "id": "ce2016-q020",
+    "finalAnswer": ["C"],
+    "correctedStem": null,
+    "correctedOptions": null,
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "needsReview": false,
+    "quarantine": false,
+    "addFlags": [],
+    "panelReasoning": "All four judges land on C (Oracle). SOURCE: [CE] questions.pdf prints item 20 in a two-column option layout ('A. Microsoft Access | C. Oracle' / 'B. Microsoft SQL Server | D. Linux') - the interleave-bug shape - and the archaeologist confirmed the pipeline mapped it correctly. The 'Model Answer' grid on p.1 of [CE] solutions.pdf, read from a 130dpi render, gives row 20 = 'Oracle'; row alignment was anchored on unambiguous neighbours (row 18 'Physical', row 19 'Repeater', row 21 '7', row 23 'Testing') rather than trusted, so there is no off-by-one. Two other judges independently audited that answer page against every objectively checkable item on it (balanced binary tree, maintenance types, bridge, repeater, OSI layers, DNS, DHCP, IPv4 32 bits, IPv6 128 bits) and found zero errors - it is a faithful witness. DEFECT, stated plainly: Microsoft Access, Microsoft SQL Server and Oracle are ALL commercial DBMS products, so three options are literally true and only Linux (an OS kernel, not a DBMS) is engineered-wrong. Uniqueness rests entirely on the superlative 'famous': Oracle is the archetypal commercial DBMS in every intro textbook, while Access is a desktop/RAD database bundled with Office. There is no argument by which Oracle is not famous, not commercial, or not a DBMS - its rejection case is nonexistent, which is why it wins. Answer C, and note that the only thing this item reliably tests is that Linux is not a DBMS."
+  }
+]

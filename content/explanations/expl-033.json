@@ -1,0 +1,78 @@
+[
+  {
+    "id": "bank-b-q032",
+    "explanation": "The machine you operate across the network is the remote computer; the local computer is the one physically in front of you that you are typing on. 'Host' is the trap: every machine attached to a network is a host, so it does not distinguish the two ends of the session."
+  },
+  {
+    "id": "bank-b-q033",
+    "explanation": "WYSIWYG stands for What You See Is What You Get: the editing view on screen matches the printed or published output. The other options are made-up tense variations of the same phrase."
+  },
+  {
+    "id": "bank-b-q034",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is the push protocol that sends mail from a client to a mail server and relays it between servers. POP3 is the trap: it only retrieves mail from a mailbox. FTP transfers files, and Outlook Express is a client application, not a protocol."
+  },
+  {
+    "id": "bank-b-q035",
+    "explanation": "RJ-11 is the small 6-position jack used for analogue telephone lines, which is what plugs into a dial-up modem. RJ-45 is the classic trap: it is the 8-position Ethernet connector, physically wider and used for LAN cabling."
+  },
+  {
+    "id": "bank-b-q036",
+    "explanation": "At power-on RAM is empty, so the CPU fetches its very first instruction from the reset vector, which is mapped to firmware held in ROM BIOS. boot.ini and CONFIG.SYS are files on disk, and reading a disk already requires running code, so they cannot be first."
+  },
+  {
+    "id": "bank-b-q037",
+    "explanation": "'Fixed disk' means the hard disk. Legacy BIOS stores the drive type and geometry in CMOS, so if those settings are wrong or the CMOS battery has failed, POST cannot address the drive and reports a fixed disk error. Bad RAM or a slow processor produce entirely different symptoms."
+  },
+  {
+    "id": "bank-b-q038",
+    "explanation": "Slot covers seal the case so the fans pull air along the intended path across the boards; with covers missing the airflow short-circuits and the machine overheats (and dust gets in). EMI is a defensible real-world second answer because the covers are part of the shield, but overheating is the keyed one."
+  },
+  {
+    "id": "bank-b-q039",
+    "explanation": "PCI cards are jumperless and configured by Plug and Play, so there are no dip switches or jumpers to read. IRQ assignment and availability are shown in the motherboard BIOS setup under PnP/PCI configuration. CONFIG.SYS is a DOS text file and tracks no interrupts."
+  },
+  {
+    "id": "bank-b-q040",
+    "explanation": "10/100 means the NIC negotiates either 10 Mbps or 100 Mbps Ethernet, so the numbers are megabits per second. It is a link speed on copper (10BASE-T / 100BASE-TX), not a fiber rate and not a property of the protocol."
+  },
+  {
+    "id": "bank-b-q041",
+    "explanation": "ATX introduced the single keyed 20-pin motherboard power connector. AT and Baby AT used two separate 6-pin connectors (P8 and P9) that could be swapped and plugged in backwards, which is why the ATX design replaced them."
+  },
+  {
+    "id": "bank-b-q042",
+    "explanation": "Each platter surface has concentric tracks, and every track is divided into sectors, the smallest physically addressable unit on the disk (classically 512 bytes). Clusters are the trap: they are groups of sectors defined by the file system, not a subdivision of the disk geometry."
+  },
+  {
+    "id": "bank-b-q043",
+    "explanation": "An ESD wrist strap has roughly a 1 megohm resistor in series with its ground lead. That bleeds static charge off you slowly instead of instantly, and limits current to a safe level if you touch a live conductor while grounded."
+  },
+  {
+    "id": "bank-b-q044",
+    "explanation": "IEEE 1284 is the standard for the PC parallel (printer) port, covering SPP, EPP and ECP modes. RS-232 is the trap: it is the serial standard, and CAT 5 is a cable specification rather than a communications standard."
+  },
+  {
+    "id": "bank-b-q045",
+    "explanation": "Conditioning (charging) is the stage where the primary corona wire or charge roller applies a uniform negative charge across the whole photosensitive drum; the laser then selectively discharges the areas that will pick up toner. Charging the paper is the transfer stage, not conditioning."
+  },
+  {
+    "id": "bank-b-q046",
+    "explanation": "Smudges on keycaps are ordinary grime, so a mild all-purpose cleaner on a cloth is what the bank keys as correct. Solvents and silicone spray can attack the plastic and the printed legends, and denatured alcohol is intended for contacts rather than casework."
+  },
+  {
+    "id": "bank-b-q047",
+    "explanation": "ESD destroys low-voltage semiconductor logic, which sits exposed on expansion boards; a static discharge too small for you to feel is already enough to damage a chip. Power supplies, monitors and keyboards handle far higher voltages and currents and are comparatively rugged."
+  },
+  {
+    "id": "bank-b-q048",
+    "explanation": "The DOS MEM command (usually MEM /C) lists the programs currently loaded in conventional and upper memory, which is exactly how you see resident TSRs. MEMMAKER is the trap: it optimizes memory usage rather than reporting it, and 'Memory' is not a DOS command at all."
+  },
+  {
+    "id": "bank-b-q049",
+    "explanation": "Of the buses listed, PCI is the fast, modern one, so a PCI-based system board is the candidate that will not bottleneck a faster processor and has the best chance of taking future cards. ISA and EISA are legacy low-bandwidth buses."
+  },
+  {
+    "id": "bank-b-q050",
+    "explanation": "Correct service practice is to swap the FRUs one at a time, in the sequence the maintenance package recommends, retesting after each swap so you learn which part actually failed, and to return the unused parts to stock. Replacing all of them at once may fix the machine but wastes good parts and never isolates the fault."
+  }
+]

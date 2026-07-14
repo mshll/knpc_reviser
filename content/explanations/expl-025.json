@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bank-a-q082",
+    "explanation": "RFID (Radio Frequency Identification) tags carry a chip and antenna that a reader energises by radio, so each time the tagged animal passes a reader its ID and timestamp are logged to a database. GPS is a positioning system, not a tag read by a scanner, and POS/PPS are not tags at all."
+  },
+  {
+    "id": "bank-a-q083",
+    "explanation": "Answer unverified: the source PDF marks no key for this item. 'Chip' is the everyday nickname for an integrated circuit, a silicon die packing many transistors, so C is the intended answer. Transistor and resistor are individual components on the chip, and semiconductor is the material (silicon) the chip is made from, which is the classic trap here."
+  },
+  {
+    "id": "bank-a-q084",
+    "explanation": "Storage devices retain data (hard disk, USB flash drive, DVD drive), while a printer only produces output on paper and holds nothing for later retrieval, so the printer is the exception."
+  },
+  {
+    "id": "bank-a-q085",
+    "explanation": "Hardware is by definition every physical, touchable part of the computer. Device and peripheral are narrower subsets (a peripheral is only the external hardware), and an application is software, which has no physical form."
+  },
+  {
+    "id": "bank-a-q086",
+    "explanation": "A keyboard sends keystrokes into the computer, so it is an input device. Direction of data flow is the whole test: into the machine is input, out of it (monitor, printer, speaker) is output."
+  },
+  {
+    "id": "bank-a-q087",
+    "explanation": "The CPU executes instructions and performs arithmetic and logic, which is why it is called the brains of the computer. The motherboard is only the board it sits on, and RAM/memory just holds the data and instructions the CPU works on."
+  },
+  {
+    "id": "bank-a-q088",
+    "explanation": "On power-up the BIOS firmware runs POST and then searches the boot devices in order for the boot sector and system files, handing control to the OS loader. The CPU executes the BIOS code but is not the thing doing the searching, and a CD or DVD is just one place it may look."
+  },
+  {
+    "id": "bank-a-q089",
+    "explanation": "The monitor is the output device that continuously displays what the computer is doing. The printer is also output but produces a static paper copy rather than a live view, which is the distractor to reject."
+  },
+  {
+    "id": "bank-a-q091",
+    "explanation": "A scanner converts a paper image into digital data and feeds it into the computer, so it is an input device. Speaker and printer are outputs, and a CD is storage media, not a device."
+  },
+  {
+    "id": "bank-a-q092",
+    "explanation": "Retail barcodes are read by a laser scanner, which sweeps a laser beam across the bars and measures the reflected light. A wand must be dragged across the code by hand, OCR reads printed characters rather than bars, and MICR reads magnetic ink on cheques."
+  },
+  {
+    "id": "bank-a-q093",
+    "explanation": "A hard disk is a physical component you can touch, so it is hardware. It stores the operating system and software, but it is not itself either of those, which is the trap in options B and C."
+  },
+  {
+    "id": "bank-a-q094",
+    "explanation": "Operating through computer-controlled instruments instead of by hand is robotics (robot-assisted surgery). Simulation would mean practising on a model rather than a real patient, and forensics/forecasting are unrelated."
+  },
+  {
+    "id": "bank-a-q095",
+    "explanation": "Answer unverified: the source PDF marks no key, but D (Modem) is the only real answer. Modem is short for modulator-demodulator: it modulates the computer's digital bits onto an analog carrier for the phone line and demodulates the incoming analog signal back to digital. The other three options are nonsense distractors."
+  },
+  {
+    "id": "bank-a-q096",
+    "explanation": "Laptops are the battery-powered, portable computers carried by travellers. Supercomputers, minicomputers and file servers are all stationary machines that stay in a data centre or office."
+  },
+  {
+    "id": "bank-a-q097",
+    "explanation": "Of the four options only dots (pixels) per inch measures resolution, i.e. how finely detail is packed onto the screen. Hz is the refresh rate and diagonal inches is the physical screen size, neither of which is resolution. Note the wording is loose: real monitor resolution is normally quoted as a pixel count such as 1920x1080, and DPI is more properly a print/pixel-density measure."
+  },
+  {
+    "id": "bank-a-q099",
+    "explanation": "Answer unverified: the source PDF marks no key, but A (Optical disk) is correct. A CD-ROM stores data as pits and lands read by a laser beam, which is the definition of optical media. Magnetic disks (hard disks, floppies) store data as magnetised regions, and magneto-optical drives combine both, using a laser to heat the medium before a magnetic write."
+  },
+  {
+    "id": "bank-a-q100",
+    "explanation": "BIOS stands for Basic Input/Output System, the firmware that initialises hardware at power-on and provides the low-level input/output routines the OS loader relies on."
+  },
+  {
+    "id": "bank-a-q102",
+    "explanation": "The motherboard is the main circuit board that carries the CPU socket, the RAM slots and the buses connecting them. Expansion boards plug into it for extra functions, and storage/output devices are separate peripherals attached to it."
+  },
+  {
+    "id": "bank-a-q103",
+    "explanation": "LCD stands for Liquid Crystal Display: a backlit panel whose liquid crystal cells twist to block or pass light per pixel."
+  },
+  {
+    "id": "bank-a-q104",
+    "explanation": "The cursor is the on-screen marker showing the current position (the pointer, or the insertion point in text). The mouse is the input device that moves the cursor, so it is the position indicator's cause, not the indicator itself, which is the trap in option A."
+  }
+]

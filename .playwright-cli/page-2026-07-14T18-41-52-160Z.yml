@@ -1,0 +1,24 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - main [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - heading "History" [level=1] [ref=f5e5]
+        - generic [ref=f5e6]:
+          - generic [ref=f5e10]:
+            - heading "No attempts yet" [level=2] [ref=f5e11]
+            - paragraph [ref=f5e12]: "Take one quiz and this page starts working for you: every attempt logged, every topic scored, every miss queued for a re-drill."
+          - link "Start your first quiz" [ref=f5e13] [cursor=pointer]:
+            - /url: /quiz
+    - navigation "Primary" [ref=f5e14]:
+      - generic [ref=f5e15]:
+        - link "Home" [ref=f5e16] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f5e20] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f5e24] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f5e28] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f5e32]

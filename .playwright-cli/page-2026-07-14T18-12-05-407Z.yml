@@ -1,0 +1,111 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - link:
+          - /url: /
+          - text: KNPC Reviser
+        - navigation:
+          - link:
+            - /url: /
+            - text: Home
+          - link:
+            - /url: /quiz
+            - text: Practice
+          - link:
+            - /url: /history
+            - text: History
+          - link:
+            - /url: /settings
+            - text: Settings
+        - generic:
+          - tablist:
+            - tab
+            - tab
+            - tab [selected]
+    - main:
+      - generic:
+        - generic:
+          - heading [level=1]: Settings
+          - paragraph: Everything stays on this device. There is no account and no server.
+        - generic:
+          - heading [level=2]: Appearance
+          - generic:
+            - generic:
+              - tablist:
+                - tab: Light
+                - tab: Dark
+                - tab [selected]: System
+        - generic:
+          - heading [level=2]: Quiz defaults
+          - paragraph: Pre-fills quiz setup. You can still change everything per quiz.
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Past papers8 questions
+                  - generic: Recalled KNPC and KOC papers, and the K-Companies placement exam.
+                - generic:
+                  - switch [checked]
+              - generic:
+                - generic:
+                  - generic: Practice sets2 questions
+                  - generic: Mock exams, question banks and code-trace items close to the real paper.
+                - generic:
+                  - switch [checked]
+              - generic:
+                - generic:
+                  - generic: General bank2 questions
+                  - generic: Scraped general IT trivia. The largest set, the least representative, the worst answer keys.
+                - generic:
+                  - switch [checked]
+              - generic:
+                - generic:
+                  - generic: Include unverified answers
+                  - generic: Items whose answer key could not be confirmed. They carry an amber badge during a quiz.
+                - generic:
+                  - switch [checked]
+        - generic:
+          - heading [level=2]: Your data
+          - paragraph: Your history lives in this browser only. Clearing browser data, or switching to your phone, loses it. Export a backup and import it on the other device.
+          - generic:
+            - generic:
+              - generic:
+                - button: Export backup
+                - button: Import backup
+                - button
+              - paragraph: "Importing merges: attempts already on this device are kept, never overwritten. A malformed file is rejected outright, so a bad import can never eat your history."
+              - button [expanded]: Reset all history
+        - generic:
+          - heading [level=2]: About the question bank
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - term: Total questions
+                  - definition: "12"
+                - generic:
+                  - term: Past papers
+                  - definition: "8"
+                - generic:
+                  - term: Practice sets
+                  - definition: "2"
+                - generic:
+                  - term: General bank
+                  - definition: "2"
+              - paragraph: Every item here is a crowd-sourced recollection of a past paper, transcribed verbatim. None of it is official material, and recall quality varies. Answer keys were re-checked by independent solvers; where the key could not be confirmed the item stays in the pool with an amber Answer unverified badge.
+              - link:
+                - /url: /bank
+                - text: Browse the question bank
+                - generic: 1 needs review
+  - list
+  - alert
+  - dialog [ref=f1e125]:
+    - generic [ref=f1e130]:
+      - heading "Delete all history?" [level=2] [ref=f1e131]
+      - paragraph [ref=f1e132]: Every attempt, response and setting on this device is wiped. This is irreversible.
+    - paragraph [ref=f1e134]: If any of this matters, export a backup first. Once deleted there is no undo, and nothing to recover.
+    - generic [ref=f1e135]:
+      - button "Cancel" [ref=f1e136] [cursor=pointer]
+      - button "Tap again to delete" [active] [ref=f1e141] [cursor=pointer]
+    - button [ref=f1e138] [cursor=pointer]

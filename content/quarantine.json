@@ -1,0 +1,1492 @@
+[
+  {
+    "id": "knpc2021-q001",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "software-characteristics",
+    "stem": "When the developers make the program in an architecture such that it can be used by other customers in the future",
+    "options": [
+      {
+        "label": "A",
+        "text": "Customer-specific program",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Program files",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Program generator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: no correct option is listed. The stem describes a generic or off-the-shelf (product-line) program, built so the same architecture serves many future customers. 'Customer-specific program' is its exact opposite, 'program files' is not a category, and a 'program generator' is a tool that emits code, not a reusable product, so the intended fourth option was lost in transcription.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 1
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "e204fe82ad9ac6f5a3ef4219abc0950642111198",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q009",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "Given a figure, what does it represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Negative edge T flip flop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Low level T latch",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Positive edge T flip flop",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "High level T latch",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: the figure this item depends on is missing, and the four options differ only in trigger type and clock polarity, which are readable solely from the symbol. The discriminators to memorise: a triangle (wedge) on the clock input means edge-triggered flip-flop, no triangle means level-sensitive latch, and a bubble on the clock input means negative-edge / low-level active.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 9
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "missing_figure",
+      "unanswerable"
+    ],
+    "dedupeHash": "a77ddca7d198e27a1b35d2eb2910463406ed4c98",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "missing_figure: references a figure absent from the source (SPEC rule 4)",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['missing_figure', 'unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q011",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "decoders",
+    "stem": "Given figure of 3x8 decoder built with 1x2 decoders. What are the correct signals for operation? (similar to this figure)",
+    "stemFigure": "/figures/knpc2021-q011.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "YXZ → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ZXY → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ZYX → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "XYZ → Y1,Y2,Y3",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: the option list does not match the figure and the item has no key. The decoder tree in the drawing reads X at the root, then Z, then Y, i.e. significance order XZY, which is not among the stored options (YXZ / ZXY / ZYX / XYZ). The rule to take away: the first-stage decoder is fed by the most significant input, and its outputs enable the later stages driven by the lower-significance bits.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 11
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "71cc64ffd63625045f9f1adef3f5a06ddc1c0f85",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q012",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "requirements",
+    "stem": "what is changing one requirement, while taking into account competing requirements",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software Feasibility",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Software Consistency",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Software Maintainability",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Software Stability",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "The keyed answer is B: in IEEE 830 terms, consistency is exactly the property that no requirement conflicts with another, so revising one requirement against competing ones is a consistency concern. Note the stem is garbled and the key is disputed: the standard term for a requirement that can be changed cleanly is modifiability, which is not offered, so take B as the exam-expected answer rather than a clean textbook fact.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 12
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "bff18923019a7e993f9a22e8a4eeb2064777682d",
+    "quarantineReasons": [
+      "panel ruling: QUARANTINED - no source key exists. The source-archaeologist rendered the original page (KOC 2012 EXAM (2).pdf, PDF p.42) at 150dpi and read it directly: the document's answer convention is BOLD+UNDERLINE (verified on Q17/Q18/Q19/Q41/Q43/Q44), and on Q12 none of the four options carries it. The document ends at Q46 with a topics list and has no deferred answer-key page. So the paper supplies no key, matching the raw bundle (koc-bundle.json: keyProvenance 'none', answerOptionLabels []). The stem and options were extracted FAITHFULLY, broken grammar and all - this is not an extraction error, it is a recall document that never captured the answer. The shipped 'B' was manufactured by an earlier panel, not read off the paper. Panel split three ways with no derivation surviving: first-principles unanswerable (0.3), distractor-analysis B (0.5), skeptic unanswerable (0.8), archaeologist unanswerable (0.8) - skeptic-unanswerable plus sub-0.6 co-judges triggers quarantine. The best structural inference (Q12/Q13 are a matched pair sharing an option pool; Q13 'when a software keeps changing during development' is unmistakably Stability, and IEEE 830 consistency = no conflict among competing requirements, so Q12 leans B) is an inference, not the paper speaking. The textbook term the stem actually describes - 'modifiable' (IEEE 830 4.3.6) or 'requirements negotiation' - is not among the options at all, which is the tell that the recall is corrupted. Do not ship a key here.",
+      "no_answer_key: no correct option is marked"
+    ]
+  },
+  {
+    "id": "knpc2021-q020",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "Given a K-map with one 1 circled and the equation is ABCD (ANDed), what is it? (third circle in the first row)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Minterm",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Maxterm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Prime implicant",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Essential prime implicant",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined as unanswerable. The K-map figure is missing, and the stem as transcribed makes several options simultaneously true: a circled group whose product keeps all four literals (ABCD) is a single cell, so it is literally a minterm (A); if that cell has no adjacent 1 to merge with, it is also a prime implicant (C) and the only cover of its own minterm, hence an essential prime implicant (D). Without the map you cannot check adjacency, so the intended key cannot be recovered. For revision, learn the definitions: implicant = any product term covering only 1s; prime implicant = an implicant that cannot be enlarged by dropping a literal; essential prime implicant = a prime implicant that is the sole cover of some 1.",
+    "referenceUrl": "https://www.geeksforgeeks.org/various-implicants-in-k-map/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 20
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "missing_figure",
+      "unanswerable"
+    ],
+    "dedupeHash": "d0ae0100905d7fff6c02e280258b3db55cbf4eb7",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "missing_figure: references a figure absent from the source (SPEC rule 4)",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['missing_figure', 'unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q024",
+    "type": "short_answer",
+    "topic": "digital-logic",
+    "subtopic": "multiplexers",
+    "stem": "Given a 4x1 mux, what is the operation?\n(first input connected by A XOR B, second by B, third and fourth by NOT(B))\nSignals are C and D",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined as unanswerable. The mux figure is missing, so the data-pin order and which of C/D is the select MSB cannot be confirmed. Taking the wiring exactly as transcribed (I0 = A XOR B, I1 = B, I2 = I3 = B', selects C and D), the output works out to F = B'C + A'BC' + AB'D' + BC'D, which is not any named operation (not an adder, comparator or majority gate), and swapping the select order gives a different function. Method to remember: a 4x1 mux output is F = S1'S0'I0 + S1'S0*I1 + S1*S0'I2 + S1*S0*I3, so you substitute each data input and simplify.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 24
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "missing_figure",
+      "unanswerable"
+    ],
+    "dedupeHash": "973b81770336eb140837b735cf9f1e4de91f5641",
+    "quarantineReasons": [
+      "no_answer_key: short_answer/worked_problem with no answerText",
+      "missing_figure: references a figure absent from the source (SPEC rule 4)",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['missing_figure', 'unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q030",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "Given a truth table, what is the function?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SR flip flop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "JK flip flop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined as unanswerable. The truth table the stem refers to is missing, and SR and JK differ in exactly one row, which is precisely the information the table carried: for inputs 11, SR is invalid/forbidden while JK toggles (Qnext = Q'). So the distinguishing check is: look at the 1-1 row, if it toggles it is JK, if it is marked X/invalid it is SR.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 30
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "missing_figure",
+      "unanswerable"
+    ],
+    "dedupeHash": "5fccfee13511e1b4dd90d68e6beadb6eba97adcf",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "missing_figure: references a figure absent from the source (SPEC rule 4)",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['missing_figure', 'unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q040",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "Binary number convert it to decimal (i think it was 100102, 2 stands for base)",
+    "options": [
+      {
+        "label": "A",
+        "text": "-37",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "-27",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is unanswerable as recalled. 10010 in base 2 is 18 unsigned, or -14 as 5-bit two's complement, and a 5-bit signed field spans only -16 to +15, so neither surviving option (-37, -27) is reachable under any standard encoding. The stem hedges itself ('i think it was'), so the recalled bit string is wrong. Method to remember: 1*16 + 0*8 + 0*4 + 1*2 + 0*1 = 18.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 40
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "hedged_option",
+      "unanswerable"
+    ],
+    "dedupeHash": "dd0e43a952f9770d7c40da36708e79055db318c3",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q045",
+    "type": "short_answer",
+    "topic": "operating-systems",
+    "subtopic": "threads",
+    "stem": "Operating Systems questions about what happens in a thread if it is in a “read” state",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is a free-recall note rather than a question, with no options and no key, and 'read' is presumably a typo for 'ready'. The underlying fact is settled: a thread in the ready state has everything it needs to execute except the CPU, and sits in the ready queue until the scheduler dispatches it to the running state.",
+    "referenceUrl": "https://www.geeksforgeeks.org/thread-states-in-operating-systems/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 45
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "46732ea74d21ff6c892e33da9c58fa51c6ccc967",
+    "quarantineReasons": [
+      "no_answer_key: short_answer/worked_problem with no answerText",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2018-q010",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "decoders",
+    "stem": "Given a figure of a 3x8 decoder built using three 1x2 decoders, which is the correct order of input signals to assure correct operation?",
+    "stemFigure": "/figures/knpc2018-q010.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "XYZ → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ZXY → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "YZX → Y1,Y2,Y3",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "YZX → Y1,Y2,Y3",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is unanswerable as printed and has no key. Options C and D are character-for-character identical ('YZX -> Y1,Y2,Y3'), so no unique choice exists, and the figure actually shows a 4x16 decoder built from 2x4 decoders with inputs A,B,C,D, which matches neither the stem's '3x8 from 1x2 decoders' nor the X/Y/Z labels in the options. Learn the concept instead: in a decoder tree the first-stage decoder takes the most significant input bits and its outputs enable the second-stage decoders, which are driven by the less significant bits.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 10
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "1866fb02c02a796f24c86ce0dc7769c2d38b1c6b",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2018-q011",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "Which flip flop is represented by the given truth table?",
+    "stemFigure": "/figures/knpc2018-q011.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "JK flip flop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "SR flip flop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: the truth table image is corrupted (an input column was lost, and the next-state entries read Q, Q, 0, 1), so it matches neither JK nor SR cleanly and the item has no key. For the exam, remember the distinguishing row: JK with J=K=1 toggles (Q_next = Q'), while SR with S=R=1 is invalid/forbidden. If the table shows a toggle row it is JK; if it shows an invalid row it is SR.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 11
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "0f95d42bd58d211be4791dfea49431656d12cbb2",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "ce2016-q051",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "What is the minimized function represented below?",
+    "stemFigure": "/figures/ce2016-q051.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "f = xy + (x'y)'\n  = xy + (x + y')\n  = x(y + 1) + y'\n  = x + y'",
+    "explanationSource": "source",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 51
+    },
+    "keyProvenance": "none",
+    "keyVerified": true,
+    "verificationLevel": "disputed",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56928c09cea1718518fda9b52361c1576274ccef",
+    "quarantineReasons": [
+      "no_answer_key: short_answer/worked_problem with no answerText"
+    ]
+  },
+  {
+    "id": "ce2016-q071",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "Find the function representation for the following circuit:",
+    "stemFigure": "/figures/ce2016-q071.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "Fsop = X'Y'Z' + X'Y'Z + X'Y'Z' + XY'Z' + XYZ\n     = X'Y'(Z' + Z) + (X + X')Y'Z' + XYZ\n     = X'Y' + Y'Z' + XYZ",
+    "explanationSource": "source",
+    "source": {
+      "file": "[CE] solutions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 71
+    },
+    "keyProvenance": "none",
+    "keyVerified": true,
+    "verificationLevel": "disputed",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1c0cbdb77cac10833e1db9307e85fb1e0a50311d",
+    "quarantineReasons": [
+      "no_answer_key: short_answer/worked_problem with no answerText"
+    ]
+  },
+  {
+    "id": "knpc2016-q001",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "windows-server",
+    "stem": "A small company decided to go with windows 2000 servers rather than windows professional, what is the reason behind this discussion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has its own DNS server",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Support dual processor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Because the company needs small web server",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "I don’t remember",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is corrupted exam recall - option D is literally 'I don't remember', proving the option set was never fully recovered. The keyed C is weak because Windows 2000 Professional already ships IIS 5.0, which serves a small web site, and B is wrong because Professional already supports two processors; the only technically clean reason is A, since a DNS server role is available on Server only. Treat this item as unanswerable.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 1
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "hedged_option",
+      "legacy",
+      "unanswerable"
+    ],
+    "dedupeHash": "189cd66c7975bd39148b13320f2b7e07e7c5d100",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2016-q014",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "secure-transport",
+    "stem": "Safest way to connect to a secure network through public network is",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "UDP",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Neither TCP nor UDP provides security by itself, so the item is defective as printed; the marked answer is TCP (A). TCP is the defensible pick of the two because it is connection-oriented and is the transport that TLS and most VPN tunnels ride on, while UDP is a bare datagram service. If the real paper offers a VPN or encrypted-tunnel option, that is the correct answer.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 14
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "30a8537345a8c78302789a9949fddd1ad7438d0b",
+    "quarantineReasons": [
+      "panel ruling: QUARANTINE. The skeptic rules it unanswerable and two other judges sit below the 0.6 confidence bar (distractor-analysis 0.15, skeptic 0.55-band), which triggers the quarantine rule outright. On substance three judges converge: the stem 'safest way to connect to a secure network through a public network' is the textbook definition of a VPN / encrypted tunnel (IPsec, WireGuard, SSL-TLS), and NEITHER printed option is a security mechanism - TCP (RFC 793) gives ordered reliable delivery with zero confidentiality, integrity or authentication, and UDP (RFC 768) gives less. The 'TCP is least-wrong because TLS rides on TCP' rationalisation does not survive the counter-reading: OpenVPN, IKE/IPsec, WireGuard and DTLS all run over UDP, so the least-wrong argument points at both options depending on which repair you assume - the signature of a broken item. IMPORTANT correction to the other judges' premise: the source-archaeologist rendered page 30 of 'KOC 2012 EXAM (2).pdf' and showed the two-option list is NOT a pipeline truncation - the paper itself prints only 'a) TCP b) UDP' with 'a) TCP' bold+underlined. The extraction is faithful; the SOURCE is broken (this KNPC 2016 section is a recalled paper - option 'd) I don't remember' appears verbatim elsewhere). So the item is un-repairable without the real option set and must not be served: shipping it would teach 'TCP = secure', which is false. Study fact to carry instead: safest connection to a private network across a public network = VPN / encrypted tunnel.",
+      "no_answer_key: no correct option is marked"
+    ]
+  },
+  {
+    "id": "knpc2016-q018",
+    "type": "short_answer",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Datagram is which layer?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "Transport",
+    "explanation": "The key reads 'datagram' as the UDP user datagram, which is the transport-layer PDU. Be aware that most textbooks (Forouzan, Kurose, Tanenbaum) call the network-layer IP PDU a datagram, so 'Network' is the more common answer to this stem and the question is genuinely ambiguous. Learn both: IP datagram at layer 3, UDP datagram at layer 4; no distractors survived, so treat this as a recall card.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 18
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "no_distractors",
+      "key_disputed"
+    ],
+    "dedupeHash": "c75b3e2d491fd759dfe244ad74eada1de874e047",
+    "quarantineReasons": [
+      "panel ruling: QUARANTINE. The skeptic rules it unanswerable (0.55) and two other judges are below the 0.6 bar (first-principles 0.5 for 'Transport', distractor-analysis 0.2), triggering the quarantine rule. The source-archaeologist rendered page 31 of 'KOC 2012 EXAM (2).pdf' and confirmed the extraction is faithful: the paper prints '18) Datagram is which layer?' with a single bold+underlined line 'a) Transport' (item 17 is missing entirely; 15 and 16 are likewise stubs), so the existing no_distractors flag and inline_bold provenance were both correct and the pipeline lost nothing - the RECALLED SOURCE is what is mutilated. That is exactly why the item cannot be keyed: the deciding evidence (was 'Network' on the ballot?) is gone, and both readings are textbook-backed. Bare 'datagram' = the NETWORK-layer PDU in Kurose & Ross, Forouzan and RFC 791 ('internet datagram' = IP); 'user datagram' = the TRANSPORT-layer PDU of UDP (RFC 768) and the OSI PDU tables of the era pair Datagram(UDP) with layer 4 and Packet with layer 3. A single bolded option in a from-memory recall is not strong enough to overturn the dominant textbook convention, and it is equally consistent with mis-remembering. Do not serve as a keyed card. Convert to a two-sided recall fact: IP-flavoured stem -> Network; UDP-flavoured stem -> Transport."
+    ]
+  },
+  {
+    "id": "knpc2016-q027",
+    "type": "short_answer",
+    "topic": "networking",
+    "subtopic": "udp",
+    "stem": "UDP covers how many ft? (how long does it cover?",
+    "options": [],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is unanswerable as written. UDP is a connectionless transport-layer protocol and has no physical reach, so asking how many feet it covers is a category error, and the item carries no options and no key. The likely intent is UTP cable, whose Ethernet segment limit is 100 m (about 328 ft), but that is a different question.",
+    "source": {
+      "file": "computer engineering 2016 - extra.docx",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 27
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "050bf84004625a68bead5defb8eddd918ccb1a64",
+    "quarantineReasons": [
+      "no_answer_key: short_answer/worked_problem with no answerText",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2016-q031",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "fddi",
+    "stem": "When to use FDDI?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ethernet topology",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined as unanswerable. Only one option survived the scan, 'Ethernet topology', which is a fragment of the question rather than an answer, and it is wrong on the facts: FDDI is a dual counter-rotating token-passing fiber ring used for campus and MAN backbones, not an Ethernet topology. The intact version of this question asks which topology FDDI uses, and the answer there is ring.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2016,
+      "originalNumber": 31
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "no_distractors",
+      "unanswerable"
+    ],
+    "dedupeHash": "27b8431cda54b8000cf0af39ba28791fabdd8f24",
+    "quarantineReasons": [
+      "mcq with 1 option(s): nothing to choose between",
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']",
+      "no_distractors item must be re-typed 'short_answer' (SPEC)"
+    ]
+  },
+  {
+    "id": "code-q008",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "loops",
+    "stem": "How many types of loops are there in C++?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "This item uses the question-bank taxonomy that counts four loop forms: for, while, do-while, and nested loops, so the expected answer is 4. Be aware the taxonomy is non-standard - a nested loop is just one loop placed inside another, not a distinct statement, and C++11 added the range-based for - but the exam key treats the count as four.",
+    "source": {
+      "file": "2.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 26
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "7e10a09c3e4d2a4a11942b6ff0d220c461589e09",
+    "quarantineReasons": [
+      "panel ruling: QUARANTINED - EXTRACTION ERROR: the item is not in its cited source and its provenance is fabricated. The archaeologist opened the cited file (2.pdf, source originalNumber 26, keyProvenance 'answer_page') and read all 18 pages: it is a KNPC 'Subject 2 - Programming & Algorithm' STUDY PACK - cover, contents, screenshot tutorials of C++ loop syntax, typed data-structures notes, handwritten Big-O working. There is no numbered MCQ list, no question 26, and NO ANSWER PAGE anywhere in the file; a full-text grep for 'types of loop' across every source PDF returns zero hits. So 'answer_page' cannot be true - there is no answer page for it to have come from. The stem, options and explanation are stock text lifted from a generic online C++ quiz and given a false KNPC provenance in content/raw/code-trace.json. Under the panel's first decision rule the archaeologist wins on extraction, and the corrected provenance is 'none': the paper supplies no key, so the bank may not assert one. The item is also pedagogically toxic: its shipped explanation ('while, do while, nested, for') is taxonomically wrong - a nested loop is not a loop type, it is a loop inside a loop. Two judges compiled the four C++11 iteration-statement forms (for, range-based for, while, do-while) and reached the count 4 by a route the source never states, and pre-C++11 the correct count is 3 - so even the number is convention-dependent. Recommend deletion from the bank rather than service. If the candidate ever sees this stem in a practice bank, the bank scores 4; the defensible C++ fact is three classical iteration statements plus range-for.",
+      "no_answer_key: no correct option is marked"
+    ]
+  },
+  {
+    "id": "bank-a-q009",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-organisation",
+    "stem": "The contents of memory into blocks of the same size is called as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "EPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EEPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined as unanswerable and has no key. Dividing memory into equal-size blocks is paging (equal blocks are pages in logical memory and frames in physical memory), but every option offered (ROM, EPROM, EEPROM, all of the above) is a non-volatile memory technology, so the stem and the option set come from two different questions and no option can be correct. Learn the concept instead: paging = fixed-size blocks, segmentation = variable-size blocks.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "a9e216b1b220598b5ca87a9b4cffa71eb3aca5e1",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "bank-a-q017",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "flash-memory",
+    "stem": "Flash is ................",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hardware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "PROM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "E REM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is quarantined and has no key. Flash is block-erasable EEPROM, which rules out ROM (mask-programmed, not rewritable) and PROM (programmable once), and the only technically correct option, EEPROM, is corrupted in the source to 'E REM'. With the correct choice unreadable the item cannot be graded. What to remember: flash = non-volatile, electrically erasable, erased in blocks rather than byte by byte.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "a6b0bb91e7ca4588bc46ec4f653f3bfc54008f3f",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "bank-a-q023",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-install",
+    "stem": "The process to copy the software in hard disk from secondary storage media is called -",
+    "options": [
+      {
+        "label": "A",
+        "text": "Configuration",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Download",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Storage",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Upload",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Escalation",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: the item has no key and none of the printed options is correct as written. Copying software from distribution media onto the hard disk is installation. Download and Upload are network transfers, Configuration is the step after install, and Storage names no process, so option E ('Escalation') is almost certainly an OCR corruption of 'Installation'.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "d136a8cbf9028a0e6dc22d60be8966cb8c2e8aa4",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked"
+    ]
+  },
+  {
+    "id": "bank-a-q035",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "floppy-disk",
+    "stem": "What is the capacity of super computers floppy disc?",
+    "options": [
+      {
+        "label": "A",
+        "text": "400 M",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "500 M",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "600 M",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "700 M",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is broken and has no key. There is no device class called a 'super computer floppy disc', and no floppy-family format has any of the offered capacities (3.5in HD is 1.44 MB, ED is 2.88 MB, LS-120 SuperDisk is 120 MB, Zip is 100/250/750 MB). The 400 to 700 M ladder in the options is CD-ROM capacity, not floppy. Only 'None of these' is defensible; do not memorise a number here.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 36
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "legacy",
+      "unanswerable"
+    ],
+    "dedupeHash": "bbadcd53959d70a7b9b4705ef4ad21e1ef7132a7",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "bank-a-q062",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which element was NOT found to alter accounts of the ‘War of the Ghosts’ story?",
+    "options": [
+      {
+        "label": "A",
+        "text": "rationalizations",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "distortions",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "omissions",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "intrusions",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: the key says C (omissions), but Bartlett (1932) explicitly reported omissions in War of the Ghosts recalls, along with rationalisations and distortions, so C looks inverted. The option that does not belong to Bartlett's list is arguably D (intrusions), a term from the later DRM false-memory paradigm. Reviewers split three ways with no majority. Memorise the printed key C if you must, but know the item is defective.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "off_syllabus",
+      "key_disputed"
+    ],
+    "dedupeHash": "dd02dc2851928b58dfdaa6a52011634320e3a674",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked"
+    ]
+  },
+  {
+    "id": "bank-a-q079",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM is an example of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secondary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Primary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Main memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Both (a) and (b)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is broken as printed. 'Primary memory' (B) and 'main memory' (C) are synonyms, so RAM is equally an example of both, and D as printed ('Both (a) and (b)') is false because RAM is not secondary storage. The original almost certainly had D = 'Both (b) and (c)' as the key. The fact to hold: RAM is primary/main memory, not secondary storage.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "1d0c927af39670436795939f5cb5e872437efe14",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "bank-a-q161",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-basics",
+    "stem": "Which of the following is a feature of DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Minimum Duplication and Redundancy of Data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "High Level of Security",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Single-user Access only",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Support ACID Property",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "explanation": "Answer unverified: this item is defective as printed and the source supplies no key. Minimum duplication/redundancy (A), high security (B) and ACID support (D) are all genuine DBMS features, so three options are true at once, while only C (\"Single-user access only\") is false. That 3-true/1-false pattern means the stem lost a negation: the original almost certainly read \"Which of the following is NOT a feature of DBMS?\", keyed C. If a question like this appears, read it as the NOT version and pick single-user access.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "none",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "unanswerable"
+    ],
+    "dedupeHash": "e964c5821c613da26544ed2e58c224d7b1ccbd6a",
+    "quarantineReasons": [
+      "no_answer_key: no correct option is marked",
+      "unanswerable: no answer exists in the source and none could be derived",
+      "disallowed flag(s) for a served item: ['unanswerable']"
+    ]
+  },
+  {
+    "id": "knpc2021-q014",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagram",
+    "stem": "In database ER diagram, how do we uniquely identify relationships?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary key of participating entities",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Primary key of the relation itself",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "By its attributes",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Relationships cannot be uniquely identified",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: no key was recorded. The best answer is A: in the ER model a relationship instance has no key of its own, it is identified by the combination of the primary keys of the entities participating in it (which is why the relational table for a many-to-many relationship has a composite primary key made of those foreign keys).",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 14
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "490bf6bc19a64610bd7b30ac142b469df243ed5d",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "knpc2021-q036",
+    "type": "short_answer",
+    "topic": "data-structures-algorithms",
+    "subtopic": "search-trees",
+    "stem": "What are the types of search trees?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "Search trees are ordered trees obeying the search property. Two families: (1) binary search trees - the plain BST plus its self-balancing variants (AVL, red-black, splay, treap); (2) multi-way / m-way search trees - 2-3 tree, 2-3-4 tree, B-tree, B+ tree (used for database and filesystem indexes). The ternary search tree is a specialised string variant.",
+    "explanation": "Answer unverified: the item ships with no key and is open-ended. The standard taxonomy is: binary search trees (plain BST, plus the self-balancing ones, AVL, red-black, splay, treap) and m-way / multi-way search trees (2-3 tree, B-tree, B+ tree used for database and filesystem indexes), with ternary search trees as a specialized string variant. The organizing property common to all of them is the ordering invariant: keys in the left subtree < node key < keys in the right subtree, generalized to m-1 keys and m children in the multi-way case.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 36
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "ebdae5634423d5186b4bbf47d748b20eeaae8218",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "ce2016-q062",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "fddi",
+    "stem": "FDDI stands for ______________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Fiber Data Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fiber Dual Distributed Interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fiber Distributed Data Interface",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: as printed, options A and D are byte-identical ('Fiber Distributed Data Interface'), so two labels are simultaneously correct and the choice of A over D is positional, not technical. On the content there is no doubt: FDDI expands to Fiber Distributed Data Interface, and B and C are word-swap traps.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 62
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "5043476920d95e81679d90cc7f787e35ba111271",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "mock2018-q024",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search",
+    "stem": "What is the worst-case run-time complexity of binary search algorithm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n log(n))",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(n³)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(n)",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Binary search halves the interval on every comparison, so the worst case is about log2(n) comparisons, i.e. O(log n). O(log n) is not offered here; since big-O is only an upper bound and O(log n) is contained in O(n), O(n) is the tightest of the four choices, which is why D is keyed. Treat this item as a badly worded question, not as evidence that binary search is linear.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 24
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "6035bacbe9765c4b32f7b4b610cd4b0b7bda8562",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "sample1-q007",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "deployment-models",
+    "stem": "Which cloud is shared among multiple organizations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Private Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hybrid Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Public Cloud",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Community Cloud",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Answer unverified: the source PDF carries no key for this item, and two options are defensible. Under NIST, a community cloud (D) is infrastructure shared by several organizations with a common concern (compliance, mission, security policy), which matches 'shared among multiple organizations' most precisely. A public cloud (C) is also shared by many tenants, but it is defined as open to the general public rather than to a defined set of organizations. Expect D unless the paper's own slides define public cloud as the shared one.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 7
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "1d68d1805b2ddce0a6503082da047cde953ed97d",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "bank-a-q061",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Lansdale and Baguley (2008) argue that memory dilution occurs because",
+    "options": [
+      {
+        "label": "A",
+        "text": "long-term memory capacity is limited",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "the number of null traces decreases",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "memories become indistinct from similar memories",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "the memory becomes less temporally distinctive",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Answer unverified: the key says D, but this is disputed. In Lansdale and Baguley's (2008) model retrieval is organised temporally and the trace population is diluted over time by null traces, so an old target loses its temporal distinctiveness, which supports D. The trap is C: 'indistinct from similar memories' is the older similarity-based interference account that their model is meant to replace, and it is a defensible reading of the word 'dilution', so C cannot be ruled out from the stem alone. Learn D as the exam answer.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "off_syllabus",
+      "key_disputed"
+    ],
+    "dedupeHash": "fdb07a36f8d24835a9ed0c3850bab3fb414def29",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  },
+  {
+    "id": "bank-a-q200",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "subnetting",
+    "stem": "The IP network 192.168.50.0 is to be divided into 10 equal sized subnets. Which of the following subnet masks can be used for the above requirement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "255.243.240",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "255.255.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "255.255.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "255.255.255",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the printed options are garbled (three of them are not even valid four-octet masks) and the source PDF gives no key. The arithmetic itself is not in doubt: 192.168.50.0 is a /24, and 10 subnets needs 4 borrowed bits since 2^3 = 8 < 10 <= 2^4 = 16, giving /28 = 255.255.255.240 (16 subnets of 16 addresses, 14 usable hosts each). Option A appears to be a mangled 255.255.255.240, but the item should be treated as broken rather than memorised.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "derived",
+    "keyVerified": false,
+    "verificationLevel": "disputed",
+    "needsReview": true,
+    "flags": [
+      "key_disputed"
+    ],
+    "dedupeHash": "0dda77c081752a70be2e1961e0bf50cb1df9b553",
+    "quarantineReasons": [
+      "key_unconfirmed: the answer key could not be confirmed by independent solvers; excluded from quizzes at the user request"
+    ]
+  }
+]

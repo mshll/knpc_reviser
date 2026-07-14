@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-b-q052",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "CD-ROM = Compact Disk Read Only Memory; other expansions are invented.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q053",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "ALU = Arithmetic Logic Unit, the CPU unit doing arithmetic and logic operations.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q054",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "VGA = Video Graphics Array (the 'A' in VGA/SVGA is Array; MDA/CGA use Adapter).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q055",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "IBM 1401 (1959) is a transistor-based machine, i.e. second generation.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q056",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "MSI = Medium Scale Integration / Medium Scale Integrated circuits.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q057",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "Standard 3.5-inch high-density floppy holds 1.44 MB.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q058",
+    "blindAnswer": ["B"],
+    "confidence": 0.9,
+    "reason": "The first computer brought to Nepal (1971, for the census) was an IBM 1401.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q060",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "MICR = Magnetic Ink Character Reader/Recognition, used for cheque processing.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q061",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "EBCDIC = Extended Binary Coded Decimal Interchange Code (IBM 8-bit code).",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q062",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "BCD = Binary Coded Decimal.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q063",
+    "blindAnswer": ["C"],
+    "confidence": 1.0,
+    "reason": "ASCII = American Standard Code for Information Interchange.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q064",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "EDSAC (1949, vacuum tubes) is first generation; IBM-1401 and CDC-1604 are second gen, ICL-2900 fourth.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q065",
+    "blindAnswer": ["B"],
+    "confidence": 1.0,
+    "reason": "First generation computers used vacuum tubes/valves; transistors are second gen, ICs third.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q066",
+    "blindAnswer": ["C"],
+    "confidence": 1.0,
+    "reason": "FORTRAN = FORmula TRANslation.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q067",
+    "blindAnswer": ["A"],
+    "confidence": 1.0,
+    "reason": "EEPROM = Electrically Erasable Programmable Read Only Memory.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q068",
+    "blindAnswer": ["B"],
+    "confidence": 0.8,
+    "reason": "Transistor era conventionally dated ~1956-1965; 1949-1955 is first gen, later ranges are third/fourth.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q069",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "Vacuum-tube first-generation machines were room-sized; size shrank with each later generation.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q070",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "Microprocessors (Intel 4004, 1971) define the fourth generation.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q071",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "OCR scans and recognises ordinary printed text; OMR reads marks, MICR reads magnetic-ink characters only.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-b-q072",
+    "blindAnswer": ["A"],
+    "confidence": 0.65,
+    "reason": "Printer resolution/quality is measured in DPI = dots per inch, a linear measure; 'dots per square inch' is not a real printing metric (speed, option C, is PPM not quality).",
+    "sourceAnswer": ["B"],
+    "agreement": "disagree"
+  }
+]

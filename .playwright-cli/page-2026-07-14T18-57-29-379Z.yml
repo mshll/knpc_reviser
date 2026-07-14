@@ -1,0 +1,38 @@
+- generic [ref=f3e1]:
+  - main [ref=f3e3]:
+    - generic [ref=f3e36]:
+      - generic [ref=f3e38]:
+        - button "End quiz" [ref=f3e39] [cursor=pointer]
+        - generic [ref=f3e43]:
+          - text: "20"
+          - generic [ref=f3e44]: / 20
+        - generic "Time elapsed" [ref=f3e45]: 02:02
+        - button "Open question map" [ref=f3e48] [cursor=pointer]
+      - main [ref=f3e53]:
+        - article [ref=f3e135]:
+          - generic [ref=f3e136]:
+            - generic [ref=f3e137]: Programming
+            - generic [ref=f3e138]: KNPC 2016
+          - heading "An exception in Java is" [level=2] [ref=f3e140]
+          - generic [ref=f3e141]:
+            - generic [ref=f3e148]:
+              - generic [ref=f3e149]:
+                - generic [ref=f3e150]: Your answer
+                - generic [ref=f3e151]: You left this blank.
+              - generic [ref=f3e152]:
+                - generic [ref=f3e153]: Model answer
+                - generic [ref=f3e154]: an error in run time
+            - generic [ref=f3e155]:
+              - generic [ref=f3e156]: Mark it yourself. Free text is never auto-graded.
+              - generic [ref=f3e157]:
+                - button "I got it" [active] [ref=f3e158] [cursor=pointer]
+                - button "I missed it" [ref=f3e161] [cursor=pointer]
+          - generic [ref=f3e164]:
+            - generic [ref=f3e165]: AI-generated explanation
+            - paragraph [ref=f3e168]: An exception in Java is an event thrown while the program is running that disrupts the normal flow of execution, for example ArithmeticException or NullPointerException. Problems the compiler catches, such as a syntax or type error, are compile-time errors, not exceptions. Only the correct answer survived in the recalled paper; the original distractors were not recorded. Treat this as a recall card.
+      - generic [ref=f3e91]:
+        - button "Previous question" [ref=f3e143] [cursor=pointer]
+        - button "Finish" [ref=f3e169] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e35]

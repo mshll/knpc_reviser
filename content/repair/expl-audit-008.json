@@ -1,0 +1,81 @@
+[
+  {
+    "id": "knpc2016-q012",
+    "verdict": "ok",
+    "explanation": "An Ethernet (MAC) address is 48 bits: the first 24 are the OUI assigned by the IEEE to a specific vendor, and the last 24 are assigned by that vendor to the card. That two-level allocation is what makes the address globally unique, not merely unique on the local segment."
+  },
+  {
+    "id": "knpc2016-q013",
+    "verdict": "ok",
+    "explanation": "A ripple-carry adder must wait for the carry to propagate through each full adder in turn, so its delay grows linearly with the number of bits (O(n)). A carry-look-ahead adder computes all the carries in parallel from generate and propagate terms, so its delay is roughly logarithmic, making it faster."
+  },
+  {
+    "id": "knpc2016-q014",
+    "verdict": "rewritten",
+    "explanation": "Neither TCP nor UDP provides security by itself, so the item is defective as printed; the marked answer is TCP (A). TCP is the defensible pick of the two because it is connection-oriented and is the transport that TLS and most VPN tunnels ride on, while UDP is a bare datagram service. If the real paper offers a VPN or encrypted-tunnel option, that is the correct answer.",
+    "issue": "Explanation opened with pipeline meta ('Answer unverified') and buried the point. Rewritten to name the defect (no secure option exists) and still justify the marked A with mechanism."
+  },
+  {
+    "id": "knpc2016-q015",
+    "verdict": "ok",
+    "explanation": "Scalability is the ability of a system to keep performing as its data volume or load grows, which is exactly what the stem describes. Extensibility is the distractor: it means the ability to add new features or new schema capability, not the ability to hold more data."
+  },
+  {
+    "id": "knpc2016-q019",
+    "verdict": "ok",
+    "explanation": "A terabyte is a unit of data size equal to 10^12 bytes, that is one trillion bytes (1000 GB). 'Flash' and 'storage' name a medium or a category, not a quantity, so they cannot answer 'a terabyte is'."
+  },
+  {
+    "id": "knpc2016-q020",
+    "verdict": "ok",
+    "explanation": "The data bus width is how many bits move per memory transfer: 32 bits / 8 bits per byte = 4 bytes. Do not confuse the data bus width with the address bus width, which sets how much memory can be addressed, not how much is fetched per cycle."
+  },
+  {
+    "id": "knpc2016-q021",
+    "verdict": "ok",
+    "explanation": "In a full mesh every host has a direct link to every other host, so any single link or node failure still leaves multiple alternative paths, giving maximum redundancy. A ring gives each node only two paths and a star gives only one, through the central hub, which is a single point of failure."
+  },
+  {
+    "id": "knpc2016-q026",
+    "verdict": "rewritten",
+    "explanation": "Purchased software runs only if the machine meets its system requirements (CPU/instruction set, OS version, RAM, disk), so hardware compatibility is the binding constraint on the buy decision. Price is not a correctness criterion, which also kills D, the compound option that pairs a plausible clause with 'expensive'.",
+    "issue": "Explanation led with provenance meta ('the derived answer is A; the source carries no key') instead of the mechanism. Rewritten to justify A directly; answer unchanged."
+  },
+  {
+    "id": "knpc2016-q029",
+    "verdict": "ok",
+    "explanation": "IP addresses are hierarchical: the address splits into a network prefix plus a host part, so routers can aggregate many hosts under one prefix and forward on the prefix alone. Ethernet/MAC addresses are flat (vendor OUI plus serial number, no location information), so they cannot be summarized and are only usable inside one broadcast domain."
+  },
+  {
+    "id": "knpc2016-q030",
+    "verdict": "ok",
+    "explanation": "A receive equalizer is a transversal filter built from a tapped delay line: it takes copies of the signal delayed by successive tap intervals, weights them and sums them so the echoes cancel the intersymbol interference caused by delay distortion. The distractors are unrelated modem parts: a gearshift is speed fallback, a descrambler undoes scrambling, and a difference engine is a mechanical calculator."
+  },
+  {
+    "id": "knpc2016-q101",
+    "verdict": "ok",
+    "explanation": "Page traffic is the rate at which pages are moved in and out of main memory (page-ins and page-outs), which is why excessive page traffic is the symptom of thrashing. Option D describes the resident set (how many pages are currently loaded), a static count, not the movement."
+  },
+  {
+    "id": "knpc2016-q102",
+    "verdict": "rewritten",
+    "explanation": "The fundamental process states are new, ready, running, blocked (waiting) and terminated; 'Executed' is not one of them because the state is called running/executing, so B is the odd one out. Blocked (D) is a genuine state, so the bold key printed in the source PDF is the wrong one and B is correct.",
+    "issue": "Explanation opened with 'Answer unverified: the source key marks D', which names a different letter than the marked answer (B) and would confuse a student. Rewritten to justify B and note the printed PDF key is wrong."
+  },
+  {
+    "id": "knpc2016-q103",
+    "verdict": "ok",
+    "explanation": "LRU stands for Least Recently Used: it evicts the page whose most recent reference is furthest in the past, using locality of reference as a proxy for which page will be needed last. The other three expansions are invented terms."
+  },
+  {
+    "id": "knpc2016-q104",
+    "verdict": "ok",
+    "explanation": "The whole IEEE 802.11 WLAN family, including 802.11a, is branded Wi-Fi. Ethernet is 802.3 and WiMAX is 802.16. The trap is D: 802.11a is a different PHY from 802.11g (5 GHz versus 2.4 GHz, though both reach 54 Mbps), so they are not other names for each other."
+  },
+  {
+    "id": "knpc2016-q105",
+    "verdict": "rewritten",
+    "explanation": "The kernel is the most frequently executed code in the system: every system call, interrupt and context switch enters it, so paging it out would fault on nearly every dispatch, which is why it stays permanently resident. Managing interrupt calls (A) is a job the kernel performs, not the reason it must remain in primary memory.",
+    "issue": "Explanation led with pipeline meta ('the source PDF carried no key; only two options survived'), which is filler. Rewritten to keep only the mechanism; answer unchanged."
+  }
+]

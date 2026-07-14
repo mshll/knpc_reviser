@@ -1,0 +1,80 @@
+[
+  {
+    "id": "knpc2021-q043",
+    "verdict": "ok",
+    "explanation": "All three are email protocols, so D. SMTP sends/relays mail between servers, POP3 downloads mail from the server to a client (typically deleting the server copy), and IMAP keeps mail on the server so it stays in sync across devices."
+  },
+  {
+    "id": "knpc2021-q044",
+    "verdict": "ok",
+    "explanation": "The body never runs, so C. The condition x<=1 && x>=10 requires x to be both at most 1 and at least 10 at the same time, which no value satisfies, so the while test fails on the first evaluation and the loop executes zero times. The trap is misreading && as ||, where x=0 would satisfy x<=1 and loop forever."
+  },
+  {
+    "id": "knpc2018-q001",
+    "verdict": "ok",
+    "explanation": "A Mealy machine's output is a function of the present state AND the present inputs, so its output can change as soon as the input changes, within the clock cycle. A Moore machine's output is a function of the present state only, so it changes only after a clock edge. Consequence: Mealy usually needs fewer states and reacts one cycle earlier, but its output is more prone to glitches."
+  },
+  {
+    "id": "knpc2018-q004",
+    "verdict": "rewritten",
+    "explanation": "Reading the two input columns (A, B) as (J, K): 00 holds Q, 01 resets to 0, 10 sets to 1, and 11 gives Q' (toggle). That set of four rows is the JK flip-flop; the giveaway is the 11 row, since an SR flip-flop leaves 11 invalid/forbidden while JK defines it as a toggle, and D or T would need only one input column.",
+    "issue": "The old text called the input columns J and K, but the figure labels them A and B, so it read as if it were describing a different table than the one shown. Content was right; the mapping was left implicit. Verified against /Users/meshal/Developer/sandbox/knpc_reviser/public/figures/knpc2018-q004.png (rows 00->Q, 01->0, 10->1, 11->Q'), which is JK. Key stands."
+  },
+  {
+    "id": "knpc2018-q005",
+    "verdict": "ok",
+    "explanation": "Search, insert and delete in a BST follow a single root-to-leaf path with one comparison per level, so the cost is proportional to the height. In the best (balanced) case the height is log2(n), giving O(log n). The classic trap: a BST built from already sorted input degenerates into a linked list of height n, so the worst case is O(n)."
+  },
+  {
+    "id": "knpc2018-q007",
+    "verdict": "ok",
+    "explanation": "The CPU only ever emits logical (virtual) addresses; the MMU translates them at run time into physical addresses on the memory bus. Physical is the trap: it is what memory sees, not what the CPU generates."
+  },
+  {
+    "id": "knpc2018-q009",
+    "verdict": "ok",
+    "explanation": "Blocked -> Running is illegal: a process waiting on I/O must first be moved to Ready when the event completes, and only the dispatcher can move a process from Ready to Running. The other three (Blocked -> Ready on I/O completion, Ready -> Running on dispatch, Running -> Blocked on an I/O request) are all standard transitions."
+  },
+  {
+    "id": "ce2016-q001",
+    "verdict": "ok",
+    "explanation": "SQL is the language used to define and query relational databases (SELECT, INSERT, CREATE TABLE, joins). HTML and XML are markup languages for documents and data interchange, and CSS is a styling language; none of them queries an RDBMS."
+  },
+  {
+    "id": "ce2016-q002",
+    "verdict": "ok",
+    "explanation": "Oracle is a database vendor and RDBMS product, not an operating system. Solaris (Unix), Linux and Windows all manage hardware and run applications, so they are operating systems."
+  },
+  {
+    "id": "ce2016-q003",
+    "verdict": "ok",
+    "explanation": "Best complexity means slowest growth: lg n < n < n lg n < n^2 for large n. At n = 1,000,000, lg n is about 20 operations while n^2 is 10^12, so O(lg n) wins."
+  },
+  {
+    "id": "ce2016-q004",
+    "verdict": "ok",
+    "explanation": "Big-O drops constant factors and lower-order terms, so O(2000n - 1) = O(n). The trap is answering O(2000n), which is not wrong mathematically but is not the reduced form Big-O asks for; the 2000 is a constant multiplier and the -1 is lower order."
+  },
+  {
+    "id": "ce2016-q005",
+    "verdict": "ok",
+    "explanation": "Bubble sort is an algorithm (a procedure that operates on data), not a data structure. Tree, heap and list are ways of organising and storing data, which is what a data structure is."
+  },
+  {
+    "id": "ce2016-q006",
+    "verdict": "rewritten",
+    "explanation": "For each outer value i, the inner loop runs j = 1..i, so it calls foo(i) exactly i times. Total calls = 1 + 2 + 3 + ... + n = sum(k = 1..n) k = n(n+1)/2, which is O(n^2). Checked by running the loops: n = 5 gives 15 calls, and 5(6)/2 = 15.",
+    "issue": "The source explanation gave the closed-form sum but never said why the inner loop contributes i calls for each i, so it was arithmetic with no mechanism. Answer n(n+1)/2 is correct and confirmed by execution."
+  },
+  {
+    "id": "ce2016-q007",
+    "verdict": "ok",
+    "explanation": "The function makes two recursive calls, on n-1 and n-2, and does only constant work per call (one comparison plus one addition), so T(n) = T(n-2) + T(n-1) + 1. The trap is choosing the +n version, which would apply only if the body did O(n) work such as a loop over n; here the body is O(1)."
+  },
+  {
+    "id": "ce2016-q008",
+    "verdict": "rewritten",
+    "explanation": "Hit Ratio = hits / total accesses, and total accesses = hits + misses = 30 + 40 = 70, so the hit ratio is 30 / 70 = 0.4286, about 0.43 (43%). The trap is dividing hits by misses (30/40 = 0.75), which is not a ratio out of all accesses.",
+    "issue": "The source explanation was a bare formula line with no prose and no statement of why the denominator is total accesses. Arithmetic and key (30/70 = 0.43) are correct and unchanged."
+  }
+]

@@ -1,0 +1,48 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - main [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - generic [ref=f12e5]:
+          - heading "KNPC Reviser" [level=1] [ref=f12e6]
+          - paragraph [ref=f12e7]: 361 questions from recalled KNPC and KOC papers and close practice sets.
+        - generic [ref=f12e8]:
+          - link "Mock Exam Timed. Scored at the end, like the real paper." [ref=f12e9] [cursor=pointer]:
+            - /url: /setup?mode=mock
+            - generic [ref=f12e13]:
+              - generic [ref=f12e14]: Mock Exam
+              - generic [ref=f12e15]: Timed. Scored at the end, like the real paper.
+          - link "Practice Pick topics. See each answer as you go." [ref=f12e16] [cursor=pointer]:
+            - /url: /setup?mode=practice
+            - generic [ref=f12e20]:
+              - generic [ref=f12e21]: Practice
+              - generic [ref=f12e22]: Pick topics. See each answer as you go.
+        - region "Readiness" [ref=f12e23]:
+          - heading "Where you stand" [level=2] [ref=f12e24]
+          - generic [ref=f12e25]:
+            - paragraph [ref=f12e26]: Answer 28 more questions to see your readiness score.
+            - paragraph [ref=f12e27]: 2 answered so far · 50% correct
+        - 'link "Questions you keep missing: 1 Drill exactly these" [ref=f12e28] [cursor=pointer]':
+          - /url: /quiz?mode=drill&tiers=gold%2Cpractice&count=15&missed=1
+          - generic [ref=f12e32]:
+            - generic [ref=f12e33]: "Questions you keep missing: 1"
+            - generic [ref=f12e34]: Drill exactly these
+        - region "Last attempt" [ref=f12e37]:
+          - heading "Last attempt" [level=2] [ref=f12e38]
+          - link "Mock Exam · 1/2 15m ago · 10m 00s" [ref=f12e39] [cursor=pointer]:
+            - /url: /results?id=att-ft
+            - generic [ref=f12e40]:
+              - generic [ref=f12e41]: Mock Exam · 1/2
+              - generic [ref=f12e42]: 15m ago · 10m 00s
+    - navigation "Primary" [ref=f12e45]:
+      - generic [ref=f12e46]:
+        - link "Home" [ref=f12e47] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f12e51] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f12e55] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f12e59] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f12e63]

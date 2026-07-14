@@ -1,0 +1,647 @@
+[
+  {
+    "id": "ce2016-q039",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is the output of the following (C++ Code)?",
+    "stemCode": "int n;\nfor (n = 5; n > 0; n--) {\n     cout << n;\n     if (n == 3)\n        break;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "543",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "54",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "54321",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "543210",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 39
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "85d9c8a747442a62353c71195f319c4f58cab8fe",
+    "explanation": "The loop prints n, then checks the break. n=5 prints 5, n=4 prints 4, n=3 prints 3 and then hits the break, so output is 543. The trap is the ordering: because cout runs before the if, the 3 is printed before the loop exits, so answer B (54) is wrong."
+  },
+  {
+    "id": "ce2016-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "arp",
+    "stem": "The address resolution Protocol (ARP) is used to _________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find the IP address corresponding to MAC address.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Find the port address corresponding to an IP address.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Find the MAC address corresponding to an IP address.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Find the IP address from the DNS.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 40
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "2683a41e7c710c744b81db3384770312808d65cc",
+    "explanation": "ARP takes a known IP address and resolves it to the MAC address of the host on the local link, so frames can actually be addressed at layer 2. The trap is option A, which is the reverse mapping (MAC to IP), the job of RARP; DNS resolves names to IPs, not addresses to MACs."
+  },
+  {
+    "id": "ce2016-q041",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "What is the size of the MAC address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "48-bits.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "64-bits.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 41
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "cbde35a5a38ca14d8a1355add3123f5548cb2b54",
+    "explanation": "An IEEE 802 MAC address (EUI-48) is 6 bytes = 48 bits, written as six hex pairs such as 00:1A:2B:3C:4D:5E. 32 bits is the trap, because that is the size of an IPv4 address."
+  },
+  {
+    "id": "ce2016-q042",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Mac address is an Example of _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 42
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "58645d5b9f90d1babcd1da8a7012f348fb9c9dcd",
+    "explanation": "MAC stands for Media Access Control, which is the lower sublayer of OSI layer 2, the Data Link layer. The Physical layer is the trap: it deals with bits, voltages and cabling and has no notion of addressing at all."
+  },
+  {
+    "id": "ce2016-q043",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "atm",
+    "stem": "Packet length in ATM Network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "50 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "53 Bytes.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Variable Length.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 43
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "e8415520e0a157225f85d7a2ed94045d2d7d8fb8",
+    "explanation": "ATM uses a fixed-size cell of 53 bytes: a 5-byte header plus a 48-byte payload. The fixed length is the whole point of ATM, since it makes switching and delay predictable, so 'variable length' is the trap for anyone thinking of IP packets."
+  },
+  {
+    "id": "ce2016-q044",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search-tree",
+    "stem": "A Binary Tree is considered a Binary Search Tree if:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The key in each node is greater than all keys stored in the left sub-tree, and smaller than all keys in the right sub-tree.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The key in each node is smaller than all keys stored in the left sub-tree, and greater than all keys in the right sub-tree.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The key in a parent node is greater than all keys of its children nodes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "For each node, the number of nodes in left sub-tree is equal to the number of nodes in the right sub-tree.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 44
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "ca1c4298537bf5a57b095e94a16a540c2bc4cf98",
+    "explanation": "The BST invariant is that for every node, all keys in its left subtree are smaller and all keys in its right subtree are larger, which is option A and is what makes an in-order traversal come out sorted. Option B inverts the ordering, C describes a max-heap, and D describes a balanced (not a search) tree; a BST need not be balanced."
+  },
+  {
+    "id": "ce2016-q045",
+    "type": "true_false",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM cell is associated with identifier called address.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 45
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "9d8d1b0ae8fe5585d9da62b84205bd9e55a89847",
+    "explanation": "True. Memory is organised as cells, each with a unique numeric address, and it is precisely this addressability that lets the CPU reach any cell directly in constant time, which is what 'random access' means."
+  },
+  {
+    "id": "ce2016-q046",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "Random Access Memory is?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Volatile.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Non-Volatile.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EPROM.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 46
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "592428b48a6b97d19ab2c2debf73fc2c09d4cfc6",
+    "explanation": "RAM is volatile: it holds data only while powered, and its contents are lost at power-off. ROM and EPROM are the non-volatile counterparts, which is why they, and option B, are wrong here."
+  },
+  {
+    "id": "ce2016-q047",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Most Popular DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Oracle.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 47
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "b88ea6a940242d3fba27761576e22e75d1c50906",
+    "explanation": "The keyed answer is Oracle, which was the leading commercial DBMS by market share at the time this exam was written. Linux is the easy elimination since it is an operating system, not a DBMS at all."
+  },
+  {
+    "id": "ce2016-q048",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "(1100)₂ = ( _________ )₁₀ ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "12",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 48
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "b124524c4b1ade45d1deecbcdef614fadb3ec205",
+    "explanation": "Expand by place value: 1100 in binary = 1*8 + 1*4 + 0*2 + 0*1 = 12. The distractors 8 and 16 are the traps for misreading which bits are set or off-by-one on the exponent."
+  },
+  {
+    "id": "ce2016-q049",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "Which one of the following is NOT a computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "File Server.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Workstation.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Personal Computer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 49
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "d537aef9be4b64b82aa8b85edf3d20eaa4b05234",
+    "explanation": "A LAN is a network, that is, the infrastructure connecting computers, not a computer itself. A file server, a workstation and a PC are all machines that run programs, so the LAN is the odd one out."
+  },
+  {
+    "id": "ce2016-q050",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "What is the function represented below?",
+    "stemFigure": "/figures/ce2016-q050.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "F = x₃'",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 50
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "b0317b662e817dad24be0a9326b59371a14a691b",
+    "explanation": "Reading the K-map, every cell in the x3 = 0 row is 1 and every cell in the x3 = 1 row is 0. The output therefore depends on x3 alone, and the other variables are covered in the grouping and drop out, giving F = x3'."
+  },
+  {
+    "id": "ce2016-q052",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "deadlock",
+    "stem": "What is the situation called when two processes are waiting for each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rolling Back.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Deadlock.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Starvation.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dining Philosophers.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 52
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "634136bfeee41c055aecacb0e9d536407e33a912",
+    "explanation": "Two processes each holding a resource the other needs and each waiting on the other is a circular wait, which is the textbook definition of deadlock. Starvation is the trap: there a process is indefinitely postponed but the rest of the system keeps making progress, whereas in deadlock neither process can ever proceed."
+  },
+  {
+    "id": "ce2016-q053",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which OSI layer is responsible for reliable communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 53
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "870751df96d7c090eeaf7d4243e20c41b5db20a4",
+    "explanation": "The transport layer (TCP) provides reliability end to end: sequence numbers, acknowledgements, retransmission and flow control between the two end processes. Data Link is the trap: it only gives reliability across a single hop (node to node), not across the whole path."
+  },
+  {
+    "id": "ce2016-q054",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-types",
+    "stem": "___________ instructions change the flow of the program.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Transfer (or Handling).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Arithmetic (and Logic).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Branch (or Control Flow).",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Registers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 54
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": true,
+    "needsReview": false,
+    "dedupeHash": "e7a45a79f15dc89a1f7f27666734509b40ba9424",
+    "explanation": "Branch / control-flow instructions (JMP, BEQ, CALL, RET) work by writing a new value into the program counter, which is exactly what changes the flow of execution. Data-transfer and arithmetic instructions only move or compute values and leave the PC to advance sequentially."
+  }
+]

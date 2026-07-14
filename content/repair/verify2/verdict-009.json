@@ -1,0 +1,137 @@
+[
+  {
+    "id": "knpc2016-q106",
+    "myAnswer": ["== compares references (same memory location); .equals() compares object values/content"],
+    "confidence": 0.95,
+    "derivation": "== is identity comparison for objects (value comparison for primitives); .equals() compares content per the class override, e.g. new String(\"ab\") == new String(\"ab\") is false but .equals() is true.",
+    "defective": false,
+    "shippedAnswer": ["== is a reference comparison (both point at the same memory location) where. equals () evaluate the comparison of values of objects"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q107",
+    "myAnswer": ["D"],
+    "confidence": 1.0,
+    "derivation": "NAND = NOT(AND); output is low only when the AND term is 1, i.e. both inputs are 1 (11). 00/01/10 all give AND=0 so NAND=1.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q108",
+    "myAnswer": ["C"],
+    "confidence": 1.0,
+    "derivation": "Algorithm efficiency is measured by time complexity and space complexity; processor/memory are hardware resources, not measures of the algorithm.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q109",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "Question asks for the FALSE statement: cin is an object of class istream, not a class of which stream is an object, so C inverts the relationship; A, B, D are all true.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q110",
+    "myAnswer": ["D"],
+    "confidence": 0.95,
+    "derivation": "Constructors can be overloaded with distinct parameter signatures, so a class may have any number of them.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q111",
+    "myAnswer": ["D"],
+    "confidence": 0.9,
+    "derivation": "A schema is the complete logical description of the database: data elements, records/files, and relationships among records, so all of the above.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q112",
+    "myAnswer": ["A"],
+    "confidence": 1.0,
+    "derivation": "Boehm's spiral model is the risk-driven process model with an explicit risk-analysis quadrant on every loop; waterfall/agile/rapid prototyping are not risk-analysis centred.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q113",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "DDCMP is byte-count/character-oriented (header count field locates message boundaries in software); SDLC is bit-oriented and relies on hardware flag (01111110) detection and bit de-stuffing. SDLC does use CRC, so D is false.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q016",
+    "myAnswer": ["Data-flow (define-use) testing: tracking a variable from declaration/definition through its modifications and uses"],
+    "confidence": 0.55,
+    "derivation": "'Data Control testing' is not a standard term (garbled recall); the keyed text describes data-flow / define-use testing, which is the only coherent reading. No distractors survive, so the intended discrimination is unrecoverable.",
+    "defective": false,
+    "shippedAnswer": ["Test declaring a variable and modifying it"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q018",
+    "myAnswer": ["Network (IP datagram) under standard textbook usage; Transport only if the intended term is the UDP 'user datagram'"],
+    "confidence": 0.4,
+    "derivation": "AMBIGUOUS STEM. Bare 'datagram' is the network-layer PDU in Kurose, Forouzan and Tanenbaum (the IP datagram); Transport is defensible only for UDP's user datagram. With no distractors preserved we cannot tell which option set was offered, and the two readings yield different answers. The shipped key (Transport) is not safely established.",
+    "defective": true,
+    "shippedAnswer": ["Transport"],
+    "agreement": "defective"
+  },
+  {
+    "id": "knpc2016-q022",
+    "myAnswer": ["Every key in the left subtree is smaller than the node and every key in the right subtree is larger, at every node"],
+    "confidence": 0.95,
+    "derivation": "BST ordering invariant must hold for whole subtrees, not just immediate children; keyed text states the standard left<parent<right rule.",
+    "defective": false,
+    "shippedAnswer": ["Left children are smaller than the parent and the  right children are bigger than the  parent"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q023",
+    "myAnswer": ["255.255.254.0"],
+    "confidence": 1.0,
+    "derivation": "Usable hosts = 2^h - 2 = 510 -> 2^h = 512 -> h = 9 host bits -> prefix /23 -> mask 255.255.254.0. (/24 gives only 254 usable hosts.)",
+    "defective": false,
+    "shippedAnswer": ["255.255.254.0"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q024",
+    "myAnswer": ["Physical"],
+    "confidence": 1.0,
+    "derivation": "OSI Layer 1 (Physical) transmits the unstructured raw bit stream over the medium; framing into structured units is Data Link.",
+    "defective": false,
+    "shippedAnswer": ["Physical"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q025",
+    "myAnswer": ["A run-time error/event that disrupts the normal flow of program execution"],
+    "confidence": 0.85,
+    "derivation": "Java exceptions are thrown at run time (e.g. ArithmeticException, NullPointerException); compiler-caught syntax/type problems are compile-time errors, not exceptions.",
+    "defective": false,
+    "shippedAnswer": ["an error in run time"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q028",
+    "myAnswer": ["Ping the gateway's IP address"],
+    "confidence": 0.95,
+    "derivation": "An ICMP echo request to the gateway IP; a reply proves link and IP layer reachability (ARP resolved, mask and gateway settings correct).",
+    "defective": false,
+    "shippedAnswer": ["ping gate way IP"],
+    "agreement": "agree"
+  }
+]

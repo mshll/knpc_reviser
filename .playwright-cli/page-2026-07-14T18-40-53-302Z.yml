@@ -1,0 +1,34 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e6]:
+        - button "End quiz" [ref=f3e7] [cursor=pointer]
+        - generic [ref=f3e11]:
+          - text: "1"
+          - generic [ref=f3e12]: / 8
+        - generic "Time remaining" [ref=f3e13]: 1:00:00
+        - button "Open question map" [ref=f3e16] [cursor=pointer]
+      - main [ref=f3e21]:
+        - article [ref=f3e22]:
+          - generic [ref=f3e23]:
+            - generic [ref=f3e24]: Operating Systems
+            - generic [ref=f3e25]: KOC 2012
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f3e26] [cursor=pointer]:
+              - generic [ref=f3e27]: Answer unverified
+          - heading "What are the two modes of the \"vi\" editor in Unix?" [level=2] [ref=f3e31]
+          - radiogroup "Options" [ref=f3e32]:
+            - radio "Insert and Delete" [ref=f3e33] [cursor=pointer]:
+              - generic [ref=f3e34]: A
+            - radio "Edit and Insert" [ref=f3e37] [cursor=pointer]:
+              - generic [ref=f3e38]: B
+            - radio "Delete and Edit" [ref=f3e41] [cursor=pointer]:
+              - generic [ref=f3e42]: C
+            - radio "None of the above" [ref=f3e45] [cursor=pointer]:
+              - generic [ref=f3e46]: D
+      - generic [ref=f3e50]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=f3e51] [cursor=pointer]
+        - button "Next" [ref=f3e52] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e55]

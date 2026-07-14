@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bank-a-q041",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Learning without being warned of a later test is by definition incidental learning.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q042",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "Retrieval in any order with no cues is free recall.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q043",
+    "blindAnswer": ["A"],
+    "confidence": 0.85,
+    "reason": "Being told a test is coming and deliberately retrieving the studied list is an explicit memory test; recognition is a specific format not stated.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q044",
+    "blindAnswer": ["D"],
+    "confidence": 0.8,
+    "reason": "Storage is the retention stage occupying the interval between presentation and test; interpretation/committing describe encoding.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q045",
+    "blindAnswer": ["A"],
+    "confidence": 0.8,
+    "reason": "To isolate storage you manipulate the retention interval (what happens after presentation, before test); manipulating presentation targets encoding.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q046",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Dot probe is an attentional-bias task, not a memory retrieval measure.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q047",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Serial position curve: middle items lack both primacy and recency benefit.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q048",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Enhanced recall of end-of-list items on immediate test is the recency effect.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q049",
+    "blindAnswer": ["D"],
+    "confidence": 0.8,
+    "reason": "A filled/longer retention interval eliminates recency; preventing rehearsal chiefly harms primacy.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q050",
+    "blindAnswer": ["C"],
+    "confidence": 0.95,
+    "reason": "Atkinson and Shiffrin (1968) multi-store = the modal model.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q051",
+    "blindAnswer": ["A"],
+    "confidence": 0.85,
+    "reason": "Neuropsychological cases (e.g. KF) with impaired STM but intact LTM contradict the modal model's serial STM->LTM route.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q052",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Craik & Lockhart: semantic processing is the deepest level.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q053",
+    "blindAnswer": ["C"],
+    "confidence": 0.8,
+    "reason": "The classic circularity criticism: no independent way to determine depth of processing except by the memory it produces.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q054",
+    "blindAnswer": ["A"],
+    "confidence": 0.7,
+    "reason": "Cues work through overlap with what was encoded (encoding specificity); the other options describe forgetting or capacity, not cue benefit.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q055",
+    "blindAnswer": ["B"],
+    "confidence": 0.95,
+    "reason": "Direct quote from Tulving & Thomson's encoding specificity principle.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q056",
+    "blindAnswer": ["D"],
+    "confidence": 0.9,
+    "reason": "Retroactive inhibition = new learning interfering with old = an interference account.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q057",
+    "blindAnswer": ["A"],
+    "confidence": 0.9,
+    "reason": "Old learning impeding new learning is proactive inhibition/interference.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q058",
+    "blindAnswer": ["A"],
+    "confidence": 0.6,
+    "reason": "A and B are near-duplicates; A adds the similarity restriction on proactive interference, which is the more specific and standard claim.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q059",
+    "blindAnswer": ["C"],
+    "confidence": 0.65,
+    "reason": "Jost's law is the mathematical statement about relative forgetting rates underlying the forgetting curve; the others are empirical effects, not curve accounts.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "bank-a-q060",
+    "blindAnswer": ["A"],
+    "confidence": 0.6,
+    "reason": "Lansdale & Baguley's fragmentation/trace account makes recall probability a function of the proportion of correct traces retrieved.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

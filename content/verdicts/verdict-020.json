@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dbbank-q026",
+    "blindAnswer": ["B"],
+    "confidence": 0.99,
+    "reason": "DROP TABLE is the SQL DDL statement that removes a relation; DELETE removes rows, ALTER modifies structure, ERASE is not SQL.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q027",
+    "blindAnswer": ["C"],
+    "confidence": 0.99,
+    "reason": "Referential integrity: every non-null foreign-key value must match an existing primary-key value in the referenced table.",
+    "sourceAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q028",
+    "blindAnswer": ["A"],
+    "confidence": 0.95,
+    "reason": "ALTER INDEX is the real SQL command (e.g. Oracle ALTER INDEX ... STORAGE/REBUILD); the other three are not SQL commands.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q029",
+    "blindAnswer": ["B"],
+    "confidence": 0.97,
+    "reason": "Data integrity is defined as the correctness/accuracy and completeness of data; security is about access control, independence about schema decoupling.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q030",
+    "blindAnswer": ["D"],
+    "confidence": 0.95,
+    "reason": "DML covers SELECT/INSERT/DELETE (and UPDATE), so retrieval, insertion and deletion are all enabled -> All of the above.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q001",
+    "blindAnswer": ["Hii World"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran with g++ -std=c++17: prints 'Hii World' (NULL is 0, so the if is false).",
+    "sourceAnswer": ["Hii World"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q002",
+    "blindAnswer": ["PQR"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran: prints 'PQR'. A && (B>C) is false; the else-if is an assignment A = (B || C==20) = 1, which is truthy.",
+    "sourceAnswer": ["PQR"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q003",
+    "blindAnswer": ["4\n6\n8\n10"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran: outputs 4, 6, 8, 10 on separate lines; i=j++ makes j odd in the body so j==8 never holds and j advances by 2 per iteration.",
+    "sourceAnswer": ["4\n6\n8\n10"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q005",
+    "blindAnswer": ["1 2 3 4 5"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran: prints '1 2 3 4 5 ' (space-separated).",
+    "sourceAnswer": ["1 2 3 4 5"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q007",
+    "blindAnswer": ["B"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran: prints 10. The ';' after the for-header empties the loop body; the brace block runs once with i already 10.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q008",
+    "blindAnswer": ["A"],
+    "confidence": 0.55,
+    "reason": "Question-bank convention counts 4 loop types (while, do-while, for, nested); pedantically C++ has 3 statement forms plus range-based for, so the item is loosely worded but 4 is the only defensible listed answer.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q009",
+    "blindAnswer": ["A"],
+    "confidence": 0.92,
+    "reason": "break exits the enclosing loop immediately, cancelling the remaining iterations; 'skips a particular iteration' is continue, and the program does not terminate.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q010",
+    "blindAnswer": ["0"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran with a counter: printf is unreachable dead code after if/else (continue or break always taken), so 'Hello' prints 0 times.",
+    "sourceAnswer": ["0 (never printed)"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q011",
+    "blindAnswer": ["125"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran with a counter: 125 iterations (j = 1,3,...,249; exits at j = 251).",
+    "sourceAnswer": ["125 times"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q012",
+    "blindAnswer": ["A"],
+    "confidence": 0.97,
+    "reason": "& is bitwise AND; the logical operators in C/C++ are &&, || and !.",
+    "sourceAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q013",
+    "blindAnswer": ["B"],
+    "confidence": 0.93,
+    "reason": "BODMAS ordering of the four listed operators is Division, Multiplication, Addition, Subtraction.",
+    "sourceAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q014",
+    "blindAnswer": ["D"],
+    "confidence": 1.0,
+    "reason": "Compiled and ran: prints 6. Trailing ';' empties the loop body, so printf runs once after the loop with i == 6.",
+    "sourceAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q021",
+    "blindAnswer": ["Class A, 255.0.0.0 (/8)"],
+    "confidence": 0.98,
+    "reason": "First octet 11 is in 1-126, leading bit 0 -> Class A, default mask 255.0.0.0.",
+    "sourceAnswer": ["Class A, default subnet mask 255.0.0.0 (/8)."],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q022",
+    "blindAnswer": ["2^16 = 65536 subnets, 2^8 - 2 = 254 hosts per subnet"],
+    "confidence": 0.85,
+    "reason": "4.0.0.0 is Class A (/8); mask /24 borrows 16 bits -> 2^16 = 65536 subnets; 8 host bits left -> 254 usable hosts. (Under the older 'subtract 2 subnets' convention it would be 65534, but the modern/standard count is 2^borrowed.)",
+    "sourceAnswer": ["2^16 = 65,536 subnets, each with 2^8 - 2 = 254 hosts."],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q023",
+    "blindAnswer": ["2^1 = 2 subnets, 2^15 - 2 = 32766 hosts per subnet"],
+    "confidence": 0.85,
+    "reason": "130.0.0.0 is Class B (/16); 255.255.128.0 is /17, so 1 borrowed bit -> 2 subnets; 15 host bits -> 32766 usable hosts.",
+    "sourceAnswer": ["2^1 = 2 subnets, each with 2^15 - 2 = 32,766 hosts."],
+    "agreement": "agree"
+  }
+]

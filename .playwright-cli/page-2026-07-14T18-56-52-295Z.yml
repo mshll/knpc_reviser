@@ -1,0 +1,25 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e3]:
+    - generic [ref=f3e36]:
+      - generic [ref=f3e38]:
+        - button "End quiz" [ref=f3e39] [cursor=pointer]
+        - generic [ref=f3e43]:
+          - text: "20"
+          - generic [ref=f3e44]: / 20
+        - generic "Time elapsed" [ref=f3e45]: 01:25
+        - button "Open question map" [ref=f3e48] [cursor=pointer]
+      - main [ref=f3e53]:
+        - article [ref=f3e135]:
+          - generic [ref=f3e136]:
+            - generic [ref=f3e137]: Programming
+            - generic [ref=f3e138]: KNPC 2016
+          - heading "An exception in Java is" [level=2] [ref=f3e140]
+          - textbox "Your answer" [ref=f3e142]:
+            - /placeholder: "Work it out here. Nothing is auto-graded: you mark yourself when the model answer appears."
+      - generic [ref=f3e91]:
+        - button "Previous question" [ref=f3e143] [cursor=pointer]
+        - button "Skip" [ref=f3e146] [cursor=pointer]
+        - button "Show answer" [ref=f3e147] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e35]

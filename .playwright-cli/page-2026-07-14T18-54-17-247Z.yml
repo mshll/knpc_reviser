@@ -1,0 +1,61 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - link "Back to home" [ref=f1e6] [cursor=pointer]:
+          - /url: /
+        - heading "Practice" [level=1] [ref=f1e9]
+        - paragraph [ref=f1e10]: Untimed, with the answer and explanation right after each question.
+      - region "Questions" [ref=f1e11]:
+        - heading "Questions" [level=2] [ref=f1e12]
+        - tablist [ref=f1e14]:
+          - tab "10 questions" [ref=f1e15] [cursor=pointer]: "10"
+          - tab "20 questions" [selected] [ref=f1e16] [cursor=pointer]: "20"
+          - tab "30 questions" [ref=f1e17] [cursor=pointer]: "30"
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20] [cursor=pointer]:
+            - generic [ref=f1e21]: Timer
+            - generic [ref=f1e22]: No time limit.
+          - switch "Timer No time limit." [ref=f1e23] [cursor=pointer]
+      - region "Topics" [ref=f1e25]:
+        - heading "Topics" [level=2] [ref=f1e26]
+        - generic [ref=f1e27]:
+          - generic [ref=f1e28] [cursor=pointer]:
+            - generic [ref=f1e29]: All topics
+            - generic [ref=f1e30]: Turn off to pick specific topics.
+          - switch "All topics Turn off to pick specific topics." [checked] [ref=f1e31] [cursor=pointer]
+      - region "Sources" [ref=f1e33]:
+        - heading "Sources" [level=2] [ref=f1e34]
+        - generic [ref=f1e35]:
+          - generic [ref=f1e36] [cursor=pointer]:
+            - checkbox "Past papers 238 Recalled KNPC and KOC papers, and the K-Companies placement exam." [checked] [ref=f1e37]
+            - generic [ref=f1e42]:
+              - generic [ref=f1e43]:
+                - generic [ref=f1e44]: Past papers
+                - generic [ref=f1e45]: "238"
+              - generic [ref=f1e46]: Recalled KNPC and KOC papers, and the K-Companies placement exam.
+          - generic [ref=f1e47] [cursor=pointer]:
+            - checkbox "Practice sets 133 Mock exams, question banks and code-trace items close to the real paper." [checked] [ref=f1e48]
+            - generic [ref=f1e53]:
+              - generic [ref=f1e54]:
+                - generic [ref=f1e55]: Practice sets
+                - generic [ref=f1e56]: "133"
+              - generic [ref=f1e57]: Mock exams, question banks and code-trace items close to the real paper.
+          - generic [ref=f1e58] [cursor=pointer]:
+            - checkbox "General bank 332 Scraped general IT trivia. The largest set, the least representative, the worst answer keys." [ref=f1e59]
+            - generic [ref=f1e64]:
+              - generic [ref=f1e65]:
+                - generic [ref=f1e66]: General bank
+                - generic [ref=f1e67]: "332"
+              - generic [ref=f1e68]: Scraped general IT trivia. The largest set, the least representative, the worst answer keys.
+        - generic [ref=f1e69]:
+          - generic [ref=f1e70] [cursor=pointer]:
+            - generic [ref=f1e71]: Include unverified answers
+            - generic [ref=f1e72]: Keys that did not survive the blind re-check. They show an amber badge.
+          - switch "Include unverified answers Keys that did not survive the blind re-check. They show an amber badge." [checked] [ref=f1e73] [cursor=pointer]
+    - generic [ref=f1e76]:
+      - paragraph [ref=f1e77]: 371 questions match your filters.
+      - button "Start practice · 20 questions" [ref=f1e78] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f1e81]

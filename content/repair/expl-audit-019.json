@@ -1,0 +1,91 @@
+[
+  {
+    "id": "mock2018-q020",
+    "verdict": "rewritten",
+    "explanation": "Deleting a node from a linked list (given the pointer), searching a hash table (average case) and adding an edge in an adjacency matrix (set M[i][j] = 1) are all O(1). Heapify is the odd one out: sifting one node into place costs O(log n), and building a heap from n elements costs O(n).",
+    "issue": "Key D is correct, but the old text said heapify is O(n) and the other three are 'O(1) only'. Heapify of a single node is O(log n) (O(n) is the cost of build-heap over all n nodes), and hash table search is O(1) on average, O(n) worst case. Conclusion unchanged, numbers fixed."
+  },
+  {
+    "id": "mock2018-q021",
+    "verdict": "rewritten",
+    "explanation": "Shell sort is a gapped insertion sort: for each gap h it insertion-sorts the sub-sequences of elements h positions apart, and the final pass with h = 1 is an ordinary insertion sort on the whole array. It never uses merge, selection or quick sort.",
+    "issue": "Old text ('uses insertion sort when interval value is 1') was true but implied insertion sort appears only in the last pass; every pass of shell sort is an insertion sort on strided subarrays. Key A stands."
+  },
+  {
+    "id": "mock2018-q022",
+    "verdict": "rewritten",
+    "explanation": "A spanning tree of a connected graph with n vertices must include all n vertices and be acyclic, which forces exactly n - 1 edges. So every spanning tree of G has the same vertex count (n) and the same edge count (n - 1), regardless of whether Prim or Kruskal produced it.",
+    "issue": "Old text was 'Review Spanning Trees.' - a pointer, not an explanation. It gave no mechanism and did not justify A."
+  },
+  {
+    "id": "mock2018-q023",
+    "verdict": "ok",
+    "explanation": "Every problem which can be solved using recursion can also be solved using iterations."
+  },
+  {
+    "id": "mock2018-q024",
+    "verdict": "rewritten",
+    "explanation": "Binary search halves the interval on every comparison, so the worst case is about log2(n) comparisons, i.e. O(log n). O(log n) is not offered here; since big-O is only an upper bound and O(log n) is contained in O(n), O(n) is the tightest of the four choices, which is why D is keyed. Treat this item as a badly worded question, not as evidence that binary search is linear.",
+    "issue": "SERIOUS: the old explanation was factually FALSE - it claimed binary search 'will be left or right intended, making it compare all the n values'. Binary search never inspects all n values; it makes at most floor(log2 n) + 1 comparisons. The key (D) survives only on the technicality that every option is a valid loose upper bound and O(n) is the tightest one listed. The option set omits the real answer, O(log n)."
+  },
+  {
+    "id": "mock2018-q025",
+    "verdict": "rewritten",
+    "explanation": "Memoization means storing the result of each subproblem the first time it is computed and reusing it instead of recomputing. That is exactly what dynamic programming does with its table; greedy makes one locally best choice and never revisits subproblems, and plain divide and conquer recomputes overlapping subproblems rather than caching them.",
+    "issue": "Old text defined memoization but never tied it to dynamic programming or ruled out greedy and divide and conquer, so it did not actually justify C."
+  },
+  {
+    "id": "mock2018-q027",
+    "verdict": "rewritten",
+    "explanation": "A heap is a complete binary tree (every level filled left to right except possibly the last) with a heap order property: each parent is greater than or equal to its children in a max-heap, or less than or equal in a min-heap. It is not a binary search tree, because the ordering is only parent-to-child and says nothing about left versus right siblings.",
+    "issue": "Old text stated only the max-heap ordering as if it were the definition of every heap, and did not eliminate the binary search tree distractor."
+  },
+  {
+    "id": "mock2018-q028",
+    "verdict": "rewritten",
+    "explanation": "Dijkstra is a single-source shortest path algorithm: starting from one source it repeatedly settles the unvisited vertex with the smallest tentative distance and relaxes its outgoing edges, ending with the shortest path from that source to every other vertex on a non-negative weighted graph. Option B is too narrow, since a single run produces the distances to all nodes, not just to one target.",
+    "issue": "Old text was 'Read about Dijkstra.' - no mechanism, no justification, and no way to see why D beats the very similar B."
+  },
+  {
+    "id": "mock2018-q029",
+    "verdict": "rewritten",
+    "explanation": "In Fig. 2.5.2 the top gate is an AND with a bubble (NAND) on A and B, giving NOT(A AND B), the bottom gate is an AND on B and C, giving B AND C, and the OR gate combines them: X = NOT(A AND B) + (B AND C). Option C is the De Morgan trap, since NOT(A AND B) = NOT A + NOT B, not NOT A AND NOT B.",
+    "issue": "Old text was 'Review Synthesis of Digital Circuits.' It did not trace the circuit or distinguish A from the near-identical option C. Figure read: NAND(A,B) and AND(B,C) feeding an OR gate, so key A is confirmed."
+  },
+  {
+    "id": "mock2018-q030",
+    "verdict": "rewritten",
+    "explanation": "The truth table in Fig. 2.5.4 gives X = 0, 0, 1, 1 for AB = 00, 01, 10, 11, so X simply equals A. By the absorption law A AND (A + B) = A, so option B reproduces the table; A + B fails on AB = 01 (gives 1, table says 0), (A AND NOT B) + B fails on AB = 01, and A + NOT B fails on AB = 00.",
+    "issue": "Old text was 'Review Sum-of-Products basics.' No arithmetic, no row-by-row check. Table read from figure confirms X = A, and B is the only option equal to A."
+  },
+  {
+    "id": "mock2018-q031",
+    "verdict": "rewritten",
+    "explanation": "The marked cell in Fig. 2.5.7 sits in column AB = 10 and row CD = 01, so A = 1, B = 0, C = 0, D = 1. The minterm for those values is A AND NOT B AND NOT C AND D.",
+    "issue": "Old text was 'Review K-Map basics.' It did not decode the cell coordinates, which is the entire question. Figure confirms the shaded cell is at AB = 10, CD = 01, so key B is right."
+  },
+  {
+    "id": "mock2018-q032",
+    "verdict": "rewritten",
+    "explanation": "The map has eight 1s. Cell (AB = 10, CD = 01) has only one 1-neighbour (AB = 00, CD = 01, via column wraparound) and cell (AB = 10, CD = 10) has only one 1-neighbour (AB = 11, CD = 10), so each of those must sit in its own pair, and neither pair can grow to a quad. That forces at least: the quad B AND NOT D (AB = 01/11 with CD = 00/10), those two pairs, and one more pair to pick up (AB = 00, CD = 00), giving four groups; an exhaustive check confirms no three-group cover exists.",
+    "issue": "Old text was 'Review K-Map basics.' No counting, no cover argument. I brute-forced every valid implicant with wraparound over the 1s read from the figure: the minimum cover is exactly 4 groups, so key C is confirmed."
+  },
+  {
+    "id": "mock2018-q033",
+    "verdict": "rewritten",
+    "explanation": "Fig. 2.5.6 is the classic four-NAND network: N1 = NOT(A AND B), N2 = NOT(A AND N1), N3 = NOT(B AND N1), X = NOT(N2 AND N3) = A AND NOT B, OR NOT A AND B. That output is 0, 1, 1, 0 for AB = 00, 01, 10, 11, which is XOR.",
+    "issue": "Old text was 'Review Synthesis of Digital Circuits.' I simulated the four-NAND network from the figure: outputs are 0,1,1,0, i.e. XOR, so key C is confirmed."
+  },
+  {
+    "id": "mock2018-q034",
+    "verdict": "rewritten",
+    "explanation": "In Fig. 4.5.1 the two NAND gates take (C, A) and (NOT C, B), and the output NAND gives X = (A AND C) + (B AND NOT C): C selects A when C = 1 and B when C = 0. That is a 2-to-1 multiplexer, which is the same thing as a data selector.",
+    "issue": "Old text ('Data Selector is the same as a Multiplexer') was true but never showed that the circuit is a multiplexer. I simulated it: X = A when C = 1, X = B when C = 0, confirming key C."
+  },
+  {
+    "id": "mock2018-q035",
+    "verdict": "rewritten",
+    "explanation": "Propagation time (propagation delay) is the interval between a change at a gate input and the resulting change at its output, normally measured between the 50 percent points of the two waveforms. Rise time is the 10 to 90 percent transition of a pulse and decay time the 90 to 10 percent transition, so both describe the shape of one edge, not the input-to-output response of the gate.",
+    "issue": "Old text defined rise and decay time but never defined propagation time, so it eliminated distractors without justifying the keyed answer D."
+  }
+]

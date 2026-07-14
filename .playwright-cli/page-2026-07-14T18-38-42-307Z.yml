@@ -1,0 +1,24 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - main [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e9]:
+          - heading "Pick up where you left off?" [level=1] [ref=f3e10]
+          - paragraph [ref=f3e11]: Mock Exam, 1 of 10 questions answered, started just now.
+          - paragraph [ref=f3e12]: 59:50 left on the clock.
+        - generic [ref=f3e13]:
+          - button "Resume quiz" [ref=f3e14] [cursor=pointer]
+          - button "Discard it and start fresh" [ref=f3e17] [cursor=pointer]
+    - navigation "Primary" [ref=f3e18]:
+      - generic [ref=f3e19]:
+        - link "Home" [ref=f3e20] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=f3e24] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=f3e28] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=f3e32] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e36]

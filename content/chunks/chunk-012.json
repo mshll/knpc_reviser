@@ -1,0 +1,833 @@
+[
+  {
+    "id": "ce2016-q031",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to D-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 31
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ead73312d0d6884af4a7b51730dac4ca05505af3"
+  },
+  {
+    "id": "ce2016-q032",
+    "type": "worked_problem",
+    "topic": "number-systems",
+    "subtopic": "binary-addition-overflow",
+    "stem": "Binary Numbers, what's the result and overflow of the following?",
+    "stemCode": "  1110 0000\n+ 1100 0000\n--------------------------------",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "1 1010 0000",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 32
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "5750678602ee22d65016625fbf75f991abdafd0c"
+  },
+  {
+    "id": "ce2016-q033",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "communication-services",
+    "stem": "Which one of the following is a way for communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATS",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "DDT",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DDD",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DTS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "WATS (Wide-Area Telephone Service).",
+    "explanationSource": "source",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 33
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0d3b2587a26092356c34f22041d79937275208c6"
+  },
+  {
+    "id": "ce2016-q034",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "When does “Hash Clustering” happen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two nodes map to the same hashed value.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Finding some other position when hash address is occupied.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "When a program crashes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "When each node is assigned to a unique hashed value.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 34
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "0a390061f3ebbffbdad2d936db7838eac3b4b723"
+  },
+  {
+    "id": "ce2016-q035",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "troubleshooting",
+    "stem": "A technician could not connect to server, ipconfing on the server works ok. How to proceed in troubleshooting the problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ping.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ping gateway.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "check server.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Tracert from host to the server.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 35
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ab025e935d2de28c947eadbadd13521387c2e1e5"
+  },
+  {
+    "id": "ce2016-q036",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "counters",
+    "stem": "Which flip flop is used to implement a counter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "D-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "JK-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "T-flipflop",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "SR-flipflop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 36
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "7ef6192457602d405ea20096f58722088459e3d4"
+  },
+  {
+    "id": "ce2016-q037",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-storage",
+    "stem": "What are the circles on the CD?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tracks",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Sectors",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Clusters",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Headers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 37
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "3aea55dcc7e691ea39a80a7395993e26b4fcfa98"
+  },
+  {
+    "id": "ce2016-q038",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "What is the best sorting algorithm from the following list?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Heap Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Quick Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Insertion Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Radix Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 38
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a8a40f6ad001e30861a8df71dbdd84b4335bf76a"
+  },
+  {
+    "id": "ce2016-q039",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is the output of the following (C++ Code)?",
+    "stemCode": "int n;\nfor (n = 5; n > 0; n--) {\n     cout << n;\n     if (n == 3)\n        break;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "543",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "54",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "54321",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "543210",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 39
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "85d9c8a747442a62353c71195f319c4f58cab8fe"
+  },
+  {
+    "id": "ce2016-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "arp",
+    "stem": "The address resolution Protocol (ARP) is used to _________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find the IP address corresponding to MAC address.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Find the port address corresponding to an IP address.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Find the MAC address corresponding to an IP address.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Find the IP address from the DNS.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 40
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2683a41e7c710c744b81db3384770312808d65cc"
+  },
+  {
+    "id": "ce2016-q041",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "What is the size of the MAC address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "48-bits.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "64-bits.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 41
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "cbde35a5a38ca14d8a1355add3123f5548cb2b54"
+  },
+  {
+    "id": "ce2016-q042",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Mac address is an Example of _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 42
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "58645d5b9f90d1babcd1da8a7012f348fb9c9dcd"
+  },
+  {
+    "id": "ce2016-q043",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "atm",
+    "stem": "Packet length in ATM Network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "50 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "53 Bytes.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Variable Length.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 43
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e8415520e0a157225f85d7a2ed94045d2d7d8fb8"
+  },
+  {
+    "id": "ce2016-q044",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search-tree",
+    "stem": "A Binary Tree is considered a Binary Search Tree if:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The key in each node is greater than all keys stored in the left sub-tree, and smaller than all keys in the right sub-tree.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The key in each node is smaller than all keys stored in the left sub-tree, and greater than all keys in the right sub-tree.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The key in a parent node is greater than all keys of its children nodes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "For each node, the number of nodes in left sub-tree is equal to the number of nodes in the right sub-tree.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 44
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ca1c4298537bf5a57b095e94a16a540c2bc4cf98"
+  },
+  {
+    "id": "ce2016-q045",
+    "type": "true_false",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM cell is associated with identifier called address.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 45
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "9d8d1b0ae8fe5585d9da62b84205bd9e55a89847"
+  },
+  {
+    "id": "ce2016-q046",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "Random Access Memory is?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Volatile.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Non-Volatile.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EPROM.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 46
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "592428b48a6b97d19ab2c2debf73fc2c09d4cfc6"
+  },
+  {
+    "id": "ce2016-q047",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Most Popular DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Oracle.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 47
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b88ea6a940242d3fba27761576e22e75d1c50906"
+  },
+  {
+    "id": "ce2016-q048",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "(1100)₂ = ( _________ )₁₀ ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "12",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 48
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b124524c4b1ade45d1deecbcdef614fadb3ec205"
+  },
+  {
+    "id": "ce2016-q049",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "Which one of the following is NOT a computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "File Server.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Workstation.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Personal Computer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 49
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d537aef9be4b64b82aa8b85edf3d20eaa4b05234"
+  },
+  {
+    "id": "ce2016-q050",
+    "type": "worked_problem",
+    "topic": "digital-logic",
+    "subtopic": "k-maps",
+    "stem": "What is the function represented below?",
+    "stemFigure": "/figures/ce2016-q050.png",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "F = x₃'",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 50
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "b0317b662e817dad24be0a9326b59371a14a691b"
+  }
+]

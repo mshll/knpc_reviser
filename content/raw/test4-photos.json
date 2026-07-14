@@ -1,0 +1,4542 @@
+[
+  {
+    "id": "bank-c-q001",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "Which of the following retains the information it's storing when the power to the system is turned off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DIMM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q002",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan-wan",
+    "stem": "A network of computers and other devices that is confined to a relatively small space is called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wide Area Network",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Local Area Network",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Global Network",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Peer-to-Peer Network",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q003",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Every computer connected to the Internet is identified by a unique four-part string, known as",
+    "options": [
+      {
+        "label": "A",
+        "text": "IP address",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Host name",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Domain name",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q004",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "ENIAC was the first general-purpose electronic computer. ENIAC stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Electronic Network Interactive Analytic Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Electronic Numerical Integrator and Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Electronic Network Integrated Analytical Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Electronic Numerical Integrated Automatic Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q005",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "Which of the following statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 KB =1024 bytes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "1 MB=2048 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 MB = 1000 kilobytes",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 KB = 1000 bytes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q006",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram-types",
+    "stem": "Which of the following memories must be refreshed many times per second?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Static RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dynamic RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "EPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q007",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": ".PNG refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Image file",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Movie/animation file",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Audio file",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MS Office document",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q008",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "USB is a device used to store data and it stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unlimited Service Band",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Unlimited Serial Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Universal Serial Bus",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Universal Service Bus",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q009",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "voip",
+    "stem": "_____ is a technology that allows telephone calls to be made over computer networks like the Internet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "VoIP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "GSM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CDMA",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q010",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "A program that runs in the background on your computer, sending information about your browsing habits to the company that installed it on your computer is called as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pop-ups",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Adware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Grayware",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Spyware",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q011",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "Software is a set of programs, which is designed to perform a well defined function and there are two types of software, application and system. The following are all application software except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Excel",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft Power Point",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Microsoft Windows",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "1 Gigabyte (GB) is equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "1024 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1024 KB",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1024 MB",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "1024 TB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q013",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "The fourth generation computers are based on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transistor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Integrated circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "VLSI microprocessor",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ULSI microprocessor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q014",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "All the following are computer input devices except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Mouse",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joy Stick",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q015",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "A CD-RW has a speed rating of 12x 10x 32x. What do the three numbers refer to in order?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Write, rewrite, read",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Read, write, rewrite",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Rewrite, read, write",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Write, read, rewrite",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q016",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "volatility",
+    "stem": "The information stored in _____ is erased when the computer is turned off",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "BIOS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CPU",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q017",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "Malware is the short form for malicious software and used to refer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spyware",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Virus",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q018",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "data-protection",
+    "stem": "What is the best way to protect your hard drive data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Backup",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Defragmentation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Delete junk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "devices",
+    "stem": "The following device is used to connect two systems using different protocols",
+    "options": [
+      {
+        "label": "A",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Repeater",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Gateway",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bridge",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q020",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "languages",
+    "stem": "The computer language used for artificial intelligence is",
+    "options": [
+      {
+        "label": "A",
+        "text": "FOTRAN",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PROLOG",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "C",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "COBOL",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 21
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q021",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "open-source",
+    "stem": "Open source software is software whose source code is available for modification or enhancement by anyone. Which of the following is an example of open source software?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adobe Photoshop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Libre Office",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Skype",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q022",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": "JPEG seen with the .jpg or .jpeg filename extension is commonly used method for compression of digital images. What does JPEG stand for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Joint Picture Encoding Graphics",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Joint Photographic Experts Group",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Joint Photo Edit Grid",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joint Picture Express Grid",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q023",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "web",
+    "stem": "A \"URL\" is a formatted text string used by web browsers, email clients and other software to identify a network resource on the Internet. It stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Universal Resource Link",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Uniform Resource Locator",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Unlimited Resource Locator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Universal Reference Link",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q024",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "SD Card is a memory cards used in electronic equipments including digital cameras and cell phones. What does SD stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secure Digital",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Scan Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Short Drive",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Slot Disk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q025",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A byte is equivalent to",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "6 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8 bits",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "10 bits",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q026",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "A standard computer keyboard has how many keys?",
+    "options": [
+      {
+        "label": "A",
+        "text": "84",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "94",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "104",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "114",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "protocols",
+    "stem": "HTTP stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hyper Text Transfer Protocol",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Hyper Timed Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hopper Transfer Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Hopper Text Timer Protocol",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q028",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The capacity of 3-1/2 inch floppy is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.33MB",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1.44MB",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "1.34MB",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1.43MB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 29
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q029",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A character has how many bits:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 30
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q030",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "A program that allows us to do specific tasks is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Application software",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "System software",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Windows 2000",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Windows Xp",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 31
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q031",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "devices",
+    "stem": "In a computer network which device acts as a traffic cop:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Router",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hub",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Switch",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 32
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q032",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "terminology",
+    "stem": "The computer you are controlling or working via a network is called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remote computer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Local computer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Host computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Personal Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 33
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q033",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "WYSIWYG is an acronym for what?",
+    "options": [
+      {
+        "label": "A",
+        "text": "What You Saw Is What You Got",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "What You See Is What You Get",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "What You Seen Is What You Gotten",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "What You Sow Is What You Get",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 34
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q034",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "protocols",
+    "stem": "Which protocol sends electronic mail?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Outlook Express",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "POP3",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SMTP",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 35
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q035",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "cabling",
+    "stem": "What type of connector is used to plug a telephone line into a modem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "COM1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RJ-45",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RJ-11",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "RJ-10",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 36
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q036",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "boot-process",
+    "stem": "From what location are the 1st computer instructions available on boot up?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM BIOS",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "boot.ini",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CONFIG.SYS",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q037",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "troubleshooting",
+    "stem": "What could cause a fixed disk error.",
+    "options": [
+      {
+        "label": "A",
+        "text": "No-CD installed",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "bad ram",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "slow processor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Incorrect CMOS settings",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q038",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "troubleshooting",
+    "stem": "Missing slot covers on a computer can cause?",
+    "options": [
+      {
+        "label": "A",
+        "text": "over heat",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "power surges",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EMI.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "incomplete path for ESD",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q039",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "expansion-cards",
+    "stem": "When installing PCI NICS you can check the IRQ availability by looking at",
+    "options": [
+      {
+        "label": "A",
+        "text": "dip switches",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CONFIG.SYS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "jumper settings",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "motherboard BIOS",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "nic",
+    "stem": "With respect to a network interface card, the term 10/100 refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "protocol speed",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "a fiber speed",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "megabits per seconds",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "minimum and maximum server speed",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q041",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Which Motherboard form factor uses one 20 pin connector",
+    "options": [
+      {
+        "label": "A",
+        "text": "ATX",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "AT",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "BABY AT",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q042",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-geometry",
+    "stem": "A hard disk is divided into tracks which are further subdivided into:",
+    "options": [
+      {
+        "label": "A",
+        "text": "clusters",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "sectors",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "vectors",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "heads",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q043",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "esd-safety",
+    "stem": "A wrist grounding strap contains which of the following:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Surge protector",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Capacitor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Voltmeter",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Resistor",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q044",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "interfaces",
+    "stem": "Which standard govern parallel communications?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RS232",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RS-232a",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CAT 5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "IEEE 1284",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q045",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "In laser printer technology, what happens during the conditioning stage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The corona wire places a uniform positive charge on the paper",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A uniform negative charge is placed on the photosensitive drum",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A uniform negative charge is placed on the toner",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q046",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "maintenance",
+    "stem": "What product is used to clean smudged keys on a keyboard?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TMC solvent",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Silicone spray",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Denatured alcohol",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All-purpose cleaner",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q047",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "esd-safety",
+    "stem": "ESD would cause the most damage to which component?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Power supply",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Expansion board",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q048",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "dos",
+    "stem": "To view any currently running Terminate Stay Resident (TSR's) programs you could type:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MEM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "SYS /M",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Memmaker",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q049",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Which type of system board is the MOST likely candidate for processor upgrading if you want maximum performance and future compatibility?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ML",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PCI",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "ISA",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "EISA",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q050",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "maintenance",
+    "stem": "Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs) that will resolve the problem. What should you do after turning the power off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Replace all of the indicated FRUs at once and return the machine to the customer if the problem is resolved",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q051",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "UNIVAC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Universal Automatic Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Universal Array Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Unique Automatic Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unvalued Automatic Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "There are no computers with the name as in other options. UNIVAC was the first general purpose electronic digital computer designed for commercial use, produced by Universal Accounting Company of John Mauchly and J.P.Eckert in 1951.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q052",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "CD-ROM stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compactable Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Compact Data Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compactable Disk Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Compact Disk Read Only Memory",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "There are no objects with the name as in other options. CD-ROM is a non-volatile optical data storage medium using the same physical format as audio compact disk, readable by a computer with a CD-ROM drive. The standard 12 cm diameter CD-ROM store about 660 megabytes.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q053",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "ALU is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Arithmetic Logic Unit",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Array Logic Unit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Application Logic Unit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "ALU is a unit in Central Processing Unit in a computer system that is responsible for arithmetic calculations and logical operations. Apart from ALU, the CPU contains MU (Memory Unit) and CU (Control Unit).",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q054",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "VGA is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Video Graphics Array",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Visual Graphics Array",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Volatile Graphics Array",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Video Graphics Adapter",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "VGA is a type of Graphics Adapter. Graphic Adapter is an electronic board that controls the display of a monitor. This device helps the motherboard to work with the monitor and in VGA and SVGA the last letter 'A' stands for 'Array' whereas in MDA, CGA, MCGA the last letter 'A' stands for 'Adapter'.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q055",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "IBM 1401 is",
+    "options": [
+      {
+        "label": "A",
+        "text": "First Generation Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Second Generation Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Third Generation Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fourth Generation Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "IBM 1401 is a Second Generation Computer and is the first computer to enter Nepal in 2028 BS for census. Government of Nepal had brought this computer on rent and later purchased for data processing in Bureau of Statistics. After this computer, another ICL 2950/10, a British computer, was purchased by the fund of UNDP and UNFPA for the census of 2038 BS is second computer in Nepal.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q056",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "integration-scale",
+    "stem": "MSI stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Medium Scale Integrated Circuits",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Medium System Integrated Circuits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Medium Scale Intelligent Circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Medium System Intelligent Circuit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "After the invention of IC chips the development of computers plunged into next phase. Small Scale Integration and Medium Scale Integration (SSI and MSI) were used in third generation of computers and Large Scale Integration and Very Large Scale Integration (LSI and VLSI) are being used in fourth generation of computers. People are now expecting ULSI (Ultra Large Scale Integration) Circuits to be used for fifth generation computers.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q057",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The capacity of 3.5 inch floppy disk is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.40 MB",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1.44 GB",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1.40 GB",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1.44 MB",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ],
+    "explanation": "Microfloppy disks (3.5 inch) if it is high density (MF2HD) can store 1.44 MB and if it is low density (MF2DD), it can store 720 KB. Mini Floppy disks (5.25 inch) if it is high density (MD2HD) can store 1.2 MB and low density (MD2DD) stores 360 KB of data.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q058",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "The first computer introduced in Nepal was",
+    "options": [
+      {
+        "label": "A",
+        "text": "IBM 1400",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "IBM 1401",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "IBM 1402",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "IBM1402",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "IBM 1401, a second generation computer was brought in Nepal by the Government of Nepal paying One Lakh and twenty five thousands per month to use in the census in 2028 B.S. Before this computer, Nepal was using a calculating device called Facit for statistical tasks.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q059",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan-wan",
+    "stem": "WAN stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wap Area Network",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Wide Area Network",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Wide Array Net",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Wireless Area Network",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "There are three different classes of computer network namely, Local Area Network (LAN) that covers a small geographical area such as a room, a building or a compound; Metropolitan Area Network (MAN) that has a citywide coverage; and Wide Area Network (WAN) that covers the whole globe or beyond the globe.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q060",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "MICR stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Magnetic Ink Character Reader",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Magnetic Ink Code Reader",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Magnetic Ink Cases Reader",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "MICR (Magnetic Ink Character Reader) is kind of scanner that can scan and identify the writing of magnetic ink. This device is used in banks to verify signatures in Checks.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q061",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "character-encoding",
+    "stem": "EBCDIC stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Extended Binary Coded Decimal Interchange Code",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Extended Bit Code Decimal Interchange Code",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Extended Bit Case Decimal Interchange Code",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Extended Binary Case Decimal Interchange Code",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "EBCDIC is an 8-bit binary code for larger IBMs primarily mainframes in which each byte represent one alphanumeric character or two decimal digits. 256 characters can be coded using EBCDIC.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q062",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "bcd",
+    "stem": "BCD is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binary Coded Decimal",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bit Coded Decimal",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Binary Coded Digit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bit Coded Digit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "BCD is a binary coded notation in which each of the decimal digits is expressed as a 8-bit binary numeral. For example in binary coded decimal notation 12 is 0001 0010 as opposed to 1100 in pure binary.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q063",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "character-encoding",
+    "stem": "ASCII stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "American Stable Code for International Interchange",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "American Standard Case for Institutional Interchange",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "American Standard Code for Information Interchange",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "American Standard Code for Interchange Information",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "ASCII is a code which converts characters - letters, digits, punctuations and control characters such as Alt, Tab etc - into numeral form. ASCII code is used to represent data internally in micro-computers. ASCII codes are 7 bits and can represent 0 to 127 and extended ASCII are 8 bits that represents 0 to 255.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q064",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "Which of the following is first generation of computer",
+    "options": [
+      {
+        "label": "A",
+        "text": "EDSAC",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "IBM-1401",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CDC-1604",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ICL-2900",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "IBM-1401, CDC-1604 is second generation computer. ICL-2900 is a fourth generation computer. EDSAC is important in the development of computer since it was the first computer to use John von. Neumann's Stored Program Concept. It used 3000 vacuum tubes and computers with vacuum tubes are of first generation computers.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q065",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "Chief component of first generation computer was",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transistors",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Vacuum Tubes and Valves",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Integrated Circuits",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "Transistors were used for second generation computers and integrated circuits in third generation. First generation computers used vacuum tubes and valves as their main electronic component. Vacuum Tubes were invented by Lee DeForest in 1908.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q066",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "languages",
+    "stem": "FORTRAN is",
+    "options": [
+      {
+        "label": "A",
+        "text": "File Translation",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Format Translation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Formula Translation",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Floppy Translation",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "FORTRAN (Formula Translation) is one of the earlier High Level programming languages used to write scientific applications. It was developed by IBM in 1956.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q067",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom-types",
+    "stem": "EEPROM stand for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Electrically Erasable Programmable Read Only Memory",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Easily Erasable Programmable Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Electronic Erasable Programmable Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "There are three types of ROM namely, PROM, EPROM and EEPROM. PROM can't be reprogrammed, EPROM can be erased by exposing it in high intensity ultraviolet light and EEPROM can be erased and reprogrammed electrically. It is not needed to be removed from the computer to be modified.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q068",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "Second Generation computers were developed during",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949 to 1955",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1956 to 1965",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "1965 to 1970",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1970 to 1990",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "Second generation computers used transistors as their main electronic component. Transistor was invented by Bell Lab Scientists John Burdeen, Walter Brattain and William Shockley in 1947 and won the Nobel Prize in 1956 but it was not used in computers till 1956. The second generation continued until the implementation of IC chips invented by Jack Kilby in Texas Instruments in 1958.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q069",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "The computer size was very large in",
+    "options": [
+      {
+        "label": "A",
+        "text": "First Generation",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Second Generation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Third Generation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fourth Generation",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "It is obvious that computers developed with more power, reliability, speed and smaller sizes due to the enhancement of technology. First generation computers used 1000s of vacuum tubes that required lot of space made them gigantic in size. Single transistor could replace 1000 vacuum tubes and a single IC chip replaced 1000s of transistors made computers smaller and more speedy.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q070",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "Microprocessors as switching devices are for which generation computers",
+    "options": [
+      {
+        "label": "A",
+        "text": "First Generation",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Second Generation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Third Generation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fourth Generation",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "explanation": "Microprocessors further revolutionized the development of computers. Personal microcomputers were possible due to the microprocessors. The first microprocessor called Intel 4004 was developed by American Intel Corporation in 1971. Microprocessors are used in the computers of fourth generation computers.",
+    "explanationSource": "source"
+  },
+  {
+    "id": "bank-c-q071",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Which of the following devices can be sued to directly image printed text?",
+    "options": [
+      {
+        "label": "A",
+        "text": "OCR",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "OMR",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "MICR",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q072",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "The output quality of a printer is measured by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dot per inch",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dot per sq. inch",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dots printed per unit time",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q073",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "analog-digital",
+    "stem": "In analog computer",
+    "options": [
+      {
+        "label": "A",
+        "text": "Input is first converted to digital form",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Input is never converted to digital form",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Output is displayed in digital form",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q074",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "parallelism",
+    "stem": "In latest generation computers, the instructions are executed",
+    "options": [
+      {
+        "label": "A",
+        "text": "Parallel only",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sequentially only",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Both sequentially and parallel",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q075",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "Who designed the first electronics computer - ENIAC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Van-Neumann",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Joseph M. Jacquard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "J. Presper Eckert and John W Mauchly",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q076",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "languages",
+    "stem": "Who invented the high level language c?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dennis M. Ritchie",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Niklaus Writh",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Seymour Papert",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Donald Kunth",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q077",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "Personnel who design, program, operate and maintain computer equipment refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Console-operator",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Programmer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Peopleware",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "System Analyst",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q078",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "When did arch rivals IBM and Apple Computers Inc. decide to join hands?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1978",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1984",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1990",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1991",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q079",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "Human beings are referred to as Homosapinens, which device is called Sillico Sapiens?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hardware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Robot",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Computer",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q080",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "An error in software or hardware is called a bug. What is the alternative computer jargon for it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leech",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Squid",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Slug",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Glitch",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q081",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "Modern Computer are very reliable but they are not",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fast",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Powerful",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Infallible",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Cheap",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q082",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "display",
+    "stem": "What is the name of the display feature that highlights are of the screen which requires operator attention?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pixel",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Reverse video",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Touch screen",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cursor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q083",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "IMB launched its first personal computer called IBM-PC in 1981. It had chips from Intel, disk drives from Tandon, operating system from Microsoft, the printer from Epson and the application software from everywhere. Can you name the country which contributed the video display?",
+    "options": [
+      {
+        "label": "A",
+        "text": "India",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "China",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Germany",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Taiwan",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q084",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Personal computers use a number of chips mounted on a main circuit board. What is the common name for such boards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter board",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Father board",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Breadboard",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q085",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "In most IBM PCs, the CPU, the device drives, memory expansion slots and active components are mounted on a single board. What is the name of this board?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Breadboard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Daughter board",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Grandmother board",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q086",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "What is meant by a dedicated computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Which is used by one person only",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Which is assigned one and only one task",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Which uses one kind of software",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Which is meant for application software",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q087",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "system-unit",
+    "stem": "The system unit of a personal computer typically contains all of the following except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microprocessor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Disk controller",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Serial interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q088",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "translators",
+    "stem": "A computer program that converts an entire program into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Simulator",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Commander",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q089",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "translators",
+    "stem": "A computer program that translates one program instructions at a time into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Simulator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q090",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "A small or intelligent device is so called because it contains within it a",
+    "options": [
+      {
+        "label": "A",
+        "text": "Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microcomputer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Programmable",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Sensor",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q091",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The ALU of a computer responds to the commands coming from",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Control section",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "External memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cache memory",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q092",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-operations",
+    "stem": "The act of retrieving existing data from memory is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-out",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Read from",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Read",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q093",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "terminology",
+    "stem": "All modern computer operate on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Information",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Floppies",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Word",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q094",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "representation",
+    "stem": "Instructions and memory address are represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Character code",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Binary codes",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Binary word",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Parity bit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q095",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "character-encoding",
+    "stem": "Which of the following code used in present day computing was developed by IBM Corporation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ASCII",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hollerith Code",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Baudot Code",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "EBCDIC Code",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q096",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "What is the latest write-once optical storage media?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Digital paper",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Magneto-optical disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "WORM disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CD-ROM disk",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q097",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "The most important advantage of a video disk is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compactness",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Potential capacity",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Durability",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cost effectiveness",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q098",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "magnetic-tape",
+    "stem": "What is the number of read-write heads in the drive for a 9-trac magnetic tape?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "18",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "27",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q099",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-geometry",
+    "stem": "Before a disk drive can access any sector record, a computer program has to provide the record's disk address. What information does this address specify?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Track number",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sector number",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Surface number",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q100",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "As compared to diskettes, the hard disks are",
+    "options": [
+      {
+        "label": "A",
+        "text": "More expensive",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "More portable",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Less rigid",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Slowly accessed",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q101",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "Floppy disks which are made from flexible plastic material are also called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hard disks",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "High-density disks",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Diskettes",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Templates",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q102",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Regarding a VDU, Which statement is more correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is an output device",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It is an input device",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "It is a peripheral device",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "It is hardware item",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q103",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "What is the name of the computer terminal which gives paper printout?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Display screen",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Soft copy terminal",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hard copy terminal",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Plotter",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q104",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "Dot-matrix is a type of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tape",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "F",
+        "text": "Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "G",
+        "text": "Bus",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "E"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "flags": [
+      "legacy"
+    ]
+  },
+  {
+    "id": "bank-c-q105",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "The two kinds of main memory are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary and secondary",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Random and sequential",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ROM and RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q106",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "A kind of serial dot-matrix printer that forms characters with magnetically-charged ink sprayed dots is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laser printer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Ink-jet printer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Drum printer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Chan printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q107",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "Which printer is very commonly used for desktop publishing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laser printer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Inkjet printer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Daisywheel printer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dot matrix printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q108",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "An output device that uses words or messages recorded on a magnetic medium to produce audio response is",
+    "options": [
+      {
+        "label": "B",
+        "text": "Magnetic tape",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Voice response unit",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Voice recognition unit",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Voice band",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q109",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-operations",
+    "stem": "Which of the following will happen when data is entered into a memory location?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It will add to the content of the location",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It will change the address of the memory location",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "It will erase the previous content",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "It will not be fruitful if there is already some data at the location",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  },
+  {
+    "id": "bank-c-q110",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "buffering",
+    "stem": "A storage area used to store data to a compensate for the difference in speed at which the different units can handle data is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Buffer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Accumulator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Address",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Test 4.zip",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "flags": []
+  }
+]

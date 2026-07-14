@@ -1,0 +1,82 @@
+[
+  {
+    "id": "koc2012-q041",
+    "explanation": "OR outputs 1 whenever at least one input is 1, so 1 OR 1 = 1. Do not confuse OR with XOR: XOR would give 0 here because it outputs 1 only when the inputs differ."
+  },
+  {
+    "id": "koc2012-q042",
+    "explanation": "NOR is OR followed by NOT: 1 OR 1 = 1, then inverted gives 0. A NOR gate outputs 1 only when both inputs are 0."
+  },
+  {
+    "id": "koc2012-q043",
+    "explanation": "In an RS (SR) flip-flop, S is Set (drives Q to 1) and R is Reset (drives Q to 0). The other options are nonsense words placed to catch careless reading."
+  },
+  {
+    "id": "koc2012-q044",
+    "explanation": "R=1 with S=0 asserts the Reset input, so Q goes to 0. Option C is the trap: 'set to zero' misuses the word set, which in flip-flop terminology specifically means driving the output to 1. Note R=1 and S=1 together is the forbidden/invalid state."
+  },
+  {
+    "id": "koc2012-q045",
+    "explanation": "This is the standard textbook definition of a DBMS: software that controls creation, maintenance, and use of an organization's databases. True."
+  },
+  {
+    "id": "koc2012-q046",
+    "explanation": "The data dictionary is the system catalog: a computer-based directory of metadata (table names, column names, types, constraints, users), not a store of commands or of the user data itself."
+  },
+  {
+    "id": "koc2012-q047",
+    "explanation": "SQL stands for Structured Query Language. 'Standard Query Language' is the common trap answer."
+  },
+  {
+    "id": "koc2012-q048",
+    "explanation": "Metadata literally means data about data: it describes the structure of the stored data (schemas, field types, lengths) rather than being the data values themselves."
+  },
+  {
+    "id": "koc2012-q049",
+    "explanation": "The ANSI/SPARC three-schema architecture has three levels: internal (physical storage), conceptual (logical whole-database structure), and external (individual user views). Separating them is what gives physical and logical data independence."
+  },
+  {
+    "id": "koc2012-q050",
+    "explanation": "The DBA and database designer define schemas with the Data Definition Language (DDL) - statements like CREATE TABLE and ALTER TABLE. The trap is option D: DML is Data Manipulation Language (SELECT/INSERT/UPDATE/DELETE), which operates on data, not on schema definitions."
+  },
+  {
+    "id": "koc2012-q051",
+    "explanation": "MS-Access is a desktop relational DBMS used to create and manage databases, so True. Careful with the labels here: True is option B, not A."
+  },
+  {
+    "id": "koc2012-q052",
+    "explanation": "MS-Excel is a spreadsheet application, so the statement is True."
+  },
+  {
+    "id": "koc2012-q053",
+    "explanation": "A file is defined as a collection of related records/data, so True. Note the label order is reversed on this item: True is option B."
+  },
+  {
+    "id": "koc2012-q054",
+    "explanation": "The four common file organization methods taught here are sequential, index-sequential, random (direct), and multi-key. Option A supplies the first two and option B the second two, so only 'D: 1 and 2' covers the full set. Option C is a decoy because it says 'serial' rather than 'sequential'."
+  },
+  {
+    "id": "koc2012-q055",
+    "explanation": "Common data file types include master, transaction, and history files (option 1) and table, control, and report files (option 3), so the answer is 'D: 1 and 3'. Option B (large/medium/small) is not a classification of file type at all, which is the giveaway."
+  },
+  {
+    "id": "koc2012-q056",
+    "explanation": "A data block is the smallest unit of data that can be transferred to or from secondary storage in a single access; the disk cannot read half a block. Option C is the trap: a block usually holds several records (blocking factor), so it is not one record."
+  },
+  {
+    "id": "koc2012-q057",
+    "explanation": "True. A physical write is the actual transfer of a buffer's contents out to the external file/device, as opposed to a logical write, which only moves a record into the program's buffer in memory."
+  },
+  {
+    "id": "koc2012-q058",
+    "explanation": "True per the course definition: the blocking routine sits between the file and the program, reading a whole block from disk once and then handing the program one record (component) at a time. Strictly speaking, splitting a block into records is called de-blocking, so the wording is loose, but the intended answer is True."
+  },
+  {
+    "id": "koc2012-q059",
+    "explanation": "False. Odd parity sets the parity bit so the total number of 1 bits is ODD; the stem describes EVEN parity. Careful with the labels: False is option A here."
+  },
+  {
+    "id": "koc2012-q061",
+    "explanation": "A secondary key is any field other than the primary key that is used as an access key to retrieve records. The trap is reading 'secondary' positionally: it has nothing to do with being the second key or second field in the record."
+  }
+]

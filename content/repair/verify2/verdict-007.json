@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ce2016-q072",
+    "myAnswer": ["F = XZ + X'Z'"],
+    "confidence": 0.95,
+    "derivation": "Read PNG: rows=WX, cols=YZ (Gray order 00,01,11,10), red cell indices confirm minterm numbering. 1s at m0,m2,m5,m7,m8,m10,m13,m15. Group {0,2,8,10}: X=0,Z=0, W/Y free -> X'Z'. Group {5,7,13,15}: X=1,Z=1, W/Y free -> XZ. F = XZ + X'Z' (X XNOR Z).",
+    "defective": false,
+    "shippedAnswer": ["F = X Z + X'Z'"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q073",
+    "myAnswer": ["(77)10 = (4D)16 = (115)8"],
+    "confidence": 0.99,
+    "derivation": "python3: 0b1001101 = 77 dec, 0x4d, 0o115. Verified by execution, not inference.",
+    "defective": false,
+    "shippedAnswer": ["( 77 )10 = ( 4D )16 = (115)8"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q074",
+    "myAnswer": ["(14026)10 = (11011011001010)2 = (33312)8"],
+    "confidence": 0.99,
+    "derivation": "python3: 0x36CA = 14026 dec, bin 0b11011011001010, oct 0o33312. Round-tripped int('11011011001010',2)=14026 and int('33312',8)=14026.",
+    "defective": false,
+    "shippedAnswer": ["(14026)10 = (11011011001010)2 = (33312)8"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q075",
+    "myAnswer": ["A: MOVE R1,R2 | B: MOVE #X,R1 | C: MOVE (A0),R1 | D: MOVE X(A0),R1"],
+    "confidence": 0.85,
+    "derivation": "Open-ended. Register direct = operand is register contents (MOVE R1,R2); immediate = literal in the instruction (MOVE #X,R1); register indirect = register holds the address, operand at [A0]; indexed register indirect = displacement added to base register, operand at [[A0]+X]. All four shipped examples are valid 68000-style forms and match their mode definitions.",
+    "defective": false,
+    "shippedAnswer": ["A. Move R1,R2; B. Move #X,R1; C. Move (A0),R1; D. Move X(A0),R1"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q076",
+    "myAnswer": ["Q = 1, 1, 0, 1 after the four rising edges (Q starts 0)"],
+    "confidence": 0.92,
+    "derivation": "Read stem PNG: 4 clock rising edges. Sampling T only at those rising edges gives T = 1, 0, 1, 1. Positive-edge T-FF: toggle on T=1, hold on T=0. From Q=0: edge1 toggle->1, edge2 hold->1, edge3 toggle->0, edge4 toggle->1. Independently derived, then confirmed against the model-answer PNG, which shows Q rising at edge1, holding high past edge2, falling at edge3, rising at edge4.",
+    "defective": false,
+    "shippedAnswer": ["See model-answer figure (Q drawn beneath Clock and T)"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q002",
+    "myAnswer": ["B"],
+    "confidence": 0.85,
+    "derivation": "First standardized Ethernet (DIX / IEEE 802.3 10BASE5) ran at 10 Mbps. The 1973 Xerox PARC prototype was 2.94 Mbps but is not among the options; 100 Mbps is Fast Ethernet (1995). B = 10 Mbps.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q003",
+    "myAnswer": ["B"],
+    "confidence": 0.85,
+    "derivation": "DDS = Dataphone/Digital Data Service, a digital leased-line service. DDD (Direct Distance Dialing) and WATS (Wide Area Telephone Service) are analog switched-telephone services; DDT is not a telecom service. B.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q004",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "Prim (and Kruskal, not offered) solve MST. Dijkstra minimizes source-to-node path cost, not total tree weight; Huffman builds prefix codes; DFS is a traversal. B. Unique correct option here.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q005",
+    "myAnswer": ["C"],
+    "confidence": 0.8,
+    "derivation": "Dijkstra is the canonical single-source shortest-path algorithm, so C is the intended key. BUT option A (Bellman-Ford) is ALSO a correct shortest-path algorithm (and strictly more general: handles negative edge weights). Two correct options = broken MCQ. Key intent C is still right; the item needs the Bellman-Ford distractor replaced.",
+    "defective": true,
+    "shippedAnswer": ["C"],
+    "agreement": "defective"
+  },
+  {
+    "id": "knpc2016-q006",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "int *p; declares a pointer (capital 'Int' is an OCR artifact). A (int &p) is a reference, not a pointer (and is ill-formed uninitialized); C is a plain value; 'Ptr' is not a C++ type. B.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q007",
+    "myAnswer": ["Q(t+1) = D: (Q=0,D=0)->0, (Q=0,D=1)->1, (Q=1,D=0)->0, (Q=1,D=1)->1"],
+    "confidence": 0.97,
+    "derivation": "D flip-flop latches its input on the clock edge, so Q(t+1) = D regardless of present state Q. Content of the key is correct and matches the PNG. DEFECT: the completed truth table is attached as stemFigure, i.e. the question displays its own answer. It should be answerFigure, not stemFigure.",
+    "defective": true,
+    "shippedAnswer": ["Q=0,D=0 -> 0; Q=0,D=1 -> 1; Q=1,D=0 -> 0; Q=1,D=1 -> 1"],
+    "agreement": "defective"
+  },
+  {
+    "id": "knpc2016-q008",
+    "myAnswer": ["D"],
+    "confidence": 0.9,
+    "derivation": "A row in a relational table is a record (a.k.a. tuple). Field and column both name the vertical/attribute dimension; 'Entry' is not standard terminology for a row. D.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q009",
+    "myAnswer": ["A"],
+    "confidence": 0.97,
+    "derivation": "DROP TABLE (DDL) removes the table object, structure and catalog definition. DELETE (DML) removes rows only and leaves the empty table. A.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q010",
+    "myAnswer": ["B"],
+    "confidence": 0.85,
+    "derivation": "A Network Operating System is the software layer providing shared access to files/printers plus accounts and permissions. A router only forwards packets; IOS is one vendor's router OS. B. (Option D 'I don't remember' is a crowd-source artifact, already flagged hedged_option; does not affect the key.)",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "knpc2016-q011",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "Different IPs = different subnets; joining distinct IP networks requires a layer-3 forwarding decision, which is the router's job. Switch/hub/bridge are layer 1-2 and only extend one broadcast domain. A.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

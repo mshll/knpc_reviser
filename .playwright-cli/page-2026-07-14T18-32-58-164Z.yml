@@ -1,0 +1,27 @@
+- generic [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - button "End quiz" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]:
+          - text: "4"
+          - generic [ref=e12]: / 5
+        - generic "Time elapsed" [ref=e13]: 00:11
+        - button "Open question map" [ref=e16] [cursor=pointer]
+      - main [ref=e21]:
+        - article [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Data Structures and Algorithms
+            - generic [ref=e116]: KNPC 2021
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: Answer unverified
+          - heading "What does a node do in a linked list?" [level=2] [ref=e122]
+          - textbox "Your answer" [ref=e124]:
+            - /placeholder: "Work it out here. Nothing is auto-graded: you mark yourself when the model answer appears."
+      - generic [ref=e50]:
+        - button "Previous question" [ref=e83] [cursor=pointer]
+        - button "Skip" [ref=e51] [cursor=pointer]
+        - button "Show answer" [active] [ref=e125] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e55]

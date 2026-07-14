@@ -1,0 +1,79 @@
+[
+  {
+    "id": "koc2012-q090",
+    "verdict": "ok",
+    "explanation": "A data dictionary is the metadata repository holding descriptions of data objects: table names, column names, data types, and constraints, for programmers and other users to consult. A stored procedure is executable code, not a description of data."
+  },
+  {
+    "id": "koc2012-q091",
+    "verdict": "ok",
+    "explanation": "Putting tablespaces on separate physical disks lets their reads and writes proceed in parallel on different spindles and controllers, minimizing I/O contention on any single disk. It does not increase tablespace size, and fragmentation is a separate concern."
+  },
+  {
+    "id": "koc2012-q092",
+    "verdict": "ok",
+    "explanation": "In Oracle, NULL means the value is unknown, missing, or not applicable. It is not zero and not an empty string, which is why NULL = NULL does not evaluate to true and you must use IS NULL."
+  },
+  {
+    "id": "koc2012-q093",
+    "verdict": "ok",
+    "explanation": "The data hierarchy from largest to smallest is file > record > field: a file contains many records, and each record contains several fields (which in turn contain characters). Only D lists them in that order."
+  },
+  {
+    "id": "koc2012-q094",
+    "verdict": "ok",
+    "explanation": "An AND gate outputs 1 only when every input is 1, so 1 AND 1 = 1. Note options A and C print the same false claim, and 1 AND 0 = 0, not 1."
+  },
+  {
+    "id": "koc2012-q095",
+    "verdict": "ok",
+    "explanation": "An OR gate outputs 1 when at least one input is 1, so 0 OR 1 = 1. Every other option inverts a row of the truth table (1 OR 0 = 1, 1 OR 1 = 1, 0 OR 0 = 0)."
+  },
+  {
+    "id": "koc2012-q096",
+    "verdict": "rewritten",
+    "explanation": "vi is the standard UNIX visual editor, present on essentially every UNIX system, so D is the only real editor name listed. 'iv' is a letter-swap trap on vi, and 'edit' and 'editor' are not the names of the standard UNIX editor (the classic line editor is ed, and its screen version is vi).",
+    "issue": "Old text asserted flatly that 'edit' is not a UNIX editor; on several UNIX systems (BSD, Solaris) `edit` exists as a beginner mode of ex, so the claim is not strictly true. Rewrote to justify vi without the false absolute."
+  },
+  {
+    "id": "koc2012-q097",
+    "verdict": "ok",
+    "explanation": "mod returns the remainder of integer division: 17 = 3 * 5 + 2, so 17 mod 5 = 2. The distractor 3 is the quotient, not the remainder."
+  },
+  {
+    "id": "koc2012-q098",
+    "verdict": "rewritten",
+    "explanation": "Bit weights from the left are 64, 32, 16, 8, 4, 2, 1, so 1100010 = 64 + 32 + 2 = 98. The distractor 122 is a different bit pattern entirely (122 = 1111010).",
+    "issue": "Arithmetic was right but the distractor claim ('comes from misreading the bit positions') was vague guesswork; replaced with the checkable fact that 122 is 1111010, not 1100010."
+  },
+  {
+    "id": "koc2012-q099",
+    "verdict": "ok",
+    "explanation": "HF signals (3 to 30 MHz) are refracted back to earth by the ionosphere, so sky wave propagation carries them thousands of kilometres beyond the horizon. Surface waves attenuate quickly with distance, and space waves are line of sight and limited by the horizon."
+  },
+  {
+    "id": "koc2012-q100",
+    "verdict": "ok",
+    "explanation": "The seven OSI layers are Physical, Data Link, Network, Transport, Session, Presentation and Application. 'Communication' is not one of them, so it is the odd one out."
+  },
+  {
+    "id": "koc2012-q101",
+    "verdict": "ok",
+    "explanation": "ipconfig (ifconfig or ip on UNIX) prints the host's own configuration: IP address, subnet mask and default gateway. ping only tests reachability of another host, route shows the routing table, and SNMP is a management protocol rather than a host command."
+  },
+  {
+    "id": "koc2012-q102",
+    "verdict": "ok",
+    "explanation": "The subnet mask splits an IP address into a network ID (which network the host is on) and a host ID (which machine on that network). The MAC address is a separate layer 2 identifier and is not part of the IP address."
+  },
+  {
+    "id": "koc2012-q103",
+    "verdict": "ok",
+    "explanation": "The order is define, plan, get approval, implement, evaluate: you cannot plan what is not yet defined, approval gates spending on implementation, and evaluation only makes sense after delivery. B plans before defining and C evaluates before the project exists."
+  },
+  {
+    "id": "koc2012-q104",
+    "verdict": "ok",
+    "explanation": "1 PB = 1024 TB, so a terabyte is less than a petabyte. Every other option is smaller than a TB: 1000 MB is about 1 GB, 100 GB is 0.1 TB, and one million KB is also about 1 GB."
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "code-q024",
+    "type": "worked_problem",
+    "topic": "networking",
+    "subtopic": "subnetting",
+    "stem": "Your company has just been assigned the network 198.23.16.0. How many subnets and hosts-per-subnet you can create with a subnet mask of 255.255.255.252?",
+    "options": [],
+    "answerOptionLabels": [],
+    "answerText": "2^6 = 64 subnets, each with 2^2 - 2 = 2 hosts.",
+    "explanation": "198.23.16.0 -> first octet 198 (192-223) -> Class C -> default mask 255.255.255.0 (/24), i.e. 24 network bits. The given mask 255.255.255.252 ends in 1111 1100 = /30, so 30 - 24 = 6 bits are borrowed -> 2^6 = 64 subnets. Host bits left = 32 - 30 = 2 -> 2^2 - 2 = 2 usable hosts per subnet (the classic point-to-point /30).",
+    "referenceUrl": "http://www.9tut.com/subnetting-tutorial",
+    "source": {
+      "file": "[CE] Lecture.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "derived",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "263f3af19c817f3ee13f54aadf042ea5e657cfea"
+  },
+  {
+    "id": "bank-a-q001",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "volatile-vs-nonvolatile",
+    "stem": "Storage which stores or retains data after power off is called-",
+    "options": [
+      {
+        "label": "A",
+        "text": "Volatile storage",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Non-volatile storage",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Sequential storage",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Direct storage",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "188a4ea3aacf2847ba4aa0ab3d43e254332301d7"
+  },
+  {
+    "id": "bank-a-q002",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "A permanent memory, which halls data and instruction for start-up the computer and does not erase data after power off.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Network interface card",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "3d15a99f4c0464d0369e1da4bd0bed38e41c7a88"
+  },
+  {
+    "id": "bank-a-q003",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "dram",
+    "stem": "Which of the following memories must be refreshed many times per second?",
+    "options": [
+      {
+        "label": "A",
+        "text": "EPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Static RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dynamic RAM",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "400f5dd526cb92b6001d1f662aead10f9df09832"
+  },
+  {
+    "id": "bank-a-q004",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-hierarchy",
+    "stem": "USB-type storage device is -",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secondary",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Axillary",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Tertiary",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Primary",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "1594e7442df0769ade4f2beb4fa32485f627be22"
+  },
+  {
+    "id": "bank-a-q005",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "data-hierarchy",
+    "stem": "Which of the following places the common data elements in order from smallest to largest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Character, File, Record, Field, Database, File",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Character, Record, Field, Database, File",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Character, Field, Record, File, Database",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bit, Byte, Character, Record, Field, File, Database",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ac4d44fc86910b75ac63aee95e15de89f6835bd8"
+  },
+  {
+    "id": "bank-a-q006",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "backup-media",
+    "stem": "Which device is used to back up the data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Floppy Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tape",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Network Drive.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "legacy"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d03584c998b911033d3ea01149b8e7a8c0633168"
+  },
+  {
+    "id": "bank-a-q007",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "units",
+    "stem": "A half byte is known as_____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "bit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "half byte",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "nibble",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "398634be5c3ef7aa8c4cc111fe437e5e92f87ac4"
+  },
+  {
+    "id": "bank-a-q008",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "main-memory",
+    "stem": "Main memory of computer is -",
+    "options": [
+      {
+        "label": "A",
+        "text": "Internal",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "External",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "(A) and (B)both",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Auxiliary",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "263aba662bd038012d1d4be896ea5414954a33bf"
+  },
+  {
+    "id": "bank-a-q009",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-organisation",
+    "stem": "The contents of memory into blocks of the same size is called as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "EPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EEPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "a9e216b1b220598b5ca87a9b4cffa71eb3aca5e1"
+  },
+  {
+    "id": "bank-a-q010",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "What is the permanent memory built into your computer called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CD-ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8df4d209cdc4d55cb30613e4c1cddfd30210a7c8"
+  },
+  {
+    "id": "bank-a-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "With a CD you can...........",
+    "options": [
+      {
+        "label": "A",
+        "text": "read",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "write",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "read and write",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "either read or write",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "c577fbf4ddac48ebf86328161cbdf44bd7d03de4"
+  },
+  {
+    "id": "bank-a-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM is a.......memory-",
+    "options": [
+      {
+        "label": "A",
+        "text": "external",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "auxiliary",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "internal",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "main",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "none of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "fa6ff637dffc592c79ae3f808070035ce7cd0ec0"
+  },
+  {
+    "id": "bank-a-q013",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "__________ is the permanent memory built into your computer called.",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DVD-ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f8c09a7e330a4931dc73203364edefd625d53089"
+  },
+  {
+    "id": "bank-a-q014",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "magnetic-tape",
+    "stem": "Magnetic tape is not practical for applications where data must be quickly recalled because tape is __________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A random-access medium",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A sequential-access medium",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A read-only medium",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "An expensive storage medium",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e3b06fb5ca02e34c5476166f8b7b9d8a78a0d2d0"
+  },
+  {
+    "id": "bank-a-q015",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "core-memory",
+    "stem": "What is the main advantage of magnetic core memory over semiconductor RAM memory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More compact and smaller",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "More economical",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "A bit does not have to write after reading",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Non-volatile",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [
+      "legacy"
+    ],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "e7199fdafd8d4e013404128a28c2d9a31d3e8fbf"
+  },
+  {
+    "id": "bank-a-q016",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "hard-disk",
+    "stem": "Hard disc drives are considered.........storage-",
+    "options": [
+      {
+        "label": "A",
+        "text": "Flash",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Non-volatile",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Temporary",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Non-permanent",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "fdfdd8b1e01f900f44d9fe5902936b2c6bb829b3"
+  },
+  {
+    "id": "bank-a-q017",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "flash-memory",
+    "stem": "Flash is ................",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hardware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "PROM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "E REM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "none",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": true,
+    "dedupeHash": "a6b0bb91e7ca4588bc46ec4f653f3bfc54008f3f"
+  },
+  {
+    "id": "bank-a-q018",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "Permanent instructions that the computer uses when it is turned on and that cannot be changed by other instructions are contained in-",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ALU",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "DRAM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a8bdff7258f9a6230ab6805ead054e5b451651e8"
+  },
+  {
+    "id": "bank-a-q019",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "flash-memory",
+    "stem": "Flash memory is also called as __________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Flash RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Flash ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Flash DRAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Flash DROM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8ef0ce5419fe6a45c70ad1e2ced7044bc6a7224c"
+  }
+]

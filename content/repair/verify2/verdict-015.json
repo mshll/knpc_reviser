@@ -1,0 +1,137 @@
+[
+  {
+    "id": "koc2012-q105",
+    "myAnswer": ["B"],
+    "confidence": 0.98,
+    "derivation": "HTML is the markup language browsers parse to render pages; Pascal, Assembly and C author no page content.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q106",
+    "myAnswer": ["C"],
+    "confidence": 0.7,
+    "derivation": "Ethernet (bus/star), Token Ring (ring) and ATM are network technologies each associated with a physical layout; TCP/IP is a protocol suite with no layout at all, so it is the intended odd one out. Stem is loose - strictly none of the four is a topology - but TCP/IP is the only defensible best answer.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q107",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "An extranet is an intranet extended so authenticated outsiders reach part of it; intranet = no outside access, internet = fully public.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q108",
+    "myAnswer": ["D"],
+    "confidence": 0.97,
+    "derivation": "Plug and play = device auto-detected and configured on connection, so the buyer gets running with minimal technical knowledge, installation and delay.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q109",
+    "myAnswer": ["B"],
+    "confidence": 0.78,
+    "derivation": "Standard IT-literacy convention: a major upgrade yields a new version, a minor upgrade is a release. 'Preliminary test version' is a beta.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q110",
+    "myAnswer": ["B"],
+    "confidence": 0.99,
+    "derivation": "PowerPoint is the MS Office presentation app; Access = database, Project = scheduling, Java = language.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q111",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "A bridge segments a LAN so fewer stations contend for the same wire, reducing collisions. C is backwards (a bridge increases the count of collision domains) and D is false (bridges forward broadcasts). Stem says 'two purposes' but only one valid option is offered - the option list is truncated relative to the original CCNA item, though the single correct choice is still unambiguous.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q112",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "Telnet opens a terminal session on a remote multi-user host, so A and B are the same use restated; when both are true, 'Both of the above' wins.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q113",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "Tape is sequential-access streaming media (seek/rewind, lower sustained throughput in practice); disk is random-access. Copy times are not the same, so False.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q114",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "Code and data currently in use must reside in main memory (RAM) for the CPU to fetch; the CPU holds only registers/cache.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q115",
+    "myAnswer": ["B"],
+    "confidence": 0.95,
+    "derivation": "A full backup copies every file from disk to tape/disk regardless of change. A = differential (since last full), C = incremental (since last backup of any type).",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q116",
+    "myAnswer": ["A"],
+    "confidence": 0.8,
+    "derivation": "Silberschatz definition: a collection of processors that share neither memory nor a clock, each with local memory, communicating over a network. B and C describe consequences, not the defining property.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q117",
+    "myAnswer": ["B"],
+    "confidence": 0.75,
+    "derivation": "Canonical primary components: input devices, output devices, processor unit, memory, auxiliary storage - exactly B. C is that same list with memory silently removed, defensible only if 'processor unit' is defined to already include main memory. Option D is garbled ('iskette' for 'Diskette') but is clearly a distractor either way.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q001",
+    "myAnswer": ["C"],
+    "confidence": 0.97,
+    "derivation": "NIST essential characteristics: on-demand self-service, broad network access, resource pooling, rapid elasticity, measured service. Fixed capacity is the opposite of rapid elasticity.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "sample1-q002",
+    "myAnswer": ["C"],
+    "confidence": 0.99,
+    "derivation": "Fetch, decode, execute is by definition the instruction cycle; memory/bus cycle name the timing of a single access.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  }
+]

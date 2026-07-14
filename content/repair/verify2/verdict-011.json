@@ -1,0 +1,137 @@
+[
+  {
+    "id": "koc2012-q041",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "OR truth table: 1 OR 1 = 1, so the output is One.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q042",
+    "myAnswer": ["A"],
+    "confidence": 1.0,
+    "derivation": "NOR = NOT(OR): 1 OR 1 = 1, inverted gives 0, so the output is Zero.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q043",
+    "myAnswer": ["A"],
+    "confidence": 1.0,
+    "derivation": "In an RS/SR flip-flop R is Reset (Q->0) and S is Set (Q->1); the other options are nonsense words.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q044",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "R=1, S=0 asserts Reset, so Q goes to 0: 'the output is reset to zero'. Option C ('set to zero') describes the same end state in plain English but misuses 'set', which in flip-flop terminology means driving Q to 1; A is the only terminologically correct option.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q045",
+    "myAnswer": ["A"],
+    "confidence": 1.0,
+    "derivation": "This is the standard textbook definition of a DBMS, so the statement is True (label A).",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q046",
+    "myAnswer": ["C"],
+    "confidence": 0.98,
+    "derivation": "A data dictionary is the system catalog: a computer-based catalog/directory of metadata, not a store of commands.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q047",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "SQL = Structured Query Language; 'Standard Query Language' is the classic trap.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q048",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "Metadata is by definition data about data.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q049",
+    "myAnswer": ["C"],
+    "confidence": 1.0,
+    "derivation": "ANSI/SPARC three-schema architecture levels: internal, conceptual, external.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q050",
+    "myAnswer": ["C"],
+    "confidence": 0.97,
+    "derivation": "Schemas are defined with the Data Definition Language (DDL); DML (option D, also mislabelled 'Database Management Language') manipulates data, not schemas.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q051",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "MS-Access is a desktop RDBMS used to create databases, so True; on this item True is label B (option order reversed).",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q052",
+    "myAnswer": ["A"],
+    "confidence": 0.99,
+    "derivation": "MS-Excel is a spreadsheet program, so True; True is label A here.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q053",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "A file is a collection of related data/records, so True; True is label B on this item.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q054",
+    "myAnswer": ["D"],
+    "confidence": 0.7,
+    "derivation": "The canonical four file organizations are sequential, index-sequential, random/relative and multi-key. Option A gives the first two and option B the other two, so 'D: 1 and 2' is the complete set. Option C is the trap: it substitutes 'Serial' for 'Sequential'. Risk noted: if the source had written 'Sequential' in option C, C and D would be semantically identical and the item would be defective; as printed, D is the only complete correct set.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "koc2012-q055",
+    "myAnswer": ["D"],
+    "confidence": 0.55,
+    "derivation": "Option B (Large/Medium/Small) is obvious junk; options A (master, transaction, history) and C (table, control, report) both list real data-file types, so 'D: 1 and 3' is the union. Lower confidence because 'control file' is not in every textbook's file-type list; if the source list excluded it, A alone would be defensible. The A/B/C/D design pattern (a junk option plus a combining option) points to D.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  }
+]

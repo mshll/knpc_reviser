@@ -1,0 +1,32 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e3]:
+    - generic [ref=f3e1078]:
+      - generic [ref=f3e1080]:
+        - button "End quiz" [ref=f3e1081] [cursor=pointer]
+        - generic [ref=f3e1085]:
+          - text: "1"
+          - generic [ref=f3e1086]: / 1
+        - generic "Time elapsed" [ref=f3e1087]: 00:00
+        - button "Open question map" [ref=f3e1090] [cursor=pointer]
+      - main [ref=f3e1095]:
+        - article [ref=f3e1096]:
+          - generic [ref=f3e1097]:
+            - generic [ref=f3e1098]: Software Engineering
+            - generic [ref=f3e1099]: Mock exam 2018
+          - heading "In UML diagrams, relationship between object and component parts is represented by" [level=2] [ref=f3e1101]
+          - radiogroup "Options" [ref=f3e1102]:
+            - radio "Ordination." [ref=f3e1103] [cursor=pointer]:
+              - generic [ref=f3e1104]: A
+            - radio "Aggregation." [ref=f3e1107] [cursor=pointer]:
+              - generic [ref=f3e1108]: B
+            - radio "Increment." [ref=f3e1111] [cursor=pointer]:
+              - generic [ref=f3e1112]: C
+            - radio "Segregation." [ref=f3e1115] [cursor=pointer]:
+              - generic [ref=f3e1116]: D
+      - generic [ref=f3e1120]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=f3e1121] [cursor=pointer]
+        - button "Finish" [ref=f3e1122] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f3e35]: Quiz - KNPC Reviser

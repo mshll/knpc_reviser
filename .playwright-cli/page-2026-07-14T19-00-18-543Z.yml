@@ -1,0 +1,34 @@
+- generic [active] [ref=f5e1]:
+  - main [ref=f5e3]:
+    - generic [ref=f5e47]:
+      - generic [ref=f5e49]:
+        - button "End quiz" [ref=f5e50] [cursor=pointer]
+        - generic [ref=f5e54]:
+          - text: "1"
+          - generic [ref=f5e55]: / 1
+        - generic "Time elapsed" [ref=f5e56]: 00:00
+        - button "Open question map" [ref=f5e59] [cursor=pointer]
+      - main [ref=f5e64]:
+        - article [ref=f5e65]:
+          - generic [ref=f5e66]:
+            - generic [ref=f5e67]: Software Engineering
+            - generic [ref=f5e68]: KNPC 2021
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f5e69] [cursor=pointer]:
+              - generic [ref=f5e70]: Answer unverified
+          - heading "what is changing one requirement, while taking into account competing requirements" [level=2] [ref=f5e74]
+          - radiogroup "Options" [ref=f5e75]:
+            - radio "Software Stability" [ref=f5e76] [cursor=pointer]:
+              - generic [ref=f5e77]: A
+            - radio "Software Feasibility" [ref=f5e80] [cursor=pointer]:
+              - generic [ref=f5e81]: B
+            - radio "Software Consistency" [ref=f5e84] [cursor=pointer]:
+              - generic [ref=f5e85]: C
+            - radio "Software Maintainability" [ref=f5e88] [cursor=pointer]:
+              - generic [ref=f5e89]: D
+      - generic [ref=f5e93]:
+        - button "Previous question" [disabled]
+        - button "Skip" [ref=f5e94] [cursor=pointer]
+        - button "Finish" [ref=f5e95] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f5e33]

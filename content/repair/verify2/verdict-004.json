@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ce2016-q024",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "DNS = Domain Name System; 'Dynamic' belongs to DHCP, and the protocol resolves names, not networks.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q025",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "DHCP = Dynamic Host Configuration Protocol; 'Control' and 'Hyper' are the invented distractor words.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q026",
+    "myAnswer": ["B"],
+    "confidence": 1.0,
+    "derivation": "IPv4 address = 4 octets x 8 bits = 32 bits (2^32 ~ 4.3e9 addresses).",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q027",
+    "myAnswer": ["D"],
+    "confidence": 1.0,
+    "derivation": "IPv6 address = 8 hextets x 16 bits = 128 bits.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q028",
+    "myAnswer": ["T=0 -> Q(t+1)=Q(t) (hold); T=1 -> Q(t+1)=Q(t)' (toggle); Q(t+1) = T·Q(t)' + T'·Q(t) = T XOR Q(t)"],
+    "confidence": 1.0,
+    "derivation": "Canonical T flip-flop characteristic table; read /figures/ce2016-q028-answer.png and it matches answerText verbatim (2-row table plus equation Qt+1 = T Qt' + T' Qt).",
+    "defective": false,
+    "shippedAnswer": ["[T-FF] Truth Table: T=0 -> Q(t+1)=Q(t); T=1 -> Q(t+1)=Q(t)'; Equation -> Qt+1 = T Qt' + T' Qt"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q029",
+    "myAnswer": ["J=0,K=0 -> Q(t); J=0,K=1 -> 0; J=1,K=0 -> 1; J=1,K=1 -> Q(t)'; Q(t+1) = J·Q(t)' + K'·Q(t)"],
+    "confidence": 1.0,
+    "derivation": "Canonical JK flip-flop table (SR with 1,1 redefined as toggle); read /figures/ce2016-q029-answer.png and it matches answerText verbatim including equation Qt+1 = J Qt' + K' Qt.",
+    "defective": false,
+    "shippedAnswer": ["[JK-FF] Truth Table: 00->Q(t), 01->0, 10->1, 11->Q(t)'; Equation -> Qt+1 = J Qt' + K' Qt"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q030",
+    "myAnswer": ["D"],
+    "confidence": 0.92,
+    "derivation": "Tie J and K together to T (a wire, no gate). Brute-forced: Q+ = J·Q' + K'·Q with J=K=T gives T XOR Q on all 4 rows, exactly the T-FF.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q031",
+    "myAnswer": ["C"],
+    "confidence": 0.92,
+    "derivation": "J=D, K=D' requires one inverter. Brute-forced: J=D,K=NOT D gives Q+=D on all 4 rows; tying D to both J and K with no gate gives D XOR Q and fails 2 of 4 rows, so 'no gate' (D) is wrong.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q032",
+    "myAnswer": ["1 1010 0000"],
+    "confidence": 0.95,
+    "derivation": "Computed: 1110 0000 = 224, 1100 0000 = 192, sum = 416 = 1_1010_0000. 8-bit result 1010 0000 with carry-out 1 (unsigned overflow). Note as two's complement -32 + -64 = -96, which fits in 8 bits, so there is no SIGNED overflow; the item means the carry-out bit.",
+    "defective": false,
+    "shippedAnswer": ["1 1010 0000"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q033",
+    "myAnswer": ["A"],
+    "confidence": 0.7,
+    "derivation": "WATS = Wide-Area Telephone Service, a real telecom communication service; DDT (insecticide/debugger) and DTS (audio codec) are noise. Caveat: DDD = Direct Distance Dialing is also a genuine telephone service, so option C is arguably defensible; the item is weak but A is the intended and strongest answer.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q034",
+    "myAnswer": ["A"],
+    "confidence": 0.55,
+    "derivation": "Forced choice: A (keys piling onto the same hash address) is the closest description of clustering. Strictly, two keys mapping to one address is a COLLISION, and B (probing for another slot when the address is taken) is the linear-probing mechanism that actually produces primary clustering. The item is loosely worded; A is the best of a poor option set but the distinction collision-vs-clustering is blurred.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q035",
+    "myAnswer": ["D"],
+    "confidence": 0.65,
+    "derivation": "ipconfig on the server already validates the server's own stack/addressing, so C (check server) is redundant and the fault lies on the path. tracert from host to server localises the failing hop; bare 'ping' (A) gives only pass/fail and 'ping gateway' (B) tests just the first hop. Stem is typo-ridden ('ipconfing') but answerable.",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q036",
+    "myAnswer": ["C"],
+    "confidence": 0.8,
+    "derivation": "Counters advance by toggling bits; the T flip-flop toggles on each clock when T=1, so chained T-FFs form a ripple counter. A JK with J=K=1 behaves identically (so B is tempting), but T is the element defined for the job.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q037",
+    "myAnswer": ["A"],
+    "confidence": 0.85,
+    "derivation": "The circular/spiral rings of data on the disc surface are tracks. Sectors are angular subdivisions within a track; clusters are filesystem groups of sectors; headers are metadata fields.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "ce2016-q038",
+    "myAnswer": ["B"],
+    "confidence": 0.65,
+    "derivation": "Conventional keyed answer: Quick Sort averages O(n log n) with the smallest constant factors and sorts in place, so it is fastest in practice among the four. Caveat: 'best' is undefined here; heap sort is O(n log n) WORST case while quicksort degrades to O(n^2) with a bad pivot, so the item is arguable. B is the intended answer.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  }
+]

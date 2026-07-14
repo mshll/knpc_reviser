@@ -1,0 +1,36 @@
+- generic [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - button "End quiz" [ref=f10e7] [cursor=pointer]
+        - generic [ref=f10e11]:
+          - text: "3"
+          - generic [ref=f10e12]: / 5
+        - generic "Time elapsed" [ref=f10e13]: 00:59
+        - button "Open question map" [ref=f10e16] [cursor=pointer]
+      - main [ref=f10e21]:
+        - article [ref=f10e96]:
+          - generic [ref=f10e97]:
+            - generic [ref=f10e98]: General IT
+            - generic [ref=f10e99]: KOC 2012
+            - button "Answer unverified. This question came from a crowd-sourced recall of the exam. Its answer key could not be confirmed. Treat it with suspicion." [ref=f10e100] [cursor=pointer]:
+              - generic [ref=f10e101]: Answer unverified
+          - heading "What does \"plug and play\" mean?" [level=2] [ref=f10e105]
+          - radiogroup "Options" [ref=f10e106]:
+            - radio "To get systems to work, users must first plug circuit boards into \"play\" slots on the motherboard." [ref=f10e107] [cursor=pointer]:
+              - generic [ref=f10e108]: A
+            - radio "This is a term used to describe how easy the newest generation of computers are to \"play\"" [ref=f10e111] [cursor=pointer]:
+              - generic [ref=f10e112]: B
+            - radio "This is the term used to describe the various slots on the back of a system unit where the user \"plugs in\" devices in order to play games." [ref=f10e115] [cursor=pointer]:
+              - generic [ref=f10e116]: C
+            - radio "It means that the buyer of a new PC should be able to get the system up and running with a minimum of technical knowledge, installation, and delay." [ref=f10e119] [cursor=pointer]:
+              - generic [ref=f10e120]: D
+            - radio "Plug and play is a term coined by IBM to denote whether a computer device is \"Internet-ready\"." [ref=f10e123] [cursor=pointer]:
+              - generic [ref=f10e124]: E
+      - generic [ref=f10e37]:
+        - button "Previous question" [ref=f10e92] [cursor=pointer]
+        - button "Skip" [ref=f10e95] [cursor=pointer]
+        - button "Next" [active] [ref=f10e60] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f10e40]

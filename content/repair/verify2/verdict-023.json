@@ -1,0 +1,137 @@
+[
+  {
+    "id": "code-q013",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "BODMAS = Brackets, Orders, Division, Multiplication, Addition, Subtraction; restricted to the four listed operators that is Div, Mult, Add, Sub = option B. (Real C precedence puts * / % at one level above + -, consistent with B.)",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q014",
+    "myAnswer": ["D"],
+    "confidence": 1.0,
+    "derivation": "Compiled and ran with gcc: the trailing ';' makes the for body empty, loop exits with i=6, printf runs once -> output '6' = option D (verified by execution, not inference).",
+    "defective": false,
+    "shippedAnswer": ["D"],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q021",
+    "myAnswer": ["Class A, default subnet mask 255.0.0.0 (/8)"],
+    "confidence": 0.98,
+    "derivation": "First octet 11 (binary 00001011, leading bit 0) lies in 1-126 -> Class A -> default mask 255.0.0.0 = /8, 8 network bits / 24 host bits.",
+    "defective": false,
+    "shippedAnswer": ["Class A, default subnet mask 255.0.0.0 (/8)."],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q022",
+    "myAnswer": ["2^16 = 65,536 subnets, 2^8 - 2 = 254 hosts per subnet"],
+    "confidence": 0.82,
+    "derivation": "4.0.0.0 -> Class A, default /8. Mask 255.255.255.0 = /24, borrowed = 24-8 = 16 -> 2^16 = 65,536 subnets; host bits = 32-24 = 8 -> 2^8-2 = 254 usable hosts. Confidence <1 only because older ip-subnet-zero-excluded textbooks would say 65,534 subnets; the modern (2^borrowed) convention used here is the one the whole q022/q023/q024 set is internally consistent with (q023 would otherwise give 0 subnets).",
+    "defective": false,
+    "shippedAnswer": ["2^16 = 65,536 subnets, each with 2^8 - 2 = 254 hosts."],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q023",
+    "myAnswer": ["2^1 = 2 subnets, 2^15 - 2 = 32,766 hosts per subnet"],
+    "confidence": 0.92,
+    "derivation": "130 in 128-191 -> Class B, default /16. 255.255.128.0 = 11111111.11111111.10000000.00000000 = /17, borrowed = 17-16 = 1 -> 2 subnets; host bits = 32-17 = 15 -> 2^15-2 = 32,766 usable hosts.",
+    "defective": false,
+    "shippedAnswer": ["2^1 = 2 subnets, each with 2^15 - 2 = 32,766 hosts."],
+    "agreement": "agree"
+  },
+  {
+    "id": "code-q024",
+    "myAnswer": ["2^6 = 64 subnets, 2^2 - 2 = 2 hosts per subnet"],
+    "confidence": 0.92,
+    "derivation": "198 in 192-223 -> Class C, default /24. 255.255.255.252 (last octet 11111100) = /30, borrowed = 30-24 = 6 -> 2^6 = 64 subnets; host bits = 2 -> 2^2-2 = 2 usable hosts (classic point-to-point /30).",
+    "defective": false,
+    "shippedAnswer": ["2^6 = 64 subnets, each with 2^2 - 2 = 2 hosts."],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q011",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "A database is by definition an organized collection of interrelated records; spreadsheet/text file are storage tools and MIS is a system built on a database.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q012",
+    "myAnswer": ["C"],
+    "confidence": 0.85,
+    "derivation": "Standard MS-Access-flavoured item: 'Unlike filters, queries can be saved as OBJECTS in a database' - a query persists as a database object, a filter is transient. Stem is missing its blank placeholder (reads 'saved as in a database') but the intended blank and answer are unambiguous.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q013",
+    "myAnswer": ["A"],
+    "confidence": 0.93,
+    "derivation": "Records physically ordered by a key field = sequential file organization / sequential access method; direct (random) access computes addresses and imposes no stored order.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q014",
+    "myAnswer": ["A"],
+    "confidence": 0.55,
+    "derivation": "Of the four options only 'database created using a DBMS package' is actually a database, so A by elimination. WEAK ITEM: in real terminology an 'external database' is one residing outside the organization (e.g. a commercial online data service), which none of the options states; the stem/options pairing is crowd-sourced and semantically poor, though A is still the only defensible key.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q015",
+    "myAnswer": ["A"],
+    "confidence": 0.95,
+    "derivation": "Negative stem: DML = INSERT/DELETE/UPDATE/SELECT (options B, C, D). CREATE TABLE is DDL, so it is the one thing DML is NOT used for.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q016",
+    "myAnswer": ["C"],
+    "confidence": 0.95,
+    "derivation": "A minimal superkey (no removable attribute) is a candidate key; the primary key is merely the candidate key chosen by the designer.",
+    "defective": false,
+    "shippedAnswer": ["C"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q017",
+    "myAnswer": ["B"],
+    "confidence": 0.97,
+    "derivation": "A query nested inside another query's WHERE/HAVING clause is a subquery (nested query); the other three are not SQL terms.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q018",
+    "myAnswer": ["B"],
+    "confidence": 0.8,
+    "derivation": "A data dictionary holds metadata (names, types, constraints, where data is located); the physical size of the disk storage device is a hardware fact, not metadata -> B. NOTE: options C and D ('allows a many-to-many relationship', 'is conceptually simple') are corrupted fragments imported from a different question (network data model advantages); they are nonsense here but do not create ambiguity, so the key still holds. Worth repairing the distractors.",
+    "defective": false,
+    "shippedAnswer": ["B"],
+    "agreement": "agree"
+  },
+  {
+    "id": "dbbank-q019",
+    "myAnswer": ["A"],
+    "confidence": 0.9,
+    "derivation": "Data hierarchy = field < record < file < database; the field is the smallest of the listed entities processed as a single unit.",
+    "defective": false,
+    "shippedAnswer": ["A"],
+    "agreement": "agree"
+  }
+]

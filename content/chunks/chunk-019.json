@@ -1,0 +1,862 @@
+[
+  {
+    "id": "mock2018-q066",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagrams",
+    "stem": "Weak entity set is represented as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Underline.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Double line.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Double diamond.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Double rectangle.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "An entity set that has a primary key is termed a strong entity set.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 66
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "7fac89a4f0b9f47abc7754d3f45f9db7f9a267c1",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q067",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-model",
+    "stem": "If you were collecting and storing information about your music collection, an album would be considered a(n) ______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relation.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Entity.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Instance.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Attribute.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "An entity set is a logical container for instances of an entity type and instances of any type derived from that entity type.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 67
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "157d13cc33d4281078512e86e9528d41c5e7b196",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q068",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-model",
+    "stem": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relation.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Instance.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Table.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Column.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The environment of database is said to be instance. A database instance or an ‘instance’ is made up of the background processes needed by the database.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 68
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "b1ee3eebed9d71f94a6c90243eaa2f13217fa40c",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q069",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "cache-performance",
+    "stem": "Average memory access time can be calculated as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average memory access time = Hit time + (Miss rate * Miss penalty).",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Average memory access time = Hit time – (Miss rate * Miss penalty).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Average memory access time = Hit time + (Miss rate / Miss penalty).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Average memory access time = Miss rate / Miss penalty.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Review and Study AMAT.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 69
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "f40a8c9c9248b3f6460d45eeaa75f9a95abcab98",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "mock2018-q070",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "media-access-control",
+    "stem": "What is the throughput of simple/pure ALOHA?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18.8 %",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "18 %",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "36.8 %",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "36 %",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Pure ALOHA is 18.4%. Slotted ALOHA is 36.8%. Please review and Study AMAT.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 70
+    },
+    "keyProvenance": "answer_page",
+    "flags": [],
+    "dedupeHash": "a659f4f8ebf566fff4faf421ccc9bf21a2fbbb3c",
+    "keyVerified": false,
+    "needsReview": false
+  },
+  {
+    "id": "dbbank-q011",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-basics",
+    "stem": "A collection of interrelated records is called a",
+    "options": [
+      {
+        "label": "A",
+        "text": "Database",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Spreadsheet",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Management information system",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Text file",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6bdec316e7c2ddad8e8905c28fd3e662818a1381"
+  },
+  {
+    "id": "dbbank-q012",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "queries",
+    "stem": "Unlike filters queries can be saved as in a database.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Database",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Filters",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Objects",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Any of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "ebcdb4590c0e1e30087cf66afeae30a745c3450f"
+  },
+  {
+    "id": "dbbank-q013",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "file-organization",
+    "stem": "The method of file organization in which data records in a file are arranged in a specified order according to key field is known as the",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sequential access method",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Queuing method",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Predetermined method",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Direct access method",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "23f81bd63eb903e8648651d2379ea482b4b5ceae"
+  },
+  {
+    "id": "dbbank-q014",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-basics",
+    "stem": "External database is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Database created using DBMS package",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Database created in MS-Word",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Database created in EXCEL",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "6d643f11ddba19df38012970130ddc7678c5b982"
+  },
+  {
+    "id": "dbbank-q015",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dml",
+    "stem": "Data Manipulation Language (DML) is not to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Create information table in the Database",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Insertion of new information into the Database",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Deletion of information in the Database",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modification of information in the Database",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f56e07a203ce678f890b809734ca5232445133d9"
+  },
+  {
+    "id": "dbbank-q016",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "keys",
+    "stem": "The minimal set of super key is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary key",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Secondary key",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Candidate key",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Foreign key",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "f7cb6fe861747ccda4ceea35bd3997a53d10c4cc"
+  },
+  {
+    "id": "dbbank-q017",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "queries",
+    "stem": "A type of query that is placed within a WHERE or HAVING clause of another query is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Super query",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sub query",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Master query",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Multi-query",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "3a1cfa3b0ae46f4d456e5bb0bf919f212bf82e24"
+  },
+  {
+    "id": "dbbank-q018",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-dictionary",
+    "stem": "A data dictionary doesn't provide information about:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Where data is located",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "The size of the disk storage device",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "It allows a many-to-many relationship",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "It is conceptually simple",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d14c1bce81ca9ce2295fd76a3e70e224b49a2e8e"
+  },
+  {
+    "id": "dbbank-q019",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-hierarchy",
+    "stem": "In any hierarchy of data organization, the smallest entity to be processed as a single unit is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data field",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data record",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data file",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Database",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "8f763e5e4eb999497a3424d01936afa5450b727e"
+  },
+  {
+    "id": "dbbank-q020",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "reports",
+    "stem": "A report generator is used to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Update files",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Print files on paper",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Data entry",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "a34759f2620d95d166d04827e35968df8dc9e16f"
+  },
+  {
+    "id": "dbbank-q021",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-hierarchy",
+    "stem": "Related fields in a data base are grouped to form",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data file",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data record",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Menu",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bank",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "42785a6396d322c0fe06559ab5869344de67364b"
+  },
+  {
+    "id": "dbbank-q022",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-ddl",
+    "stem": "In SQL, which command is used to remove a stored function from the database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "REMOVE FUNCTION",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "DELETE FUNCTION",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DROP FUNCTION",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ERASE FUNCTION",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "02fba95239fff2425cd4bd1324b5cbfc7b77fdb2"
+  },
+  {
+    "id": "dbbank-q023",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-dql",
+    "stem": "In SQL, which command is used to select only one copy of each set of duplicable rows",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT DISTINCT",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "SELECT UNIQUE",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SELECT DIFFERENT",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "aaba7655e625f890ff45f86a7788a71b31f17776"
+  },
+  {
+    "id": "dbbank-q024",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "triggers",
+    "stem": "In SQL, which command(s) is(are) used to enable/disable a database trigger?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ALTER TRIGGER",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "ALTER DATABASE",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ALTER TABLE",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MODIFY TRIGGER",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "2c7ea22f39f40dea8ad3b2c56d59088387e90adb"
+  },
+  {
+    "id": "dbbank-q025",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dml",
+    "stem": "Which of the following is not Modification of the Database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deletion",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Insertion",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Sorting",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Updating",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "flags": [],
+    "keyVerified": false,
+    "needsReview": false,
+    "dedupeHash": "d610800b27a420a3845aadd78d5b8d3c3249e0f1"
+  }
+]

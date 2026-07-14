@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bank-a-q169",
+    "explanation": "I/O completion only removes the reason the process was blocked; it does not give it the CPU. The process moves Blocked -> Ready and waits for the scheduler to dispatch it. \"Running\" is the classic trap: nothing enters Running except by the dispatcher picking it off the ready queue."
+  },
+  {
+    "id": "bank-a-q170",
+    "explanation": "FCFS is non-preemptive and has no time quantum, so one long CPU-bound job holds the processor until it finishes. That destroys response time in a time-sharing system, where every interactive user must get the CPU back at regular short intervals."
+  },
+  {
+    "id": "bank-a-q171",
+    "explanation": "Main memory is partitioned into a region for the resident operating system and a region for user processes, and the graded key is the operating system. \"All of the mentioned\" is wrong because the CPU is hardware and is never stored in memory. Note the item is loose: user processes do also occupy main memory, so treat the key as the textbook phrasing rather than a strict fact."
+  },
+  {
+    "id": "bank-a-q172",
+    "explanation": "The device driver is the layer that hides the hardware differences of each device and exposes one uniform set of operations (read, write, seek) upward. That is the same role system calls play between applications and the kernel. Buses and devices are the hardware being abstracted, not the abstraction."
+  },
+  {
+    "id": "bank-a-q173",
+    "explanation": "A stack-based IDS is hooked into the TCP/IP stack itself, so it inspects packets as they move up the layers and can drop them before the OS or application ever sees them. The distractors describe other IDS types: interpreting a series of packets is signature-based, modeling normal traffic as noise is anomaly-based, and reading OS audit logs is host-based."
+  },
+  {
+    "id": "bank-a-q174",
+    "explanation": "The OS keeps an open-file table holding an entry per currently open file (location on disk, access rights, open count), so it does not have to re-search the directory on every read or write. The directory structure on disk is separate; the in-memory table of open files is the open-file table."
+  },
+  {
+    "id": "bank-a-q175",
+    "explanation": "Disk access is a privileged operation, so a user process cannot touch the controller directly. It issues a system call, which traps into kernel mode and lets the OS perform the transfer. \"System call to the CPU\" is nonsense: system calls are requests to the operating system, not to hardware."
+  },
+  {
+    "id": "bank-a-q176",
+    "explanation": "fork() is the Unix process-creation call: it duplicates the calling process, returning 0 in the child and the child's PID in the parent. exec() then replaces the child's image with a new program; there is no create() or new() system call in Unix."
+  },
+  {
+    "id": "bank-a-q177",
+    "explanation": "FAT stands for File Allocation Table, the on-disk table that chains the clusters belonging to each file."
+  },
+  {
+    "id": "bank-a-q179",
+    "explanation": "DSM stands for Distributed Shared Memory: an abstraction that lets processes on separate machines address what looks like one shared memory space, with the middleware handling the underlying message passing."
+  },
+  {
+    "id": "bank-a-q180",
+    "explanation": "IDL stands for Interface Definition Language, the language-neutral notation (used by CORBA, RPC, COM) that declares an object's interface so client stubs and server skeletons can be generated for different programming languages."
+  },
+  {
+    "id": "bank-a-q181",
+    "explanation": "Virtual memory size is capped by how many distinct addresses the CPU can form, which is the width of the address bus: n address lines give 2^n addressable bytes, so a 32-bit address bus gives 4 GB. The trap is RAM: installed RAM limits physical memory, not the virtual address space, which is the whole point of virtual memory."
+  },
+  {
+    "id": "bank-a-q182",
+    "explanation": "Windows 7 is an operating system, which is system software: it manages the hardware and hosts everything else. WordPad, Photoshop and MS Excel are all application software running on top of it."
+  },
+  {
+    "id": "bank-a-q184",
+    "explanation": "FIFO (also called FCFS) dispatches processes in arrival order and lets each one run until it finishes or blocks, so the CPU is never taken away by the scheduler. That is the definition of non-preemptive scheduling."
+  },
+  {
+    "id": "bank-a-q185",
+    "explanation": "An AND gate outputs 1 only when every input is 1, so A = B = C = 1 is the single HIGH row of the truth table. Any input at 0 forces the output to 0."
+  },
+  {
+    "id": "bank-a-q186",
+    "explanation": "The AND gate is the one whose output goes LOW as soon as any single input is 0, since 0 is the dominant value for AND. The NOR trap: NOR outputs HIGH (not LOW) when all inputs are 0, so it fails the condition."
+  },
+  {
+    "id": "bank-a-q187",
+    "explanation": "Standard TTL logic runs on a nominal +5 V Vcc (typically 4.75 to 5.25 V). The 3 V figure belongs to low-voltage CMOS families, not TTL."
+  },
+  {
+    "id": "bank-a-q188",
+    "explanation": "AND is the Boolean product, so a 3-input AND gate is X = ABC (X is 1 only when A, B and C are all 1). X = A + B + C is the OR expression, the classic sum-versus-product mix-up."
+  }
+]

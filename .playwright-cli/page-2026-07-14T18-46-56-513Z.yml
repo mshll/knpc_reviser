@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "Question bank" [level=1] [ref=e6]
+          - paragraph [ref=e7]: "The whole corpus: 696 questions, including items a quiz never serves. Expand any row to see the answer and explanation."
+        - generic [ref=e8]:
+          - searchbox "Search the question bank" [ref=e13]
+          - button "Needs review (5)" [ref=e14] [cursor=pointer]
+          - generic [ref=e17]:
+            - combobox "Filter by topic" [ref=e18] [cursor=pointer]:
+              - generic: All topics
+            - combobox "Filter by source tier" [ref=e21] [cursor=pointer]:
+              - generic: All sources
+            - combobox "Filter by flag" [ref=e24] [cursor=pointer]:
+              - generic: All flags
+            - combobox "Filter by answer key status" [ref=e27] [cursor=pointer]:
+              - generic: Any key status
+          - paragraph [ref=e31]: 696 questions
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - button "KNPC 2021 Q2 · Networking Maximum number of times Ethernet retransmits a packet" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: KNPC 2021 Q2 · Networking
+                - generic [ref=e37]: Maximum number of times Ethernet retransmits a packet
+          - listitem [ref=e40]:
+            - button "KNPC 2021 Q3 · Networking Ethernet runs on?" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: KNPC 2021 Q3 · Networking
+                - generic [ref=e44]: Ethernet runs on?
+          - listitem [ref=e47]:
+            - button "KNPC 2021 Q4 · Number Systems max signed decimal number represented in 6 bits 1s complement?" [ref=e48] [cursor=pointer]:
+              - generic [ref=e49]:
+                - generic [ref=e50]: KNPC 2021 Q4 · Number Systems
+                - generic [ref=e51]: max signed decimal number represented in 6 bits 1s complement?
+          - listitem [ref=e54]:
+            - button "KNPC 2021 Q5 · Logic Given this CMOS figure, which gate is it?" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: KNPC 2021 Q5 · Logic
+                - generic [ref=e58]: Given this CMOS figure, which gate is it?
+          - listitem [ref=e61]:
+            - button "KNPC 2021 Q6 · Networking Ethernet topology connected with 1 cable, unidirectional, neighbors connected together" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: KNPC 2021 Q6 · Networking
+                - generic [ref=e65]: Ethernet topology connected with 1 cable, unidirectional, neighbors connected together
+          - listitem [ref=e68]:
+            - button "KNPC 2021 Q7 · Programming What is value of count?" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: KNPC 2021 Q7 · Programming
+                - generic [ref=e72]: What is value of count?
+          - listitem [ref=e75]:
+            - button "KNPC 2021 Q8 · Architecture Given 3 assembly instructions with dependency. Running on a 5-stage pipeline, what is the number of cycles:" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]:
+                - generic [ref=e78]: KNPC 2021 Q8 · Architecture
+                - generic [ref=e79]: "Given 3 assembly instructions with dependency. Running on a 5-stage pipeline, what is the number of cycles:"
+          - listitem [ref=e82]:
+            - button "KNPC 2021 Q10 · Programming What is the output of the above code?" [ref=e83] [cursor=pointer]:
+              - generic [ref=e84]:
+                - generic [ref=e85]: KNPC 2021 Q10 · Programming
+                - generic [ref=e86]: What is the output of the above code?
+          - listitem [ref=e89]:
+            - button "KNPC 2021 Q12 · Software Eng what is changing one requirement, while taking into account competing requirements Needs review Key disputed" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]:
+                - generic [ref=e92]: KNPC 2021 Q12 · Software Eng
+                - generic [ref=e93]: what is changing one requirement, while taking into account competing requirements
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Needs review
+                  - generic [ref=e98]: Key disputed
+          - listitem [ref=e101]:
+            - button "KNPC 2021 Q16 · Databases · Short answer What is a DBMS?" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: KNPC 2021 Q16 · Databases · Short answer
+                - generic [ref=e105]: What is a DBMS?
+          - listitem [ref=e108]:
+            - button "KNPC 2021 Q17 · Networking Which one is Interior Gateway?" [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: KNPC 2021 Q17 · Networking
+                - generic [ref=e112]: Which one is Interior Gateway?
+          - listitem [ref=e115]:
+            - button "KNPC 2021 Q18 · DS and Algo Best running time complexity for binary search tree assuming it is already sorted?" [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: KNPC 2021 Q18 · DS and Algo
+                - generic [ref=e119]: Best running time complexity for binary search tree assuming it is already sorted?
+          - listitem [ref=e122]:
+            - button "KNPC 2021 Q19 · Software Eng Which of the following is NOT in the Agile Manifesto?" [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]:
+                - generic [ref=e125]: KNPC 2021 Q19 · Software Eng
+                - generic [ref=e126]: Which of the following is NOT in the Agile Manifesto?
+          - listitem [ref=e129]:
+            - button "KNPC 2021 Q21 · Networking Which layer transmits frames reliability, hop-by-hop with error checking?" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: KNPC 2021 Q21 · Networking
+                - generic [ref=e133]: Which layer transmits frames reliability, hop-by-hop with error checking?
+          - listitem [ref=e136]:
+            - button "KNPC 2021 Q23 · Programming What is the output?" [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]:
+                - generic [ref=e139]: KNPC 2021 Q23 · Programming
+                - generic [ref=e140]: What is the output?
+          - listitem [ref=e143]:
+            - button "KNPC 2021 Q25 · OS What is a deadlock?" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: KNPC 2021 Q25 · OS
+                - generic [ref=e147]: What is a deadlock?
+          - listitem [ref=e150]:
+            - button "KNPC 2021 Q26 · Logic Given a figure of 5 gates, if delay of each gate is 1T, what is total delay? (similar to the figure below)" [ref=e151] [cursor=pointer]:
+              - generic [ref=e152]:
+                - generic [ref=e153]: KNPC 2021 Q26 · Logic
+                - generic [ref=e154]: Given a figure of 5 gates, if delay of each gate is 1T, what is total delay? (similar to the figure below)
+          - listitem [ref=e157]:
+            - button "KNPC 2021 Q27 · Architecture Advantage of RISC processors" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - generic [ref=e160]: KNPC 2021 Q27 · Architecture
+                - generic [ref=e161]: Advantage of RISC processors
+          - listitem [ref=e164]:
+            - button "KNPC 2021 Q28 · Networking Which of the following is not Multimedia?" [ref=e165] [cursor=pointer]:
+              - generic [ref=e166]:
+                - generic [ref=e167]: KNPC 2021 Q28 · Networking
+                - generic [ref=e168]: Which of the following is not Multimedia?
+          - listitem [ref=e171]:
+            - button "KNPC 2021 Q29 · Number Systems · Short answer What is the 2's complement of 1111 1111 1111?" [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: KNPC 2021 Q29 · Number Systems · Short answer
+                - generic [ref=e175]: What is the 2's complement of 1111 1111 1111?
+        - navigation "Question bank pages" [ref=e178]:
+          - generic [ref=e179]:
+            - button "Previous page" [disabled]
+            - button "Page 1" [ref=e180] [cursor=pointer]: "1"
+            - button "Page 2" [ref=e181] [cursor=pointer]: "2"
+            - generic [ref=e182]: ...
+            - button "Page 35" [ref=e183] [cursor=pointer]: "35"
+            - button "Next page" [ref=e184] [cursor=pointer]
+          - paragraph [ref=e187]: Showing 1-20 of 696
+    - navigation "Primary" [ref=e188]:
+      - generic [ref=e189]:
+        - link "Home" [ref=e190] [cursor=pointer]:
+          - /url: /
+        - link "Practice" [ref=e194] [cursor=pointer]:
+          - /url: /quiz
+        - link "History" [ref=e198] [cursor=pointer]:
+          - /url: /history
+        - link "Settings" [ref=e202] [cursor=pointer]:
+          - /url: /settings
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e206]
