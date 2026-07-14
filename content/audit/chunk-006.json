@@ -1,0 +1,892 @@
+[
+  {
+    "id": "koc2012-q008",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "decimal-to-binary",
+    "stem": "The binary conversion of decimal 30 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "11110",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10110",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "10001",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "00111",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "30 = 16 + 8 + 4 + 2, so bits 4,3,2,1 are set and bit 0 is clear, giving 11110. Check the distractor: 10110 = 16 + 4 + 2 = 22, not 30.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "637b886f29fa8ccc4866d8696abf4de49736a987"
+  },
+  {
+    "id": "koc2012-q009",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "unix-commands",
+    "stem": "The command \"rlogin\" under Unix stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reset Login",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Regular Login",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Remote Login",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "'rlogin' stands for remote login, the BSD utility for opening a login session on another host over the network. It is obsolete in practice because it transmits credentials in the clear; ssh replaced it.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46f291d5695357b0653a65f0ebf8bb1c9f3ec121"
+  },
+  {
+    "id": "koc2012-q010",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "units",
+    "stem": "How many bits are in a byte?",
+    "options": [
+      {
+        "label": "A",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A byte is 8 bits by definition. 4 bits is a nibble, and 16 or 32 bits describe word sizes, not bytes.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4f56d40270975891ff697ef31e394cc53ea7a480"
+  },
+  {
+    "id": "koc2012-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-geometry",
+    "stem": "What is a Cylinder on a magnetic disk pack?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One disk surface",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Group of tracks that are vertically aligned on a disk pack",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Group of tracks that are horizontally aligned on a disk pack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "In a disk pack each platter surface has tracks at the same radii; the cylinder is the set of all same-numbered tracks stacked vertically across every surface. It matters because the whole cylinder can be read with the head assembly in one position, so no seek is needed between its tracks.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4eaf34a3ec4cbc11b6c5aa32dfde22a384b1992a"
+  },
+  {
+    "id": "koc2012-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-devices",
+    "stem": "Some Data Storage Devices are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disk, Tape and Compact Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tape, Hard Disk and Optical Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Disk, Tape and Floppy Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Disk, hard disk, floppy disk, compact disk, optical disk and tape are all media that retain data, so every device listed in A, B and C is a data storage device. Since each of the three lists is individually true, the only answer that is not incomplete is 'All the above'.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "37f54396e5b7c6b4caecfb1e64131dde9f9a1a55"
+  },
+  {
+    "id": "koc2012-q013",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "How many layers are there according to the OSI standard?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "14",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The OSI reference model has 7 layers: physical, data link, network, transport, session, presentation, application. Do not confuse it with the TCP/IP model, which collapses these into 4 or 5 layers.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10d5aa982b8fa94f7b100c9d4d908b246118d54c"
+  },
+  {
+    "id": "koc2012-q014",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "The main function of the DNS server in the Internet Computing is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To convert IP addresses to hostnames",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert PC identification",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To connect your terminal or PC to the Internet world",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "To resolve hostname to IP address",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "DNS's main job is forward resolution: it maps a hostname such as www.example.com to an IP address so packets can actually be routed. Option A is the trap, IP to hostname is reverse DNS (PTR lookup), a secondary capability rather than the main function.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eb33ac24e9bc6a2f797d887ebd7f8193a95886bb"
+  },
+  {
+    "id": "koc2012-q015",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "modem",
+    "stem": "The main function of a modem from engineering point of view is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "To connect from one destination to another",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To convert binary codes to hexadecimal codes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To convert analog signals to digital signals and vice versa",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To convert binary codes to ASCII codes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Modem is short for modulator/demodulator: it modulates outgoing digital data onto an analog carrier for transmission over an analog line, and demodulates the incoming analog signal back into digital data. It performs no code conversion (binary to hex or ASCII), which rules out B and D.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ab716e74e7d730176497adcd0435f56a7ef4976c"
+  },
+  {
+    "id": "koc2012-q041",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "In two input OR Gate, if both inputs are 1, what will be the output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "One",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Two",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unknown",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "OR outputs 1 whenever at least one input is 1, so 1 OR 1 = 1. Do not confuse OR with XOR: XOR would give 0 here because it outputs 1 only when the inputs differ.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 41
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "604ff7dc43a8368b5c9cd0797dcb88e183772d6d"
+  },
+  {
+    "id": "koc2012-q042",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "If two input NOR Gate, if both inputs are 1, what will be the output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "One",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Two",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unknown",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "NOR is OR followed by NOT: 1 OR 1 = 1, then inverted gives 0. A NOR gate outputs 1 only when both inputs are 0.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 42
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "27d87d576dc95d041b0b67ede57d199822ceb3d7"
+  },
+  {
+    "id": "koc2012-q043",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What do R and S stand for in RS-flip flop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "R- Reset; S- Set",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "R- Reset; S- Snooze",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "R- Rest; S- Set",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "R- Rest; S- Snooze",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "In an RS (SR) flip-flop, S is Set (drives Q to 1) and R is Reset (drives Q to 0). The other options are nonsense words placed to catch careless reading.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 43
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d7f52e6a4b195d43e9121f9039a51581ff6b0d7c"
+  },
+  {
+    "id": "koc2012-q044",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What will be the output from RS-flip flop under the condition of R=1 and S=0 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output is reset to zero",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The output is set to one",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The output is set to zero",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "The output is reset to one",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "R=1 with S=0 asserts the Reset input, so Q goes to 0. Option C is the trap: 'set to zero' misuses the word set, which in flip-flop terminology specifically means driving the output to 1. Note R=1 and S=1 together is the forbidden/invalid state.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 44
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cb96bb9295f9aaaf3709ac4b652b2e18b7b1d59f"
+  },
+  {
+    "id": "koc2012-q045",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "dbms-definition",
+    "stem": "Database Management System? is a set of computer programs that controls the creation, maintenance, and use of the databases of an organization and its end users.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "This is the standard textbook definition of a DBMS: software that controls creation, maintenance, and use of an organization's databases. True.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 45
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9708eca9abc176d1c69f52d895d5b1ae534fd73f"
+  },
+  {
+    "id": "koc2012-q046",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-dictionary",
+    "stem": "The term Data Dictionary can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dictionary that contains database commands.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dictionary that contains commonly used computer commands.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "A computer-based catalog or directory containing metadata.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The data dictionary is the system catalog: a computer-based directory of metadata (table names, column names, types, constraints, users), not a store of commands or of the user data itself.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 46
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fe9db5e42841a961b6f6e80640202ea29af7dcdf"
+  },
+  {
+    "id": "koc2012-q047",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql",
+    "stem": "What does SQL stand for in relation to Database Management System?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Standard Query Language.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Structured Query Language.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Systematic Query Language.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "SQL stands for Structured Query Language. 'Standard Query Language' is the common trap answer.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 47
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "55590de7453bc6a8bdd564186b9eab2d0a4542e0"
+  },
+  {
+    "id": "koc2012-q048",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "metadata",
+    "stem": "In relation to Database Management System the term Metadata can be defined as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Metric Data",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data about data",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Description of programs",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Metadata literally means data about data: it describes the structure of the stored data (schemas, field types, lengths) rather than being the data values themselves.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 48
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "585e10aba59ba5d5eca7fe8a8c6be41cbcd62f4c"
+  },
+  {
+    "id": "koc2012-q049",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "three-schema-architecture",
+    "stem": "The three Schema Architecture types are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Analysis, Code, and Test",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Serial, Random, and Continuous",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internal, Conceptual, and External",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Vertical, Horizontal, and Circular",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The ANSI/SPARC three-schema architecture has three levels: internal (physical storage), conceptual (logical whole-database structure), and external (individual user views). Separating them is what gives physical and logical data independence.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 49
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "87e9e0df08d45ce8261e97e40004407285c3888a"
+  },
+  {
+    "id": "koc2012-q050",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "ddl",
+    "stem": "Name the language used by both the DBA and the Designer to define schemas",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Base Language (DBL)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Database Schema Language (DSL)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Definition Language (DDL)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Database Management Language (DML)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The DBA and designer define schemas with the Data Definition Language (DDL): CREATE TABLE, ALTER TABLE, DROP. Option D is wrong twice over: DML actually expands to Data Manipulation Language, not Database Management Language, and it acts on the rows (SELECT/INSERT/UPDATE/DELETE) rather than on the schema.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 50
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e1728847403843abcb99db5ab54374dbc3467bda"
+  },
+  {
+    "id": "koc2012-q051",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "MS-Access is used for creating databases. True or False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "False",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "True",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "MS-Access is a desktop relational DBMS used to create and manage databases, so True. Careful with the labels here: True is option B, not A.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 51
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "799fd0057fe52163ed21e7e3dd39302cbe163ce2"
+  },
+  {
+    "id": "koc2012-q052",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "MS-Excel software is used for creating spreadsheets. True or false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "MS-Excel is a spreadsheet application, so the statement is True.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 52
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "78e80b91eb7c0cf895b9057a9a0f11e6c2dc17f4"
+  }
+]

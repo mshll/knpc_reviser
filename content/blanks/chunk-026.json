@@ -1,0 +1,47 @@
+[
+  {
+    "id": "bank-b-q110",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "buffering",
+    "stem": "A storage area used to store data to a compensate for the difference in speed at which the different units can handle data is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Buffer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Accumulator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Address",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A buffer is temporary storage placed between two units that run at different speeds (for example CPU and printer) so the fast unit can dump its output and carry on instead of waiting for the slow one. An accumulator is a CPU register for arithmetic results, and an address just names a location.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bcb32d92166712d5b9c2822c0b98e464d4ccd798"
+  }
+]

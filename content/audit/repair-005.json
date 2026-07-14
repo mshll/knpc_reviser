@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bank-a-q099",
+    "verdict": "quarantine",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf p.33 prints verbatim: \"Ques: CD-ROM is a kind of / (a) Optical disk / (b) Magneto-Optical disk / (c) Magnetic disk / (d) Magnetic disc / Ans. (c)\". Both the rendered page image and the text layer agree on all four options.",
+    "note": "Broken at source, not an extraction error: the paper itself prints the duplicate pair 'Magnetic disk' / 'Magnetic disc', AND the paper's own key is Ans. (c) = Magnetic disk, which is factually wrong for a CD-ROM. Two identical distractors plus an indefensible printed key - quarantine rather than repair. SEPARATE KEY ISSUE (not touched in this pass): our item keys A (Optical disk); the source paper keys C."
+  },
+  {
+    "id": "bank-a-q110",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf p.36 prints verbatim, with no third or fourth option between option (b) and the answer line: \"Ques: DVD stands for : / (a) Digital Video Disk / (b) Digital Versatile Disk / Ans. (b)\".",
+    "note": "The source genuinely prints a two-option item; nothing was dropped in extraction. Our stem 'DVD stands for :' reproduces the paper's spacing before the colon exactly, and the key (B) matches the paper's Ans. (b). Triage was wrong."
+  },
+  {
+    "id": "bank-a-q115",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf p.37 prints verbatim: \"Ques: Information travels between components on the mother board 1 through: / (a) Flash memory / (b) CMOS / (c) Bays / (d) Buses / Ans. (d)\". The stray numeral 1 is visible in the rendered page image between 'MOTHER BOARD' and 'THROUGH', and is present in the text layer, as is the trailing colon.",
+    "note": "The bare '1' is a typo in the original paper, not an extraction artifact. Per the fidelity rule, the typo is kept verbatim; our shipped stem already matches the source character for character."
+  },
+  {
+    "id": "bank-a-q159",
+    "verdict": "quarantine",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf pp.48-49 prints verbatim: \"6. Why the following statement is erroneous? / SELECT dept_name, ID, avg (salary) / FROM instructor / GROUP BY dept_name; / a) Dept_id should not be used in group by clause / b) Group by clause is not valid in this query / c) Avg(salary) should not be selected / d) None / Answer A / Explanation: Any property that does not occur in the group by clause must only appear in an aggregate function if it also appears in the select clause; otherwise, the query is considered incorrect\".",
+    "note": "Broken at source. Our extraction is faithful down to the option wording and the key: the paper itself prints option a) as 'Dept_id should not be used in group by clause' and keys it A, even though the query contains no Dept_id column and the real error (ID selected without aggregation) is the one its own explanation describes. The keyed option is false as printed and none of b), c), d) is defensible either, so there is no correct answer among the printed choices. Nothing to repair without inventing option text."
+  },
+  {
+    "id": "bank-a-q210",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf p.62 prints verbatim, in clean legible type: \"18. Which of the following protocols below work in the application layer? / A. POP / B. PPP / C. FTP / D. Both a and d above / Ans: D\".",
+    "note": "The self-referential 'Both a and d above' is a misprint in the original paper, not an extraction corruption - the source page is fully legible and prints 'd', with Ans: D. Per the fidelity rule the typo stays verbatim; the item's explanation already flags it. Item remains answerable (D is the only combining option and the paper keys it)."
+  }
+]

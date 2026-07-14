@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "bank-a-q032",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "secondary-storage",
+    "stem": "For permanent memory in computer objects used are -",
+    "options": [
+      {
+        "label": "A",
+        "text": "Floppy disc",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Magnetic tape",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hard disc",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Optical disc",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "All of these",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "E"
+    ],
+    "explanation": "Floppy disc, magnetic tape, hard disc, and optical disc are all non-volatile media that retain data without power, so every listed option qualifies as 'permanent' memory and 'All of these' is correct. The trap is picking a single familiar medium such as hard disc when the category is what is being tested.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 33
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "b90cbdfc39c5e3dff07688c9ea9dbf582633744c"
+  },
+  {
+    "id": "bank-a-q033",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "main-memory",
+    "stem": "Main memory works in conjunction with __________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Graphics card",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "LAN",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Main memory works directly with the CPU: the processor fetches instructions and data from it over the system bus on every cycle. RAM is the trap here, because main memory IS RAM, so choosing A makes the statement circular rather than identifying the component it partners with.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 34
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c4b50b94ae2adb801073ec947c0ebb4a52347eb2"
+  },
+  {
+    "id": "bank-a-q034",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "sram",
+    "stem": "SRAM stands for-",
+    "options": [
+      {
+        "label": "A",
+        "text": "Special Random-Access Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Supreme Random-Access Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Static Random-Access Memory",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Stable Random-Access Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "SRAM stands for Static Random-Access Memory. 'Static' means each bit is held in a flip-flop and needs no periodic refresh, unlike DRAM whose capacitors must be recharged, which is why SRAM is faster and is used for cache.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 35
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "560764b737ac1251bc23b07086671813a0e572d1"
+  },
+  {
+    "id": "bank-a-q036",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "Built in memory of computer is.................",
+    "options": [
+      {
+        "label": "A",
+        "text": "EROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "PROM",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "E REM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "ROM is the built-in, non-volatile memory written at manufacture that holds the firmware/BIOS the machine needs to start up. RAM is wrong because it is volatile and empty at power-on, and PROM/EPROM are user-programmable variants rather than the memory that ships built into the machine.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 37
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "241e822e7d920f3761145465a2d6246e4bb77bb4"
+  },
+  {
+    "id": "bank-a-q038",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "virtual-memory",
+    "stem": "Virtual memory is_______.",
+    "options": [
+      {
+        "label": "A",
+        "text": "memory on the hard disk that the CPU uses an extended RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "in RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "only necessary if you do not have any RAM in your computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "a backup device for floppy disk",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Virtual memory reserves an area of the hard disk (the page or swap file) and lets the OS move pages between it and RAM, so programs can address more memory than is physically installed. Option B is the trap: the whole point of virtual memory is that the backing store is on disk, not in RAM.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 39
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "82397d49b3fe00beecd1c69d72a88675f9913acd"
+  },
+  {
+    "id": "bank-a-q039",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "usb",
+    "stem": "USB stands for-",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uniform Service Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Universal Serial Bus",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Universal Sector Buffer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Universe Service Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "USB stands for Universal Serial Bus. It is 'serial' because data is sent one bit at a time over a differential pair, and 'universal' because a single connector standard replaced the older keyboard, mouse, serial, and parallel ports.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 40
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bd3cf12ff42f9686d034a7d70f30597398c6d3f4"
+  },
+  {
+    "id": "bank-a-q040",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "In a typical memory experiment, participants are asked to recall stimuli in which phase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "presentation",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "test",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "material",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "distinction",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Off-syllabus psychology trivia: a memory experiment has a presentation (study) phase where stimuli are shown and a test phase where retrieval is measured, so recall is elicited in the test phase. 'Material' and 'distinction' are not phase names at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "dd225661c493f4d0c0a9b400b45422cbc3d0f4da"
+  },
+  {
+    "id": "bank-a-q041",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Participants are NOT told that they will be tested on a list of words presented in an experiment. This provides evidence of",
+    "options": [
+      {
+        "label": "A",
+        "text": "intentional learning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "a practice effect",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "incidental learning",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "masked learning",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Incidental learning is learning that happens without any intent to learn, so not warning participants about the later test is the defining setup. Intentional learning is the opposite condition (participants are told they will be tested).",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "bedda0f72411fb97c78c348b430950661f6d3a6e"
+  },
+  {
+    "id": "bank-a-q042",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "A test where participants are asked to retrieve in any order stimuli previously presented is",
+    "options": [
+      {
+        "label": "A",
+        "text": "cued recall",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "implicit memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "explicit memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "free recall",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Free recall means producing the studied items in any order with no cues provided. Cued recall would supply a hint at test, and implicit/explicit memory describe the type of memory, not the test format.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "c5b86ecd9de250b7dd20d5fafb196bd8f7feebf2"
+  },
+  {
+    "id": "bank-a-q043",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Participants take part in an experiment where they learn a number of words and are told that they will be tested later on what they have learned. This is a test of",
+    "options": [
+      {
+        "label": "A",
+        "text": "explicit memory",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "recognition",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "implicit memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "interference",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Telling participants they will be tested and then asking them to deliberately retrieve the list makes it a conscious, intentional retrieval, which is the definition of an explicit memory test. Recognition is a trap: it is one specific explicit test format, but the stem never says the words are re-presented for a yes/no judgement.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "76cdd12dd6dfb45b66c3437471923ad5bfd32e6d"
+  },
+  {
+    "id": "bank-a-q044",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Storage is",
+    "options": [
+      {
+        "label": "A",
+        "text": "the stage of memory where information is interpreted and transferred",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "the stage of memory where information is committed",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "the stage of memory most affected by direct manipulation in experiments",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "the stage of memory between presentation of stimuli and before test",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Memory has three stages: encoding (interpreting and committing information), storage (retaining it), and retrieval (getting it back). Storage is therefore the retention interval between presentation of the stimuli and the test; options A and B describe encoding.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "e76ac12b6025e224a554bfbd01512d7b67fc7db3"
+  },
+  {
+    "id": "bank-a-q045",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Investigating what factors can affect memory storage can be done by",
+    "options": [
+      {
+        "label": "A",
+        "text": "manipulating what happens before the test phase",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "informing people that they will be tested",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "providing recall cues",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "manipulating what happens at the presentation phase",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "To isolate storage you must vary only what happens during the retention interval, that is, after presentation and before the test. Manipulating the presentation phase (D) targets encoding, and providing recall cues (C) targets retrieval.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "40c8785a94b0c8dd63b567be620e1fba5451fdcb"
+  },
+  {
+    "id": "bank-a-q046",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which is NOT typically used to test memory retrieval?",
+    "options": [
+      {
+        "label": "A",
+        "text": "dot probe task",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "word stem completion",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "cued recall",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "serial position effects",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The dot probe task measures attentional bias toward emotional stimuli; it is not a memory test at all. Word stem completion (implicit), cued recall (explicit) and serial position effects are all standard retrieval measures.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "7df39edc3b8b4a55372515c354d6257378c860da"
+  },
+  {
+    "id": "bank-a-q047",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "With immediate testing, recall accuracy is poorest for items that occur in which position of a list?",
+    "options": [
+      {
+        "label": "A",
+        "text": "beginning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "middle",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "end",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "no difference",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The serial position curve is U-shaped: early items benefit from primacy (rehearsal into long-term memory) and late items from recency (still in short-term store), so middle items get neither boost and are recalled worst.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "57d05c0a38047a4e79c60f326c4df47ccd2f6c60"
+  },
+  {
+    "id": "bank-a-q048",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Immediately testing recall can lead to greater recall for words at the end of a list. This is",
+    "options": [
+      {
+        "label": "A",
+        "text": "recency effect",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "primacy effect",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "serial position effect",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "superiority effect",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Better recall of the last items on an immediate test is the recency effect. Serial position effect is the trap: it is the umbrella term for the whole U-shaped curve (primacy plus recency), not the end-of-list advantage specifically.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "d0ec377ed76531d58466a7d74fb1edbb210f4891"
+  },
+  {
+    "id": "bank-a-q049",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "The recency effect in memory retrieval can be reduced when",
+    "options": [
+      {
+        "label": "A",
+        "text": "rehearsal is prevented",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "short- to long-term memory interference is introduced",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "a backwards masking task is used",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "retention interval is increased",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Recency depends on the final items still sitting in the short-term store, so lengthening the retention interval (for example by inserting a filled delay before the test) wipes it out. Preventing rehearsal mainly attacks primacy, not recency.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "f3cb58cbe5e9a0bd98fffec9bbf8f0560503342c"
+  },
+  {
+    "id": "bank-a-q050",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which authors proposed the modal model of memory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lansdale and Baguley (2008)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tulving and Thompson (1975)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Atkinson and Shiffrin (1968)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Craik and Lockhart (1972)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The modal (multi-store) model of sensory store to short-term store to long-term store is Atkinson and Shiffrin (1968). Craik and Lockhart (1972) proposed levels of processing, and Tulving and Thomson proposed encoding specificity.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "52b2249941ce432913dc57c650583fcf40a86a4a"
+  },
+  {
+    "id": "bank-a-q051",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "The modal model of memory was challenged on the grounds that",
+    "options": [
+      {
+        "label": "A",
+        "text": "impaired short-term memory does not disrupt long-term memory",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Short-term memory has a limited capacity",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "longer time in short-term memory predicts likelihood of long-term memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "long-term memory has a limited capacity",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The modal model routes everything through short-term memory into long-term memory, so it predicts that damaging short-term memory should block new long-term learning. Neuropsychological cases with badly impaired short-term memory but intact long-term learning break that serial chain. Options B and D are not challenges: limited short-term capacity is a claim the model itself makes.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "6a960796c2247c71159a92c82d5ca76823bef684"
+  },
+  {
+    "id": "bank-a-q052",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "According to levels of processing, which of the following leads to the deepest level of memory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "perceptual",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "semantic",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "associative",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "cue dependent",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "In Craik and Lockhart's levels of processing, depth increases from structural to phonological to semantic, so processing meaning produces the most durable trace. Perceptual processing is the shallowest level.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "50fe72621a36fde96bb7b6caf5ae76bdbacf189b"
+  },
+  {
+    "id": "bank-a-q053",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "A critical issue with the ‘levels of processing’ account of memory is",
+    "options": [
+      {
+        "label": "A",
+        "text": "the distinction between perceptual and semantic processing",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "it is not compatible with the modal model",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "determining the level of processing",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "it does not explain how information is retrieved",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The standard criticism is circularity: depth of processing is defined by how well the material is later remembered, and there is no independent measure of depth, so the theory cannot be falsified.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "d7c94706580dcb7487a7cda3b0e7bb15d6062c2a"
+  },
+  {
+    "id": "bank-a-q054",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Retrieval cues can improve recall because of",
+    "options": [
+      {
+        "label": "A",
+        "text": "overlap between memories at encoding",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "interference or decay",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "traces still in short-term memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "greater storage capacity",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A cue helps only to the extent that the information it carries was part of the trace laid down at encoding, that is, overlap between the cue and what was encoded (encoding specificity). Interference and decay explain forgetting, not why cues help.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "cd8252ca0e858d753ce8ff53632daf09eba01f01"
+  },
+  {
+    "id": "bank-a-q055",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "‘Specific operations […] determine what is stored, and what is stored determines what retrieval cues are effective’ refers to what term?",
+    "options": [
+      {
+        "label": "A",
+        "text": "context-dependent memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "encoding specificity principle",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "levels of processing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "forgetting function",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "That sentence is Tulving and Thomson's statement of the encoding specificity principle: retrieval succeeds when the cue matches what was actually stored at encoding. Context-dependent memory is a consequence of this principle, not the principle itself.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "a5ade1c7c56715deb7ef0e381b985bcec86e9c8b"
+  },
+  {
+    "id": "bank-a-q056",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Retroactive inhibition is a term of memory",
+    "options": [
+      {
+        "label": "A",
+        "text": "decay",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "delay",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "retrieval",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "interference",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Retroactive inhibition is new learning interfering with the retrieval of older material, so it is an interference account of forgetting, not a decay or delay account (decay says traces fade with time on their own).",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "811dbe592cc2ef7553c5a488bd6263392ffadb00"
+  },
+  {
+    "id": "bank-a-q057",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Having prior memory associations that make it difficult to form new memory associations is termed",
+    "options": [
+      {
+        "label": "A",
+        "text": "proactive inhibition",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "transfer appropriate processing",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "time-dependent decay",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "encoding specificity",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Proactive inhibition is old learning interfering forward in time with new learning. Retroactive is the mirror image (new interferes with old), which is the trap here.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "5a1f6a8fe548f140b9f1a8d1cea5999dac2ae64f"
+  },
+  {
+    "id": "bank-a-q058",
+    "type": "mcq",
+    "topic": "misc",
+    "subtopic": "cognitive-psychology",
+    "stem": "Which of the following was proposed by Keppel (1968) to be most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "prior learning may interfere with new learning only when items are similar, but new learning interferes with all old learning",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "old learning can interfere with new learning, but new learning interferes with all old learning",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "all forgetting is caused by non-specific proactive inhibition",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "old learning only interferes with new learning when encoded in the same modality",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Keppel's asymmetry: proactive interference is restricted, old learning only impairs new learning when the material is similar, whereas retroactive interference is general, new learning impairs old learning broadly. Option B is a near-duplicate that drops the similarity restriction, which is exactly the discriminating detail.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "off_syllabus"
+    ],
+    "dedupeHash": "d10101577acd0bc8bd9eaaca3f49f5cb7a61bc16"
+  }
+]

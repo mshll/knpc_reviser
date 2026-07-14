@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "knpc2018-q009",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "Which is a state that cannot occur in a process",
+    "options": [
+      {
+        "label": "A",
+        "text": "Blocked → Running",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Blocked → Ready",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ready → Running",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Running → Blocked",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Blocked -> Running is illegal: a process waiting on I/O must first be moved to Ready when the event completes, and only the dispatcher can move a process from Ready to Running. The other three (Blocked -> Ready on I/O completion, Ready -> Running on dispatch, Running -> Blocked on an I/O request) are all standard transitions.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d165396030768b381953a6b8b14ed32e501b677a"
+  },
+  {
+    "id": "ce2016-q001",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql",
+    "stem": "Which one is a programming language use in RDBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "SQL",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "XML",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CSS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "SQL is the language used to define and query relational databases (SELECT, INSERT, CREATE TABLE, joins). HTML and XML are markup languages for documents and data interchange, and CSS is a styling language; none of them queries an RDBMS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b821762d4619a76bbfed83ad580a69df59bc2740"
+  },
+  {
+    "id": "ce2016-q002",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "os-identification",
+    "stem": "Which one is NOT an operating system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Solaris",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Linux",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Oracle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Windows",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Oracle is a database vendor and RDBMS product, not an operating system. Solaris (Unix), Linux and Windows all manage hardware and run applications, so they are operating systems.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b3e896ff11d1950941a1cb3c681a17a9029a645f"
+  },
+  {
+    "id": "ce2016-q003",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "Which one has a better Algorithm Complexity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(lg n)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "O(n lg n)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Best complexity means slowest growth: lg n < n < n lg n < n^2 for large n. At n = 1,000,000, lg n is about 20 operations while n^2 is 10^12, so O(lg n) wins.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9eec9a0d979e8eb23dbe84033f29363902c87e84"
+  },
+  {
+    "id": "ce2016-q004",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "The time complexity O(2000n – 1) can be represented by _________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(2000n)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(2000)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Big-O drops constant factors and lower-order terms, so O(2000n - 1) = O(n). The trap is answering O(2000n), which is not wrong mathematically but is not the reduced form Big-O asks for; the 2000 is a constant multiplier and the -1 is lower order.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fc5a21d5f20ffaa63e9c62f627d9deb7fa22de3e"
+  },
+  {
+    "id": "ce2016-q005",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "data-structure-identification",
+    "stem": "Which one of the following is NOT a data structure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Heap",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "List",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bubble Sort",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Bubble sort is an algorithm (a procedure that operates on data), not a data structure. Tree, heap and list are ways of organising and storing data, which is what a data structure is.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f96bfcf41c5c9f4a5f851a11794adab5d696e45f"
+  },
+  {
+    "id": "ce2016-q007",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "recurrence-relations",
+    "stem": "If the function F(n) is as follows:\n\nWhat is the recurrence equation for the above algorithm?",
+    "stemCode": "if(n<20)\n       return n;\nelse\n       return f(n-2)+f(n-1);",
+    "options": [
+      {
+        "label": "A",
+        "text": "T(n-2)+T(n-1)+n",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "T(n-2)+T(n-1)-n",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "T(n-2)+T(n-1)+1",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "T(n-2)+T(n-1)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The function makes two recursive calls, on n-1 and n-2, and does only constant work per call (one comparison plus one addition), so T(n) = T(n-2) + T(n-1) + 1. The trap is choosing the +n version, which would apply only if the body did O(n) work such as a loop over n; here the body is O(1).",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e154cc9fa364e7c53243be075a43377676b120d2"
+  },
+  {
+    "id": "ce2016-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "ROM stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-Only Memory.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Random Access Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Random Only Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ROM = Read-Only Memory: non-volatile storage written at manufacture and normally only read thereafter (it holds firmware/BIOS). The trap is B, Random Access Memory, which is RAM, the volatile read/write working memory. C mixes the two acronyms and is not a real term.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "808332341ccee77102dfc63a87d0feeaf1661f35"
+  },
+  {
+    "id": "ce2016-q013",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "The function xy + xy' is minimized to __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "x",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "x + y'",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "x + y",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "y'",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Factor out x: xy + xy' = x(y + y'), and y + y' = 1 by the complement law, so the result is x·1 = x. The distractors come from misapplying distribution: adding rather than factoring gives the bogus x + y or x + y'.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5c41583bc56dd573f8a5893725b495c06a98da1e"
+  },
+  {
+    "id": "ce2016-q014",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "cpu-scheduling",
+    "stem": "Round Robin is essentially the preemptive a version of ___________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "SJF (Shortest Job First)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "FIFO",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "LIFO",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Longest Time First.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Round Robin is FIFO (FCFS) with a time quantum bolted on: processes are dispatched in arrival order from a FIFO ready queue, but a process that exhausts its quantum is preempted and put back at the tail. SJF is the trap, its preemptive version is SRTF (Shortest Remaining Time First), not Round Robin.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a77e8e13cb82cad640060658216224244c4efad7"
+  },
+  {
+    "id": "ce2016-q015",
+    "type": "true_false",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-trees",
+    "stem": "In a balanced binary tree, the left and right subtree has the same number of nodes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "False. Balanced refers to HEIGHT, not node count: a tree is height-balanced when the heights of the left and right subtrees differ by at most 1 at every node. A balanced tree can easily have 3 nodes on one side and 1 on the other, so equal node counts is not required.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "97ae1eebef57396aa29b4ee42ce09fe9808e627b"
+  },
+  {
+    "id": "ce2016-q016",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "software-maintenance",
+    "stem": "Which of the following is NOT a kind of software maintenance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adaptive",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Perfective",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Customer Serviced",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Preventive",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The four standard categories of software maintenance are corrective (fix defects), adaptive (adjust to a changed environment), perfective (improve or extend function/performance), and preventive (reduce future decay). 'Customer Serviced' is not one of them, it is an invented option.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4c8ca50bb00563fb296a66c1cab0fe171d08a8a1"
+  },
+  {
+    "id": "ce2016-q017",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "What is the function of a Network Bridge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connect two nodes in the same network.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Connect two LANs.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Control Network Speed.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A bridge is a data-link (layer 2) device that joins two LANs or LAN segments into one logical network and forwards or filters frames based on MAC addresses. Option A describes cabling within one segment, not a bridge, and C describes traffic shaping, which no bridge does.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3165af62b65a6175e91d7b15181c0243ba2cb893"
+  },
+  {
+    "id": "ce2016-q018",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "A repeater is a connection device that operates in the ________ layer of the Internet model.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Network.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A repeater does nothing but amplify and regenerate the raw signal to overcome attenuation; it does not read addresses or interpret frames, so it operates purely at the physical layer. Data Link is the trap: that is where a bridge or switch works, because those devices do read MAC addresses.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6d2947e0d88517931184098a2849893d50a8adf7"
+  },
+  {
+    "id": "ce2016-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "The __________ regenerates a signal, connects segments of a LAN, and has no filtering capability.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Repeater.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bridge.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Router.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "'Regenerates a signal' plus 'no filtering capability' is the exact definition of a repeater, a physical-layer device that blindly retransmits everything it receives. Bridge is wrong precisely because a bridge does filter, forwarding frames only toward the segment holding the destination MAC; a router filters and forwards by IP.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6f3fe21da33420d83cfc0fa9a36e5141e01c34c8"
+  },
+  {
+    "id": "ce2016-q020",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Which one of the following is a famous commercial DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Oracle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: as written, A, B and C are all commercial (non-free) DBMS products, so the item has more than one defensible answer. The keyed answer is Oracle because it is the archetypal large-scale commercial DBMS. Only Linux is unambiguously wrong, since it is an operating system, not a DBMS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 20
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "249896dafa84ae1f4a9a9fa3bd0489a0a5e57baa"
+  },
+  {
+    "id": "ce2016-q021",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "How many layers are in the OSI network model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The OSI reference model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application. The trap is 4 or 5, which are the layer counts of the TCP/IP model, not OSI.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 21
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c7d940cbdde04509aabbb32e4a78c0287d6b5602"
+  },
+  {
+    "id": "ce2016-q022",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "How many steps are in the systems development life cycle (SDLC)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "7",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: the phase count of the SDLC is convention-dependent and textbooks give 5, 6 or 7. The keyed answer, 6, matches the common breakdown of planning, requirement analysis, design, implementation/coding, testing, and maintenance. Memorize the six-phase list for this exam, but expect other sources to merge or split phases.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 22
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "472f9c11f65dda6c194255e2f84c07e94afda2a1"
+  },
+  {
+    "id": "ce2016-q023",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "In SDLC, in which step do we check the results to meat with software specifications?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Testing",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Requirement Analysis",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Planning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Design",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Testing is the phase in which the built system is exercised against the requirements to confirm the results match the software specification. Requirement Analysis is where the spec is produced and Design is where a solution is planned; neither checks results, since no results exist yet at those stages.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 23
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f0661a23a6edd35311d9f00abdfa185bdd43c4f6"
+  },
+  {
+    "id": "ce2016-q024",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "DNS stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Name System.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Domain Name System.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Network System.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Domain Network Service.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DNS = Domain Name System, the distributed directory that resolves human-readable names such as example.com into IP addresses. The distractors swap in 'Dynamic' (which belongs to DHCP) or 'Network' for 'Name'.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 24
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c6d003ae300570d9b58f9fe0c35bff6d02ce0ba6"
+  },
+  {
+    "id": "ce2016-q025",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dhcp",
+    "stem": "DHCP stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Host Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dynamic Host Configuration Protocol.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Hyper Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dynamic Hyper Configuration Protocol.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DHCP = Dynamic Host Configuration Protocol: it hands hosts an IP address, subnet mask, default gateway and DNS servers automatically on joining a network. 'Control' in place of 'Configuration' is the trap; DHCP configures hosts, it does not control them.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 25
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2cf96efcea1d56bf98471ee585a85586be74f557"
+  },
+  {
+    "id": "ce2016-q026",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "An IPv4 address is 32 bits: four octets of 8 bits each (8 * 4 = 32), written in dotted decimal such as 192.168.1.1. That yields 2^32, roughly 4.3 billion, addresses, which is why exhaustion forced IPv6.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 26
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "21342a11d7ab54c147d05bb62257541417645018"
+  },
+  {
+    "id": "ce2016-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "An IPv6 address is 128 bits: eight groups of 16 bits (16 * 8 = 128), written as hex separated by colons. That is four times the width of IPv4's 32 bits, giving 2^128 addresses.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 27
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0f4ab4bca23fc6856a17ae6475755f920f1056cf"
+  },
+  {
+    "id": "ce2016-q030",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to T-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Tie J and K together and drive both from T: substituting J = K = T into Q(t+1) = J·Q(t)' + K'·Q(t) gives Q(t+1) = T·Q(t)' + T'·Q(t), which is the T flip-flop equation, so T=0 holds and T=1 toggles. Only a wire is needed, no gate. Adding a NOT gate (J = T, K = T') would instead build a D flip-flop that loads the input, which is the conversion asked for in the next question.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 30
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b35a078c03611870312a6dd41cc2ac78b80b8a6a"
+  },
+  {
+    "id": "ce2016-q031",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to D-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A D flip-flop is a JK flip-flop with J = D and K = D', so you only need to invert D on its way to the K input: one NOT gate. Recall the JK table: J=1,K=0 sets, J=0,K=1 resets, which is exactly D=1 and D=0 once K is tied to D'. 'No additional gate' is the trap, since wiring D straight to both J and K gives J=K, which toggles or holds instead of loading.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 31
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ead73312d0d6884af4a7b51730dac4ca05505af3"
+  }
+]

@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "bank-b-q007",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": ".PNG refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Image file",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Movie/animation file",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Audio file",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MS Office document",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "PNG stands for Portable Network Graphics, a lossless raster image format, so a .PNG file is an image file.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b9ae6356b76352a2d838b8efe8ad01dca1e3b69a"
+  },
+  {
+    "id": "bank-b-q008",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "USB is a device used to store data and it stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unlimited Service Band",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Unlimited Serial Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Universal Serial Bus",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Universal Service Bus",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "USB stands for Universal Serial Bus. It is 'serial' because it transfers one bit at a time over a differential pair, and 'universal' because one bus standard serves keyboards, drives, cameras and so on.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7e3771d851d429c937fe557a5317768076f8ff0e"
+  },
+  {
+    "id": "bank-b-q009",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "voip",
+    "stem": "_____ is a technology that allows telephone calls to be made over computer networks like the Internet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "VoIP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "GSM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CDMA",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "VoIP (Voice over IP) digitises speech into packets and carries the call over an IP network such as the Internet instead of the circuit-switched phone network. GSM and CDMA are cellular radio standards and a modem is only the hardware that puts data on a line, so none of them is the technology being described.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d1d47f9a1ba31b91867016c087ac247023081630"
+  },
+  {
+    "id": "bank-b-q010",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "A program that runs in the background on your computer, sending information about your browsing habits to the company that installed it on your computer is called as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pop-ups",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Adware",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Grayware",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Spyware",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Answer unverified: the printed key marks C (Grayware), but the stem describes software that hides in the background and reports your browsing habits back to whoever installed it, which is the textbook definition of D, Spyware. Grayware is only an umbrella term for unwanted-but-not-strictly-malicious software (it covers spyware and adware both), so it is the vaguer option rather than the specific category named; adware is defined by displaying advertisements, which the stem never mentions. Learn the real distinction, but note that this exam's key says Grayware.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "586cd69fca4ca7e1051080898abae65de708b686"
+  },
+  {
+    "id": "bank-b-q011",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "Software is a set of programs, which is designed to perform a well defined function and there are two types of software, application and system. The following are all application software except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Excel",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft Power Point",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Microsoft Windows",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "The question asks which is NOT application software. Microsoft Windows is the operating system, i.e. system software: it manages the hardware and provides the platform that Word, Excel and PowerPoint (all applications performing user-facing tasks) run on top of.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5971a6cb8a32b4f53f82014a78e3adcb1478aea5"
+  },
+  {
+    "id": "bank-b-q012",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "1 Gigabyte (GB) is equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "1024 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1024 KB",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1024 MB",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "1024 TB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The binary ladder steps by 1024 each rung: 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB. Option A (1024 bytes) is the definition of a kilobyte, not a gigabyte, and 1024 TB would be a petabyte, so the only rung that lands on GB is 1024 MB.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1c102a162298231e053f99bde3abd14f7e8d9173"
+  },
+  {
+    "id": "bank-b-q013",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "The fourth generation computers are based on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transistor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Integrated circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "VLSI microprocessor",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ULSI microprocessor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Generations track the switching technology: 1st = vacuum tubes, 2nd = transistors, 3rd = integrated circuits, 4th = VLSI microprocessors (Intel 4004 onward, whole CPU on one chip), 5th = ULSI and AI machines. Transistor and IC are the previous two generations, and ULSI (option D) is the classic trap because it is the next one, not the fourth.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ff346e4e62343ca3deecdeaaf9b75371cb1f905c"
+  },
+  {
+    "id": "bank-b-q014",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "All the following are computer input devices except for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Mouse",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joy Stick",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A printer takes data from the computer and renders it on paper, so it is an output device. Keyboard, mouse and joystick all feed data into the computer, so they are inputs.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8c05a96559d7f8d06fb6885dbcb47059ef840a38"
+  },
+  {
+    "id": "bank-b-q015",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "A CD-RW has a speed rating of 12x 10x 32x. What do the three numbers refer to in order?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Write, rewrite, read",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Read, write, rewrite",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Rewrite, read, write",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Write, read, rewrite",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "CD-RW drives are rated in write x rewrite x read order, so 12x 10x 32x means 12x write, 10x rewrite, 32x read. The shortcut for the exam: the read speed is always the largest of the three numbers because reading is the fastest operation, so the 32x has to sit in the last position, which rules out every other ordering.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "71e9e8aac7aebdd189a67a83fdbd405ba6ceab98"
+  },
+  {
+    "id": "bank-b-q016",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "The information stored in _______ is erased when the computer is turned off",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "BIOS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CPU",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "RAM is volatile: its cells need power to hold their charge, so contents are lost when the machine is switched off. ROM and the BIOS chip are non-volatile and keep their contents without power, and the CPU is a processor, not storage.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "70772287974983f6c88cc3d224f626d73262afcc"
+  },
+  {
+    "id": "bank-b-q017",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "malware",
+    "stem": "Malware is the short form for malicious software and used to refer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spyware",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Virus",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Malware is an umbrella term for any malicious software, so spyware, worms and viruses are all instances of it rather than alternatives to it. That makes 'all of the above' the only answer that covers the definition.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "898f210c2c08a5134aff3bb69c757d3d97d8110e"
+  },
+  {
+    "id": "bank-b-q018",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "data-protection",
+    "stem": "What is the best way to protect your hard drive data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Backup",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Defragmentation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Delete junk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A backup is a second copy on separate media, so it is the only listed action that survives drive failure, ransomware or accidental deletion. Scanning detects malware, defragmentation reorganises files for speed and deleting junk frees space, but none of them preserve the data if the drive dies.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e3106afbc942f8bdfa90853239e5383e1b97d53c"
+  },
+  {
+    "id": "bank-b-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "The following device is used to connect two systems using different protocols",
+    "options": [
+      {
+        "label": "A",
+        "text": "Modem",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Repeater",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Gateway",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bridge",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A gateway is the protocol translator: it can reach up to the application layer and convert between dissimilar protocols or architectures. A repeater only regenerates the signal (layer 1), a bridge forwards frames between segments running the same protocol (layer 2), and a modem converts digital to analogue, none of which translate protocols.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0c828e0f17ca75e8d1317d4d5e5b31d358755015"
+  },
+  {
+    "id": "bank-b-q020",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "programming-languages",
+    "stem": "The computer language used for artificial intelligence is",
+    "options": [
+      {
+        "label": "A",
+        "text": "FOTRAN",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PROLOG",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "COBOL",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Answer unverified: the exam PDF keys option C (the C language), but that is almost certainly a keying error, and the same file miskeys several consecutive items to C. The defensible answer is B, PROLOG (PROgramming in LOGic), the classic AI language alongside LISP. FORTRAN is for numeric computation, COBOL for business data processing, and C is a general-purpose systems language with no AI-specific constructs.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 21
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "339a7985adf18b6015be476f04efa27d3541d8f1"
+  },
+  {
+    "id": "bank-b-q021",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "open-source",
+    "stem": "Open source software is software whose source code is available for modification or enhancement by anyone. Which of the following is an example of open source software?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adobe Photoshop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Word",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Libre Office",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Skype",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "LibreOffice is released under a free/open licence with its source code publicly available and modifiable. Photoshop, Microsoft Word and Skype are all proprietary, closed-source products.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "94270b6102667566debad282ea372f6db909517d"
+  },
+  {
+    "id": "bank-b-q022",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "file-formats",
+    "stem": "JPEG seen with the .jpg or .jpeg filename extension is commonly used method for compression of digital images. What does JPEG stand for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Joint Picture Encoding Graphics",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Joint Photographic Experts Group",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Joint Photo Edit Grid",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Joint Picture Express Grid",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "JPEG stands for Joint Photographic Experts Group, the committee that defined the standard. The other options are invented expansions built from plausible-sounding words.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9ebacc62f1e05b04607ef25d4fab0c687845c5d7"
+  },
+  {
+    "id": "bank-b-q023",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "web",
+    "stem": "A “URL” is a formatted text string used by web browsers, email clients and other software to identify a network resource on the Internet. It stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Universal Resource Link",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Uniform Resource Locator",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Unlimited Resource Locator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Universal Reference Link",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "URL stands for Uniform Resource Locator: 'uniform' because the syntax is the same for every scheme, and 'locator' because it says where the resource is and how to fetch it. The distractors swap in 'Universal' or 'Link', which belong to no standard.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "083dcb83575427a8b1e3bb3b6f1a36a9c1f79d75"
+  },
+  {
+    "id": "bank-b-q024",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "SD Card is a memory cards used in electronic equipments including digital cameras and cell phones.  What does SD stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Secure Digital",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Scan Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Short Drive",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Slot Disk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "SD stands for Secure Digital, the flash memory card standard from the SD Association. 'Scan Disk' is the trap: it echoes the old ScanDisk disk-checking utility, which has nothing to do with memory cards.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5a42c1f9544a0cbe1bb142ed9ff60b7c4fd948ac"
+  },
+  {
+    "id": "bank-b-q025",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A byte is equivalent to",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "6 bits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8 bits",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "10 bits",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A byte is defined as 8 bits, which gives 2^8 = 256 distinct values, enough for the extended ASCII character set.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d66322872a8c1db86464a26ca5ce796281d9234c"
+  },
+  {
+    "id": "bank-b-q026",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "A standard computer keyboard has how many keys?",
+    "options": [
+      {
+        "label": "A",
+        "text": "84",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "94",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "104",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "114",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The standard Windows enhanced keyboard has 104 keys: the older 101-key layout plus two Windows keys and one menu key. The 84-key figure is the obsolete IBM AT layout.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8a9b342069116260380c394777481c02c450839e"
+  },
+  {
+    "id": "bank-b-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "protocols",
+    "stem": "HTTP stands for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hyper Text Transfer Protocol",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Hyper Timed Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hopper Transfer Text Protocol",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Hopper Text Timer Protocol",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the application-layer protocol browsers use to request and receive web pages. The other options scramble the words into expansions that do not exist.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d16bb32b5d88eaf88428e1e8f0f7d9f9f550c4e9"
+  },
+  {
+    "id": "bank-b-q028",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The capacity of 3-1/2 inch floppy is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.33MB",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1.44MB",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "1.34MB",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1.43MB",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The formatted capacity of a 3.5 inch high-density floppy disk is 1.44 MB. Legacy trivia: the other options are near-miss numbers with no basis.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "a2f68fc826a741fe87dd0fd0a4af20f3772e1569"
+  },
+  {
+    "id": "bank-b-q029",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "data-units",
+    "stem": "A character has how many bits:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "16",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "In ASCII and extended ASCII, one character is stored in one byte, which is 8 bits. Note this is the exam's convention: Unicode encodings such as UTF-8 can use up to 4 bytes per character, but this question is asking for the classic one-byte-per-character rule.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "900f3b68882c028d5326c3609ae29a25b2a85f62"
+  },
+  {
+    "id": "bank-b-q030",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "software-types",
+    "stem": "A program that allows us to do specific tasks is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Application software",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "System software",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Windows 2000",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Windows Xp",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Application software is written to perform specific user tasks (word processing, spreadsheets, browsing). System software, which includes operating systems such as Windows 2000 and Windows XP, manages the hardware and provides the platform that applications run on, so options B, C and D are all the same wrong category.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 31
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "0ca4811152e0b2b13be27840c06f255e81f4052c"
+  },
+  {
+    "id": "bank-b-q031",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "In a computer network which device acts as a traffic cop:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Router",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Hub",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Switch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the exam PDF keys Switch, but the standard 'traffic cop' metaphor (deciding which way traffic goes at a junction) describes the Router, which selects paths and forwards packets between different networks. A switch only forwards frames by MAC address inside a single LAN, a hub blindly floods every port, and a modem just modulates the signal. Published versions of this stem answer Router, and this source file miskeys several items to C, so treat Router as the intended answer but know both readings.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 32
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b3da535574ad6b626dc7e5d0eee9c90c8fd24165"
+  }
+]

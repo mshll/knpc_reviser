@@ -1,0 +1,896 @@
+[
+  {
+    "id": "bank-a-q105",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "First generation computer systems used",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transistors",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Vacuum Tubes",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Both (a) and (b)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "First generation computers (roughly 1940-1956, e.g. ENIAC, UNIVAC) were built from vacuum tubes. Transistors are the classic trap here: they define the second generation, which is why 'Both' is wrong.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "64e73517dce653b62e4cfee8812358fe1a7772aa"
+  },
+  {
+    "id": "bank-a-q106",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Such types of printers, in which the printing head contacts with the paper in printing process, are called as :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Impact Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Non-Impact Printer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Laser Printer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "An impact printer is defined by the print head physically striking an inked ribbon against the paper (dot-matrix, daisy-wheel, line printers). Laser is the trap: it is a non-impact printer, since it fuses toner without any mechanical contact.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "96c37066012da6c18bfeda8f36add2b400dfb4ee"
+  },
+  {
+    "id": "bank-a-q107",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "The term that we use to describe physical components of a computer",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hardware",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Input",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Operating System",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Hardware is the term for the physical, tangible components of a computer. Software is the intangible instructions, and an operating system is one kind of software, so both are wrong.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4e35108d4d9dd3f340733a935262c1124bbc441f"
+  },
+  {
+    "id": "bank-a-q108",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "storage-devices",
+    "stem": "Which part of the computer helps to store information ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disk drive",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The disk drive is the only storage device in the list. Keyboard is input, monitor and printer are output; none of them retain data.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 31
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "470702a341bb144dae3215ff7f1d9fb41e476d8b"
+  },
+  {
+    "id": "bank-a-q109",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "QWERTY is used with reference to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Keyboard",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Mouse",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "QWERTY names the standard keyboard layout, taken from the first six letters on the top letter row.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 32
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bbd2fc2bc602a4646405787378e7d7e201afe321"
+  },
+  {
+    "id": "bank-a-q110",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "DVD stands for :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Digital Video Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Digital Versatile Disk",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DVD officially stands for Digital Versatile Disc. 'Digital Video Disc' is the trap: it was the early informal name, dropped once the format was used for data and audio as well as video.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 33
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "38e10699a970f8c0c159cff064c4c4bf9afdce43"
+  },
+  {
+    "id": "bank-a-q111",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Which of the following is not an input device?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Monitor",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Joystick",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Microphone",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The monitor displays results to the user, so it is an output device. Keyboard, joystick and microphone all feed data into the computer.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 34
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46e3b93ba0fa38db5dda1ef2295094e5182f6fb4"
+  },
+  {
+    "id": "bank-a-q112",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu",
+    "stem": "This component is required to process data into information and consists of integrated circuits.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hard disk",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CPU",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ROM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The CPU is the integrated-circuit chip that executes instructions and turns raw data into information. RAM and the hard disk only store data, and ROM only holds fixed firmware; none of them process it.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 35
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "97dcc32108eac01b7256bc9c84d645152330f294"
+  },
+  {
+    "id": "bank-a-q113",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "What is object of UPS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Using for storage",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To increase the speed of a computer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Provides backup power",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A UPS (Uninterruptible Power Supply) holds a battery that supplies backup power when mains power fails, giving time to save work and shut down cleanly. It does nothing for storage capacity or speed, so 'All of the above' is wrong.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 36
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "babf9416412158d7e9179678c7ba4d214d88a7f1"
+  },
+  {
+    "id": "bank-a-q114",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Which of the following groups consist of only output devices ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scanner, Printer, Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Keyboard, Printer, Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Mouse, Printer, Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Plotter, Printer, Monitor",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Plotter, printer and monitor are all output devices. Every other group is spoiled by one input device: scanner in A, keyboard in B, mouse in C.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 37
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5d4f9b65fec5f5a7c9dcf206e3739bed20c5bb5b"
+  },
+  {
+    "id": "bank-a-q115",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "bus",
+    "stem": "Information travels between components on the mother board 1 through:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Flash memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CMOS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Bays",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Buses",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "A bus is the set of parallel wires on the motherboard that carries data, addresses and control signals between components. CMOS is a small memory holding BIOS settings and bays are physical slots for drives, so neither transports information.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 38
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bf6a8c1d5a9fb30179df555d6d16d0f1d5116bf7"
+  },
+  {
+    "id": "bank-a-q116",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "A framwork in which circuit boards can be mounted is…",
+    "options": [
+      {
+        "label": "A",
+        "text": "Switch circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Chip",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Card cage",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bar code",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A card cage is the metal frame or chassis with guide rails and a backplane into which circuit boards are slotted and mounted.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 39
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "72e7b23fa50db2f759617fe6e66b9daa04f10504"
+  },
+  {
+    "id": "bank-a-q117",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "What type of device is a Computer Printer ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Input",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Output",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Storage",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A printer takes data from the computer and renders it on paper for the user, which makes it an output device.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 40
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0697c02ed2a83add34aedea5dbc45ea92caab56a"
+  },
+  {
+    "id": "bank-a-q118",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "All of the following are examples of input devices EXCEPT a:",
+    "options": [
+      {
+        "label": "A",
+        "text": "scanner",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "mouse",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "printer",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "The question asks for the exception. Scanner, mouse and keyboard all send data into the computer; the printer only receives data from it, so the printer is the output device and the correct answer.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 41
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4d652672575002196381e5889ae26f3cd1d88633"
+  },
+  {
+    "id": "bank-a-q119",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "A Plastic card similar to a credit card but having some memory and a microprocessor embedded within it is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Punched paper tape",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Chip card",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Card punch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Magnetic tape",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A chip card (smart card) is a credit-card-sized plastic card with an embedded microprocessor and memory. Punched tape, card punch and magnetic tape are passive legacy media with no processor.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 42
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "78a819e288986d070633825f40fdfbaaa2372f87"
+  },
+  {
+    "id": "bank-a-q121",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "Physical structure of computer is called:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hardware",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Humanware",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The physical structure of a computer, the parts you can touch, is its hardware. Software is the programs, and humanware refers to the people who operate the system.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 44
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1ca8069d7d1649fa43190c7c3524dbbb817eebaa"
+  },
+  {
+    "id": "bank-a-q123",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "When you quickly press and release the left mouse button twice , you are—",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary-clicking",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "pointing",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Double-clicking",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Secondary-clicking",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Two quick presses and releases of the left (primary) button is a double-click. A single press is primary-clicking, and a right-button press is secondary-clicking.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 46
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d1ac4039eb92ea5df47a3b7e4a1ae6fdc45478a9"
+  },
+  {
+    "id": "bank-a-q124",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "The following are all computing devices , except ………",
+    "options": [
+      {
+        "label": "A",
+        "text": "notebook computers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "cellular telephones",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "digital scanners",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "personal digital assistants",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Notebooks, cellular phones and PDAs each have their own processor and run programs, so they are computing devices. A digital scanner is only a peripheral input device attached to a computer, so it is the exception.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 47
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "23acdeebea5ca0e1475f548218eb573a4ce9f979"
+  },
+  {
+    "id": "bank-a-q126",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "bus",
+    "stem": "The main virtue for using single Bus structure is ____________",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fast data transfers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Cost effective connectivity and speed",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Cost effective connectivity and ease of attaching peripheral devices",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "By using a single BUS structure we can minimize the amount of hardware (wire) required and thereby reducing the cost.",
+    "explanationSource": "source",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eb83eb64bab15515b2174cf82ebce898f6802a4d"
+  },
+  {
+    "id": "bank-a-q127",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "bus",
+    "stem": "______ are used to overcome the difference in data transfer speeds of various devices.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Speed enhancing circuitory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Bridge circuits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Multiple Buses",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Buffer registers",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "By using Buffer registers, the processor sends the data to the I/O device at the processor speed and the data gets stored in the buffer. After that the data gets sent to or from the buffer to the devices at the device speed.",
+    "explanationSource": "source",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "470afa0483835ac58780a642099ca4c94c986983"
+  }
+]

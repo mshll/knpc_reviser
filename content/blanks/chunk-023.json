@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "bank-b-q032",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-basics",
+    "stem": "The computer you are controlling or working via a network is called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remote computer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Local computer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Host computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Personal Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The machine you operate across the network is the remote computer; the local computer is the one physically in front of you that you are typing on. 'Host' is the trap: every machine attached to a network is a host, so it does not distinguish the two ends of the session.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 33
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "98fde352b5f1816a6c0ec7772c027796d0fda081"
+  },
+  {
+    "id": "bank-b-q033",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "acronyms",
+    "stem": "WYSIWYG is an acronym for what?",
+    "options": [
+      {
+        "label": "A",
+        "text": "What You Saw Is What You Got",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "What You See Is What You Get",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "What You Seen Is What You Gotten",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "What You Sow Is What You Get",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "WYSIWYG stands for What You See Is What You Get: the editing view on screen matches the printed or published output. The other options are made-up tense variations of the same phrase.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 34
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eeb8509f212534c62e6b59fd4a0ca94b0c577e19"
+  },
+  {
+    "id": "bank-b-q034",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "protocols",
+    "stem": "Which protocol sends electronic mail?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Outlook Express",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "POP3",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SMTP",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is the push protocol that sends mail from a client to a mail server and relays it between servers. POP3 is the trap: it only retrieves mail from a mailbox. FTP transfers files, and Outlook Express is a client application, not a protocol.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 35
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5e168cbc8fc44340559736437bb0b389a548447c"
+  },
+  {
+    "id": "bank-b-q035",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "cabling",
+    "stem": "What type of connector is used to plug a telephone line into a modem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "COM1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RJ-45",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RJ-11",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "RJ-10",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "RJ-11 is the small 6-position jack used for analogue telephone lines, which is what plugs into a dial-up modem. RJ-45 is the classic trap: it is the 8-position Ethernet connector, physically wider and used for LAN cabling.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 36
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "095edee617b86233e0cac79a22811e2935800b95"
+  },
+  {
+    "id": "bank-b-q036",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "boot-process",
+    "stem": "From what location are the 1st computer instructions available on boot up?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ROM BIOS",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "boot.ini",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CONFIG.SYS",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "At power-on RAM is empty, so the CPU fetches its very first instruction from the reset vector, which is mapped to firmware held in ROM BIOS. boot.ini and CONFIG.SYS are files on disk, and reading a disk already requires running code, so they cannot be first.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "cd61df8072d4e62f3b526d7e9d43dd612229eaba"
+  },
+  {
+    "id": "bank-b-q037",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "troubleshooting",
+    "stem": "What could cause a fixed disk error.",
+    "options": [
+      {
+        "label": "A",
+        "text": "No-CD installed",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "bad ram",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "slow processor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Incorrect CMOS settings",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "'Fixed disk' means the hard disk. Legacy BIOS stores the drive type and geometry in CMOS, so if those settings are wrong or the CMOS battery has failed, POST cannot address the drive and reports a fixed disk error. Bad RAM or a slow processor produce entirely different symptoms.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "40338a7fa77657482b3c23d37bea7cb5b5461d18"
+  },
+  {
+    "id": "bank-b-q038",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "Missing slot covers on a computer can cause?",
+    "options": [
+      {
+        "label": "A",
+        "text": "over heat",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "power surges",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EMI.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "incomplete path for ESD",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Slot covers seal the case so the fans pull air along the intended path across the boards; with covers missing the airflow short-circuits and the machine overheats (and dust gets in). EMI is a defensible real-world second answer because the covers are part of the shield, but overheating is the keyed one.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e995a7ced8db5ff136336a0e325a8add22658508"
+  },
+  {
+    "id": "bank-b-q039",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "When installing PCI NICS you can check the IRQ availability by looking at",
+    "options": [
+      {
+        "label": "A",
+        "text": "dip switches",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CONFIG.SYS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "jumper settings",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "motherboard BIOS",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "PCI cards are jumperless and configured by Plug and Play, so there are no dip switches or jumpers to read. IRQ assignment and availability are shown in the motherboard BIOS setup under PnP/PCI configuration. CONFIG.SYS is a DOS text file and tracks no interrupts.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "a8995cc5a49af39aa22afe894f8edc569b3735c2"
+  },
+  {
+    "id": "bank-b-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "With respect to a network interface card, the term 10/100 refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "protocol speed",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "a fiber speed",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "megabits per seconds",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "minimum and maximum server speed",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "10/100 means the NIC negotiates either 10 Mbps or 100 Mbps Ethernet, so the numbers are megabits per second. It is a link speed on copper (10BASE-T / 100BASE-TX), not a fiber rate and not a property of the protocol.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f3b1b78fb2ceea02dcc6109bc2a024295fb636f1"
+  },
+  {
+    "id": "bank-b-q041",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Which Motherboard form factor uses one 20 pin connector",
+    "options": [
+      {
+        "label": "A",
+        "text": "ATX",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "AT",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "BABY AT",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ATX introduced the single keyed 20-pin motherboard power connector. AT and Baby AT used two separate 6-pin connectors (P8 and P9) that could be swapped and plugged in backwards, which is why the ATX design replaced them.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "8c2cb549035a2321357ecf85de6619dedc159c48"
+  },
+  {
+    "id": "bank-b-q042",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-storage",
+    "stem": "A hard disk is divided into tracks which are further subdivided into:",
+    "options": [
+      {
+        "label": "A",
+        "text": "clusters",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "sectors",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "vectors",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "heads",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Each platter surface has concentric tracks, and every track is divided into sectors, the smallest physically addressable unit on the disk (classically 512 bytes). Clusters are the trap: they are groups of sectors defined by the file system, not a subdivision of the disk geometry.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e2dc3159d0c15a0525fe04097d0a5b77f16dcd8a"
+  },
+  {
+    "id": "bank-b-q043",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "A wrist grounding strap contains which of the following:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Surge protector",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Capacitor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Voltmeter",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Resistor",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "An ESD wrist strap has roughly a 1 megohm resistor in series with its ground lead. That bleeds static charge off you slowly instead of instantly, and limits current to a safe level if you touch a live conductor while grounded.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6d620e281e62c7e94f0767c592fd7a7b085ff99e"
+  },
+  {
+    "id": "bank-b-q044",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "interfaces",
+    "stem": "Which standard govern parallel communications?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RS232",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RS-232a",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CAT 5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "IEEE 1284",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "IEEE 1284 is the standard for the PC parallel (printer) port, covering SPP, EPP and ECP modes. RS-232 is the trap: it is the serial standard, and CAT 5 is a cable specification rather than a communications standard.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "549895c5625c6a472b7635d72c23ba646d8d956c"
+  },
+  {
+    "id": "bank-b-q045",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "In laser printer technology, what happens during the conditioning stage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The corona wire places a uniform positive charge on the paper",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A uniform negative charge is placed on the photosensitive drum",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A uniform negative charge is placed on the toner",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Conditioning (charging) is the stage where the primary corona wire or charge roller applies a uniform negative charge across the whole photosensitive drum; the laser then selectively discharges the areas that will pick up toner. Charging the paper is the transfer stage, not conditioning.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "80fdefdb15e72dab45c6f09de1f2c6407683196f"
+  },
+  {
+    "id": "bank-b-q046",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "maintenance",
+    "stem": "What product is used to clean smudged keys on a keyboard?",
+    "options": [
+      {
+        "label": "A",
+        "text": "TMC solvent",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Silicone spray",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Denatured alcohol",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All-purpose cleaner",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Smudges on keycaps are ordinary grime, so a mild all-purpose cleaner on a cloth is what the bank keys as correct. Solvents and silicone spray can attack the plastic and the printed legends, and denatured alcohol is intended for contacts rather than casework.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "585d7ffe0a3f391466729bf60b3dba5116b4c95b"
+  },
+  {
+    "id": "bank-b-q047",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "ESD would cause the most damage to which component?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Power supply",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Expansion board",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "ESD destroys low-voltage semiconductor logic, which sits exposed on expansion boards; a static discharge too small for you to feel is already enough to damage a chip. Power supplies, monitors and keyboards handle far higher voltages and currents and are comparatively rugged.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d91e750c48c0a39540f2e22cbbaac9be27797d17"
+  },
+  {
+    "id": "bank-b-q048",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "dos-commands",
+    "stem": "To view any currently running Terminate Stay Resident (TSR's) programs you could type:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MEM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "SYS /M",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Memmaker",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The DOS MEM command (usually MEM /C) lists the programs currently loaded in conventional and upper memory, which is exactly how you see resident TSRs. MEMMAKER is the trap: it optimizes memory usage rather than reporting it, and 'Memory' is not a DOS command at all.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "70b06b354862877e60fcc7e3851b032fb4f79a94"
+  },
+  {
+    "id": "bank-b-q049",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "Which type of system board is the MOST likely candidate for processor upgrading if you want maximum performance and future compatibility?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ML",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PCI",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "ISA",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "EISA",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Of the buses listed, PCI is the fast, modern one, so a PCI-based system board is the candidate that will not bottleneck a faster processor and has the best chance of taking future cards. ISA and EISA are legacy low-bandwidth buses.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "550cdfbbbb562b116328c2969b90bc81f9ba2cd1"
+  },
+  {
+    "id": "bank-b-q051",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "UNIVAC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Universal Automatic Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Universal Array Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Unique Automatic Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unvalued Automatic Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "There are no computers with the name as in other options. UNIVAC was the first general purpose electronic digital computer designed for commercial use, produced by Universal Accounting Company of John Mauchly and J.P.Eckert in 1951.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1cbdb54fe4b187991490378047bcf7f47a0a4815"
+  },
+  {
+    "id": "bank-b-q052",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "CD-ROM stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compactable Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Compact Data Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compactable Disk Read Only Memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Compact Disk Read Only Memory",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "There are no objects with the name as in other options. CD-ROM is a non-volatile optical data storage medium using the same physical format as audio compact disk, readable by a computer with a CD-ROM drive. The standard 12 cm diameter CD-ROM store about 660 megabytes.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f2c1c9c434332a47721fcdc907fe2b93b9b3d826"
+  },
+  {
+    "id": "bank-b-q053",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "ALU is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Arithmetic Logic Unit",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Array Logic Unit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Application Logic Unit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ALU is a unit in Central Processing Unit in a computer system that is responsible for arithmetic calculations and logical operations. Apart from ALU, the CPU contains MU (Memory Unit) and CU (Control Unit).",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0ed373525f30c185c67de2b52530c3522ea80f3f"
+  },
+  {
+    "id": "bank-b-q054",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "display",
+    "stem": "VGA is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Video Graphics Array",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Visual Graphics Array",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Volatile Graphics Array",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Video Graphics Adapter",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "VGA is a type of Graphics Adapter. Graphic Adapter is an electronic board that controls the display of a monitor. This device helps the motherboard to work with the monitor and in VGA and SVGA the last letter ‘A’ stands for ‘Array’ whereas in MDA, CGA, MCGA the last letter ‘A’ stands for ‘Adapter’.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e5fe1d996cd1209d0253125e2293508c9b3b60ec"
+  },
+  {
+    "id": "bank-b-q055",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-generations",
+    "stem": "IBM 1401 is",
+    "options": [
+      {
+        "label": "A",
+        "text": "First Generation Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Second Generation Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Third Generation Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fourth Generation Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "IBM 1401 is a Second Generation Computer and is the first computer to enter Nepal in 2028 BS for census. Government of Nepal had brought this computer on rent and later purchased for data processing in Bureau of Statistics. After this computer, another ICL 2950/10, a British computer, was purchased by the fund of UNDP and UNFPA for the census of 2038 BS is second computer in Nepal.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a2f2f54748b31ba9a54fcb0814b012530700afd9"
+  },
+  {
+    "id": "bank-b-q056",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "integration-scale",
+    "stem": "MSI stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Medium Scale Integrated Circuits",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Medium System Integrated Circuits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Medium Scale Intelligent Circuit",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Medium System Intelligent Circuit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "After the invention of IC chips the development of computers plunged into next phase. Small Scale Integration and Medium Scale Integration (SSI and MSI) were used in third generation of computers and Large Scale Integration and Very Large Scale Integration (LSI and VLSI) are being used in fourth generation of computers. People are now expecting ULSI (Ultra Large Scale Integration) Circuits to be used for fifth generation computers.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b51d30829a754d36b633d7ab656a06831bc8b1cb"
+  },
+  {
+    "id": "bank-b-q057",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The capacity of 3.5 inch floppy disk is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.40 MB",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1.44 GB",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1.40 GB",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1.44 MB",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Microfloppy disks (3.5 inch) if it is high density (MF2HD) can store 1.44 MB and if it is low density (MF2DD), it can store 720 KB. Mini Floppy disks (5.25 inch) if it is high density (MD2HD) can store 1.2 MB and low density (MD2DD) stores 360 KB of data.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "a2a5f4bc42dcc65e1d75fa5cd7c18fa8c8f15e86"
+  }
+]

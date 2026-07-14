@@ -1,0 +1,893 @@
+[
+  {
+    "id": "bank-a-q192",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "If A = 1, B = 1, what will be the values of Y and Z?",
+    "stemFigure": "/figures/bank-a-q192.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y = 0, Z = 0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Y = 1, Z = 0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Y = 0, Z = 1",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Y = 1, Z = 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Trace both outputs: Y = A'.(A+B) and Z = Y + (A+B). With A = 1, B = 1: A' = 0, so Y = 0.(1) = 0; A + B = 1, so Z = 0 + 1 = 1. Hence Y = 0, Z = 1.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a49d7cc1d73d9f6fa3dd0bb56659bb7eb0dd788d"
+  },
+  {
+    "id": "bank-a-q193",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "switching",
+    "stem": "Which of the following methods provides dedicated communication channel between two stations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Circuit switching",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Switch network",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Packet switching",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Circuit switching reserves an end-to-end path (the classic telephone call) that stays dedicated to the two stations for the whole session. Packet switching is the distractor: it shares every link statistically and gives no dedicated channel.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b9a34402a74c7563920546d88b258de7da18db4f"
+  },
+  {
+    "id": "bank-a-q194",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "topology",
+    "stem": "The most flexibility how devices are wired together is provided by",
+    "options": [
+      {
+        "label": "A",
+        "text": "T-switched networks",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Star networks",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ring networks",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bus networks",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "In a bus topology any device can tap the shared trunk cable at any point, so there is no central hub to home-run to and no closed loop to maintain, giving the most freedom in how the wiring is laid out. The question is loosely worded, but star and ring both impose a fixed cabling structure.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7e051fdca34d10803767ded50a8bd5282797d679"
+  },
+  {
+    "id": "bank-a-q195",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan",
+    "stem": "Which of the following items is not used in local area network (LAN)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cable",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Modem",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A modem modulates data onto a telephone/WAN line to reach outside the site, so it belongs to the WAN side, not the LAN itself. Cable, printer and computer are all ordinary LAN components.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1008671d85b5b0005d75ef84c2be6cf2be6cde23"
+  },
+  {
+    "id": "bank-a-q196",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "proxy-server",
+    "stem": "A proxy server is used as the computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "with external access",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "acting as a backup",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "performing file handling",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "accessing user permissions",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A proxy server is the intermediary machine that holds the external (Internet) connection and makes outbound requests on behalf of internal clients, so the internal hosts never talk to the outside directly. Backup, file handling and permissions are jobs of other servers.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "44ce9d337febe38c83369f052f9ef0cb97afb850"
+  },
+  {
+    "id": "bank-a-q197",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "security",
+    "stem": "Which software prevents the external access to a system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firewall",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Gateway",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Router",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Virus checker",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A firewall inspects traffic against a rule set and blocks unauthorised inbound connections, which is exactly 'preventing external access'. Routers and gateways forward traffic rather than filter it, and a virus checker targets malware already on the machine.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f76dc0a203c400f1faa8b2eed10cbd2631abe097"
+  },
+  {
+    "id": "bank-a-q198",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "security",
+    "stem": "Which one of the following would breach the integrity of a system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Looking the room to prevent theft",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Full access rights for all users",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Fitting the system with an anti-theft device",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Protecting the device against willful or accidental damage",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Integrity means data cannot be altered by unauthorised parties. Giving every user full access rights lets anyone modify or delete data, so integrity is breached. The other options are physical security measures, which protect availability and the hardware, not data correctness.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8e443001f16029bdddcee216d762514acc1ddcb2"
+  },
+  {
+    "id": "bank-a-q199",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ipv4",
+    "stem": "The maximum length (in bytes) of an IPv4 datagram is?",
+    "options": [
+      {
+        "label": "A",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1024",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "65535",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "512",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The IPv4 header's Total Length field is 16 bits, so the largest value it can hold is 2^16 - 1 = 65535, and that count covers header plus payload in bytes. 512 and 1024 are typical MTU-ish numbers, not the protocol maximum.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "de41a35413f51b24ebe3b1facc58f81de0301561"
+  },
+  {
+    "id": "bank-a-q201",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "What IP address class allocates 8 bits for the host identification part?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Class A",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Class B",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Class C",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Class D",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Class C splits the 32-bit address as 24 network bits + 8 host bits, giving 2^8 - 2 = 254 usable hosts per network. Class B leaves 16 host bits and Class A leaves 24; Class D is multicast and has no host part at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "520fbb7ba0f438bfbdb233ee497deb8cfe592767"
+  },
+  {
+    "id": "bank-a-q202",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "standards",
+    "stem": "The term IANA stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Internet Assigned Numbers Authority",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Internal Assigned Numbers Authority",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internet Associative Numbers Authoritative",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Internal Associative Numbers Authority",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "IANA stands for Internet Assigned Numbers Authority, the body that allocates IP address blocks, protocol numbers and port numbers.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e96c4dbed999fa58a8bd9c69f6bae7a31a0628bb"
+  },
+  {
+    "id": "bank-a-q203",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many versions available of IP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 version",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "4 version",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2 version",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "1 version",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Only two IP versions are actually deployed: IPv4 and IPv6. The trap is reading the '6' in IPv6 as a count of versions; it is a version number, not a total.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a5e1974c6ca1def8b291868cb2bfa259b6e7116a"
+  },
+  {
+    "id": "bank-a-q204",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Which layer of the TCP / IP stack corresponds to the OSI model transport layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Host to host",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Application",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internet",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Network Access",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The TCP/IP stack's host-to-host layer (where TCP and UDP live) provides end-to-end delivery between processes, which is precisely OSI layer 4, the transport layer. Internet maps to OSI network (layer 3) and Network Access maps to OSI data link plus physical.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e0aedad291b829d5f535ee5c27795a715d30c33a"
+  },
+  {
+    "id": "bank-a-q205",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "cryptography",
+    "stem": "Which of the following algorithms is not used in asymmetric-key cryptography?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RSA algorithm",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Diffie-Hellman algorithm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Electronic code book algorithm",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "ECB (Electronic Code Book) is a mode of operation for symmetric block ciphers such as DES/AES, where both parties share one secret key. RSA and Diffie-Hellman are the genuine public-key (asymmetric) algorithms, so ECB is the odd one out.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c028e7312cd24ce9317d285d477816cc4667a53b"
+  },
+  {
+    "id": "bank-a-q206",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "routing",
+    "stem": "A network router joins two _________ together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Computers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Switches",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Networks",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Gateway",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A router works at layer 3 and forwards packets between two or more distinct IP networks, using the destination network address to pick the next hop. Joining computers or switches within one network is a switch/hub's job at layer 2.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e61d9499586596278cbe52fed8074b1ee97cc587"
+  },
+  {
+    "id": "bank-a-q207",
+    "type": "true_false",
+    "topic": "networking",
+    "subtopic": "middleware",
+    "stem": "Message Oriented Middleware allows general purpose messages to be exchanged in a Client/Server system using message queues.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "True. That is the standard definition of Message Oriented Middleware: clients and servers exchange general-purpose messages through queues, which decouples them and allows asynchronous communication (the sender does not block waiting for the receiver).",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "93b65dbbf313380ddb0cb310bec23e51a2a1ff39"
+  },
+  {
+    "id": "bank-a-q208",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Which of the following below is a loopback IP address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "127.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "127.0.1.1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "127.0.1.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "127.0.0.1",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "127.0.0.1 is the canonical loopback host address, the one a machine uses to talk to itself. 127.0.0.0 is the network address of the reserved 127.0.0.0/8 loopback block, not a host address, which is the trap here.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0ac9733d21fb897ac3f730282748dacb7c5fc39b"
+  },
+  {
+    "id": "bank-a-q209",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "icmp",
+    "stem": "Ping command works on which protocol?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ICMP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "TCP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "IP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "UDP",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Ping sends an ICMP Echo Request and waits for an ICMP Echo Reply, timing the round trip. ICMP rides directly on IP; there is no TCP or UDP transport involved.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c18bc060410258efd0b42bd8457111b317787255"
+  },
+  {
+    "id": "bank-a-q210",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Which of the following protocols below work in the application layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "POP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PPP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Both a and d above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "POP (mail retrieval) and FTP (file transfer) are both application-layer protocols, while PPP is a data-link (layer 2) protocol, so the combined option is correct. Note the option text is misprinted: 'Both a and d' should read 'both a and c', meaning POP and FTP.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "93f8dcbe8115f9e27448920e8b6d52ebd14433fc"
+  },
+  {
+    "id": "bank-a-q211",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ports",
+    "stem": "What is the port number for HTTP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "80",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "65",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "HTTP is well-known port 80 (HTTPS is 443). The distractors are the other classic well-known ports you are expected to have memorised: 25 is SMTP and 21 is FTP control; 65 is not a standard service port at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d79f3095bf6153cebd269a3ba4c01d523ce7e2c2"
+  },
+  {
+    "id": "bank-a-q212",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "MAC addresses are also known as?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hardware address",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Physical address",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "both and b above",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "IP address",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A MAC address is the 48-bit identifier burned into the NIC, so it is called both the hardware address and the physical address; since options A and B are each individually true, the only complete answer is C. The trap is D: an IP address is the logical Layer 3 address, assigned by software and changeable, which is exactly what a MAC address is not.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "404e88425d519dd624de6fc6e418d5c692306307"
+  }
+]

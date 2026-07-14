@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bank-a-q212",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "exam noooow.pdf, page 63 (rendered image, 200dpi), Q20 prints verbatim:\n\"20. MAC addresses are also known as?\nA. Hardware address\nB. Physical address\nC. both and b above\nD. IP address\nAns: C\"\nThe missing 'a' is in the paper itself, not in our extraction. Two questions later on the same page the paper prints the same construction correctly (\"24. Token Ring is a data link technology for? ... D. both a and b above\"), which shows the paper is simply inconsistent/typo'd at Q20.",
+    "note": "Source typo reproduced faithfully; per fidelity rule the typo stays verbatim. No change."
+  },
+  {
+    "id": "bank-b-q050",
+    "verdict": "quarantine",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "Computer Engineering K-Companies Exam - Questions.pdf, page 17 (rendered at 300dpi and cropped), Q15 prints verbatim:\n\"15. Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs) that will resolve the problem. What should you do after turning the power off?\nA. Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock\nB. Replace all of the indicated FRUs at once and return the machine to the customer if the problem is resolved\nC. Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem\nD. None of the above\nAnswer: Option A\"\nThe broken premise (\"you have a the maintenance package identifies\") and the fused option C (\"as in ays replace the system board...\") are printed exactly that way in the paper.",
+    "note": "Broken at source, not an extraction error - our text is character-for-character what the paper prints; the paper itself lost a clause from the stem and fused two distractors into option C, so quarantine rather than reconstruct."
+  },
+  {
+    "id": "bank-b-q058",
+    "verdict": "quarantine",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "Computer Engineering K-Companies Exam - Questions.pdf, page 19 (rendered at 400dpi and cropped), Q8 prints verbatim:\n\"8. The first computer introduced in Nepal was\na. IBM 1400\nb. IBM 1401\nc. IBM 1402\nd. IBM1402\"\nOptions c and d are the same distractor in the paper itself (the only difference is the space); this is not an extraction slip.",
+    "note": "Broken at source - the paper prints two identical distractors (IBM 1402 / IBM1402). Extraction is faithful and key B is still uniquely correct, but per the duplicate-options rule this is a source defect, so quarantine."
+  },
+  {
+    "id": "bank-b-q090",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "Computer Engineering K-Companies Exam - Questions.pdf, page 33 (rendered at 500dpi and cropped for the stem line), Q20 prints verbatim:\n\"20. A small or intelligent device is so called because it contains within it a\na. Computer\nb. Microcomputer\nc. Programmable\nd. Sensor\"\nZoomed to 500dpi the word is unambiguously \"small\" (s-m-a-l-l), not \"smart\". The paper's own answer page (page 36) prints \"20. A small or intelligent device is so called because it contains within it a  /  d. Sensor\", repeating \"small\" a second time.",
+    "note": "The 'small' for 'smart' typo is the paper's, printed twice; our extraction is faithful so it stays verbatim. (Separately, the printed key on p.36 is d. Sensor - key dispute is out of scope for this pass, untouched.)"
+  },
+  {
+    "id": "bank-b-q104",
+    "verdict": "not-a-defect",
+    "correctedStem": null,
+    "correctedOptions": null,
+    "sourceEvidence": "Computer Engineering K-Companies Exam - Questions.pdf, page 40 (rendered image), Q14 prints verbatim:\n\"14. Dot-matrix is a type of\na. Tape\ne. Printer\nf. Disk\ng. Bus\"\nThe surrounding items on the same page are labelled a/b/c/d normally (13. Display screen / Soft copy terminal / Hard copy terminal / Plotter), so the a/e/f/g run is a defect in the printed paper, not an OCR artifact of ours.",
+    "note": "Extraction is faithful: option order and text are right and the A/E/F/G lettering is what the paper prints. The item's explanation blaming an 'OCR artifact in the source' is wrong and should be corrected. A cosmetic relabel to A-D (Printer would become B) is reasonable for the reader but cannot be expressed here - this file's schema requires labels to match the existing ones, and it would shift answerOptionLabels, which this pass may not touch."
+  }
+]

@@ -1,0 +1,923 @@
+[
+  {
+    "id": "ce2016-q020",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Which one of the following is a famous commercial DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Oracle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: as written, A, B and C are all commercial (non-free) DBMS products, so the item has more than one defensible answer. The keyed answer is Oracle because it is the archetypal large-scale commercial DBMS. Only Linux is unambiguously wrong, since it is an operating system, not a DBMS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 20
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "249896dafa84ae1f4a9a9fa3bd0489a0a5e57baa"
+  },
+  {
+    "id": "ce2016-q021",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "How many layers are in the OSI network model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The OSI reference model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application. The trap is 4 or 5, which are the layer counts of the TCP/IP model, not OSI.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 21
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c7d940cbdde04509aabbb32e4a78c0287d6b5602"
+  },
+  {
+    "id": "ce2016-q022",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "How many steps are in the systems development life cycle (SDLC)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "7",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: the phase count of the SDLC is convention-dependent and textbooks give 5, 6 or 7. The keyed answer, 6, matches the common breakdown of planning, requirement analysis, design, implementation/coding, testing, and maintenance. Memorize the six-phase list for this exam, but expect other sources to merge or split phases.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 22
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "472f9c11f65dda6c194255e2f84c07e94afda2a1"
+  },
+  {
+    "id": "ce2016-q023",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "sdlc",
+    "stem": "In SDLC, in which step do we check the results to meat with software specifications?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Testing",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Requirement Analysis",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Planning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Design",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Testing is the phase in which the built system is exercised against the requirements to confirm the results match the software specification. Requirement Analysis is where the spec is produced and Design is where a solution is planned; neither checks results, since no results exist yet at those stages.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 23
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f0661a23a6edd35311d9f00abdfa185bdd43c4f6"
+  },
+  {
+    "id": "ce2016-q024",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dns",
+    "stem": "DNS stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Name System.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Domain Name System.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Network System.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Domain Network Service.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DNS = Domain Name System, the distributed directory that resolves human-readable names such as example.com into IP addresses. The distractors swap in 'Dynamic' (which belongs to DHCP) or 'Network' for 'Name'.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 24
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c6d003ae300570d9b58f9fe0c35bff6d02ce0ba6"
+  },
+  {
+    "id": "ce2016-q025",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "dhcp",
+    "stem": "DHCP stands for _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Host Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Dynamic Host Configuration Protocol.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dynamic Hyper Control Protocol.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dynamic Hyper Configuration Protocol.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DHCP = Dynamic Host Configuration Protocol: it hands hosts an IP address, subnet mask, default gateway and DNS servers automatically on joining a network. 'Control' in place of 'Configuration' is the trap; DHCP configures hosts, it does not control them.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 25
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2cf96efcea1d56bf98471ee585a85586be74f557"
+  },
+  {
+    "id": "ce2016-q026",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "An IPv4 address is 32 bits: four octets of 8 bits each (8 * 4 = 32), written in dotted decimal such as 192.168.1.1. That yields 2^32, roughly 4.3 billion, addresses, which is why exhaustion forced IPv6.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 26
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "21342a11d7ab54c147d05bb62257541417645018"
+  },
+  {
+    "id": "ce2016-q027",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many bits are in IPv6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "64",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "128",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "An IPv6 address is 128 bits: eight groups of 16 bits (16 * 8 = 128), written as hex separated by colons. That is four times the width of IPv4's 32 bits, giving 2^128 addresses.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 27
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0f4ab4bca23fc6856a17ae6475755f920f1056cf"
+  },
+  {
+    "id": "ce2016-q030",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to T-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Tie J and K together and drive both from T: substituting J = K = T into Q(t+1) = J·Q(t)' + K'·Q(t) gives Q(t+1) = T·Q(t)' + T'·Q(t), which is the T flip-flop equation, so T=0 holds and T=1 toggles. Only a wire is needed, no gate. Adding a NOT gate (J = T, K = T') would instead build a D flip-flop that loads the input, which is the conversion asked for in the next question.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 30
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b35a078c03611870312a6dd41cc2ac78b80b8a6a"
+  },
+  {
+    "id": "ce2016-q031",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flop-conversion",
+    "stem": "How can we convert JK-flipflop to D-flipflip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Add OR Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Add AND Gate",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Add NOT Gate",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "No additional Gate.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A D flip-flop is a JK flip-flop with J = D and K = D', so you only need to invert D on its way to the K input: one NOT gate. Recall the JK table: J=1,K=0 sets, J=0,K=1 resets, which is exactly D=1 and D=0 once K is tied to D'. 'No additional gate' is the trap, since wiring D straight to both J and K gives J=K, which toggles or holds instead of loading.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 31
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ead73312d0d6884af4a7b51730dac4ca05505af3"
+  },
+  {
+    "id": "ce2016-q033",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "communication-services",
+    "stem": "Which one of the following is a way for communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATS",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "DDT",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DDD",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DTS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "WATS (Wide Area Telephone Service) is a carrier-provided bulk long-distance telephone service, so it is the only listed item that is actually a means of carrying communication: DDT is an insecticide (and an old debugging tool) and DTS is not a telephony service. Fair warning on this item: DDD (Direct Distance Dialing) is also a genuine telephone service, so the option set is weak, but the exam key marks WATS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 33
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0d3b2587a26092356c34f22041d79937275208c6"
+  },
+  {
+    "id": "ce2016-q034",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "When does “Hash Clustering” happen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two nodes map to the same hashed value.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Finding some other position when hash address is occupied.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "When a program crashes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "When each node is assigned to a unique hashed value.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Clustering is what happens when keys pile up on the same hash address rather than spreading evenly, which is what option A describes. Be aware the item is loosely worded: two keys landing on one address is strictly a collision, and B (probing for another slot when the address is taken) is the open-addressing mechanism that actually produces primary clustering. A is the best of a poor option set and is what the key marks.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 34
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0a390061f3ebbffbdad2d936db7838eac3b4b723"
+  },
+  {
+    "id": "ce2016-q035",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "troubleshooting",
+    "stem": "A technician could not connect to server, ipconfing on the server works ok. How to proceed in troubleshooting the problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ping.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ping gateway.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "check server.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Tracert from host to the server.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "ipconfig on the server already confirms the server's own IP stack and addressing are fine, so the fault is somewhere on the path between client and server. tracert from the host to the server walks the route hop by hop and shows exactly where it dies, which rechecking the server (C) cannot do. A and B are weaker because a bare ping only gives a pass/fail with no location, and pinging the gateway tests just the first hop.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 35
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ab025e935d2de28c947eadbadd13521387c2e1e5"
+  },
+  {
+    "id": "ce2016-q036",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "counters",
+    "stem": "Which flip flop is used to implement a counter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "D-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "JK-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "T-flipflop",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "SR-flipflop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A counter advances by toggling bits, and the T (toggle) flip-flop toggles its output on every clock when T = 1, so chaining T flip-flops directly yields a ripple counter. A JK with J = K = 1 behaves identically and is why B looks tempting, but T is the element defined for the job and is the keyed answer.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 36
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7ef6192457602d405ea20096f58722088459e3d4"
+  },
+  {
+    "id": "ce2016-q037",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-storage",
+    "stem": "What are the circles on the CD?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tracks",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Sectors",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Clusters",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Headers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The concentric (on a CD, spiral) rings of data on the disc surface are tracks. Sectors are the angular subdivisions cut across a track, and clusters are groups of sectors the filesystem allocates as one unit, so both are units within a track rather than the circles themselves.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 37
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3aea55dcc7e691ea39a80a7395993e26b4fcfa98"
+  },
+  {
+    "id": "ce2016-q038",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "What is the best sorting algorithm from the following list?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Heap Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Quick Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Insertion Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Radix Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Quick sort is the keyed answer: it averages O(n log n) with the smallest constant factors of the general-purpose comparison sorts and sorts in place, so in practice it is the fastest of the four. Know the caveat, because it is the classic trap in reverse here: quick sort degrades to O(n^2) on already-sorted input with a poor pivot, while heap sort is O(n log n) in the worst case, so 'best' is arguable and depends on whether you mean average or worst case.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 38
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a8a40f6ad001e30861a8df71dbdd84b4335bf76a"
+  },
+  {
+    "id": "ce2016-q039",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is the output of the following (C++ Code)?",
+    "stemCode": "int n;\nfor (n = 5; n > 0; n--) {\n     cout << n;\n     if (n == 3)\n        break;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "543",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "54",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "54321",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "543210",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The loop prints n, then checks the break. n=5 prints 5, n=4 prints 4, n=3 prints 3 and then hits the break, so output is 543. The trap is the ordering: because cout runs before the if, the 3 is printed before the loop exits, so answer B (54) is wrong.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 39
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "85d9c8a747442a62353c71195f319c4f58cab8fe"
+  },
+  {
+    "id": "ce2016-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "arp",
+    "stem": "The address resolution Protocol (ARP) is used to _________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find the IP address corresponding to MAC address.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Find the port address corresponding to an IP address.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Find the MAC address corresponding to an IP address.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Find the IP address from the DNS.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "ARP takes a known IP address and resolves it to the MAC address of the host on the local link, so frames can actually be addressed at layer 2. The trap is option A, which is the reverse mapping (MAC to IP), the job of RARP; DNS resolves names to IPs, not addresses to MACs.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 40
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2683a41e7c710c744b81db3384770312808d65cc"
+  },
+  {
+    "id": "ce2016-q041",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "What is the size of the MAC address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "48-bits.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "64-bits.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "An IEEE 802 MAC address (EUI-48) is 6 bytes = 48 bits, written as six hex pairs such as 00:1A:2B:3C:4D:5E. 32 bits is the trap, because that is the size of an IPv4 address.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 41
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cbde35a5a38ca14d8a1355add3123f5548cb2b54"
+  },
+  {
+    "id": "ce2016-q042",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Mac address is an Example of _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "MAC stands for Media Access Control, which is the lower sublayer of OSI layer 2, the Data Link layer. The Physical layer is the trap: it deals with bits, voltages and cabling and has no notion of addressing at all.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 42
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "58645d5b9f90d1babcd1da8a7012f348fb9c9dcd"
+  }
+]

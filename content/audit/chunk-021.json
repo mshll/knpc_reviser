@@ -1,0 +1,902 @@
+[
+  {
+    "id": "bank-a-q082",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "rfid",
+    "stem": "_______ tags, when placed on an animal, can be used to record and track in a database all of the animal’s movements.",
+    "options": [
+      {
+        "label": "A",
+        "text": "POS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "RFID",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "PPS",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "GPS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "RFID (Radio Frequency Identification) tags carry a chip and antenna that a reader energises by radio, so each time the tagged animal passes a reader its ID and timestamp are logged to a database. GPS is a positioning system, not a tag read by a scanner, and POS/PPS are not tags at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "839fabe99cd126085785f3e244d24197141451d9"
+  },
+  {
+    "id": "bank-a-q083",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "Chip is a common nickname for a (n):",
+    "options": [
+      {
+        "label": "A",
+        "text": "transistor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "resistor",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "integrated circuit",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "semiconductor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: the source PDF marks no key for this item. 'Chip' is the everyday nickname for an integrated circuit, a silicon die packing many transistors, so C is the intended answer. Transistor and resistor are individual components on the chip, and semiconductor is the material (silicon) the chip is made from, which is the classic trap here.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ca6f048567dd7ddb28837463c647cd841647ef8a"
+  },
+  {
+    "id": "bank-a-q084",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "storage-devices",
+    "stem": "All of the following are examples of storage devices except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hard disk drives",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Printers",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "USB drive",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DVD drives",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Storage devices retain data (hard disk, USB flash drive, DVD drive), while a printer only produces output on paper and holds nothing for later retrieval, so the printer is the exception.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5c82a550d801e3ef88536ee2f1bd3bd23f157ce8"
+  },
+  {
+    "id": "bank-a-q085",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "____ is any part of the computer that you can physically touch.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hardware",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "A device",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "A peripheral",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "An application",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Hardware is by definition every physical, touchable part of the computer. Device and peripheral are narrower subsets (a peripheral is only the external hardware), and an application is software, which has no physical form.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "aeaa7c57eef6986aa1b6dd85af56ce81c268967a"
+  },
+  {
+    "id": "bank-a-q086",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "A keyboard is this kind of device—",
+    "options": [
+      {
+        "label": "A",
+        "text": "black",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "input",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "output",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "word Processing",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A keyboard sends keystrokes into the computer, so it is an input device. Direction of data flow is the whole test: into the machine is input, out of it (monitor, printer, speaker) is output.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e8aa2706a4ceff5ccc0272b329fe9f08ea2db47e"
+  },
+  {
+    "id": "bank-a-q087",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu",
+    "stem": "The ______, also called the “brains” of the computer, is responsible for processing data.",
+    "options": [
+      {
+        "label": "A",
+        "text": "motherboard",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "memory",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Central Processing Unit (CPU)",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "The CPU executes instructions and performs arithmetic and logic, which is why it is called the brains of the computer. The motherboard is only the board it sits on, and RAM/memory just holds the data and instructions the CPU works on.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a6cd4114aa30333f67dedb995f61c3c87fff3748"
+  },
+  {
+    "id": "bank-a-q088",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "booting",
+    "stem": "During the boot process, the ____________ looks for the system files.",
+    "options": [
+      {
+        "label": "A",
+        "text": "CD",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "BIOS",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DVD",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "On power-up the BIOS firmware runs POST and then searches the boot devices in order for the boot sector and system files, handing control to the OS loader. The CPU executes the BIOS code but is not the thing doing the searching, and a CD or DVD is just one place it may look.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f95d465bdc740dda934005ccfdfe4cf27d011913"
+  },
+  {
+    "id": "bank-a-q089",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "_______ is an output device that lets you see what the computer is doing.",
+    "options": [
+      {
+        "label": "A",
+        "text": "a disk drive",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "monitor-screen",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "shift key",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The monitor is the output device that continuously displays what the computer is doing. The printer is also output but produces a static paper copy rather than a live view, which is the distractor to reject.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8a48e44a7e37456d11445b2722966c6eff45cf14"
+  },
+  {
+    "id": "bank-a-q091",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Which of the following is an example of an input device?",
+    "options": [
+      {
+        "label": "A",
+        "text": "scanner",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "speaker",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CD",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A scanner converts a paper image into digital data and feeds it into the computer, so it is an input device. Speaker and printer are outputs, and a CD is storage media, not a device.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8ecb47f6c716f31810984f52d7b66737e0b943a7"
+  },
+  {
+    "id": "bank-a-q092",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "The barcode which is used on all types of items, is read by a scanning device directly into the computer. What is the name of this scanning device?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laser scanner",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Wand",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "OCR",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MICR",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Retail barcodes are read by a laser scanner, which sweeps a laser beam across the bars and measures the reflected light. A wand must be dragged across the code by hand, OCR reads printed characters rather than bars, and MICR reads magnetic ink on cheques.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7f2ae1024add0979a845b3fa2eb95ffd6ef37095"
+  },
+  {
+    "id": "bank-a-q093",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "hardware-basics",
+    "stem": "A computer’s hard disk is",
+    "options": [
+      {
+        "label": "A",
+        "text": "an arithmetic and logical unit",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "computer software",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "an operating system",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "computer hardware",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "A hard disk is a physical component you can touch, so it is hardware. It stores the operating system and software, but it is not itself either of those, which is the trap in options B and C.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "742a906795b864ae9560deb504a9dd5dbdfd7514"
+  },
+  {
+    "id": "bank-a-q094",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "applications",
+    "stem": "Surgeons can perform delicate operations by manipulating devices through computers instead of manually. This technology is known as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "robotics",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "computer forensics",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "simulation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "forecasting",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Operating through computer-controlled instruments instead of by hand is robotics (robot-assisted surgery). Simulation would mean practising on a model rather than a real patient, and forensics/forecasting are unrelated.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9e961c0cf9a2f5ef02c407dde78c55703d7b85fb"
+  },
+  {
+    "id": "bank-a-q095",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "modem",
+    "stem": "The piece of hardware that converts your computer’s digital signal to an analog signal that can travel over telephone lines is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Red wire",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Blue cord",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Tower",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Answer unverified: the source PDF marks no key, but D (Modem) is the only real answer. Modem is short for modulator-demodulator: it modulates the computer's digital bits onto an analog carrier for the phone line and demodulates the incoming analog signal back to digital. The other three options are nonsense distractors.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a7e4aaa95a3756520a2c63f6446255c669861b79"
+  },
+  {
+    "id": "bank-a-q096",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "Computers that are portable and convenient for users who travel are known as _____",
+    "options": [
+      {
+        "label": "A",
+        "text": "Super computers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Laptops",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Mini computers",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "File servers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Laptops are the battery-powered, portable computers carried by travellers. Supercomputers, minicomputers and file servers are all stationary machines that stay in a data centre or office.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d5704ea5477ee017006a97be42ed0b41d302641a"
+  },
+  {
+    "id": "bank-a-q097",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "The resolution of a monitor is measured in",
+    "options": [
+      {
+        "label": "A",
+        "text": "Megabits",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hz",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Dots per inch (DPI)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Inches (diagonal)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Of the four options only dots (pixels) per inch measures resolution, i.e. how finely detail is packed onto the screen. Hz is the refresh rate and diagonal inches is the physical screen size, neither of which is resolution. Note the wording is loose: real monitor resolution is normally quoted as a pixel count such as 1920x1080, and DPI is more properly a print/pixel-density measure.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3562f1a943dceca13c09c674e40e28e0bcd69a4a"
+  },
+  {
+    "id": "bank-a-q099",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "CD-ROM is a kind of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Optical disk",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Magneto-Optical disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Magnetic disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Magnetic disc",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the source PDF marks no key, but A (Optical disk) is correct. A CD-ROM stores data as pits and lands read by a laser beam, which is the definition of optical media. Magnetic disks (hard disks, floppies) store data as magnetised regions, and magneto-optical drives combine both, using a laser to heat the medium before a magnetic write.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "42279681b8af38615cd31ea9fa20973bd08336e4"
+  },
+  {
+    "id": "bank-a-q100",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "booting",
+    "stem": "BIOS stands for :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Basic Input Output System",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Basic Instruction Output System",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Basic Interface Output System",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "BIOS stands for Basic Input/Output System, the firmware that initialises hardware at power-on and provides the low-level input/output routines the OS loader relies on.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "47cd8858a364bfd5d6e99c81ea2ede1f54d3601a"
+  },
+  {
+    "id": "bank-a-q102",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "motherboard",
+    "stem": "The CPU and memory are located on the:",
+    "options": [
+      {
+        "label": "A",
+        "text": "expansion board",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "storage device",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "output device",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The motherboard is the main circuit board that carries the CPU socket, the RAM slots and the buses connecting them. Expansion boards plug into it for extra functions, and storage/output devices are separate peripherals attached to it.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "852cb872ed3d54e42faa977c447e3cb0a8410491"
+  },
+  {
+    "id": "bank-a-q103",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "LCD stands for :",
+    "options": [
+      {
+        "label": "A",
+        "text": "Liquid Crystal Display",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Laser Crystal Display",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Light Crystal Display",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "LCD stands for Liquid Crystal Display: a backlit panel whose liquid crystal cells twist to block or pass light per pixel.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "56c0039b52d7dec029425e4f46a0234959172943"
+  },
+  {
+    "id": "bank-a-q104",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "io-devices",
+    "stem": "Which of the following is used to indicate the location on the computer monitor",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mouse",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Cursor",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Keyboard",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The cursor is the on-screen marker showing the current position (the pointer, or the insertion point in text). The mouse is the input device that moves the cursor, so it is the position indicator's cause, not the indicator itself, which is the trap in option A.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ff3006272cf02395bde9c63a3e9c1b71ca0fa4e6"
+  }
+]

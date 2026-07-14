@@ -1,0 +1,929 @@
+[
+  {
+    "id": "mock2018-q042",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Activity diagram, use case diagram, collaboration diagram and sequence diagram are considered as types of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Non-behavioral diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Non-structural diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Structural diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Behavioral diagrams.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "UML splits diagrams into structural (class, object, component, deployment, package) and behavioral ones. Activity, use case, sequence and collaboration diagrams all describe how the system behaves or how objects interact over time rather than its static make-up, so they are behavioral diagrams (D).",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 42
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "513063de4a70095bc70232af282a3cc90d932cf0"
+  },
+  {
+    "id": "mock2018-q043",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Kind of diagrams which are used to show interactions between series of messages are classified as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Activity diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "State chart diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Collaboration diagrams.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Object lifeline diagrams.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A collaboration (communication) diagram is an interaction diagram: it draws the objects and the links between them and labels each link with numbered messages, showing the series of messages exchanged. Activity and state chart diagrams model control flow and object states rather than message exchange, and 'object lifeline diagram' is not a UML diagram type (a lifeline is a component of a sequence diagram), so C is correct.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 43
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7bd9ad2f1fc06174e098d34a5b492e399ebba4de"
+  },
+  {
+    "id": "mock2018-q044",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Diagrams which are used to distribute files, libraries and tables across topology of hardware are called:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deployment diagrams.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Use case diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Sequence diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Collaboration diagrams.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A deployment diagram maps artifacts (executables, libraries, files, database tables) onto the hardware nodes and communication paths they run on, which is precisely distributing them across the hardware topology. Use case, sequence and collaboration diagrams describe behavior and interaction, not physical placement, so A is correct.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 44
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "785cdf09f1458c4d7968a6f8d02c8e4b2eee1f79"
+  },
+  {
+    "id": "mock2018-q045",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Dynamic aspects related to a system are shown with help of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sequence diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Interaction diagrams.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Deployment diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Use case diagrams.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Interaction diagrams, the family that contains sequence and collaboration diagrams, show objects exchanging messages over time and so capture the dynamic aspects of a system. A sequence diagram is only one member of that family, and deployment and use case diagrams show hardware topology and external actor requirements, so the general category B is the correct choice.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 45
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "71ab37c5191d2521b27484e7fa9cd50141a4e448"
+  },
+  {
+    "id": "mock2018-q046",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Class diagram, component diagram, object diagram and deployment diagram are considered as types of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Structural diagrams.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Behavioral diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Non-behavioral diagrams.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Non-structural diagrams.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Class, component, object and deployment diagrams all describe the static make-up of the system: its classes, its runtime objects, its software components and the hardware nodes they sit on. Static make-up is what UML calls a structural diagram, so A is correct; behavioral diagrams (activity, use case, sequence, state chart) describe what the system does over time.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 46
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "962c6b8d78ef6269da2ba1e3816998a606631f97"
+  },
+  {
+    "id": "mock2018-q047",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "Weak entities are represented in UML diagrams by using aggregations called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Qualified segregation.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Non-qualified segregation.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Non-qualified aggregation.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Qualified aggregation.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "UML has no dedicated weak-entity notation, so the identifying relationship is modelled as a qualified aggregation: the qualifier is the weak entity's partial key, which identifies it only within its owning (identifying) entity. A plain non-qualified aggregation would not carry that partial key, and 'segregation' is not a UML concept, so D is correct.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 47
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a83304be7085b4d7d2de0d7e23ffbdef393c686e"
+  },
+  {
+    "id": "mock2018-q048",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "uml",
+    "stem": "In UML diagrams, relationship between object and component parts is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ordination.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Aggregation.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Segregation.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Increment.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Aggregation is UML's whole-part relationship: it connects an object to the component parts it is assembled from. Ordination, segregation and increment are not UML relationship types, so B is correct.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 48
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "22e194589df9a3b535f336f89a5294297e2ac809"
+  },
+  {
+    "id": "mock2018-q049",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What is a hash table?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A structure that maps values to keys.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A structure that maps keys to values.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A structure used for storage.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "A structure used to implement stack and queue.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A hash table is used to implement an associative array, which has a key-value pair. So, the hash table maps keys to values.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 49
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "81f66ddedd03a5b289873f654b8f4d423f6b82a7"
+  },
+  {
+    "id": "mock2018-q050",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "If several elements are competing for the same bucket in the hash table, what is it called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diffusion.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Replication.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Collision.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "When the hash function sends two or more distinct keys to the same bucket index, the keys compete for that bucket and the event is called a collision. Collisions are unavoidable once the key space exceeds the table size and are handled by chaining or open addressing, so C is correct.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 50
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "eaf6e9b8b49d90eac488c2116ae58b66bbe391f0"
+  },
+  {
+    "id": "mock2018-q051",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "In a hash table, what is direct addressing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Distinct array position for every possible key.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Fewer array positions than keys.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fewer keys than array positions.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Direct addressing is possible only when we can afford to allocate an array that has one position for every possible key.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 51
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e8a7a3611ca34498cdcf68db4d1267795698ac3b"
+  },
+  {
+    "id": "mock2018-q052",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What is the search complexity in direct addressing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(logn).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(nlogn).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(1).",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Since every key has a unique array position, searching takes a constant time.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 52
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7e9fbb49e6af056d1b616abff0f2401ef53abc56"
+  },
+  {
+    "id": "mock2018-q053",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What is a hash function?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A function has allocated memory to keys.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A function that computes the location of the key in the array.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A function that creates an array.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "In a hash table, there are fewer array positions than the keys, so the position of the key in the array has to be computed, this is done using the hash function.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 53
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "efdd282e3056dc31c658f32f338b129f97faeb89"
+  },
+  {
+    "id": "mock2018-q054",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What can be the techniques to avoid collision?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Make the hash function appear random.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Use the chaining method.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Use uniform hashing.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the mentioned.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "All three listed items act against collisions: a hash function that behaves randomly stops any regular pattern of keys from piling into one slot, simple uniform hashing makes each of the m slots equally likely for every key, and chaining holds all keys that land on the same slot in a list at that slot. Since A, B and C are each valid, D is the answer.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 54
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "554d04b264a19ce65743d6feb582ed03c9dbc795"
+  },
+  {
+    "id": "mock2018-q055",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What is the load factor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average array size.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Average key size.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Average chain length.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "In simple chaining, load factor is the average number of elements stored in a chain, and is given by the ratio of number of elements stored to the number of slots in the array.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 55
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1e8aecb1a4f019f3b4bad01a1ab75ef41f9e7903"
+  },
+  {
+    "id": "mock2018-q056",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "What is simple uniform hashing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every element has equal probability of hashing into any of the slots.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "A weighted probabilistic method is used to hash elements into the slots.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "All of the mentioned.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "In simple uniform hashing, any given element is equally likely to hash into any of the slots available in the array.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 56
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bdf6e72eb242950c9702ee4f5c9199484aecbbf9"
+  },
+  {
+    "id": "mock2018-q057",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "In simple uniform hashing, what is the search complexity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(logn).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(nlogn).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(1).",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Under simple uniform hashing with chaining, both successful and unsuccessful searches cost Theta(1 + alpha): constant work to compute the hash and index the slot, plus the expected chain length alpha = n/m. When the table is sized proportional to the number of keys, alpha is a constant, so the search is O(1).",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 57
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f1bd7438f3b48b26880d98b81f8e06d01cb41ef5"
+  },
+  {
+    "id": "mock2018-q058",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "In simple chaining, what data structure is appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Singly linked list.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Doubly linked list.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Circular linked list.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Binary trees.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Chaining wants deletion of an element to be O(1) once you hold a pointer to its node, and a doubly linked list allows that node to be spliced out directly using its prev and next pointers. In a singly linked list you would first have to walk the chain to find the predecessor, making deletion proportional to the chain length.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 58
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4a9d0a1348c77a6073b3bfd8b304fcb584ef11b1"
+  },
+  {
+    "id": "mock2018-q059",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagrams",
+    "stem": "Which of the following gives a logical structure of the database graphically?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Entity-relationship diagram.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Entity diagram.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Database diagram.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Architectural representation.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The entity-relationship diagram is the graphical notation of the E-R model: entity sets are drawn as rectangles, relationship sets as diamonds, and lines connect them, so the diagram shows the logical structure of the database as a picture. The other three names are not standard E-R notations.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 59
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c6f9b6a2bfe3ce45bbef64c20c386f149bbbe0ca"
+  },
+  {
+    "id": "mock2018-q060",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagrams",
+    "stem": "The entity relationship set is represented in E-R diagram as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Double diamonds.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Undivided rectangles.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Dashed lines.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Diamond.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "In E-R notation a relationship set is drawn as a diamond, joined by lines to the rectangles of the entity sets it relates. Double diamonds are used only for the identifying relationship set of a weak entity, and dashed lines only attach attributes to a relationship set, so neither of those is the plain relationship set.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 60
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6612aab296038847423ca7cbcf3abdd536c15a45"
+  },
+  {
+    "id": "mock2018-q061",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "er-diagrams",
+    "stem": "The Rectangles divided into two parts represents:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Entity set.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Relationship set.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Attributes of a relationship set.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Primary key.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The first part of the rectangle contains the name of the entity set. The second part contains the names of all the attributes of the entity set.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 61
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8b9fd6acfcbc4a197199cb37c993d1d7e4fa73ee"
+  }
+]

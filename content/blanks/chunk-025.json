@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "bank-b-q085",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "motherboard",
+    "stem": "In most IBM PCs, the CPU, the device drives, memory expansion slots and active components are mounted on a single board. What is the name of this board?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Motherboard",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Breadboard",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Daughter board",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Grandmother board",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The single board carrying the CPU, memory expansion slots, drive interfaces, and active components is the motherboard, by definition the main board everything else attaches to. Same fact as the previous item, asked from the component-list direction.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7d0ac9dd697d32d2175d6c45e06d2c61ea7e00bd"
+  },
+  {
+    "id": "bank-b-q086",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "What is meant by a dedicated computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Which is used by one person only",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Which is assigned one and only one task",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Which uses one kind of software",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Which is meant for application software",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A dedicated computer is one assigned to a single task or function, for example an embedded controller or a dedicated word processor. 'Used by one person only' is the trap: that is the definition of a personal computer, which can still run any number of different tasks.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6722b4c4e917b7fad753c2e3f534fd0c0c57e991"
+  },
+  {
+    "id": "bank-b-q087",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "pc-hardware",
+    "stem": "The system unit of a personal computer typically contains all of the following except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Microprocessor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Disk controller",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Serial interface",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Modem",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "The system unit houses the microprocessor, the disk controller, and the serial interface, so those three are all inside; the modem is the exception because it is classically an external device (or an add-on card) that connects the machine to a phone line. Note this is a dated question: internal modem cards do exist, but the exam key treats the modem as the outside-the-box item.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0758d07377e6dcb96ad3639d9ce20f3d44766217"
+  },
+  {
+    "id": "bank-b-q088",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "compilers",
+    "stem": "A computer program that converts an entire program into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Simulator",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Commander",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A compiler translates the entire source program into machine code in one pass before any of it runs, producing an object or executable file. The interpreter distractor is the direct contrast: it works one statement at a time (see the next question).",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2ddd79a18ddf16c348b22e9f0ba97a821f8720ed"
+  },
+  {
+    "id": "bank-b-q089",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "compilers",
+    "stem": "A computer program that translates one program instructions at a time into machine language is called a/an",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interpreter",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Compiler",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Simulator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "An interpreter reads, translates, and executes one instruction at a time, with no separate whole-program translation step and no executable file left behind. This is the exact complement of the compiler in the previous item: whole program at once = compiler, one statement at a time = interpreter.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4e8f6b4d48fd4dbd23663b6a77db2fcb5cc34983"
+  },
+  {
+    "id": "bank-b-q090",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-terminology",
+    "stem": "A small or intelligent device is so called because it contains within it a",
+    "options": [
+      {
+        "label": "A",
+        "text": "Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Microcomputer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Programmable",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Sensor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Answer unverified: the circulated key marks D (Sensor), but the review panel resolved to B (Microcomputer). A device is called smart or intelligent because it embeds computation, that is a microcomputer (microprocessor plus memory and I/O) small enough to fit inside it; a sensor only transduces a physical quantity and confers no intelligence on its own. If the grader follows the printed key, expect D; on the merits the answer is B.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2137642c566bfd81da81b5ee7b0601a91e1fac87"
+  },
+  {
+    "id": "bank-b-q091",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "cpu-components",
+    "stem": "The ALU of a computer responds to the commands coming from",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary memory",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Control section",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "External memory",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cache memory",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The control unit decodes each instruction and issues the control signals that tell the ALU which operation to perform, so the ALU responds to the control section. Memory (primary, cache, or external) only supplies operands and instructions; it does not command the ALU.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f0b60458d54b633770ba2caa8adfc9e0d46de026"
+  },
+  {
+    "id": "bank-b-q092",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-operations",
+    "stem": "The act of retrieving existing data from memory is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-out",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Read from",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Read",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "'Read', 'read-out', and 'read-from' are all accepted names for the operation of retrieving data already stored in memory, so 'All of above' is correct. Note that reading is non-destructive in modern memory: the data stays in place, unlike a write, which overwrites it.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "10d2314dfa8e1f577ceee29607db0952d2c8d7a8"
+  },
+  {
+    "id": "bank-b-q093",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-basics",
+    "stem": "All modern computer operate on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Information",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Floppies",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Word",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Computers operate on data: raw, unprocessed values. Trap: \"Information\" is the classic distractor because information is what data becomes after processing, so it is the output, not the material the machine works on.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0af5da60e8c1d5e41aa46a77d1e55b503f2fa6e3"
+  },
+  {
+    "id": "bank-b-q094",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-format",
+    "stem": "Instructions and memory address are represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Character code",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Binary codes",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Binary word",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Parity bit",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Everything inside the machine, both the instructions and the addresses they refer to, is held as patterns of 0s and 1s, i.e. binary codes. Character code (like ASCII) encodes text only, a binary word names a unit of storage rather than a representation, and a parity bit is only for error detection.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c538b7d7358934c29d0d36257f989f21d2fe5001"
+  },
+  {
+    "id": "bank-b-q095",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "character-encoding",
+    "stem": "Which of the following code used in present day computing was developed by IBM Corporation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ASCII",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hollerith Code",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Baudot Code",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "EBCDIC Code",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "EBCDIC (Extended Binary Coded Decimal Interchange Code) was created by IBM for the System/360 and is still used on IBM mainframes today. Trap: Hollerith code is also IBM-lineage (punched cards) but it is obsolete, and the stem says \"used in present day computing\"; ASCII is an ANSI standard and Baudot came from telegraphy.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "696c0bbd111b20281678be961de4b0f7f0f760c8"
+  },
+  {
+    "id": "bank-b-q096",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "What is the latest write-once optical storage media?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Digital paper",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Magneto-optical disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "WORM disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CD-ROM disk",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the printed key says CD-ROM, but CD-ROM is factory-pressed read-only media, not write-once, and magneto-optical disks are rewritable. Applying the stem literally, the only write-once optical media listed are WORM disk (early 1980s) and digital paper (around 1990), so \"latest write-once\" points to digital paper, and the keyed answer is self-contradictory.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bc37d67c4ee44eecf93cfeb106e66dbf8a9194cf"
+  },
+  {
+    "id": "bank-b-q097",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "The most important advantage of a video disk is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compactness",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Potential capacity",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Durability",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Cost effectiveness",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The videodisc's headline advantage over the magnetic media of its era was the sheer amount it could hold, i.e. its potential capacity. It was neither cheap nor especially compact compared with the alternatives, so those distractors fail.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cb71bd0365b9f35aa400dedd517c767452f972aa"
+  },
+  {
+    "id": "bank-b-q098",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "magnetic-tape",
+    "stem": "What is the number of read-write heads in the drive for a 9-trac magnetic tape?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "18",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "27",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A 9-track tape drive reads all 9 tracks in parallel, one head per track, so 9 heads. Legacy hardware trivia: the count of heads always equals the track count in the stem.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "ca28540e2f7ce8b80b045ee0c57055f559dac4dd"
+  },
+  {
+    "id": "bank-b-q099",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-storage",
+    "stem": "Before a disk drive can access any sector record, a computer program has to provide the record’s disk address. What information does this address specify?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Track number",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sector number",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Surface number",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "This is classic CHS addressing: a sector is uniquely located only by naming the surface (which platter side, i.e. which head), the track (cylinder) on that surface, and the sector within that track. Any single one of the three is insufficient, so \"all of above\" is correct.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7debe9f2565b5f73513a0a1a5d9e9602b93719aa"
+  },
+  {
+    "id": "bank-b-q100",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "disk-storage",
+    "stem": "As compared to diskettes, the hard disks are",
+    "options": [
+      {
+        "label": "A",
+        "text": "More expensive",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "More portable",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Less rigid",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Slowly accessed",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Compared with diskettes, hard disks are fixed and rigid (not portable, not less rigid) and have far faster access, so the only remaining true statement is that they cost more. Legacy item, decided by elimination.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "27b169af0d90e6f97b2d75db5c1449267c97d673"
+  },
+  {
+    "id": "bank-b-q101",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-media",
+    "stem": "Floppy disks which are made from flexible plastic material are also called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hard disks",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "High-density disks",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Diskettes",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Templates",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "\"Floppy disk\" and \"diskette\" are the same thing; the name comes from the flexible plastic disc inside the jacket. Legacy terminology.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "b1a40049c386ab8ba26c9c7eb82d4d4068221163"
+  },
+  {
+    "id": "bank-b-q102",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "display",
+    "stem": "Regarding a VDU, Which statement is more correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is an output device",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It is an input device",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "It is a peripheral device",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "It is hardware item",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The stem asks which statement is \"more correct\", so pick the one that is always true: a VDU is a peripheral (it sits outside the CPU and main memory). Calling it purely an output device fails for VDU terminals that include a keyboard. Note the item is loosely written, since \"hardware item\" is also true but is far too broad to be the distinguishing statement.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a61090423d146db3d964b688977c38b964834f7b"
+  },
+  {
+    "id": "bank-b-q103",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "What is the name of the computer terminal which gives paper printout?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Display screen",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Soft copy terminal",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hard copy terminal",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Plotter",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Paper output is \"hard copy\", screen output is \"soft copy\", so a terminal that prints on paper is a hard copy terminal. A plotter is a device, not a terminal.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "638905bfaeef628b38257b822c08ccbc93131c21"
+  },
+  {
+    "id": "bank-b-q104",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "Dot-matrix is a type of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tape",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Printer",
+        "isCorrect": true
+      },
+      {
+        "label": "F",
+        "text": "Disk",
+        "isCorrect": false
+      },
+      {
+        "label": "G",
+        "text": "Bus",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "E"
+    ],
+    "explanation": "Dot-matrix is an impact printer that forms each character by firing a grid of pins through an inked ribbon. The option labels in this item run A/E/F/G because of an OCR artifact in the source; the key is the \"Printer\" option.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8e1aab5b07b7dc8feff6b390a95a8ae48b0740c6"
+  },
+  {
+    "id": "bank-b-q105",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "The two kinds of main memory are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary and secondary",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Random and sequential",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ROM and RAM",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Main memory is primary memory, and it is split into RAM (volatile, read/write) and ROM (non-volatile, read-only). Trap: \"primary and secondary\" is the division of all storage, not a division of main memory itself, so it cannot be the answer.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d677e24f1826706ce6bf9cc7566a385ea977b56e"
+  },
+  {
+    "id": "bank-b-q106",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "A kind of serial dot-matrix printer that forms characters with magnetically-charged ink sprayed dots is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laser printer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Ink-jet printer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Drum printer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Chan printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "An ink-jet printer sprays tiny charged ink droplets and deflects them onto the paper to build up a dot matrix, exactly as described. A laser printer fuses toner via a photoconductive drum, and drum and chain printers are impact line printers with fixed character shapes.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "dda29ef62f98a8b55fe4fa4fd68b658aecd5faf2"
+  },
+  {
+    "id": "bank-b-q107",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "printers",
+    "stem": "Which printer is very commonly used for desktop publishing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laser printer",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Inkjet printer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Daisywheel printer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dot matrix printer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Desktop publishing needs high-resolution, near-typeset page output, which is what laser printers deliver. Inkjet and dot-matrix were lower resolution, and a daisywheel can only print fixed character shapes, so it cannot render graphics or fonts at all.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "75679dbaaf60188913c317cca433d306d1ef46ee"
+  },
+  {
+    "id": "bank-b-q108",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "io-devices",
+    "stem": "An output device that uses words or messages recorded on a magnetic medium to produce audio response is",
+    "options": [
+      {
+        "label": "B",
+        "text": "Magnetic tape",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Voice response unit",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Voice recognition unit",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Voice band",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Playing back prerecorded words to produce spoken output is a voice response unit, which is an output device. Trap: a voice recognition unit is the mirror image (an input device that converts speech to data).",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "030449e121e8fd8351d216428bf5259bf69b6832"
+  },
+  {
+    "id": "bank-b-q109",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-operations",
+    "stem": "Which of the following will happen when data is entered into a memory location?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It will add to the content of the location",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "It will change the address of the memory location",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "It will erase the previous content",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "It will not be fruitful if there is already some data at the location",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Writing to a memory location is destructive: the new value overwrites whatever was there. Reading, by contrast, is non-destructive. The address of a location never changes, and there is no automatic accumulation of the old value with the new.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b89b447caf37aa298a30b03c1f1349910070fdce"
+  }
+]

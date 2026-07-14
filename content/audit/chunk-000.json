@@ -1,0 +1,937 @@
+[
+  {
+    "id": "knpc2021-q002",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ethernet",
+    "stem": "Maximum number of times Ethernet retransmits a packet",
+    "options": [
+      {
+        "label": "A",
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "15",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "IEEE 802.3 binary exponential backoff allows 16 total transmission attempts before the frame is discarded, which is 1 original transmission plus 15 retransmissions. The stem asks for retransmissions, so the answer is 15; 16 is the classic trap because it is the attempt limit, not the retry limit.",
+    "referenceUrl": "https://stackoverflow.com/questions/5227520/how-many-times-will-tcp-retransmit",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cfd216052b43d81ffed47824262b317875661c10"
+  },
+  {
+    "id": "knpc2021-q003",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ethernet",
+    "stem": "Ethernet runs on?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pure ALOHA",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Slotted ALOHA",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CSMA",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CSMA/CD",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Classic shared-medium Ethernet uses CSMA/CD: a station listens before sending (carrier sense), and if two stations transmit at once it detects the collision, jams, and retries after exponential backoff. Plain CSMA is the trap, it senses the carrier but has no collision detection, and the ALOHA schemes do not sense the medium at all.",
+    "referenceUrl": "https://www.lantronix.com/resources/networking-tutorials/ethernet-tutorial-networking-basics/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ca6118dd0fc2844eb68180378d9f9597bc5aeb3d"
+  },
+  {
+    "id": "knpc2021-q004",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "ones-complement",
+    "stem": "max signed decimal number represented in 6 bits 1s complement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-63 to +63",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "-31 to +32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "-31 to +63",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "-31 to +31",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "In 6-bit ones complement one bit is the sign and five bits are magnitude, so the largest magnitude is 2^5 - 1 = 31 and the range is a symmetric -31 to +31 (both 000000 and 111111 encode zero). Option A forgets the sign bit entirely, and the asymmetric options are borrowed from two's complement, whose actual 6-bit range is -32 to +31, not -31 to +32.",
+    "referenceUrl": "https://byjus.com/question-answer/the-range-of-numbers-that-can-be-represented-by-6-bit-1-s-complement-number/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "91d16f28486c147a3f5aeaf530e3f3a2e89f62de"
+  },
+  {
+    "id": "knpc2021-q005",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "cmos",
+    "stem": "Given this CMOS figure, which gate is it?",
+    "stemFigure": "/figures/knpc2021-q005.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 input NAND",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2 input AND",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2 input NOR",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 input OR",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The figure shows the two PMOS transistors in series between Vdd and the output, and the two NMOS transistors in parallel to ground. Series pull-up with parallel pull-down means the output is high only when both inputs are low, which is NOR. NAND is the mirror image (parallel PMOS, series NMOS), and AND/OR are wrong because a single CMOS stage always inverts.",
+    "referenceUrl": "https://www.youtube.com/watch?v=601dZ7NYJf4&ab_channel=TutorialsPoint%28India%29Ltd.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "17fee356967801fccb44370351779900ef00b434"
+  },
+  {
+    "id": "knpc2021-q006",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "topologies",
+    "stem": "Ethernet topology connected with 1 cable, unidirectional, neighbors connected together",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ring",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Star",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Tree",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A single closed cable where each node connects only to its two neighbours and data flows one way around the loop is a ring topology (as in Token Ring / FDDI). Bus is the trap: it is also one cable, but it is a shared open backbone with terminators, not a unidirectional neighbour-to-neighbour loop.",
+    "referenceUrl": "https://networkinterview.com/ring-network-topology/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7c265b79bbc9123faf34b3e71cc68c1373611365"
+  },
+  {
+    "id": "knpc2021-q007",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is value of count?",
+    "stemCode": "int count = 0;\nfor(count = 1; count<10;count++)\n{\n}\ncout << count << endl;",
+    "options": [
+      {
+        "label": "A",
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "9",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The loop runs count = 1..9, and on the iteration where count becomes 10 the test 10 < 10 fails, so the loop exits with count still holding 10 and cout prints 10. The trap is 9: that is the last value the body saw, but the increment that ends the loop still executes before the test.",
+    "referenceUrl": "https://www.onlinegdb.com/online_c++_compiler",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "77a439b2a2826b0cff237861f1d1bd987395068f"
+  },
+  {
+    "id": "knpc2021-q008",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "pipelining",
+    "stem": "Given 3 assembly instructions with dependency. Running on a 5-stage pipeline, what is the number of cycles:",
+    "stemCode": "add s1,s2,s1\nlw t0, 32(t1)\nadd t0,t0, t2",
+    "options": [
+      {
+        "label": "A",
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "6",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Three instructions in a 5-stage pipeline take 5 + (3 - 1) = 7 cycles with no hazards. The lw writes t0 and the next add reads t0, a load-use RAW hazard; without forwarding the add cannot read t0 in ID until the lw's WB cycle, which costs 2 stall cycles, so 7 + 2 = 9. The 7 option is the hazard-free count and 8 would be the answer if forwarding were assumed (1 stall).",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 8
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1ce72bbf020e2c170ef4ec3f1611cf755ec757a1"
+  },
+  {
+    "id": "knpc2021-q010",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-switch",
+    "stem": "What is the output of the above code?",
+    "stemCode": "int i;\nfor(i=0;i<5;i++)\n{\nswitch(i)\n{\ncase 1:\ncout << \"Orange, \";\nbreak;\n\ncase 4:\ncout << \"Apple, \";\nbreak;\n\ndefault:\ncout << \"Tea, \";\nbreak;\n}\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "No output",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tea, Tea, Tea, Tea, Tea, Tea",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Tea, Orange, Tea, Tea, Apple",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Orange, Apple, Tea",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The switch runs for i = 0..4: i=0 hits default ('Tea, '), i=1 hits case 1 ('Orange, '), i=2 and i=3 hit default ('Tea, ' twice), i=4 hits case 4 ('Apple, '), giving 'Tea, Orange, Tea, Tea, Apple, '. Option B is the trap for assuming default swallows every iteration, and D for forgetting that default fires on the unmatched values too.",
+    "referenceUrl": "https://www.onlinegdb.com/online_c++_compiler",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "65dee4f37ab03033b472eab64ee0df5e041a5884"
+  },
+  {
+    "id": "knpc2021-q013",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "requirements",
+    "stem": "When a software keeps changing during its development",
+    "options": [
+      {
+        "label": "A",
+        "text": "Software Consistency",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Software Stability",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Software Durability",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Software Testability",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Answer unverified: no key was recorded. The best answer is B, Software Stability, which is the degree to which requirements and the software do not keep changing during development, so constant change is a lack of stability. Consistency means requirements do not contradict each other, and durability and testability are unrelated properties.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 13
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9b51e51a8545cef5e7227444e71d3e0ed51e3221"
+  },
+  {
+    "id": "knpc2021-q015",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "keys",
+    "stem": "What is a foreign key?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary key of a participating relation",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Super key",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Composite key",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Primary key of a relation",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: no key was recorded. The best answer is A: a foreign key is an attribute (or set of attributes) in one relation whose values must match the primary key of another, referenced, relation, which is what enforces referential integrity. Option D is the trap, it drops the referencing half and just describes an ordinary primary key.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 15
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bb1527c2668e426c49b4cefeb849abe701b1cfb0"
+  },
+  {
+    "id": "knpc2021-q017",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "routing-protocols",
+    "stem": "Which one is Interior Gateway?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ISIS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "OSPF",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RIP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of them",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "RIP, OSPF and IS-IS all run inside a single autonomous system, which is what makes a protocol an Interior Gateway Protocol, so the answer is 'All of them'. The trap is picking one of them out of habit: the odd one out would have been BGP, the exterior gateway protocol used between autonomous systems, and it is not on the list.",
+    "referenceUrl": "https://freewimaxinfo.com/routing-protocol-types.html",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b9d6592775c3a82afd71fd14e3e2a49a8a33367a"
+  },
+  {
+    "id": "knpc2021-q018",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search-tree",
+    "stem": "Best running time complexity for binary search tree assuming it is already sorted?",
+    "options": [
+      {
+        "label": "A",
+        "text": "theta(1)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "theta(logn)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "theta(n)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "theta(2n)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Reading 'best' as best case, the search key is compared against the root on the first probe and matches, so the work is constant: theta(1). Note the stem is sloppy: if it instead meant a BST built by inserting already-sorted keys, the tree degenerates into a linked list and search costs theta(n), so know both readings. The average/typical BST search is theta(log n), which is the distractor most people jump to.",
+    "referenceUrl": "https://www.javatpoint.com/binary-search",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 18
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b270b3fed758566a875861ccbc6d9529bc583056"
+  },
+  {
+    "id": "knpc2021-q019",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "agile",
+    "stem": "Which of the following is NOT in the Agile Manifesto?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Contract negotiation over customer collaboration",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Working software over complete documentation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Individuals and interactions over processes and tools",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Responding to change over following to plan",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The Agile Manifesto's four values are: individuals and interactions over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; responding to change over following a plan. Option A states 'contract negotiation over customer collaboration', which is the third value reversed, so it is the one NOT in the manifesto. B, C and D are the other three values quoted (loosely) as written.",
+    "referenceUrl": "https://agilemanifesto.org/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "58fea480b5b089c1dc287e44495ce2029cd30463"
+  },
+  {
+    "id": "knpc2021-q021",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Which layer transmits frames reliability, hop-by-hop with error checking?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data Link",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Transport",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Network",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The Data Link layer is the one whose PDU is the frame, and it operates hop-by-hop over a single physical link, adding an FCS/CRC trailer for error detection plus optional retransmission. Transport is the classic trap: it is also 'reliable', but end-to-end between hosts and its PDU is a segment, not a frame. Physical carries raw bits, and Network carries packets and does routing, neither works in frames.",
+    "referenceUrl": "https://www.tutorialspoint.com/computer-networks-layers-of-osi-model#",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 21
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f01176c93611e5d65b885f891fecb1ca95b0a446"
+  },
+  {
+    "id": "knpc2021-q022",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Which class is 100.1.3.0 belong to?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Class A",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Class B",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Class C",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Class D",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the item ships with no marked key (no option is flagged correct in the source). Mechanically the answer is Class A: classful addressing keys off the first octet, and 100 falls in the range 1-126 (leading bit 0), which is Class A. Class B is 128-191, Class C is 192-223 and Class D (multicast) is 224-239. The '.1.3.0' part is irrelevant; only the first octet decides the class.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 22
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e9ad27171ea46e78948fe64f3d7a6c7903a5a29d"
+  },
+  {
+    "id": "knpc2021-q023",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is the output?",
+    "stemCode": "for(int i=0; i<10;i++)\n{\nif(i < 5)\ncontinue;\n\nif(i==8)\nbreak;\ncout << i << \", \";\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "5,6,7",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "0,1,2,3,4,5,6,7,8,9",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5,6,7,8,9",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "0,1,2,3,4,5",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "For i = 0 through 4 the 'continue' fires and jumps straight to i++, so nothing prints. For i = 5, 6, 7 both ifs are false and cout runs, printing '5, 6, 7, '. At i = 8 the 'break' executes before the cout is reached, so 8 is never printed and the loop ends. Option C (5,6,7,8,9) is the trap: 'break' exits the loop rather than skipping just that iteration, and it sits above the cout.",
+    "referenceUrl": "https://www.onlinegdb.com/online_c++_compiler",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f639bf1829b92b39689188efb71fe362607c1216"
+  },
+  {
+    "id": "knpc2021-q025",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "deadlock",
+    "stem": "What is a deadlock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Processes terminated",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Processes killing each other",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Processes waiting for each other forever",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A deadlock is a set of processes each blocked holding one resource and waiting on a resource held by another process in the set, so none of them can ever proceed. The key word is 'forever': the processes are alive but permanently blocked, not terminated (A) and not destroying each other (B). Remember the four Coffman conditions that must all hold: mutual exclusion, hold and wait, no preemption, circular wait.",
+    "referenceUrl": "https://www.scaler.com/topics/operating-system/deadlock-in-os/",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f09dba50a1bae034675c3caf64f6834d96fc38a3"
+  },
+  {
+    "id": "knpc2021-q026",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "gate-delay",
+    "stem": "Given a figure of 5 gates, if delay of each gate is 1T, what is total delay? (similar to the figure below)",
+    "stemFigure": "/figures/knpc2021-q026.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "2T",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "4T",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "5T",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "3T",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Propagation delay is the length of the longest path from an input to the output (the critical path), not the total number of gates. The circuit has 5 gates arranged in 3 levels (inverters feeding two middle gates feeding one output gate), so a signal passes through 3 gates: 3 x 1T = 3T. Option C (5T) is the trap: it sums all 5 gates, which would only be right if they were all in series.",
+    "referenceUrl": "https://electronics.stackexchange.com/questions/86073/how-to-find-gate-delay",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7eed76ede3fe1e562561a133a69a002659135c0b"
+  },
+  {
+    "id": "knpc2021-q027",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "risc-cisc",
+    "stem": "Advantage of RISC processors",
+    "options": [
+      {
+        "label": "A",
+        "text": "Simple instructions",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Can operate on memory operands",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Many instructions",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "RISC is defined by a small set of simple, fixed-length instructions that mostly execute in one cycle, which is what makes deep pipelining and hardwired control possible. Options B and C describe CISC: a large instruction set with instructions that can operate directly on memory operands. In RISC only load and store touch memory (load/store architecture); everything else works on registers.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "dcdf38d27e861dc9320040b52129d66902eea212"
+  },
+  {
+    "id": "knpc2021-q028",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "multimedia",
+    "stem": "Which of the following is not Multimedia?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real time streaming",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sensitive streaming",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Stored streaming",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Live streaming",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Multimedia networking is conventionally split into exactly three classes: streaming stored audio/video, streaming live audio/video, and real-time interactive (voice/video over IP). 'Sensitive streaming' is not one of them, it is an invented term, so it is the odd one out. Do not confuse it with the property that multimedia traffic is delay-sensitive but loss-tolerant, which is probably where the distractor's wording came from.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "70da1ef330d90f3b28b0fd980c87d92aa020a4b6"
+  }
+]

@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "ce2016-q033",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "communication-services",
+    "stem": "Which one of the following is a way for communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WATS",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "DDT",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DDD",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DTS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "WATS (Wide Area Telephone Service) is a carrier-provided bulk long-distance telephone service, so it is the only listed item that is actually a means of carrying communication: DDT is an insecticide (and an old debugging tool) and DTS is not a telephony service. Fair warning on this item: DDD (Direct Distance Dialing) is also a genuine telephone service, so the option set is weak, but the exam key marks WATS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 33
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0d3b2587a26092356c34f22041d79937275208c6"
+  },
+  {
+    "id": "ce2016-q034",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "When does “Hash Clustering” happen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two nodes map to the same hashed value.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Finding some other position when hash address is occupied.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "When a program crashes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "When each node is assigned to a unique hashed value.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Clustering is what happens when keys pile up on the same hash address rather than spreading evenly, which is what option A describes. Be aware the item is loosely worded: two keys landing on one address is strictly a collision, and B (probing for another slot when the address is taken) is the open-addressing mechanism that actually produces primary clustering. A is the best of a poor option set and is what the key marks.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 34
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0a390061f3ebbffbdad2d936db7838eac3b4b723"
+  },
+  {
+    "id": "ce2016-q035",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "troubleshooting",
+    "stem": "A technician could not connect to server, ipconfing on the server works ok. How to proceed in troubleshooting the problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ping.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ping gateway.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "check server.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Tracert from host to the server.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "ipconfig on the server already confirms the server's own IP stack and addressing are fine, so the fault is somewhere on the path between client and server. tracert from the host to the server walks the route hop by hop and shows exactly where it dies, which rechecking the server (C) cannot do. A and B are weaker because a bare ping only gives a pass/fail with no location, and pinging the gateway tests just the first hop.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 35
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ab025e935d2de28c947eadbadd13521387c2e1e5"
+  },
+  {
+    "id": "ce2016-q036",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "counters",
+    "stem": "Which flip flop is used to implement a counter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "D-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "JK-flipflop",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "T-flipflop",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "SR-flipflop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A counter advances by toggling bits, and the T (toggle) flip-flop toggles its output on every clock when T = 1, so chaining T flip-flops directly yields a ripple counter. A JK with J = K = 1 behaves identically and is why B looks tempting, but T is the element defined for the job and is the keyed answer.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 36
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7ef6192457602d405ea20096f58722088459e3d4"
+  },
+  {
+    "id": "ce2016-q037",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-storage",
+    "stem": "What are the circles on the CD?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tracks",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Sectors",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Clusters",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Headers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The concentric (on a CD, spiral) rings of data on the disc surface are tracks. Sectors are the angular subdivisions cut across a track, and clusters are groups of sectors the filesystem allocates as one unit, so both are units within a track rather than the circles themselves.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 37
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3aea55dcc7e691ea39a80a7395993e26b4fcfa98"
+  },
+  {
+    "id": "ce2016-q038",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "What is the best sorting algorithm from the following list?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Heap Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Quick Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Insertion Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Radix Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Quick sort is the keyed answer: it averages O(n log n) with the smallest constant factors of the general-purpose comparison sorts and sorts in place, so in practice it is the fastest of the four. Know the caveat, because it is the classic trap in reverse here: quick sort degrades to O(n^2) on already-sorted input with a poor pivot, while heap sort is O(n log n) in the worst case, so 'best' is arguable and depends on whether you mean average or worst case.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 38
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a8a40f6ad001e30861a8df71dbdd84b4335bf76a"
+  },
+  {
+    "id": "ce2016-q039",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "What is the output of the following (C++ Code)?",
+    "stemCode": "int n;\nfor (n = 5; n > 0; n--) {\n     cout << n;\n     if (n == 3)\n        break;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "543",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "54",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "54321",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "543210",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The loop prints n, then checks the break. n=5 prints 5, n=4 prints 4, n=3 prints 3 and then hits the break, so output is 543. The trap is the ordering: because cout runs before the if, the 3 is printed before the loop exits, so answer B (54) is wrong.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 39
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "85d9c8a747442a62353c71195f319c4f58cab8fe"
+  },
+  {
+    "id": "ce2016-q040",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "arp",
+    "stem": "The address resolution Protocol (ARP) is used to _________________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find the IP address corresponding to MAC address.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Find the port address corresponding to an IP address.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Find the MAC address corresponding to an IP address.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Find the IP address from the DNS.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "ARP takes a known IP address and resolves it to the MAC address of the host on the local link, so frames can actually be addressed at layer 2. The trap is option A, which is the reverse mapping (MAC to IP), the job of RARP; DNS resolves names to IPs, not addresses to MACs.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 40
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2683a41e7c710c744b81db3384770312808d65cc"
+  },
+  {
+    "id": "ce2016-q041",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "What is the size of the MAC address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32-bits.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "48-bits.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "64-bits.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "An IEEE 802 MAC address (EUI-48) is 6 bytes = 48 bits, written as six hex pairs such as 00:1A:2B:3C:4D:5E. 32 bits is the trap, because that is the size of an IPv4 address.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 41
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "cbde35a5a38ca14d8a1355add3123f5548cb2b54"
+  },
+  {
+    "id": "ce2016-q042",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Mac address is an Example of _______________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "MAC stands for Media Access Control, which is the lower sublayer of OSI layer 2, the Data Link layer. The Physical layer is the trap: it deals with bits, voltages and cabling and has no notion of addressing at all.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 42
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "58645d5b9f90d1babcd1da8a7012f348fb9c9dcd"
+  },
+  {
+    "id": "ce2016-q043",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "atm",
+    "stem": "Packet length in ATM Network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "50 Bytes.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "53 Bytes.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Variable Length.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "ATM uses a fixed-size cell of 53 bytes: a 5-byte header plus a 48-byte payload. The fixed length is the whole point of ATM, since it makes switching and delay predictable, so 'variable length' is the trap for anyone thinking of IP packets.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 43
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e8415520e0a157225f85d7a2ed94045d2d7d8fb8"
+  },
+  {
+    "id": "ce2016-q044",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-search-tree",
+    "stem": "A Binary Tree is considered a Binary Search Tree if:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The key in each node is greater than all keys stored in the left sub-tree, and smaller than all keys in the right sub-tree.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "The key in each node is smaller than all keys stored in the left sub-tree, and greater than all keys in the right sub-tree.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The key in a parent node is greater than all keys of its children nodes.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "For each node, the number of nodes in left sub-tree is equal to the number of nodes in the right sub-tree.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The BST invariant is that for every node, all keys in its left subtree are smaller and all keys in its right subtree are larger, which is option A and is what makes an in-order traversal come out sorted. Option B inverts the ordering, C describes a max-heap, and D describes a balanced (not a search) tree; a BST need not be balanced.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 44
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ca1c4298537bf5a57b095e94a16a540c2bc4cf98"
+  },
+  {
+    "id": "ce2016-q045",
+    "type": "true_false",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "RAM cell is associated with identifier called address.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "True. Memory is organised as cells, each with a unique numeric address, and it is precisely this addressability that lets the CPU reach any cell directly in constant time, which is what 'random access' means.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 45
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9d8d1b0ae8fe5585d9da62b84205bd9e55a89847"
+  },
+  {
+    "id": "ce2016-q046",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "ram",
+    "stem": "Random Access Memory is?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Volatile.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Non-Volatile.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EPROM.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "RAM is volatile: it holds data only while powered, and its contents are lost at power-off. ROM and EPROM are the non-volatile counterparts, which is why they, and option B, are wrong here.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 46
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "592428b48a6b97d19ab2c2debf73fc2c09d4cfc6"
+  },
+  {
+    "id": "ce2016-q047",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dbms-products",
+    "stem": "Most Popular DBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Oracle.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Microsoft Access",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Linux",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The keyed answer is Oracle, which was the leading commercial DBMS by market share at the time this exam was written. Linux is the easy elimination since it is an operating system, not a DBMS at all.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 47
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b88ea6a940242d3fba27761576e22e75d1c50906"
+  },
+  {
+    "id": "ce2016-q048",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "binary-to-decimal",
+    "stem": "(1100)₂ = ( _________ )₁₀ ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "32",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "12",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Expand by place value: 1100 in binary = 1*8 + 1*4 + 0*2 + 0*1 = 12. The distractors 8 and 16 are the traps for misreading which bits are set or off-by-one on the exponent.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 48
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b124524c4b1ade45d1deecbcdef614fadb3ec205"
+  },
+  {
+    "id": "ce2016-q049",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-types",
+    "stem": "Which one of the following is NOT a computer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "File Server.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Workstation.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Personal Computer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A LAN is a network, that is, the infrastructure connecting computers, not a computer itself. A file server, a workstation and a PC are all machines that run programs, so the LAN is the odd one out.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 49
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d537aef9be4b64b82aa8b85edf3d20eaa4b05234"
+  },
+  {
+    "id": "ce2016-q052",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "deadlock",
+    "stem": "What is the situation called when two processes are waiting for each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rolling Back.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Deadlock.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Starvation.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dining Philosophers.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Two processes each holding a resource the other needs and each waiting on the other is a circular wait, which is the textbook definition of deadlock. Starvation is the trap: there a process is indefinitely postponed but the rest of the system keeps making progress, whereas in deadlock neither process can ever proceed.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 52
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "634136bfeee41c055aecacb0e9d536407e33a912"
+  },
+  {
+    "id": "ce2016-q053",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "Which OSI layer is responsible for reliable communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transport Layer.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Application Layer.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical Layer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The transport layer (TCP) provides reliability end to end: sequence numbers, acknowledgements, retransmission and flow control between the two end processes. Data Link is the trap: it only gives reliability across a single hop (node to node), not across the whole path.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 53
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "870751df96d7c090eeaf7d4243e20c41b5db20a4"
+  },
+  {
+    "id": "ce2016-q054",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-types",
+    "stem": "___________ instructions change the flow of the program.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Transfer (or Handling).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Arithmetic (and Logic).",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Branch (or Control Flow).",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Registers",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Branch / control-flow instructions (JMP, BEQ, CALL, RET) work by writing a new value into the program counter, which is exactly what changes the flow of execution. Data-transfer and arithmetic instructions only move or compute values and leave the PC to advance sequentially.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 54
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e7a45a79f15dc89a1f7f27666734509b40ba9424"
+  },
+  {
+    "id": "ce2016-q055",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "stacks",
+    "stem": "“Push” and “Pop” are used for the data structure known as __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "Array",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hash Table",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Stack",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Queue",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Push and pop are the two primitives of a stack, a LIFO structure where the last item pushed is the first popped. A queue's primitives are enqueue and dequeue (FIFO).",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 55
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "60b77b7c745aec9d8eab6443d64481c2559a5868"
+  },
+  {
+    "id": "ce2016-q056",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "subnetting",
+    "stem": "Default network mask for CLASS A is ____________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "255.0.0.0",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "255.255.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "255.255.255.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "255.255.255.255",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "In classful addressing a Class A address uses only the first octet for the network ID, so the default mask is /8 = 255.0.0.0. 255.255.0.0 (/16) is Class B and 255.255.255.0 (/24) is Class C.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 56
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c8b144e82d0b87a9f4d49364ebc64e9ec0337e39"
+  },
+  {
+    "id": "ce2016-q057",
+    "type": "mcq",
+    "topic": "number-systems",
+    "subtopic": "twos-complement",
+    "stem": "The number (-9) with signed 2's complement representation is",
+    "options": [
+      {
+        "label": "A",
+        "text": "10001001",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "11110110",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "11110111",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "11110011",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Answer unverified: the source paper prints no answer key for this item, and none of the options is marked correct in the bank. The arithmetic itself is unambiguous though: +9 = 00001001, invert every bit to get 11110110, add 1 to get 11110111, so -9 is 11110111 (option C). Option B, 11110110, is the classic trap because it is the 1's complement, i.e. you stopped before adding 1.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 57
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ec728776f31694589a2a513a0b4205bcabcb6631"
+  },
+  {
+    "id": "ce2016-q058",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "topologies",
+    "stem": "Which Ethernet topology do we use FDDI in?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bus",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Ring",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Star",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "FDDI is built on a dual counter-rotating token ring: two rings running in opposite directions so a break in one can be wrapped onto the other. Bus and star are the Ethernet topologies, not FDDI's.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 58
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "44f80c3e643c95df4467bb0ab39b3ea4a1b639c0"
+  },
+  {
+    "id": "ce2016-q059",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "The ___________ layer changes bits onto electromagnetic signals.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Transport.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Presentation.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The physical layer is the only layer that touches the medium: it converts the bit stream into electrical, optical or electromagnetic signals and defines voltages, timing and connectors. Data Link works on frames of bits, not on signals.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 59
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "25de8b0fb7733bb53d71fc3ed3156cbb656de2b6"
+  }
+]

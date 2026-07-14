@@ -1,0 +1,888 @@
+[
+  {
+    "id": "dbbank-q017",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "queries",
+    "stem": "A type of query that is placed within a WHERE or HAVING clause of another query is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Super query",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sub query",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Master query",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Multi-query",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A query nested inside the WHERE or HAVING clause of another query is a subquery (nested query); the inner query is evaluated to supply values the outer query filters on. 'Super query', 'master query' and 'multi-query' are not SQL terms.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3a1cfa3b0ae46f4d456e5bb0bf919f212bf82e24"
+  },
+  {
+    "id": "dbbank-q018",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-dictionary",
+    "stem": "A data dictionary doesn't provide information about:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Where data is located",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "The size of the disk storage device",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "It allows a many-to-many relationship",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "It is conceptually simple",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A data dictionary stores metadata about the data: table and column names, data types, constraints, and where data is located. The physical capacity of the disk storage device is a hardware property, not metadata about the data, so it is the item the dictionary does not provide. Options C and D are garbled fragments that do not describe a data dictionary at all.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d14c1bce81ca9ce2295fd76a3e70e224b49a2e8e"
+  },
+  {
+    "id": "dbbank-q019",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-hierarchy",
+    "stem": "In any hierarchy of data organization, the smallest entity to be processed as a single unit is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data field",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data record",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Data file",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Database",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The data hierarchy runs field, record, file, database, each level containing the one below it. A field (for example a single album title) is the smallest of these that is processed as one unit; a record is a group of fields, so it is larger, not smaller.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8f763e5e4eb999497a3424d01936afa5450b727e"
+  },
+  {
+    "id": "dbbank-q020",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "reports",
+    "stem": "A report generator is used to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Update files",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Print files on paper",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Data entry",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A report generator takes data from the database and formats it for printed or on-screen output. Updating files is done by DML or a data entry form, and data entry is the operator's job, so neither is a report generator's function.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a34759f2620d95d166d04827e35968df8dc9e16f"
+  },
+  {
+    "id": "dbbank-q021",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-hierarchy",
+    "stem": "Related fields in a data base are grouped to form",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data file",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data record",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Menu",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bank",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Related fields grouped together form one record (for example the title, artist and year fields of one album). Going one level up, related records grouped together form a data file, which is why option A is a level too high.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "42785a6396d322c0fe06559ab5869344de67364b"
+  },
+  {
+    "id": "dbbank-q022",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-ddl",
+    "stem": "In SQL, which command is used to remove a stored function from the database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "REMOVE FUNCTION",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "DELETE FUNCTION",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "DROP FUNCTION",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ERASE FUNCTION",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "DROP is the SQL DDL verb for removing a schema object, so DROP FUNCTION removes a stored function. The trap is DELETE, which is DML and removes rows from a table; it cannot remove the function itself. REMOVE and ERASE are not SQL keywords.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "02fba95239fff2425cd4bd1324b5cbfc7b77fdb2"
+  },
+  {
+    "id": "dbbank-q023",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-dql",
+    "stem": "In SQL, which command is used to select only one copy of each set of duplicable rows",
+    "options": [
+      {
+        "label": "A",
+        "text": "SELECT DISTINCT",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "SELECT UNIQUE",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SELECT DIFFERENT",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "SELECT DISTINCT is the standard SQL clause that collapses duplicate rows so each distinct set of values is returned once. SELECT UNIQUE is only a legacy Oracle synonym and is not standard SQL, which is why 'All of the above' is wrong.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "aaba7655e625f890ff45f86a7788a71b31f17776"
+  },
+  {
+    "id": "dbbank-q024",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "triggers",
+    "stem": "In SQL, which command(s) is(are) used to enable/disable a database trigger?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ALTER TRIGGER",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "ALTER DATABASE",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ALTER TABLE",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MODIFY TRIGGER",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ALTER TRIGGER trigger_name ENABLE / DISABLE is the command that turns an individual trigger on or off. ALTER TABLE can enable or disable all triggers on a table at once in some dialects, but it is not the command that targets a trigger, and MODIFY TRIGGER does not exist.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2c7ea22f39f40dea8ad3b2c56d59088387e90adb"
+  },
+  {
+    "id": "dbbank-q025",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dml",
+    "stem": "Which of the following is not Modification of the Database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deletion",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Insertion",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Sorting",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Updating",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Modifying a database means changing the stored data: insertion, deletion and updating. Sorting only changes the order in which rows are presented in a result set; the stored data is untouched, so it is not a modification.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d610800b27a420a3845aadd78d5b8d3c3249e0f1"
+  },
+  {
+    "id": "dbbank-q026",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-ddl",
+    "stem": "A command to remove a relation from an SQL database",
+    "options": [
+      {
+        "label": "A",
+        "text": "Delete table <table name>",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Drop table <table name>",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Erase table <table name>",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Alter table <table name>",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "DROP TABLE removes the relation itself - its rows, its structure and its definition in the schema. The classic trap is DELETE, which only removes rows and leaves the empty table in place; ALTER changes a table's structure but never removes it, and ERASE is not SQL at all.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "246377ab0e59615018f8e412984698ad0f2d9513"
+  },
+  {
+    "id": "dbbank-q027",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "referential-integrity",
+    "stem": "Which of the following in true regarding Referential Integrity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every primary-key value must match a primary-key value in an associated table",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Every primary-key value must match a foreign-key value in an associated table",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Every foreign-key value must match a primary-key value in an associated table",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Every foreign-key value must match a foreign-key value in an associated table",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Referential integrity constrains the CHILD table: every non-null foreign-key value must already exist as a primary-key value in the referenced parent table, so a foreign key can never point at a row that does not exist. The reversed option (every primary key must match a foreign key) is the trap - a parent row is perfectly legal with no children referencing it.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "17006ca8a2614d2625aa40c4d42234c24a1c7b13"
+  },
+  {
+    "id": "dbbank-q028",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "indexes",
+    "stem": "In SQL, which command(s) is(are) used to redefine an index's future storage allocation",
+    "options": [
+      {
+        "label": "A",
+        "text": "ALTER INDEX",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "REDEFINE INDEX",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "MODIFY INDEX",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DO INDEX",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ALTER INDEX is the real SQL command for changing an existing index's properties, including its future storage allocation (e.g. ALTER INDEX ... STORAGE / REBUILD in Oracle). REDEFINE INDEX, MODIFY INDEX and DO INDEX are invented names and are not SQL commands.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8dd22fb1e1f410cc738cc105d963b8d73c27663e"
+  },
+  {
+    "id": "dbbank-q029",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "data-integrity",
+    "stem": "____________ refers to the correctness and completeness of the data in a database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data security",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Data integrity",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Data constraint",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Data independence",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Data integrity is defined as the correctness (accuracy, validity) and completeness of the data held in the database. The distractors are adjacent but distinct: security is about controlling who may access data, a constraint is one of the mechanisms used to enforce integrity, and data independence is about insulating applications from schema changes.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "67ce9b0daa81d1fb60f1a709ab5bce23e9d1bafd"
+  },
+  {
+    "id": "dbbank-q030",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "dml",
+    "stem": "Data Manipulation Language enables users to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retrieval of information stored in database",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Insertion of new information into the database",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Deletion of information from the database",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "DML is the sub-language for working with the data itself: SELECT retrieves, INSERT adds, UPDATE changes and DELETE removes rows. Retrieval, insertion and deletion are all DML operations, so \"All of the above\" is correct; the trap is picking a single one and confusing DML with DDL (CREATE/ALTER/DROP), which acts on structure, not data.",
+    "source": {
+      "file": "Data.pdf",
+      "exam": "bank",
+      "tier": "practice"
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "04af94ad19311095e281c4e8fc20cb1c47d7bc50"
+  },
+  {
+    "id": "sample1-q001",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-characteristics",
+    "stem": "Which of the following is NOT a characteristic of cloud computing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "On-demand self-service",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Broad network access",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Fixed capacity",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Resource pooling",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The NIST essential characteristics are on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service. Fixed capacity is the direct opposite of rapid elasticity, so C is the odd one out; A, B and D are all on the list verbatim.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f22ab7c1a0ddbaaec251fa0e0f7b3ede4ced18c9"
+  },
+  {
+    "id": "sample1-q002",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "instruction-cycle",
+    "stem": "The process of fetching an instruction, decoding it, and then executing it is known as the:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory cycle",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "I/O cycle",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Instruction cycle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bus cycle",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Fetch, decode, execute is the definition of the instruction cycle (also called the fetch-execute cycle). Memory cycle and bus cycle name the lower-level timing of a single memory or bus access, not the whole per-instruction sequence.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7aeb0f438add2ab07ae34470f6395d56bd8c9f79"
+  },
+  {
+    "id": "sample1-q003",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "virtualization",
+    "stem": "Which technology enables multiple virtual machines on one physical server?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Encryption",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Virtualization",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Load balancing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Firewall",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Virtualization inserts a hypervisor between hardware and guests, letting it multiplex one physical CPU, memory and NIC into many isolated virtual machines. Encryption, load balancing and firewalls are all security or traffic functions and create no VMs.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e9e6c93594df5b6d239ea035f3a209ec8128f584"
+  },
+  {
+    "id": "sample1-q004",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "cloud-benefits",
+    "stem": "Which of the following is a benefit of cloud computing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High maintenance cost",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Limited scalability",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Automatic updates",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Manual backup",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Only C is stated as an advantage: the provider patches and upgrades the platform, so customers get updates automatically. A and B are worded as drawbacks (cloud lowers maintenance cost and gives near-unlimited scalability) and D is the manual work cloud backup services remove.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4ed90e3fc4b6e790f17b46c119d3fa9ca545ec27"
+  },
+  {
+    "id": "sample1-q005",
+    "type": "mcq",
+    "topic": "cloud-computing",
+    "subtopic": "service-models",
+    "stem": "In which model does the user have the least control over infrastructure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PaaS",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SaaS",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Private Cloud",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Customer control decreases along IaaS > PaaS > SaaS. In IaaS you manage OS and runtime, in PaaS only the app and data, and in SaaS you consume a finished application and control nothing below it, so SaaS gives the least infrastructure control. Private Cloud is a deployment model, not a service model, so it does not belong on this scale.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "24ae002d8f6d86aa3486b95210780526dd688b17"
+  },
+  {
+    "id": "sample1-q006",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "system-bus",
+    "stem": "What is the role of a `bus` in a computer system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To store data permanently",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To execute programs",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To provide communication pathways between components",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "To manage power supply",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A bus is the shared set of address, data and control lines that carries signals between CPU, memory and I/O modules, so its role is communication. Storage is memory's job and execution is the CPU's job.",
+    "source": {
+      "file": "Sample-1.pdf",
+      "exam": "bank",
+      "tier": "practice",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e96af6378d408b502b448ade79911b19724de942"
+  }
+]

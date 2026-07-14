@@ -2837,5 +2837,305 @@
     "quarantineReasons": [
       "free_response: cannot be auto-graded, so it is excluded from quizzes. Browsable here with its model answer."
     ]
+  },
+  {
+    "id": "mock2018-q010",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-trees",
+    "stem": "Maximum number of nodes in a binary tree with height k, where root is height 0, is",
+    "options": [
+      {
+        "label": "A",
+        "text": "2ᵏ − 1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2ᵏ⁺¹ − 1",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "2ᵏ⁻¹ + 1",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "2ᵏ − 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "With the root at height 0, level i holds at most 2^i nodes, so a tree of height k holds at most 2^0 + 2^1 + ... + 2^k = 2^(k+1) - 1 nodes. For k = 1 that is 2^2 - 1 = 3 (root plus two children), which matches option B.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 10
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9e4899931e37bf6c53d9e8e6c3f092dba6336854",
+    "quarantineReasons": [
+      "duplicate_options: the source paper prints options A and D identically as \"2ᵏ − 1\" (Test 3.zip, IMG_9100.HEIC, page 3, Q10). Our extraction is faithful - the duplicate is the paper's own defect and there is no real fourth distractor to recover. The circled key B (\"2ᵏ⁺¹ − 1\") is correct, but a four-option item with two identical distractors cannot be served honestly.",
+      "Repair-pass verdict \"quarantine\" (content/audit/repair-002.json)."
+    ]
+  },
+  {
+    "id": "bank-a-q099",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "optical-media",
+    "stem": "CD-ROM is a kind of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Optical disk",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Magneto-Optical disk",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Magnetic disk",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Magnetic disc",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Answer unverified: the source PDF marks no key, but A (Optical disk) is correct. A CD-ROM stores data as pits and lands read by a laser beam, which is the definition of optical media. Magnetic disks (hard disks, floppies) store data as magnetised regions, and magneto-optical drives combine both, using a laser to heat the medium before a magnetic write.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "42279681b8af38615cd31ea9fa20973bd08336e4",
+    "quarantineReasons": [
+      "duplicate_options: the source prints C \"Magnetic disk\" and D \"Magnetic disc\" - the same distractor twice (exam noooow.pdf, p.33).",
+      "indefensible_source_key: the paper's own key is \"Ans. (c)\" = Magnetic disk, which is factually wrong for a CD-ROM. Our bank keys A (Optical disk). Two identical distractors plus a printed key that is provably false - kept for the record, never served.",
+      "Repair-pass verdict \"quarantine\" (content/audit/repair-005.json)."
+    ]
+  },
+  {
+    "id": "bank-a-q159",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql-group-by",
+    "stem": "Why the following statement is erroneous?",
+    "stemCode": "SELECT dept_name, ID, avg (salary)\nFROM instructor\nGROUP BY dept_name;",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dept_id should not be used in group by clause",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Group by clause is not valid in this query",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Avg(salary) should not be selected",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Any property that does not occur in the group by clause must only appear in an aggregate function if it also appears in the select clause; otherwise, the query is considered incorrect.",
+    "explanationSource": "source",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 6
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c073353a7cf220900748e501d79228d475b48b7e",
+    "quarantineReasons": [
+      "no_defensible_option: the paper (exam noooow.pdf, pp.48-49) keys option a) \"Dept_id should not be used in group by clause\", but the printed query (SELECT dept_name, ID, avg(salary) FROM instructor GROUP BY dept_name) contains no Dept_id column, so the keyed option is false as printed. The real error - ID selected without aggregation - is what the paper's own explanation describes, yet it is not among the printed choices, and none of b), c) or d) is defensible either.",
+      "Repair-pass verdict \"quarantine\" (content/audit/repair-005.json)."
+    ]
+  },
+  {
+    "id": "bank-b-q050",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "troubleshooting",
+    "stem": "Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs) that will resolve the problem. What should you do after turning the power off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Replace all of the indicated FRUs at once and return the machine to the customer if the problem is resolved",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Correct service practice is to swap the FRUs one at a time, in the sequence the maintenance package recommends, retesting after each swap so you learn which part actually failed, and to return the unused parts to stock. Replacing all of them at once may fix the machine but wastes good parts and never isolates the fault.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "dd75776dacfcb423dab4fe19e699e687a9c07cd6",
+    "quarantineReasons": [
+      "broken_stem: the source paper lost a clause from its own premise - it prints \"Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs)...\" (Computer Engineering K-Companies Exam - Questions.pdf, page 17, Q15). The scenario the question asks about is therefore never stated.",
+      "fused_options: the same page fuses two distractors into option C (\"Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem\"). Our extraction is character-for-character faithful; reconstructing the missing clause or splitting C would be inventing text.",
+      "Repair-pass verdict \"quarantine\" (content/audit/repair-006.json)."
+    ]
+  },
+  {
+    "id": "bank-b-q058",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "The first computer introduced in Nepal was",
+    "options": [
+      {
+        "label": "A",
+        "text": "IBM 1400",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "IBM 1401",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "IBM 1402",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "IBM1402",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "IBM 1401, a second generation computer was brought in Nepal by the Government of Nepal paying One Lakh and twenty five thousands per month to use in the census in 2028 B.S. Before this computer, Nepal was using a calculating device called Facit for statistical tasks.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 8
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "71ca569fada41beab4755c1afcd68b35ab5e1c37",
+    "quarantineReasons": [
+      "duplicate_options: the source prints c. \"IBM 1402\" and d. \"IBM1402\" - the same distractor twice, differing only by a space (Computer Engineering K-Companies Exam - Questions.pdf, page 19, Q8). Key B (IBM 1401) is still uniquely correct, but the duplicate distractor is a source defect and the item is not served.",
+      "Repair-pass verdict \"quarantine\" (content/audit/repair-006.json)."
+    ]
+  },
+  {
+    "id": "koc2012-q094",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "logic-gates",
+    "stem": "What is the correct answer when using AND gate true table in the digital circuits design:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 AND 1 is 0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "1 AND 0 is 1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 AND 1 is 0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 AND 1 is 1",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "An AND gate outputs 1 only when every input is 1, so 1 AND 1 = 1. Note options A and C print the same false claim, and 1 AND 0 = 0, not 1.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 94
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ec5c463847eed3417d6a0e66139af5dc83736461",
+    "quarantineReasons": [
+      "The source prints two identical options, which makes the item unusable even though the keyed answer is unique."
+    ]
   }
 ]

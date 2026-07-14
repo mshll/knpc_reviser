@@ -64,16 +64,18 @@ and surfaces weak topics.
 | `practice` | 2018 mock exam, DB question bank, cloud samples, code-trace items | **ON** |
 | `bank` | Scraped IndiaBIX/general-IT trivia. Largest, least representative, worst keys. | **OFF** (user can toggle on) |
 
-The served pool (`content/questions.json`) holds **656** items: 201 `gold`, 122 `practice`, 333
+The served pool (`content/questions.json`) holds **650** items: 200 `gold`, 121 `practice`, 329
 `bank`. Every one is `mcq` or `true_false` and auto-gradable. The default experience is therefore
-323 high-signal questions, with `bank` available as an opt-in.
+321 high-signal questions, with `bank` available as an opt-in.
 
-`content/quarantine.json` holds **82** items that `/bank` browses and no quiz ever serves: the 33
-originally quarantined (unconfirmed keys, missing figures, no answer in the source) plus the **49
-free-response items** (34 `short_answer`, 15 `worked_problem`) moved out when grading went fully
-automatic. 39 of those 49 are real past-paper material - the written half of KNPC 2021, KNPC 2018,
-and several [CE] 2016 items - which is exactly why they are kept and browsable with their model
-answers rather than deleted.
+`content/quarantine.json` holds **88** items that `/bank` browses and no quiz ever serves: items with
+unconfirmed keys, missing figures or no answer in the source; the **56 free-response items** (39
+`short_answer`, 17 `worked_problem`) moved out when grading went fully automatic; the **5 items
+the stem-repair pass found broken at source** (duplicate distractors, a lost stem clause, no
+defensible option - see `content/bank-report.md` §2.3); and **1 item carrying two identical options**
+(`koc2012-q094` - see rule 11 below and `bank-report.md` §2.6). 39 of the free-response items are real
+past-paper material - the written half of KNPC 2021, KNPC 2018, and several [CE] 2016 items - which is
+exactly why they are kept and browsable with their model answers rather than deleted.
 
 ## Canonical question object
 
@@ -208,3 +210,21 @@ type Flag =
     The results screen and the bank loader still resolve questions from the **full** pool
     (served + quarantined), so an attempt sat before this change - which may hold a self-graded
     free-text response - still replays with its question, its answer and its verdict intact.
+11. **A served item may never print the same option text twice** (compared case- and
+    whitespace-insensitively). Such an item is **defective and quarantined**, and the uniqueness of
+    the keyed answer does **not** rescue it: a candidate looking at two identical choices cannot tell
+    whether they have misread the paper, and the doubt that creates is not confined to the broken
+    question. This rule is absolute precisely because it was once applied by taste - two items were
+    quarantined for it while `koc2012-q094` shipped with A and C both reading "1 AND 1 is 0", on the
+    reasoning that D was still uniquely correct. That reasoning was equally available for the
+    quarantined two. `scripts/validate-bank.ts` enforces this as a **build failure**, so the
+    inconsistency cannot recur. (This is a *pipeline* rule, not an `isServable` field check - it
+    constrains what may be committed to `questions.json`, and the row itself carries no flag saying
+    so. See `bank-report.md` §7.10.)
+12. **A fill-in-the-blank stem whose `______` the PDF text layer swallowed may have it restored** -
+    and *only* it. A restoration inserts underscores and changes nothing else: strip every underscore
+    from the restored stem and the surviving word sequence must be **identical** to the original. Any
+    restoration that adds, drops, changes or reorders a word is a **rewrite**, which rule 1 forbids -
+    a corrupted stem is worse than the hole it was fixing. A stem qualifies only if it is (1)
+    ungrammatical as written, (2) has exactly one hole, and (3) takes every option cleanly into that
+    hole. Bare sentence-fragment stems are **printed that way in the papers** and are left alone.

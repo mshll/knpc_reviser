@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "koc2012-q019",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "How can the gridlines in an excel spreadsheet be invisible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "By unchecking the gridlines check button in options tab.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "By clicking hide all toggle button in options tab.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Gridlines are hidden by clearing the gridlines checkbox in Excel's view/options settings, which turns off the on-screen display without altering any cell borders. There is no 'hide all' toggle button, so B describes a control that does not exist.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "69c0350209d9f4c173ed69d29f39301207e1b32d"
+  },
+  {
+    "id": "koc2012-q020",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "What is Page Break Preview?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An editing view that displays your work sheet how it will print",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "An editing view to draw objects in a work sheet",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "An editing view to draw charts in excel",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Page Break Preview is an editing view that shows the worksheet divided into printed pages, with the page breaks drawn as lines you can drag to change what lands on each page. It is still fully editable, it just previews the print layout; drawing objects and charts are unrelated features.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "6f4a3422d9f3030eca0aeaf81e88c95e5abf3c2c"
+  },
+  {
+    "id": "koc2012-q021",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "Auto Filter command is under which Menu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data Menu",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Tools Menu",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Insert Menu",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "AutoFilter operates on a data list, so it sits on the Data menu (Data > Filter > AutoFilter in menu-era Excel; Data tab > Filter in the ribbon). Tools held options and macros, Insert held objects and functions.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 21
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "fca06f2f5a02c3c8fd6e46fcb1232b40136adac4"
+  },
+  {
+    "id": "koc2012-q022",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "What Ctrl + P key board shortcut is for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To paste an object you copied",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To close the excel application",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To print the spread sheet",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Ctrl+P is the standard Print shortcut across Office and almost every Windows application. The distractors are other shortcuts: Ctrl+V pastes and Alt+F4 closes the application.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "00e1944cd4921ab3ccc9c35f3b08894ca6728e95"
+  },
+  {
+    "id": "koc2012-q023",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-excel",
+    "stem": "For what Wrap Text check box is used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wrap text inside a file",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Wrap text inside the margin",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Wrap text inside the cell",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Wrap Text (Format Cells > Alignment) breaks long text onto multiple lines inside the cell boundary and grows the row height to fit. It is a cell-level alignment setting and has nothing to do with page margins or the file.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "c3af823233ba2dde29d95211d10ff51e9ad65a6d"
+  },
+  {
+    "id": "koc2012-q024",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "An Excel Spreadsheet can be inserted in a word document?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Insert > Object or Paste Special embeds or links a live Excel worksheet inside a Word document via OLE, so the sheet stays editable in place.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "108bdbc41597d7e28ffe64aa01f331ce159bd451"
+  },
+  {
+    "id": "koc2012-q025",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-word",
+    "stem": "Bullets and Numbering is under which menu?",
+    "options": [
+      {
+        "label": "C",
+        "text": "Format Menu",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "File Menu",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "Window Menu",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Bullets and Numbering is paragraph formatting, so in classic Word menus it lives under Format (the option labelled C here). Modern ribbon Word moved it to Home > Paragraph.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "11228f64f944e8aebb75f890681ad6926f52b4f1"
+  },
+  {
+    "id": "koc2012-q026",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "For what Ctrl + B keyboard shortcut is used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To draw a horizontal line.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To make the selected text & numbers bold.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Underlines the text & numbers selected.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Ctrl+B makes the selected text and numbers bold. Ctrl+U is the underline shortcut, which is the distractor in option C.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "48a29dbeda4a2d9245d58ef4037122cb8511ae49"
+  },
+  {
+    "id": "koc2012-q027",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-word",
+    "stem": "Columns in a table can be deleted?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Word table columns can be removed with Table > Delete > Columns (or right-click the column and choose Delete Columns).",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "7e56d4147c4e19e5bee0195b92b32e40ccdf816e"
+  },
+  {
+    "id": "koc2012-q028",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "What is Print Preview",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shows how a file looks, when it is printed",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Prints the current document",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Shows, the table how it will print",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Print Preview renders the whole file as it will appear on the printed page (pagination, margins, headers and footers) without sending anything to the printer. Option B describes the Print command itself, and option C wrongly narrows the preview to tables only.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "abba57e88f9dfe8dbe548690fea7707e6abd78d0"
+  },
+  {
+    "id": "koc2012-q029",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-office",
+    "stem": "What is the function of Office Assistant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To automate the commands",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To save the file automatically.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Providing the help topics & tips.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The Office Assistant (Clippy) surfaced context-sensitive help topics and usage tips. It did not automate commands (that is what macros do) or save files automatically (that is AutoSave/AutoRecover).",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 29
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "6585ffa5351d719d1d900c580b3c51b4037b3828"
+  },
+  {
+    "id": "koc2012-q030",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-word",
+    "stem": "What is Word Art?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A command to insert numbering.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "A command to create text effects.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A command to shade Text with colors.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "WordArt inserts decorative text as a graphic object with effects such as curving, shadowing and 3-D. Shading text with color is a separate Highlight/Shading command, which is the trap in option C.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 30
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "29f458025ba89a168b8d3d4b1df41f65172a8d13"
+  },
+  {
+    "id": "koc2012-q031",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "ms-word",
+    "stem": "For what, the subscript option is used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To raise the text above baseline.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "To lower the text below the baseline.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "To draw line through the selected text.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Subscript lowers the text below the baseline, as in the 2 of H2O. Option A is the definition of superscript (raising above the baseline, as in x squared), the classic subscript/superscript swap.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 31
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "e1d96d38e10e34cccbcf31d13932936d85c95b07"
+  },
+  {
+    "id": "koc2012-q032",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-powerpoint",
+    "stem": "Sound can be added to a slide?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. PowerPoint supports adding audio to a slide via Insert > Movies and Sounds (Insert > Audio in newer versions).",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 32
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "2c16b182405794724462a4fb5bfbd3d55867bd0d"
+  },
+  {
+    "id": "koc2012-q033",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-powerpoint",
+    "stem": "Pictures can be added to a slide?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Images are added with Insert > Picture, either from a file or from clip art.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 33
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "c13843f77d25620d806238df4602dc404d90cf72"
+  },
+  {
+    "id": "koc2012-q034",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-powerpoint",
+    "stem": "Background of a slide can be changed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Format > Background (Design > Format Background in newer versions) changes a slide's background color, gradient, texture or picture fill.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 34
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "03c99d2d8434ed5b94bf09fe432322757792ec62"
+  },
+  {
+    "id": "koc2012-q035",
+    "type": "true_false",
+    "topic": "general-it",
+    "subtopic": "ms-powerpoint",
+    "stem": "An Organization chart can be drawn in Power Point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. PowerPoint ships an organization chart tool, reached via Insert > Diagram in older versions and Insert > SmartArt > Hierarchy in newer ones.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 35
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "e59d0afb0a72633474be6c3e181b4a62d275294b"
+  },
+  {
+    "id": "koc2012-q036",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "For what is a Relationship window used in Access?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To define a relationship between tables & queries.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "To define a relationship between reports.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To define a relationship between forms",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The Relationships window defines joins between the objects that hold data, linking a primary key in one table to a foreign key in another (queries can also be placed there). Forms and reports only display data, so they have no relationships to define, which rules out B and C.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 36
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "1aa8c2a178b7431b66ccaa9b5f07a0541e9254dc"
+  },
+  {
+    "id": "koc2012-q037",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "Forms are used to display and enter the data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Forms are the Access user interface bound to a table or query, used both to view existing records and to key in new ones.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 37
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "3c2ae60de500a247fe5dcd41a08fdd0768e57cf8"
+  },
+  {
+    "id": "koc2012-q038",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "Forms are created based on the data from Reports?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "No, the direction is backwards. A form's record source is a table or a query; reports are output-only consumers of data and can never act as a data source for a form.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 38
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "b8fb166fa70ded327d011c4de8bce41486ff1c33"
+  },
+  {
+    "id": "koc2012-q039",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "For what Queries are used in Access?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To query Table",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "To query Forms",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "To query reports",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Queries retrieve, filter and join data held in tables (or in other queries). Forms and reports consume query output rather than store data, so they are not things you query.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 39
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "28eed12398bf2ccf2fc165c592f243390f3ab700"
+  },
+  {
+    "id": "koc2012-q040",
+    "type": "true_false",
+    "topic": "databases",
+    "subtopic": "ms-access",
+    "stem": "Reports are created in Design View?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "No",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Yes. Design View is the authoring surface where a report's layout, sections and bound controls are built and edited. A wizard or AutoReport can generate a first draft, but it hands the result to Design View for actual design work.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "bank",
+      "year": 2012,
+      "originalNumber": 40
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [
+      "legacy"
+    ],
+    "dedupeHash": "2c9bc2f877cec98fb0cb0da923c5b437c4c9526a"
+  },
+  {
+    "id": "bank-a-q001",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "volatile-vs-nonvolatile",
+    "stem": "Storage which stores or retains data after power off is called-",
+    "options": [
+      {
+        "label": "A",
+        "text": "Volatile storage",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Non-volatile storage",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Sequential storage",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Direct storage",
+        "isCorrect": false
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Retaining data after power is removed is the definition of non-volatile storage (ROM, hard disk, flash). Volatile storage (RAM) loses its contents when power is cut. Sequential and direct describe how storage is accessed, not whether it survives power off, so they answer a different question.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "188a4ea3aacf2847ba4aa0ab3d43e254332301d7"
+  },
+  {
+    "id": "bank-a-q002",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "A permanent memory, which halls data and instruction for start-up the computer and does not erase data after power off.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Network interface card",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "E",
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "The start-up (bootstrap/BIOS) instructions must be present the instant power comes on, before anything can be loaded from disk, so they live in ROM, which is non-volatile and permanent. RAM is the trap: it is memory, but it is volatile and empty at power-on.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3d15a99f4c0464d0369e1da4bd0bed38e41c7a88"
+  },
+  {
+    "id": "bank-a-q003",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "dram",
+    "stem": "Which of the following memories must be refreshed many times per second?",
+    "options": [
+      {
+        "label": "A",
+        "text": "EPROM",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Static RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dynamic RAM",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Dynamic RAM stores each bit as charge on a tiny capacitor, and that charge leaks away, so every cell must be read and rewritten (refreshed) thousands of times per second. Static RAM holds bits in a flip-flop and needs no refresh; ROM and EPROM are non-volatile and hold their contents with no power at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "400f5dd526cb92b6001d1f662aead10f9df09832"
+  }
+]

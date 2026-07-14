@@ -1,0 +1,898 @@
+[
+  {
+    "id": "knpc2021-q039",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "What is the operation of the following truth table?",
+    "stemFigure": "/figures/knpc2021-q039.png",
+    "options": [
+      {
+        "label": "A",
+        "text": "T flip flop",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "JK flip flop",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "SR flip flop",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Two input columns (A, B) rule out the T flip flop, which has a single input, and no row of the table carries a forbidden or undefined output, which rules out SR, whose S=R=1 row is invalid; that leaves JK, the only offered flip flop with four fully defined rows (hold, reset, set, toggle). In the figure A reads 0, 1, 0, 1 and Qnext reads Q, Q, 0, 1, so the table clearly shows hold, reset and set, and JK is the only option that can also supply the remaining row. The figure is degraded and this item is key-disputed: if that second Qnext cell is a plain Q rather than Q complement, the table is really a gated D flip flop, which is not on the option list, so B remains the only defensible pick.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 39
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6f1475f202104f29c041016f392bbb0a31c2d57a"
+  },
+  {
+    "id": "knpc2021-q041",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "wireless-standards",
+    "stem": "which of the following is not a WiFi standard",
+    "options": [
+      {
+        "label": "A",
+        "text": "802.11",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "802.15",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "802.16",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "802.3",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "IEEE 802.3 is wired Ethernet, so it is the intended odd one out; 802.11 is Wi-Fi itself, and 802.15 (Bluetooth/WPAN) and 802.16 (WiMAX) are at least wireless. Note the question is loosely worded: strictly speaking 802.15 and 802.16 are also not Wi-Fi, but 802.3 is the only non-wireless standard and is the keyed answer.",
+    "referenceUrl": "https://www.techopedia.com/definition/19938/ieee-8023",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 41
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "bcef545be99c18cd7953576e8e55dad2824a9ae0"
+  },
+  {
+    "id": "knpc2021-q043",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "email-protocols",
+    "stem": "What is the mail protocol?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SMTP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "POP3",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "IMAP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "All three are email protocols, so D. SMTP sends/relays mail between servers, POP3 downloads mail from the server to a client (typically deleting the server copy), and IMAP keeps mail on the server so it stays in sync across devices.",
+    "referenceUrl": "https://www.zoho.com/mail/glossary/email-protocols.html",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 43
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1930643a2683e1e49b3ad6c4b445502614bfc7e2"
+  },
+  {
+    "id": "knpc2021-q044",
+    "type": "mcq",
+    "topic": "programming",
+    "subtopic": "cpp-loops",
+    "stem": "How many times will the loop be executed?",
+    "stemCode": "int x=0;\nwhile (x<=1 && x>=10)\n{}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Will be true indefinitely",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Will be true 5 times",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Will never happen",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The body never runs, so C. The condition x<=1 && x>=10 requires x to be both at most 1 and at least 10 at the same time, which no value satisfies, so the while test fails on the first evaluation and the loop executes zero times. The trap is misreading && as ||, where x=0 would satisfy x<=1 and loop forever.",
+    "referenceUrl": "https://www.onlinegdb.com/online_c++_compiler",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2021,
+      "originalNumber": 44
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2b72e6991d986b3cea4b5e61c5d9d7f8c5bcbee2"
+  },
+  {
+    "id": "knpc2018-q007",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "memory-management",
+    "stem": "Which address is generated by the CPU?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Virtual",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The CPU only ever emits logical (virtual) addresses; the MMU translates them at run time into physical addresses on the memory bus. Physical is the trap: it is what memory sees, not what the CPU generates.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 7
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8648c1caed8e27fb74e16f490bd5823fcc8977f5"
+  },
+  {
+    "id": "knpc2018-q009",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "process-states",
+    "stem": "Which is a state that cannot occur in a process",
+    "options": [
+      {
+        "label": "A",
+        "text": "Blocked → Running",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Blocked → Ready",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ready → Running",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Running → Blocked",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Blocked -> Running is illegal: a process waiting on I/O must first be moved to Ready when the event completes, and only the dispatcher can move a process from Ready to Running. The other three (Blocked -> Ready on I/O completion, Ready -> Running on dispatch, Running -> Blocked on an I/O request) are all standard transitions.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KNPC",
+      "tier": "gold",
+      "year": 2018,
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d165396030768b381953a6b8b14ed32e501b677a"
+  },
+  {
+    "id": "ce2016-q001",
+    "type": "mcq",
+    "topic": "databases",
+    "subtopic": "sql",
+    "stem": "Which one is a programming language use in RDBMS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "SQL",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "XML",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "CSS",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "SQL is the language used to define and query relational databases (SELECT, INSERT, CREATE TABLE, joins). HTML and XML are markup languages for documents and data interchange, and CSS is a styling language; none of them queries an RDBMS.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b821762d4619a76bbfed83ad580a69df59bc2740"
+  },
+  {
+    "id": "ce2016-q002",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "os-identification",
+    "stem": "Which one is NOT an operating system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Solaris",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Linux",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Oracle",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Windows",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Oracle is a database vendor and RDBMS product, not an operating system. Solaris (Unix), Linux and Windows all manage hardware and run applications, so they are operating systems.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b3e896ff11d1950941a1cb3c681a17a9029a645f"
+  },
+  {
+    "id": "ce2016-q003",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "Which one has a better Algorithm Complexity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(lg n)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "O(n lg n)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Best complexity means slowest growth: lg n < n < n lg n < n^2 for large n. At n = 1,000,000, lg n is about 20 operations while n^2 is 10^12, so O(lg n) wins.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9eec9a0d979e8eb23dbe84033f29363902c87e84"
+  },
+  {
+    "id": "ce2016-q004",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-complexity",
+    "stem": "The time complexity O(2000n – 1) can be represented by _________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(2000n)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "O(2000)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Big-O drops constant factors and lower-order terms, so O(2000n - 1) = O(n). The trap is answering O(2000n), which is not wrong mathematically but is not the reduced form Big-O asks for; the 2000 is a constant multiplier and the -1 is lower order.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fc5a21d5f20ffaa63e9c62f627d9deb7fa22de3e"
+  },
+  {
+    "id": "ce2016-q005",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "data-structure-identification",
+    "stem": "Which one of the following is NOT a data structure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Heap",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "List",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bubble Sort",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Bubble sort is an algorithm (a procedure that operates on data), not a data structure. Tree, heap and list are ways of organising and storing data, which is what a data structure is.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f96bfcf41c5c9f4a5f851a11794adab5d696e45f"
+  },
+  {
+    "id": "ce2016-q007",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "recurrence-relations",
+    "stem": "If the function F(n) is as follows:\n\nWhat is the recurrence equation for the above algorithm?",
+    "stemCode": "if(n<20)\n       return n;\nelse\n       return f(n-2)+f(n-1);",
+    "options": [
+      {
+        "label": "A",
+        "text": "T(n-2)+T(n-1)+n",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "T(n-2)+T(n-1)-n",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "T(n-2)+T(n-1)+1",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "T(n-2)+T(n-1)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The function makes two recursive calls, on n-1 and n-2, and does only constant work per call (one comparison plus one addition), so T(n) = T(n-2) + T(n-1) + 1. The trap is choosing the +n version, which would apply only if the body did O(n) work such as a loop over n; here the body is O(1).",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e154cc9fa364e7c53243be075a43377676b120d2"
+  },
+  {
+    "id": "ce2016-q011",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "rom",
+    "stem": "ROM stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Read-Only Memory.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Random Access Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Random Only Memory.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "ROM = Read-Only Memory: non-volatile storage written at manufacture and normally only read thereafter (it holds firmware/BIOS). The trap is B, Random Access Memory, which is RAM, the volatile read/write working memory. C mixes the two acronyms and is not a real term.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "808332341ccee77102dfc63a87d0feeaf1661f35"
+  },
+  {
+    "id": "ce2016-q013",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "boolean-simplification",
+    "stem": "The function xy + xy' is minimized to __________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "x",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "x + y'",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "x + y",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "y'",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Factor out x: xy + xy' = x(y + y'), and y + y' = 1 by the complement law, so the result is x·1 = x. The distractors come from misapplying distribution: adding rather than factoring gives the bogus x + y or x + y'.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "5c41583bc56dd573f8a5893725b495c06a98da1e"
+  },
+  {
+    "id": "ce2016-q014",
+    "type": "mcq",
+    "topic": "operating-systems",
+    "subtopic": "cpu-scheduling",
+    "stem": "Round Robin is essentially the preemptive a version of ___________ .",
+    "options": [
+      {
+        "label": "A",
+        "text": "SJF (Shortest Job First)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "FIFO",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "LIFO",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Longest Time First.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Round Robin is FIFO (FCFS) with a time quantum bolted on: processes are dispatched in arrival order from a FIFO ready queue, but a process that exhausts its quantum is preempted and put back at the tail. SJF is the trap, its preemptive version is SRTF (Shortest Remaining Time First), not Round Robin.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a77e8e13cb82cad640060658216224244c4efad7"
+  },
+  {
+    "id": "ce2016-q015",
+    "type": "true_false",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-trees",
+    "stem": "In a balanced binary tree, the left and right subtree has the same number of nodes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "False. Balanced refers to HEIGHT, not node count: a tree is height-balanced when the heights of the left and right subtrees differ by at most 1 at every node. A balanced tree can easily have 3 nodes on one side and 1 on the other, so equal node counts is not required.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "97ae1eebef57396aa29b4ee42ce09fe9808e627b"
+  },
+  {
+    "id": "ce2016-q016",
+    "type": "mcq",
+    "topic": "software-engineering",
+    "subtopic": "software-maintenance",
+    "stem": "Which of the following is NOT a kind of software maintenance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adaptive",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Perfective",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Customer Serviced",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Preventive",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The four standard categories of software maintenance are corrective (fix defects), adaptive (adjust to a changed environment), perfective (improve or extend function/performance), and preventive (reduce future decay). 'Customer Serviced' is not one of them, it is an invented option.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "4c8ca50bb00563fb296a66c1cab0fe171d08a8a1"
+  },
+  {
+    "id": "ce2016-q017",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "What is the function of a Network Bridge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Connect two nodes in the same network.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Connect two LANs.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Control Network Speed.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A bridge is a data-link (layer 2) device that joins two LANs or LAN segments into one logical network and forwards or filters frames based on MAC addresses. Option A describes cabling within one segment, not a bridge, and C describes traffic shaping, which no bridge does.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3165af62b65a6175e91d7b15181c0243ba2cb893"
+  },
+  {
+    "id": "ce2016-q018",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-layers",
+    "stem": "A repeater is a connection device that operates in the ________ layer of the Internet model.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Data Link.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Network.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A repeater does nothing but amplify and regenerate the raw signal to overcome attenuation; it does not read addresses or interpret frames, so it operates purely at the physical layer. Data Link is the trap: that is where a bridge or switch works, because those devices do read MAC addresses.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6d2947e0d88517931184098a2849893d50a8adf7"
+  },
+  {
+    "id": "ce2016-q019",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "network-devices",
+    "stem": "The __________ regenerates a signal, connects segments of a LAN, and has no filtering capability.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Repeater.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bridge.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Router.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "'Regenerates a signal' plus 'no filtering capability' is the exact definition of a repeater, a physical-layer device that blindly retransmits everything it receives. Bridge is wrong precisely because a bridge does filter, forwarding frames only toward the segment holding the destination MAC; a router filters and forwards by IP.",
+    "source": {
+      "file": "[CE] questions.pdf",
+      "exam": "K-Companies",
+      "year": 2016,
+      "tier": "gold",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "6f3fe21da33420d83cfc0fa9a36e5141e01c34c8"
+  }
+]

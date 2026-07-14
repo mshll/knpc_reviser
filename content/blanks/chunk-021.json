@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "bank-a-q201",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "What IP address class allocates 8 bits for the host identification part?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Class A",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Class B",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Class C",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Class D",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Class C splits the 32-bit address as 24 network bits + 8 host bits, giving 2^8 - 2 = 254 usable hosts per network. Class B leaves 16 host bits and Class A leaves 24; Class D is multicast and has no host part at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 9
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "520fbb7ba0f438bfbdb233ee497deb8cfe592767"
+  },
+  {
+    "id": "bank-a-q202",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "standards",
+    "stem": "The term IANA stands for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Internet Assigned Numbers Authority",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Internal Assigned Numbers Authority",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internet Associative Numbers Authoritative",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Internal Associative Numbers Authority",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "IANA stands for Internet Assigned Numbers Authority, the body that allocates IP address blocks, protocol numbers and port numbers.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 10
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e96c4dbed999fa58a8bd9c69f6bae7a31a0628bb"
+  },
+  {
+    "id": "bank-a-q203",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "How many versions available of IP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 version",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "4 version",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2 version",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "1 version",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Only two IP versions are actually deployed: IPv4 and IPv6. The trap is reading the '6' in IPv6 as a count of versions; it is a version number, not a total.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 11
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "a5e1974c6ca1def8b291868cb2bfa259b6e7116a"
+  },
+  {
+    "id": "bank-a-q204",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Which layer of the TCP / IP stack corresponds to the OSI model transport layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Host to host",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Application",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Internet",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Network Access",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The TCP/IP stack's host-to-host layer (where TCP and UDP live) provides end-to-end delivery between processes, which is precisely OSI layer 4, the transport layer. Internet maps to OSI network (layer 3) and Network Access maps to OSI data link plus physical.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 12
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e0aedad291b829d5f535ee5c27795a715d30c33a"
+  },
+  {
+    "id": "bank-a-q205",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "cryptography",
+    "stem": "Which of the following algorithms is not used in asymmetric-key cryptography?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RSA algorithm",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Diffie-Hellman algorithm",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Electronic code book algorithm",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "ECB (Electronic Code Book) is a mode of operation for symmetric block ciphers such as DES/AES, where both parties share one secret key. RSA and Diffie-Hellman are the genuine public-key (asymmetric) algorithms, so ECB is the odd one out.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 13
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c028e7312cd24ce9317d285d477816cc4667a53b"
+  },
+  {
+    "id": "bank-a-q206",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "routing",
+    "stem": "A network router joins two _________ together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Computers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Switches",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Networks",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Gateway",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A router works at layer 3 and forwards packets between two or more distinct IP networks, using the destination network address to pick the next hop. Joining computers or switches within one network is a switch/hub's job at layer 2.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 14
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e61d9499586596278cbe52fed8074b1ee97cc587"
+  },
+  {
+    "id": "bank-a-q207",
+    "type": "true_false",
+    "topic": "networking",
+    "subtopic": "middleware",
+    "stem": "Message Oriented Middleware allows general purpose messages to be exchanged in a Client/Server system using message queues.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "True. That is the standard definition of Message Oriented Middleware: clients and servers exchange general-purpose messages through queues, which decouples them and allows asynchronous communication (the sender does not block waiting for the receiver).",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 15
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "93b65dbbf313380ddb0cb310bec23e51a2a1ff39"
+  },
+  {
+    "id": "bank-a-q208",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Which of the following below is a loopback IP address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "127.0.0.0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "127.0.1.1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "127.0.1.0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "127.0.0.1",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "127.0.0.1 is the canonical loopback host address, the one a machine uses to talk to itself. 127.0.0.0 is the network address of the reserved 127.0.0.0/8 loopback block, not a host address, which is the trap here.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 16
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0ac9733d21fb897ac3f730282748dacb7c5fc39b"
+  },
+  {
+    "id": "bank-a-q209",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "icmp",
+    "stem": "Ping command works on which protocol?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ICMP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "TCP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "IP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "UDP",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Ping sends an ICMP Echo Request and waits for an ICMP Echo Reply, timing the round trip. ICMP rides directly on IP; there is no TCP or UDP transport involved.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 17
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c18bc060410258efd0b42bd8457111b317787255"
+  },
+  {
+    "id": "bank-a-q210",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "osi-model",
+    "stem": "Which of the following protocols below work in the application layer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "POP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "PPP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Both a and d above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "POP (mail retrieval) and FTP (file transfer) are both application-layer protocols, while PPP is a data-link (layer 2) protocol, so the combined option is correct. Note the option text is misprinted: 'Both a and d' should read 'both a and c', meaning POP and FTP.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 18
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "93f8dcbe8115f9e27448920e8b6d52ebd14433fc"
+  },
+  {
+    "id": "bank-a-q211",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ports",
+    "stem": "What is the port number for HTTP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "80",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "65",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "HTTP is well-known port 80 (HTTPS is 443). The distractors are the other classic well-known ports you are expected to have memorised: 25 is SMTP and 21 is FTP control; 65 is not a standard service port at all.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 19
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "d79f3095bf6153cebd269a3ba4c01d523ce7e2c2"
+  },
+  {
+    "id": "bank-a-q212",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "mac-address",
+    "stem": "MAC addresses are also known as?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hardware address",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Physical address",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "both and b above",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "IP address",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A MAC address is the 48-bit identifier burned into the NIC, so it is called both the hardware address and the physical address; since options A and B are each individually true, the only complete answer is C. The trap is D: an IP address is the logical Layer 3 address, assigned by software and changeable, which is exactly what a MAC address is not.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 20
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "404e88425d519dd624de6fc6e418d5c692306307"
+  },
+  {
+    "id": "bank-a-q213",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "gateway",
+    "stem": "A network point that provides entrance into another network is called as ___________",
+    "options": [
+      {
+        "label": "A",
+        "text": "Node",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Gateway",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Switch",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Router",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A gateway is by definition the node that acts as the entrance from one network into another, translating between them where the protocols differ. Router is the near-miss: a router forwards packets between networks that already speak the same protocol, and a switch only moves frames inside one LAN.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 21
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b5e77766314da5aba367f5c3e682e87a61b14f93"
+  },
+  {
+    "id": "bank-a-q214",
+    "type": "true_false",
+    "topic": "networking",
+    "subtopic": "udp",
+    "stem": "UDP is an unreliable protocol.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "True. UDP is connectionless: it sends datagrams with no handshake, no acknowledgements, no retransmission and no ordering guarantee, so delivery is best-effort. That unreliability is the point: it buys low latency and low overhead, which is why voice, video and DNS use it.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 22
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e167b7f89b5c5d0292233b978613b69326c88920"
+  },
+  {
+    "id": "bank-a-q215",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "sockets",
+    "stem": "A stream socket provides _________ communications between a client and a server",
+    "options": [
+      {
+        "label": "A",
+        "text": "One way",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Two way",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A stream socket is the TCP socket type (SOCK_STREAM), and TCP connections are full-duplex, so data flows in both directions at once between client and server. One-way would describe a simplex link, not a TCP stream.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 23
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "7a27825273ba160f642b9921312ed8c3c94db6cb"
+  },
+  {
+    "id": "bank-a-q216",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan",
+    "stem": "Token Ring is a data link technology for?",
+    "options": [
+      {
+        "label": "A",
+        "text": "WAN",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MAN",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "LAN",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "both a and b above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "Token Ring (IEEE 802.5) is a LAN data-link technology: stations pass a token around a ring inside one site, the same scope as Ethernet. It is a LAN access method, not a carrier technology for WAN or MAN distances.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 24
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "b0b6cfe916e4ff9a182b9f76613076cc489f1f87"
+  },
+  {
+    "id": "bank-a-q217",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "telnet",
+    "stem": "TELNET used _________ protocol for data connection",
+    "options": [
+      {
+        "label": "A",
+        "text": "TCP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "UDP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "IP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DHCP",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "TELNET opens a TCP connection (port 23) because a remote terminal session needs reliable, in-order delivery of every keystroke. UDP is the trap: losing or reordering characters in a login session would be unusable. IP is a Layer 3 protocol, not a transport, and DHCP is an address-assignment service.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 25
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9c2c6215c9f2bebea32e688a41a9314e02f017e3"
+  },
+  {
+    "id": "bank-a-q218",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "url",
+    "stem": "What is the full form of URL?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uniform routing locator",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Uniform Resource Locator",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Universal Resource Locator",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Uniform router locator",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "URL stands for Uniform Resource Locator. The distractors swap 'Uniform' for 'Universal' or 'Resource' for 'router/routing'; the correct term is Uniform Resource Locator, matching URI (Uniform Resource Identifier).",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 26
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2d9e93edef2dc109480b528fbed98506b2bbce82"
+  },
+  {
+    "id": "bank-a-q219",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "The output Qn of of a J-K flip-flop is 0. It changes to 1 when a clock pulse is applied. The inputs Jn and Kn are respectively.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 and X",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "0 and X",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "X and 0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "X and 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Use the JK excitation table for the required transition Q 0 -> 1: J must be 1, K is don't-care (X), because with J=1 the flip-flop either sets (K=0) or toggles from 0 (K=1), and both land on 1. So Jn, Kn = 1, X. Options with J=0 cannot drive the output high, and 'X and 1' would be the answer for the 1 -> 0 transition instead.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 27
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c475c3696f4bf98ec2ca895187de0ccae9d17663"
+  },
+  {
+    "id": "bank-a-q220",
+    "type": "mcq",
+    "topic": "digital-logic",
+    "subtopic": "flip-flops",
+    "stem": "The output Qn of a J-K (or S-R) flip-flop is 0. Its output does not change when a clock pulse is applied. The inputs Jn and Kn (or Sn-Rn) are respectively",
+    "options": [
+      {
+        "label": "A",
+        "text": "X and 0",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "X and 1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 and X",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "0 and X",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "Required transition is Q 0 -> 0, so from the JK excitation table J=0 and K is don't-care (X): with J=0 the flip-flop either holds (K=0) or resets (K=1), and both leave the output at 0. So Jn, Kn = 0, X. Answer C (1 and X) is the trap, since that is the entry for the 0 -> 1 transition.",
+    "source": {
+      "file": "exam noooow.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 28
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "46f65c515e5d0ef6a33c416baba45ce21a5a98c6"
+  },
+  {
+    "id": "bank-b-q001",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "memory-types",
+    "stem": "Which of the following retains the information it's storing when the power to the system is turned off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ROM",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "RAM",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DIMM",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "ROM is non-volatile: its contents survive a power cut, which is why the boot firmware lives there. RAM (and a DIMM, which is just a RAM module) is volatile and loses everything at power-off, and the CPU is a processor, not storage.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 1
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "86d0bd075cdc7c3bd1791228bb0adab8fd25b964"
+  },
+  {
+    "id": "bank-b-q002",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "lan-wan",
+    "stem": "A network of computers and other devices that is confined to a relatively small space is called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wide Area Network",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Local Area Network",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Global Network",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Peer-to-Peer Network",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "'Confined to a relatively small space' (one building, office or campus) is the definition of a Local Area Network. A WAN spans cities or countries, and peer-to-peer describes how hosts relate to each other, not the geographic size of the network.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 2
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2bcc911b50391765f9fb75df6306395c97919d57"
+  },
+  {
+    "id": "bank-b-q003",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "ip-addressing",
+    "stem": "Every computer connected to the Internet is identified by a unique four-part string, known as",
+    "options": [
+      {
+        "label": "A",
+        "text": "IP address",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Host name",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Domain name",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "The 'unique four-part string' is the dotted-quad IPv4 address, e.g. 192.168.1.1, four octets separated by dots. A domain name or host name is the human-readable label that DNS resolves into that address, and neither has a fixed four-part form.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 3
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e7a726f751924ca417f8a1d680ab47b5e922d7f6"
+  },
+  {
+    "id": "bank-b-q004",
+    "type": "mcq",
+    "topic": "general-it",
+    "subtopic": "computer-history",
+    "stem": "ENIAC was the first general-purpose electronic computer. ENIAC stands for",
+    "options": [
+      {
+        "label": "A",
+        "text": "Electronic Network Interactive Analytic Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Electronic Numerical Integrator and Computer",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Electronic Network Integrated Analytical Computer",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Electronic Numerical Integrated Automatic Computer",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "ENIAC stands for Electronic Numerical Integrator and Computer (1946, University of Pennsylvania). The distractors substitute 'Network' or 'Automatic'; the acronym is Numerical Integrator and Computer.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 4
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "421bcf1f31aadd0355382197d7efe30e19281e8a"
+  },
+  {
+    "id": "bank-b-q005",
+    "type": "mcq",
+    "topic": "hardware-memory",
+    "subtopic": "storage-units",
+    "stem": "Which of the following statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 KB = 1024 bytes",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "1 MB=2048 bytes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "1 MB = 1000 kilobytes",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "1 KB = 1000 bytes",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Storage units here are binary powers of two: 1 KB = 2^10 = 1024 bytes, so A is correct. The rest fail that rule: 1 MB = 1024 KB = 1,048,576 bytes, not 2048 bytes and not 1000 KB, and D uses the decimal 1000-byte definition that this exam does not want.",
+    "source": {
+      "file": "Computer Engineering K-Companies Exam - Questions.pdf",
+      "exam": "bank",
+      "tier": "bank",
+      "originalNumber": 5
+    },
+    "keyProvenance": "inline_bold",
+    "keyVerified": true,
+    "verificationLevel": "single",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "e01efc8f9478775d984d1138ae0c77ca86cec67f"
+  }
+]

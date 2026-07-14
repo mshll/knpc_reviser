@@ -1,0 +1,926 @@
+[
+  {
+    "id": "koc2012-q117",
+    "type": "mcq",
+    "topic": "computer-architecture",
+    "subtopic": "computer-components",
+    "stem": "What are the primary computer components?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Input and output devices, processor unit, and Arithmetic Unit",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Input and output devices plus processor unit, memory, and auxiliary storage",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Input and output devices plus processor unit, and auxiliary storage units",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "iskette, Monitor, Keyboard, Mouse, Printer, and Processor",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "The primary components are input devices, output devices, the processor unit, memory, and auxiliary storage, which is exactly B. A drops memory and auxiliary storage, C drops main memory (the store the CPU actually executes from, so it cannot be omitted), and D lists specific peripherals rather than the component classes.",
+    "source": {
+      "file": "KOC 2012 EXAM (2).pdf",
+      "exam": "KOC",
+      "tier": "gold",
+      "year": 2012,
+      "originalNumber": 117
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2e08b945ad52dc83dce029f21f7ce2e29b8be23c"
+  },
+  {
+    "id": "mock2018-q001",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting-complexity",
+    "stem": "What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recurrence is T(n) = T(n − 2) + O(n) and time complexity is O(n²).",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Recurrence is T(n) = T(n − 1) + O(n) and time complexity is O(n²).",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Recurrence is T(n) = 2T(n/2) + O(n) and time complexity is O(n Log (n)).",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Recurrence is T(n) = T(n/10) + T(9n/10) + O(n) and time complexity is O(n Log(n)).",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "QuickSort's worst case is a pivot that is always the smallest or largest element (for example an already-sorted array with a corner pivot), so partitioning splits n elements into a subproblem of size 0 and one of size n-1, giving T(n) = T(n-1) + T(0) + O(n) = T(n-1) + O(n), which matches option B. Unrolling it costs n + (n-1) + ... + 1 = n(n+1)/2 = O(n squared); option C is the best/average-case split and option D is the balanced 1:9 split, both of which give O(n log n).",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 1
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "2900fa59827896a917b539ca9b20e93d294d3424"
+  },
+  {
+    "id": "mock2018-q002",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "time-complexity",
+    "stem": "What is time complexity of fun()?",
+    "stemCode": "int fun(int n)\n{\n  int count = 0;\n  for (int i=n; i>0; i /= 2)\n     for (int j=0; j<i; j++)\n        count += 1;\n  return count;\n}",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n²)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "O(n Log(n))",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "O(n Log(n) Log(n))",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "The outer loop halves i each pass (i = n, n/2, n/4, ... 1) and the inner loop runs exactly i times, so the total work is n + n/2 + n/4 + ... + 1, a geometric series that sums to just under 2n. That is Theta(n), so the complexity is O(n); compiling and running fun() confirms it, for example fun(1000000) = 1999993, about 2n.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 2
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "846e4292096feb33c985799af5c963ab53f1ddbb"
+  },
+  {
+    "id": "mock2018-q003",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting-complexity",
+    "stem": "Which of the following sorting algorithms has the lowest worst-case complexity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Merge Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Bubble Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Quick Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Selection Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "Merge Sort always splits the array in half and merges in linear time, so its worst case is Theta(n log n) regardless of input. Bubble Sort, Selection Sort and Quick Sort all degrade to O(n squared) in the worst case (Quick Sort when the pivot is repeatedly the extreme element), so Merge Sort has the lowest worst-case complexity.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 3
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "54798c6fe066e3d410166689519c0ef9baae3f9e"
+  },
+  {
+    "id": "mock2018-q004",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "algorithm-design-techniques",
+    "stem": "Which of the following algorithm design technique is used in finding all pairs of shortest distances in a graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic programming.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Backtracking.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Greedy.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Divide and Conquer.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "All-pairs shortest paths is solved by Floyd-Warshall, which builds the answer from overlapping subproblems (shortest path from i to j using only vertices 1..k) and reuses them, the defining structure of dynamic programming. Greedy (Dijkstra) solves only the single-source case with non-negative weights, and backtracking and divide-and-conquer are not used for this problem.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 4
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "c3000448cf8e64247d3a22efdfc22ee65e219860"
+  },
+  {
+    "id": "mock2018-q005",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "asymptotic-notation",
+    "stem": "Which of the following is false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "100n log n = O(n log n / 100)",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "√(log n) = O(log log n)",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "If 0 < x < y then nˣ = O(nʸ)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "2ⁿ ≠ O(nk)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "Put m = log n: B claims sqrt(m) = O(log m), but sqrt(m)/log m grows without bound (at n = 10^6 the ratio is 1.03, at n = 10^300 it is 3.17), so sqrt(log n) is not O(log log n) and B is the false statement. The others are true: dividing by 100 is a constant factor so O(n log n / 100) = O(n log n) and 100 n log n fits with c = 100; n^x <= n^y for 0 < x < y and n >= 1; and 2^n outgrows every polynomial, so 2^n is not O(n^k).",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 5
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f624690397dfafe65eb84d98ccc85e68756bcad2"
+  },
+  {
+    "id": "mock2018-q006",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "recurrence-trees",
+    "stem": "What is the height of a recurrence tree?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equals 1 + the number of edges between the node and the root.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "The number of edges on the longest path between a node and a leaf.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "The number of edges on the longest path from the tree’s root and deepest leaf.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "The number of edges from the tree's root node to the node.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A = level of a node. B = height of a node. C = height of the root. D = depth of a node.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 6
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f5b8cda2b57c415a3948737f37ab8fa61a6553cd"
+  },
+  {
+    "id": "mock2018-q007",
+    "type": "mcq",
+    "topic": "networking",
+    "subtopic": "routing-protocols",
+    "stem": "Which protocol uses the routing algorithm Dijkstra?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RIP.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "IGRP.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "BGP.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "OSPF.",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "OSPF is a link-state protocol: every router floods link-state advertisements, assembles an identical map of the topology, and runs Dijkstra's shortest-path-first algorithm over it to build its routing table. RIP and IGRP are distance-vector protocols built on Bellman-Ford, and BGP is a path-vector protocol that compares AS paths by policy, so none of them run Dijkstra.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 7
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "895c4832afcd19d01ae7f995effc173f9d771365"
+  },
+  {
+    "id": "mock2018-q008",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "graph-traversal",
+    "stem": "Graph traversal is different from a tree traversal, because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trees are not connected.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Graphs may have loops.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Trees have root.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None is true as tree is a subset of graph.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A graph can contain cycles, so a traversal must mark vertices as visited and skip already-seen ones or it will revisit nodes and loop forever. A tree is acyclic with exactly one path from the root to each node, so no visited set is needed, which is precisely the difference option B names.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 8
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9282521850280d9cebc6720f9244f035a9beecb8"
+  },
+  {
+    "id": "mock2018-q009",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "graph-traversal",
+    "stem": "What data structure is used for breadth first traversal of a graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Queue.",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Stack.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "List.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "BFS must finish all vertices at distance d before any at distance d+1, so the vertex discovered earliest must be expanded earliest, which is exactly FIFO order and therefore a queue. Swapping in a stack (LIFO) makes the traversal dive down one branch first, which is depth-first search.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 9
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9b4e4ebfd98316af2870a6329fa87188328f3035"
+  },
+  {
+    "id": "mock2018-q010",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "binary-trees",
+    "stem": "Maximum number of nodes in a binary tree with height k, where root is height 0, is",
+    "options": [
+      {
+        "label": "A",
+        "text": "2ᵏ − 1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2ᵏ⁺¹ − 1",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "2ᵏ⁻¹ + 1",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "2ᵏ − 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "With the root at height 0, level i holds at most 2^i nodes, so a tree of height k holds at most 2^0 + 2^1 + ... + 2^k = 2^(k+1) - 1 nodes. For k = 1 that is 2^2 - 1 = 3 (root plus two children), which matches option B.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 10
+    },
+    "keyProvenance": "derived",
+    "keyVerified": true,
+    "verificationLevel": "derived",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "9e4899931e37bf6c53d9e8e6c3f092dba6336854"
+  },
+  {
+    "id": "mock2018-q011",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "queues",
+    "stem": "Queue data structure works on",
+    "options": [
+      {
+        "label": "A",
+        "text": "LIFO",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "FIFO",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "FILO",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "In queue, data item inserted first, will be available first and data item inserted last will be available in the last. FIFO stands for First In First Out and is a correct answer.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 11
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "1781b7f3aaf1c5220618e0d1f6626992e829b87d"
+  },
+  {
+    "id": "mock2018-q012",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "How many swaps are required to sort the given array using bubble sort - { 2, 5, 1, 3, 4}",
+    "options": [
+      {
+        "label": "A",
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "7",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "There will be 3 swaps in first iteration and 1 swap in second iteration.",
+    "explanationSource": "source",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 12
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "f8fa1a521819ea33da5fd79a5f1671c045e2b52f"
+  },
+  {
+    "id": "mock2018-q013",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "linked-lists",
+    "stem": "In doubly linked lists",
+    "options": [
+      {
+        "label": "A",
+        "text": "A pointer is maintained to store both next and previous nodes.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Two pointers are maintained to store next and previous nodes.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "A pointer to self is maintained for each node.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "None of the above.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A single pointer variable holds exactly one address, so it cannot reference both neighbours at once. Each node of a doubly linked list therefore carries two separate pointer fields, next and prev, which is option B.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 13
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "3482614cc43475b24278e2462c237a80089103a4"
+  },
+  {
+    "id": "mock2018-q014",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "spanning-trees",
+    "stem": "From a complete graph, by removing maximum _________ edges, we can construct a spanning tree.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e − n + 1",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "n − e + 1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "n + e − 1",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "e − n − 1",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "A spanning tree on n vertices has exactly n - 1 edges, so from a graph with e edges you delete e - (n - 1) = e - n + 1 of them. Removing even one more would drop the edge count below n - 1 and disconnect the graph.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 14
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "588226664f35a46ebf6f5993f6fea0e8d1df62c6"
+  },
+  {
+    "id": "mock2018-q015",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "If the array is already sorted, which of these algorithms will exhibit the best performance",
+    "options": [
+      {
+        "label": "A",
+        "text": "Merge Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Insertion Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Quick Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Heap Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "On an already sorted array insertion sort makes one comparison per element and zero shifts, giving Theta(n), its best case. Merge sort and heap sort are Theta(n log n) on every input, and quicksort with a first or last element pivot degrades to Theta(n^2) on sorted data, so insertion sort wins.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 15
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "8b691413f4608b192c6f6a5b1baba64081eaf2c8"
+  },
+  {
+    "id": "mock2018-q016",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "sorting",
+    "stem": "Which of the following algorithm is not stable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bubble Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Quick Sort.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Merge Sort.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Insertion Sort.",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "B"
+    ],
+    "explanation": "A sort is stable if records with equal keys keep their original relative order. Quicksort's partition step swaps elements across arbitrary distances and can therefore invert two equal keys, whereas bubble, insertion, and merge sort only move an element past a strictly greater one, so they preserve equal-key order.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 16
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "02071c97239c9a08c53d16ed22e930671dd4f2c2"
+  },
+  {
+    "id": "mock2018-q017",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "hashing",
+    "stem": "Which of the following has search efficiency of O(1)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tree",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Heap",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hash Table",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Linked-List",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "C"
+    ],
+    "explanation": "A hash table computes the bucket index directly from the key, so an average-case lookup is O(1) given a good hash function and a bounded load factor. A balanced tree search is O(log n), a linked-list search is O(n), and a heap only gives O(1) access to the min or max, not to an arbitrary key.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 17
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "0d61cc3acd77d25d1a62ff8607430aab73cc56c1"
+  },
+  {
+    "id": "mock2018-q018",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "linear-data-structures",
+    "stem": "Which one of the below mentioned is linear data structure –",
+    "options": [
+      {
+        "label": "A",
+        "text": "Queue",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Stack",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Arrays",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "answerOptionLabels": [
+      "D"
+    ],
+    "explanation": "A structure is linear when its elements sit in a single sequence, each with at most one predecessor and one successor. Arrays, stacks, and queues all satisfy that (they differ only in where insertion and removal are allowed), unlike trees and graphs, so the answer is all of the above.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 18
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "fa81304163861e253bfae16cfada3f894b73f89b"
+  },
+  {
+    "id": "mock2018-q019",
+    "type": "mcq",
+    "topic": "data-structures-algorithms",
+    "subtopic": "graph-traversal",
+    "stem": "Time complexity of Depth First Traversal of is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Θ(|V| + |E|)",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Θ(|V|)",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Θ(|E|)",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Θ(|V| * |E|)",
+        "isCorrect": false
+      }
+    ],
+    "answerOptionLabels": [
+      "A"
+    ],
+    "explanation": "With an adjacency-list representation DFS marks each of the |V| vertices visited exactly once and scans each vertex's adjacency list once, so every edge is examined once in a directed graph and twice in an undirected one. Total work is therefore Theta(|V| + |E|), not Theta(|V|) or Theta(|E|) alone, since a graph can be edge-heavy or vertex-heavy.",
+    "source": {
+      "file": "Test 3.zip",
+      "exam": "mock",
+      "year": 2018,
+      "tier": "practice",
+      "originalNumber": 19
+    },
+    "keyProvenance": "answer_page",
+    "keyVerified": true,
+    "verificationLevel": "double",
+    "needsReview": false,
+    "flags": [],
+    "dedupeHash": "ea1ce86e7b9e6ce3b16d430c6cdcdd3347b97ac7"
+  }
+]
