@@ -165,7 +165,12 @@ interface Question {
 type Flag =
   | 'legacy'          // Office 2003 / Windows 2000 / floppy-era (~28 items)
   | 'off_syllabus'    // e.g. the cognitive-psychology block in exam noooow
-  | 'hedged_option'   // a distractor that literally reads "i don't remember"
+  | 'hedged_option'   // the recalled paper left a NON-ANSWER in the option list ("i don't remember",
+                      // or a fragment of a neighbouring question that bled in during extraction).
+                      // On a SERVED item the flag is a provenance marker, not a description of what
+                      // renders: the artifact option has been DROPPED (see rule 13), so the item is
+                      // short an option and the surviving labels carry a gap. On a QUARANTINED item
+                      // the artifact may still be present - nothing there is ever offered as a choice.
   | 'missing_figure'  // references a figure absent from the source -> QUARANTINED, never served
   | 'no_distractors'  // only the correct option was recalled. Never fabricate distractors: such an
                       // item is re-typed 'short_answer' (options: [], answerText = the recalled

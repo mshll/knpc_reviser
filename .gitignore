@@ -38,3 +38,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Question-pipeline scratch (intermediate artifacts; only questions.json,
+# quarantine.json and bank-report.md are shipped)
+/content/artifacts/
+/content/audit/
+/content/blanks/
+/content/chunks/
+/content/explanations/
+/content/raw/
+/content/repair/
+/content/verdicts/
+/content/pool.json

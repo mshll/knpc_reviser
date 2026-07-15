@@ -186,7 +186,7 @@ export const FLAG_DESCRIPTIONS: Record<Flag, string> = {
   legacy: 'This question is from the Office 2003 / Windows 2000 era. It may still show up.',
   off_syllabus: 'This question sits outside the Computer Engineering syllabus.',
   hedged_option:
-    'One of the distractors is a non-answer, transcribed verbatim from the recalled paper.',
+    'The recalled paper left a non-answer in this item\'s option list. It is never offered as a choice.',
   missing_figure: 'The figure this question refers to is missing from the source.',
   no_distractors: 'The source shipped this item with only the correct option.',
   key_disputed: 'The source answer key and the blind re-answer pass disagree.',

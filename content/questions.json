@@ -4132,11 +4132,6 @@
         "label": "C",
         "text": "Router",
         "isCorrect": false
-      },
-      {
-        "label": "D",
-        "text": "I don’t remember",
-        "isCorrect": false
       }
     ],
     "answerOptionLabels": [
@@ -12631,22 +12626,12 @@
         "label": "B",
         "text": "The size of the disk storage device",
         "isCorrect": true
-      },
-      {
-        "label": "C",
-        "text": "It allows a many-to-many relationship",
-        "isCorrect": false
-      },
-      {
-        "label": "D",
-        "text": "It is conceptually simple",
-        "isCorrect": false
       }
     ],
     "answerOptionLabels": [
       "B"
     ],
-    "explanation": "A data dictionary stores metadata about the data: table and column names, data types, constraints, and where data is located. The physical capacity of the disk storage device is a hardware property, not metadata about the data, so it is the item the dictionary does not provide. Options C and D are garbled fragments that do not describe a data dictionary at all.",
+    "explanation": "A data dictionary stores metadata about the data: table and column names, data types, constraints, and where data is located. The physical capacity of the disk storage device is a hardware property, not metadata about the data, so it is the item the dictionary does not provide.",
     "source": {
       "file": "Data.pdf",
       "exam": "bank",
@@ -12656,7 +12641,9 @@
     "keyVerified": true,
     "verificationLevel": "double",
     "needsReview": false,
-    "flags": [],
+    "flags": [
+      "hedged_option"
+    ],
     "dedupeHash": "d14c1bce81ca9ce2295fd76a3e70e224b49a2e8e"
   },
   {
